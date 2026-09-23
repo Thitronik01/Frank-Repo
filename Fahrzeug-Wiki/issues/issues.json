@@ -1,0 +1,164 @@
+[
+ {
+  "title": "Cupra Born (Zeile 99): Netto größer als Brutto",
+  "labels": ["datenfehler"],
+  "zeilen": "99",
+  "ist": "Born | 53 kWh brutto | 60.0 kWh netto",
+  "problem": "Netto kann nie größer als Brutto sein. Die anderen Born-Zeilen (62/58, 82/77) sind plausibel. Vermutlich ist die Einstiegsbatterie gemeint (netto ca. 45 kWh), oder Brutto und Netto wurden aus zwei verschiedenen Zeilen übernommen.",
+  "klaeren": "Welche Born-Variante ist gemeint, und wie lauten die korrekten Werte?",
+  "vorschlag": "Werte laut Herstellerdatenblatt eintragen. Bis dahin Zeile als ungeklärt kennzeichnen und nicht für SoH-Berechnungen verwenden."
+ },
+ {
+  "title": "VW ID.3 Pure (55/45) widerspricht ID.4 Pure und Enyaq iV 50 (55/52)",
+  "labels": ["widerspruch"],
+  "zeilen": "416, 417 vs. 424, 425, 331, 332",
+  "ist": "ID.3 Pure / Pure Performance: 55 / 45 kWh · ID.4 Pure / Pure Performance: 55 / 52 kWh · Enyaq iV 50: 55 / 52 kWh",
+  "problem": "Gleicher Bruttowert, aber 7 kWh Unterschied netto (Puffer 18 % gegenüber 5,5 %). Entweder ist der Bruttowert beim ID.3 Pure falsch (der ID.3 Pure hatte eine kleinere Batterie), oder der Nettowert.",
+  "klaeren": "Welche Batterie hat der ID.3 Pure tatsächlich (brutto/netto)?",
+  "vorschlag": "Bruttowert des ID.3 Pure gegen das VW-Datenblatt prüfen und korrigieren."
+ },
+ {
+  "title": "Mercedes EQT (50/45) vs. baugleicher Renault Kangoo E-Tech (48/45)",
+  "labels": ["widerspruch"],
+  "zeilen": "187 vs. 298, 299",
+  "ist": "EQT: 50 / 45 kWh · Kangoo E-Tech / Grand E-Tech: 48 / 45 kWh",
+  "problem": "Der EQT basiert auf dem Kangoo und nutzt dieselbe Batterie. Der Nettowert stimmt überein, der Bruttowert nicht.",
+  "klaeren": "Welcher Bruttowert ist korrekt (Hersteller nennt teils gerundete Werte)?",
+  "vorschlag": "Einheitlichen Bruttowert für beide Fahrzeuge festlegen und Quelle eintragen."
+ },
+ {
+  "title": "Renault City K-ZE (30/26,8) vs. baugleicher Dacia Spring (26,8/25)",
+  "labels": ["widerspruch"],
+  "zeilen": "297 vs. 105–108",
+  "ist": "City K-ZE: 30 / 26.8 kWh · Dacia Spring (alle Varianten): 26.8 / 25.0 kWh",
+  "problem": "Der Dacia Spring ist die Europa-Version des City K-ZE. 26,8 kWh steht einmal als Netto-, einmal als Bruttowert.",
+  "klaeren": "Hat der City K-ZE wirklich eine größere Batterie (chinesische Version) oder ist die Zeile verschoben? Wird der City K-ZE überhaupt geprüft (in Europa nicht angeboten)?",
+  "vorschlag": "Werte angleichen oder Zeile entfernen, falls nicht relevant."
+ },
+ {
+  "title": "Audi e-tron S quattro (Zeile 7) mit Taycan-Werten 105/97 kWh",
+  "labels": ["widerspruch"],
+  "zeilen": "7 vs. 12",
+  "ist": "e-tron S quattro: 105 / 97.0 kWh · e-tron Sportback S quattro: 95 / 86.5 kWh",
+  "problem": "SUV und Sportback haben dieselbe Technik. 105/97 kWh sind exakt die Werte der großen Porsche-Taycan-Batterie, vermutlich falsch übernommen.",
+  "klaeren": "Korrekte Werte des e-tron S quattro (vermutlich 95 / 86,5 kWh wie beim Sportback)?",
+  "vorschlag": "Auf die Werte des Sportback S angleichen, sofern bestätigt."
+ },
+ {
+  "title": "Peugeot e-208 (Zeile 228): Batterie 51/48,1 kWh passt zu keiner Generation",
+  "labels": ["unklar"],
+  "zeilen": "228",
+  "ist": "e-208: 51 / 48.1 kWh (daneben 50 / 46.3 und 54 / 50.8)",
+  "problem": "Alle Stellantis-Geschwister (e-2008, ë-C4, e-308) haben nur 50/46,3 oder 54/50,8. 51/48,1 taucht sonst nirgends auf. Möglicherweise wurde ein Nettowert als Bruttowert erfasst.",
+  "klaeren": "Gibt es diese Batteriestufe (z. B. Modelljahr 2023), oder ist die Zeile fehlerhaft?",
+  "vorschlag": "Gegen Peugeot-Datenblatt prüfen; bei Fehler löschen oder korrigieren."
+ },
+ {
+  "title": "Renault Master E-Tech (Zeile 303): 55/52 kWh nicht plausibel",
+  "labels": ["unklar"],
+  "zeilen": "303",
+  "ist": "Master E-Tech: 55 / 52 kWh (daneben 92 / 87 kWh)",
+  "problem": "Für den Master E-Tech werden üblicherweise 40 kWh und 87 kWh nutzbar genannt. Eine 52-kWh-Version ist nicht bekannt.",
+  "klaeren": "Welche kleine Batterie hat der Master E-Tech (brutto/netto)?",
+  "vorschlag": "Mit Renault-Datenblatt abgleichen."
+ },
+ {
+  "title": "Mini Aceman vs. Cooper: gleiche Batterie, unterschiedliche Werte",
+  "labels": ["widerspruch"],
+  "zeilen": "216, 218 vs. 219, 221",
+  "ist": "Aceman E: 42.5 / 38.5 · Cooper E: 40.7 / 36.8 · Aceman SE: 54.2 / 49.2 · Cooper SE: 54.2 / 49.8",
+  "problem": "Aceman und Cooper (J01) nutzen dieselben Batterien, die Werte weichen aber ab.",
+  "klaeren": "Welche Werte sind korrekt?",
+  "vorschlag": "Einheitliche Werte je Batterie festlegen."
+ },
+ {
+  "title": "BMW iX: ungewöhnlich kleine Puffer (ca. 2 %)",
+  "labels": ["unklar"],
+  "zeilen": "65–70",
+  "ist": "iX xDrive 50: 111.5 / 109.4 · xDrive 60: 111.5 / 109.1 · M70: 111.5 / 108.9 · M60: 111.5 / 107.7 · xDrive 40: 76.6 / 74.4",
+  "problem": "Vier verschiedene Nettowerte für dieselbe 111,5-kWh-Batterie, Puffer nur 2–3 %. Andere Quellen nennen für den xDrive50 deutlich weniger netto (ca. 105 kWh).",
+  "klaeren": "Welche Nettowerte sind korrekt? Gibt es unterschiedliche Batterien je Modelljahr?",
+  "vorschlag": "Gegen BMW-Datenblatt prüfen."
+ },
+ {
+  "title": "Puffer unter 1 %: ë-C3, ë-C3 Aircross, MG4 51 kWh",
+  "labels": ["unklar"],
+  "zeilen": "82, 83, 84, 205",
+  "ist": "ë-C3: 44 / 43.8 · ë-C3 Aircross: 44 / 43.8 · ë-C3 Aircross Extended Range: 54 / 53.5 · MG4 Electric: 51.0 / 50.8",
+  "problem": "Bei LFP-Batterien sind kleine Puffer möglich, unter 1 % ist aber ungewöhnlich. Möglicherweise steht in beiden Spalten der Nettowert.",
+  "klaeren": "Sind die Bruttowerte echt, oder fehlt der tatsächliche Bruttowert?",
+  "vorschlag": "Herstellerangaben prüfen; bei Bedarf Bruttowert korrigieren."
+ },
+ {
+  "title": "Mercedes eSprinter LFP: Bruttowerte nur als „ca.“",
+  "labels": ["unklar"],
+  "zeilen": "192, 193, 194",
+  "ist": "eSprinter LFP: ca. 119 / 113 · ca. 60 / 56 · ca. 85 / 81 kWh",
+  "problem": "Näherungswerte sind als Referenz für einen Batteriecheck ungeeignet.",
+  "klaeren": "Exakte Bruttowerte laut Mercedes?",
+  "vorschlag": "Exakte Werte eintragen, Wertstatus auf „Herstellerangabe“ setzen."
+ },
+ {
+  "title": "Tesla: 31 von 63 Nettowerten exakt 95 % des Bruttowerts",
+  "labels": ["unklar"],
+  "zeilen": "Tesla-Block (Zeilen 345–407)",
+  "ist": "z. B. Model S 100D: 100 / 95.0 · Model S 90D: 90 / 85.5 · Model S 85: 85 / 80.8",
+  "problem": "Die glatte 95-%-Relation deutet auf berechnete statt gemessene Nettowerte hin.",
+  "klaeren": "Sind die Tesla-Nettowerte berechnet? Wenn ja: Soll ein gemessener Wert recherchiert werden?",
+  "vorschlag": "Wertstatus je Zeile kennzeichnen (berechnet / gemessen / Herstellerangabe)."
+ },
+ {
+  "title": "Renault Zoe: R90 Entry und R75 nicht eindeutig zuzuordnen",
+  "labels": ["unklar"],
+  "zeilen": "317, 318, 320, 311 vs. 312",
+  "ist": "Zoe R75: 25.9 / 23.3 und 44.1 / 41.0 · Zoe R90 Entry: 25.9 / 23.3 · Zoe R110 = Zoe R110 Z.E. 40 (44.1 / 41.0)",
+  "problem": "R90 gehört sonst zur Z.E.-40-Batterie. R75 steht mit zwei Batterien drin. R110 und R110 Z.E. 40 sind vermutlich dieselbe Variante.",
+  "klaeren": "Welche Batterie gehört zu R90 Entry und R75? Sind R110 und R110 Z.E. 40 identisch?",
+  "vorschlag": "Zuordnung klären, Dublette als Alias markieren."
+ },
+ {
+  "title": "Kleine Abweichungen bei baugleichen Batterien (0,1–1 kWh)",
+  "labels": ["widerspruch", "niedrig"],
+  "zeilen": "siehe Liste",
+  "ist": "Macan 95.0 vs. Q6 e-tron 94.9 · Countryman 64.6 vs. iX1/iX2 64.7 · Volvo 69 kWh: 66.0 (450, 467) vs. 67.0 (458, 466) · BMW 83,9 kWh: i4 80.7 / i4 M60 81.1 / i5 81.2 · Audi Q4 82 kWh: 76.6 vs. VW/Škoda/Cupra 77.0 · Audi Q4 35: 51.5 vs. VW 55 kWh: 52.0",
+  "problem": "Vermutlich Rundungs- oder Quellenunterschiede bei identischer Batterie.",
+  "klaeren": "Sollen die Werte vereinheitlicht werden oder bleiben (Hersteller geben teils unterschiedliche Werte an)?",
+  "vorschlag": "Belassen und als „vermutlich Rundung“ kennzeichnen, außer der Hersteller nennt einen abweichenden Wert."
+ },
+ {
+  "title": "Bezeichnungen prüfen: BMW iX2 „eDrive30“, EQB 350 ohne 4MATIC, i5 M60",
+  "labels": ["bezeichnung"],
+  "zeilen": "74, 184, 58",
+  "ist": "iX2 eDrive30 · EQB 350 · i5 M60",
+  "problem": "Der iX2 30 heißt xDrive30 (Allrad). Der EQB 350 ist ein 4MATIC-Modell. Beim i5 M60 fehlt xDrive.",
+  "klaeren": "Sind das Tippfehler oder bewusste Kurzformen?",
+  "vorschlag": "Offizielle Bezeichnungen verwenden."
+ },
+ {
+  "title": "Namensdubletten: gleiche Werte unter verschiedenen Namen",
+  "labels": ["bezeichnung"],
+  "zeilen": "327/340, 209/212, 226, 243 ff., e-Traveller, 311/312",
+  "ist": "Enyaq 85 = Enyaq iV 85 · MG5 EV Long Range = MG5 Electric Long Range · e-2008 SUV = e-2008 · e-Rifter Standard = M, Long = XL · e-Traveller L2/L3 = Standard/Long · Zoe R110 = R110 Z.E. 40",
+  "problem": "Doppelte Einträge erschweren die Pflege, könnten aber gewollt sein (Kunden nutzen beide Namen).",
+  "klaeren": "Zusammenführen oder beide Namen als Alias behalten?",
+  "vorschlag": "Beide behalten, Spalte „Alias von Zeile X“ ergänzen."
+ },
+ {
+  "title": "Modelljahr / Batterie-Generation fehlt (86 mehrdeutige Bezeichnungen)",
+  "labels": ["struktur"],
+  "zeilen": "ganze Tabelle",
+  "ist": "86 Modellbezeichnungen haben mehrere Wertepaare (insgesamt 195), z. B. Audi e-tron 55 quattro mit 3 Nettowerten, Hyundai Kona Electric mit 4 Batterien, Taycan 4S mit 4 Batterien.",
+  "problem": "Ohne Modelljahr kann der Batteriecheck nicht entscheiden, welcher Referenzwert gilt.",
+  "klaeren": "Wie wird beim Batteriecheck die Variante bestimmt (FIN/VIN, Batterie-Seriennummer, manuell)? Sollen Modelljahr von/bis und Batterie-Generation ergänzt werden, und wer füllt sie?",
+  "vorschlag": "Spalten „Modelljahr von“, „Modelljahr bis“, „Batterie-Generation“ ergänzen und per Recherche mit Quelle füllen."
+ },
+ {
+  "title": "Herausgeber und Stichtag der Rohdaten dokumentieren",
+  "labels": ["dokumentation"],
+  "zeilen": "–",
+  "ist": "Datei tn_batterycheck_alle_daten.xlsx ohne Herausgeber, Stichtag oder Quellenangabe je Wert.",
+  "problem": "Ohne Herkunft ist nicht nachvollziehbar, ob Werte Herstellerangaben, Messungen oder Berechnungen sind.",
+  "klaeren": "Wer hat die Tabelle erstellt (wofür steht „tn“), welcher Stichtag gilt, woher stammen die Werte?",
+  "vorschlag": "Angaben in Quellseite und Änderungsprotokoll übernehmen."
+ }
+]
