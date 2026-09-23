@@ -1,0 +1,4763 @@
+{
+ "audi-e-tron": {
+  "brand": "Audi",
+  "name": "Audi e-tron",
+  "rows": [
+   {
+    "zeile": 2,
+    "modell": "e-tron 50 quattro",
+    "brutto": 71.0,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "71 kWh",
+    "netto_raw": "64.7 kWh"
+   },
+   {
+    "zeile": 3,
+    "modell": "e-tron 55 quattro",
+    "brutto": 95.0,
+    "netto": 83.6,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "83.6 kWh"
+   },
+   {
+    "zeile": 4,
+    "modell": "e-tron 55 quattro",
+    "brutto": 95.0,
+    "netto": 86.5,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "86.5 kWh"
+   },
+   {
+    "zeile": 5,
+    "modell": "e-tron 55 quattro",
+    "brutto": 95.0,
+    "netto": 89.0,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "89.0 kWh"
+   },
+   {
+    "zeile": 7,
+    "modell": "e-tron S quattro",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 8,
+    "modell": "e-tron Sportback 50 quattro",
+    "brutto": 71.0,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "71 kWh",
+    "netto_raw": "64.7 kWh"
+   },
+   {
+    "zeile": 9,
+    "modell": "e-tron Sportback 55 quattro",
+    "brutto": 95.0,
+    "netto": 83.6,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "83.6 kWh"
+   },
+   {
+    "zeile": 10,
+    "modell": "e-tron Sportback 55 quattro",
+    "brutto": 95.0,
+    "netto": 86.5,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "86.5 kWh"
+   },
+   {
+    "zeile": 11,
+    "modell": "e-tron Sportback 55 quattro",
+    "brutto": 95.0,
+    "netto": 89.0,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "89.0 kWh"
+   },
+   {
+    "zeile": 12,
+    "modell": "e-tron Sportback S quattro",
+    "brutto": 95.0,
+    "netto": 86.5,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "86.5 kWh"
+   }
+  ]
+ },
+ "audi-e-tron-gt": {
+  "brand": "Audi",
+  "name": "Audi e-tron GT",
+  "rows": [
+   {
+    "zeile": 6,
+    "modell": "e-tron GT",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 36,
+    "modell": "RS e-tron GT",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 37,
+    "modell": "RS e-tron GT performance",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   }
+  ]
+ },
+ "audi-q4-e-tron": {
+  "brand": "Audi",
+  "name": "Audi Q4 e-tron",
+  "rows": [
+   {
+    "zeile": 13,
+    "modell": "Q4 35 e-tron",
+    "brutto": 55.0,
+    "netto": 51.5,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "51.5 kWh"
+   },
+   {
+    "zeile": 14,
+    "modell": "Q4 40 e-tron",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 15,
+    "modell": "Q4 40 e-tron",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 16,
+    "modell": "Q4 45 e-tron",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 17,
+    "modell": "Q4 45 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 18,
+    "modell": "Q4 50 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 19,
+    "modell": "Q4 55 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 20,
+    "modell": "Q4 Sportback 35 e-tron",
+    "brutto": 55.0,
+    "netto": 51.5,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "51.5 kWh"
+   },
+   {
+    "zeile": 21,
+    "modell": "Q4 Sportback 40 e-tron",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 22,
+    "modell": "Q4 Sportback 40 e-tron",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 23,
+    "modell": "Q4 Sportback 45 e-tron",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 24,
+    "modell": "Q4 Sportback 45 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 25,
+    "modell": "Q4 Sportback 50 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   },
+   {
+    "zeile": 26,
+    "modell": "Q4 Sportback 55 e-tron quattro",
+    "brutto": 82.0,
+    "netto": 76.6,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.6 kWh"
+   }
+  ]
+ },
+ "audi-q6-e-tron": {
+  "brand": "Audi",
+  "name": "Audi Q6 e-tron",
+  "rows": [
+   {
+    "zeile": 27,
+    "modell": "Q6 e-tron",
+    "brutto": 83.0,
+    "netto": 75.8,
+    "ca": false,
+    "brutto_raw": "83 kWh",
+    "netto_raw": "75.8 kWh"
+   },
+   {
+    "zeile": 28,
+    "modell": "Q6 e-tron performance",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   },
+   {
+    "zeile": 29,
+    "modell": "Q6 e-tron quattro",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   },
+   {
+    "zeile": 30,
+    "modell": "Q6 Sportback e-tron performance",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   },
+   {
+    "zeile": 31,
+    "modell": "Q6 Sportback e-tron quattro",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   },
+   {
+    "zeile": 38,
+    "modell": "SQ6 e-tron quattro",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   },
+   {
+    "zeile": 39,
+    "modell": "SQ6 Sportback e-tron quattro",
+    "brutto": 100.0,
+    "netto": 94.9,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "94.9 kWh"
+   }
+  ]
+ },
+ "audi-q8-e-tron": {
+  "brand": "Audi",
+  "name": "Audi Q8 e-tron",
+  "rows": [
+   {
+    "zeile": 32,
+    "modell": "Q8 50 e-tron",
+    "brutto": 95.0,
+    "netto": 89.0,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "89.0 kWh"
+   },
+   {
+    "zeile": 33,
+    "modell": "Q8 55 e-tron",
+    "brutto": 114.0,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "114 kWh",
+    "netto_raw": "106.0 kWh"
+   },
+   {
+    "zeile": 34,
+    "modell": "Q8 Sportback 50 e-tron",
+    "brutto": 95.0,
+    "netto": 89.0,
+    "ca": false,
+    "brutto_raw": "95 kWh",
+    "netto_raw": "89.0 kWh"
+   },
+   {
+    "zeile": 35,
+    "modell": "Q8 Sportback 55 e-tron",
+    "brutto": 114.0,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "114 kWh",
+    "netto_raw": "106.0 kWh"
+   },
+   {
+    "zeile": 40,
+    "modell": "SQ8 e-tron quattro",
+    "brutto": 114.0,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "114 kWh",
+    "netto_raw": "106.0 kWh"
+   },
+   {
+    "zeile": 41,
+    "modell": "SQ8 Sportback e-tron quattro",
+    "brutto": 114.0,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "114 kWh",
+    "netto_raw": "106.0 kWh"
+   }
+  ]
+ },
+ "bmw-i3": {
+  "brand": "BMW",
+  "name": "BMW i3",
+  "rows": [
+   {
+    "zeile": 42,
+    "modell": "i3",
+    "brutto": 22.0,
+    "netto": 18.8,
+    "ca": false,
+    "brutto_raw": "22 kWh",
+    "netto_raw": "18.8 kWh"
+   },
+   {
+    "zeile": 43,
+    "modell": "i3",
+    "brutto": 33.2,
+    "netto": 27.2,
+    "ca": false,
+    "brutto_raw": "33.2 kWh",
+    "netto_raw": "27.2 kWh"
+   },
+   {
+    "zeile": 44,
+    "modell": "i3",
+    "brutto": 42.2,
+    "netto": 37.9,
+    "ca": false,
+    "brutto_raw": "42.2 kWh",
+    "netto_raw": "37.9 kWh"
+   },
+   {
+    "zeile": 45,
+    "modell": "i3 (Range Extender)",
+    "brutto": 22.0,
+    "netto": 18.8,
+    "ca": false,
+    "brutto_raw": "22 kWh",
+    "netto_raw": "18.8 kWh"
+   },
+   {
+    "zeile": 46,
+    "modell": "i3 (Range Extender)",
+    "brutto": 33.2,
+    "netto": 27.2,
+    "ca": false,
+    "brutto_raw": "33.2 kWh",
+    "netto_raw": "27.2 kWh"
+   },
+   {
+    "zeile": 47,
+    "modell": "i3 (Range Extender)",
+    "brutto": 42.2,
+    "netto": 37.9,
+    "ca": false,
+    "brutto_raw": "42.2 kWh",
+    "netto_raw": "37.9 kWh"
+   },
+   {
+    "zeile": 48,
+    "modell": "i3s",
+    "brutto": 33.2,
+    "netto": 27.2,
+    "ca": false,
+    "brutto_raw": "33.2 kWh",
+    "netto_raw": "27.2 kWh"
+   },
+   {
+    "zeile": 49,
+    "modell": "i3s",
+    "brutto": 42.2,
+    "netto": 37.9,
+    "ca": false,
+    "brutto_raw": "42.2 kWh",
+    "netto_raw": "37.9 kWh"
+   },
+   {
+    "zeile": 50,
+    "modell": "i3s (Range Extender)",
+    "brutto": 33.2,
+    "netto": 27.2,
+    "ca": false,
+    "brutto_raw": "33.2 kWh",
+    "netto_raw": "27.2 kWh"
+   }
+  ]
+ },
+ "bmw-i4": {
+  "brand": "BMW",
+  "name": "BMW i4",
+  "rows": [
+   {
+    "zeile": 51,
+    "modell": "i4 eDrive35",
+    "brutto": 70.3,
+    "netto": 66.0,
+    "ca": false,
+    "brutto_raw": "70.3 kWh",
+    "netto_raw": "66.0 kWh"
+   },
+   {
+    "zeile": 52,
+    "modell": "i4 eDrive40",
+    "brutto": 83.9,
+    "netto": 80.7,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "80.7 kWh"
+   },
+   {
+    "zeile": 53,
+    "modell": "i4 M50 xDrive",
+    "brutto": 83.9,
+    "netto": 80.7,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "80.7 kWh"
+   },
+   {
+    "zeile": 54,
+    "modell": "i4 M60 xDrive",
+    "brutto": 83.9,
+    "netto": 81.1,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.1 kWh"
+   },
+   {
+    "zeile": 55,
+    "modell": "i4 xDrive40",
+    "brutto": 83.9,
+    "netto": 80.7,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "80.7 kWh"
+   }
+  ]
+ },
+ "bmw-i5": {
+  "brand": "BMW",
+  "name": "BMW i5",
+  "rows": [
+   {
+    "zeile": 56,
+    "modell": "i5 eDrive40",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   },
+   {
+    "zeile": 57,
+    "modell": "i5 eDrive40 Touring",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   },
+   {
+    "zeile": 58,
+    "modell": "i5 M60",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   },
+   {
+    "zeile": 59,
+    "modell": "i5 M60 xDrive Touring",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   },
+   {
+    "zeile": 60,
+    "modell": "i5 xDrive40",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   },
+   {
+    "zeile": 61,
+    "modell": "i5 xDrive40 Touring",
+    "brutto": 83.9,
+    "netto": 81.2,
+    "ca": false,
+    "brutto_raw": "83.9 kWh",
+    "netto_raw": "81.2 kWh"
+   }
+  ]
+ },
+ "bmw-i7": {
+  "brand": "BMW",
+  "name": "BMW i7",
+  "rows": [
+   {
+    "zeile": 62,
+    "modell": "i7 eDrive50",
+    "brutto": 105.7,
+    "netto": 101.7,
+    "ca": false,
+    "brutto_raw": "105.7 kWh",
+    "netto_raw": "101.7 kWh"
+   },
+   {
+    "zeile": 63,
+    "modell": "i7 M70",
+    "brutto": 105.7,
+    "netto": 101.7,
+    "ca": false,
+    "brutto_raw": "105.7 kWh",
+    "netto_raw": "101.7 kWh"
+   },
+   {
+    "zeile": 64,
+    "modell": "i7 xDrive60",
+    "brutto": 105.7,
+    "netto": 101.7,
+    "ca": false,
+    "brutto_raw": "105.7 kWh",
+    "netto_raw": "101.7 kWh"
+   }
+  ]
+ },
+ "bmw-ix": {
+  "brand": "BMW",
+  "name": "BMW iX",
+  "rows": [
+   {
+    "zeile": 65,
+    "modell": "iX M60",
+    "brutto": 111.5,
+    "netto": 107.7,
+    "ca": false,
+    "brutto_raw": "111.5 kWh",
+    "netto_raw": "107.7 kWh"
+   },
+   {
+    "zeile": 66,
+    "modell": "iX M70",
+    "brutto": 111.5,
+    "netto": 108.9,
+    "ca": false,
+    "brutto_raw": "111.5 kWh",
+    "netto_raw": "108.9 kWh"
+   },
+   {
+    "zeile": 67,
+    "modell": "iX xDrive 40",
+    "brutto": 76.6,
+    "netto": 74.4,
+    "ca": false,
+    "brutto_raw": "76.6 kWh",
+    "netto_raw": "74.4 kWh"
+   },
+   {
+    "zeile": 68,
+    "modell": "iX xDrive 45",
+    "brutto": 100.6,
+    "netto": 94.8,
+    "ca": false,
+    "brutto_raw": "100.6 kWh",
+    "netto_raw": "94.8 kWh"
+   },
+   {
+    "zeile": 69,
+    "modell": "iX xDrive 50",
+    "brutto": 111.5,
+    "netto": 109.4,
+    "ca": false,
+    "brutto_raw": "111.5 kWh",
+    "netto_raw": "109.4 kWh"
+   },
+   {
+    "zeile": 70,
+    "modell": "iX xDrive 60",
+    "brutto": 111.5,
+    "netto": 109.1,
+    "ca": false,
+    "brutto_raw": "111.5 kWh",
+    "netto_raw": "109.1 kWh"
+   }
+  ]
+ },
+ "bmw-ix1": {
+  "brand": "BMW",
+  "name": "BMW iX1",
+  "rows": [
+   {
+    "zeile": 71,
+    "modell": "iX1 eDrive20",
+    "brutto": 66.5,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.7 kWh"
+   },
+   {
+    "zeile": 72,
+    "modell": "iX1 xDrive30",
+    "brutto": 66.5,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.7 kWh"
+   }
+  ]
+ },
+ "bmw-ix2": {
+  "brand": "BMW",
+  "name": "BMW iX2",
+  "rows": [
+   {
+    "zeile": 73,
+    "modell": "iX2 eDrive20",
+    "brutto": 66.5,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.7 kWh"
+   },
+   {
+    "zeile": 74,
+    "modell": "iX2 eDrive30",
+    "brutto": 66.5,
+    "netto": 64.7,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.7 kWh"
+   }
+  ]
+ },
+ "bmw-ix3": {
+  "brand": "BMW",
+  "name": "BMW iX3",
+  "rows": [
+   {
+    "zeile": 75,
+    "modell": "iX3",
+    "brutto": 80.0,
+    "netto": 73.83,
+    "ca": false,
+    "brutto_raw": "80 kWh",
+    "netto_raw": "73.83 kWh"
+   }
+  ]
+ },
+ "citroen-c-zero": {
+  "brand": "Citroen",
+  "name": "Citroën C-Zero",
+  "rows": [
+   {
+    "zeile": 76,
+    "modell": "C-Zero",
+    "brutto": 16.0,
+    "netto": 14.5,
+    "ca": false,
+    "brutto_raw": "16 kWh",
+    "netto_raw": "14.5 kWh"
+   }
+  ]
+ },
+ "citroen-e-berlingo": {
+  "brand": "Citroen",
+  "name": "Citroën ë-Berlingo",
+  "rows": [
+   {
+    "zeile": 77,
+    "modell": "e-Berlingo M",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 78,
+    "modell": "e-Berlingo M",
+    "brutto": 52.0,
+    "netto": 50.0,
+    "ca": false,
+    "brutto_raw": "52 kWh",
+    "netto_raw": "50.0 kWh"
+   },
+   {
+    "zeile": 79,
+    "modell": "E-Berlingo Multispace",
+    "brutto": 22.5,
+    "netto": 20.5,
+    "ca": false,
+    "brutto_raw": "22.5 kWh",
+    "netto_raw": "20.5 kWh"
+   },
+   {
+    "zeile": 80,
+    "modell": "e-Berlingo XL",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 81,
+    "modell": "e-Berlingo XL",
+    "brutto": 52.0,
+    "netto": 50.0,
+    "ca": false,
+    "brutto_raw": "52 kWh",
+    "netto_raw": "50.0 kWh"
+   }
+  ]
+ },
+ "citroen-e-c3": {
+  "brand": "Citroen",
+  "name": "Citroën ë-C3",
+  "rows": [
+   {
+    "zeile": 82,
+    "modell": "e-C3",
+    "brutto": 44.0,
+    "netto": 43.8,
+    "ca": false,
+    "brutto_raw": "44 kWh",
+    "netto_raw": "43.8 kWh"
+   }
+  ]
+ },
+ "citroen-e-c3-aircross": {
+  "brand": "Citroen",
+  "name": "Citroën ë-C3 Aircross",
+  "rows": [
+   {
+    "zeile": 83,
+    "modell": "e-C3 Aircross",
+    "brutto": 44.0,
+    "netto": 43.8,
+    "ca": false,
+    "brutto_raw": "44 kWh",
+    "netto_raw": "43.8 kWh"
+   },
+   {
+    "zeile": 84,
+    "modell": "e-C3 Aircross Extended Range",
+    "brutto": 54.0,
+    "netto": 53.5,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "53.5 kWh"
+   }
+  ]
+ },
+ "citroen-e-c4": {
+  "brand": "Citroen",
+  "name": "Citroën ë-C4",
+  "rows": [
+   {
+    "zeile": 85,
+    "modell": "e-C4",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 86,
+    "modell": "e-C4",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   }
+  ]
+ },
+ "citroen-e-c4-x": {
+  "brand": "Citroen",
+  "name": "Citroën ë-C4 X",
+  "rows": [
+   {
+    "zeile": 87,
+    "modell": "e-C4 X",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 88,
+    "modell": "e-C4 X",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   }
+  ]
+ },
+ "citroen-e-jumpy": {
+  "brand": "Citroen",
+  "name": "Citroën ë-Jumpy Combi",
+  "rows": [
+   {
+    "zeile": 89,
+    "modell": "e-Jumpy Combi M",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 90,
+    "modell": "e-Jumpy Combi M",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 91,
+    "modell": "e-Jumpy Combi XL",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 92,
+    "modell": "e-Jumpy Combi XL",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 93,
+    "modell": "e-Jumpy Combi XS",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   }
+  ]
+ },
+ "citroen-e-spacetourer": {
+  "brand": "Citroen",
+  "name": "Citroën ë-SpaceTourer",
+  "rows": [
+   {
+    "zeile": 94,
+    "modell": "e-Spacetourer M",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 95,
+    "modell": "e-Spacetourer M",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 96,
+    "modell": "e-Spacetourer XL",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 97,
+    "modell": "e-Spacetourer XL",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 98,
+    "modell": "e-Spacetourer XS",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   }
+  ]
+ },
+ "cupra-born": {
+  "brand": "Cupra",
+  "name": "Cupra Born",
+  "rows": [
+   {
+    "zeile": 99,
+    "modell": "Born",
+    "brutto": 53.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "53 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 100,
+    "modell": "Born",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   },
+   {
+    "zeile": 101,
+    "modell": "Born",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 102,
+    "modell": "Born e-boost",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   }
+  ]
+ },
+ "cupra-tavascan": {
+  "brand": "Cupra",
+  "name": "Cupra Tavascan",
+  "rows": [
+   {
+    "zeile": 103,
+    "modell": "Tavascan Endurance",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 104,
+    "modell": "Tavascan VZ",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "dacia-spring": {
+  "brand": "Dacia",
+  "name": "Dacia Spring Electric",
+  "rows": [
+   {
+    "zeile": 105,
+    "modell": "Spring Electric",
+    "brutto": 26.8,
+    "netto": 25.0,
+    "ca": false,
+    "brutto_raw": "26.8 kWh",
+    "netto_raw": "25.0 kWh"
+   },
+   {
+    "zeile": 106,
+    "modell": "Spring Electric 45",
+    "brutto": 26.8,
+    "netto": 25.0,
+    "ca": false,
+    "brutto_raw": "26.8 kWh",
+    "netto_raw": "25.0 kWh"
+   },
+   {
+    "zeile": 107,
+    "modell": "Spring Electric 65",
+    "brutto": 26.8,
+    "netto": 25.0,
+    "ca": false,
+    "brutto_raw": "26.8 kWh",
+    "netto_raw": "25.0 kWh"
+   },
+   {
+    "zeile": 108,
+    "modell": "Spring Electric 65 Extreme",
+    "brutto": 26.8,
+    "netto": 25.0,
+    "ca": false,
+    "brutto_raw": "26.8 kWh",
+    "netto_raw": "25.0 kWh"
+   }
+  ]
+ },
+ "ford-f-150-lightning": {
+  "brand": "Ford",
+  "name": "Ford F-150 Lightning",
+  "rows": [
+   {
+    "zeile": 109,
+    "modell": "F-150 Lightning ER",
+    "brutto": 143.4,
+    "netto": 131.0,
+    "ca": false,
+    "brutto_raw": "143.4 kWh",
+    "netto_raw": "131.0 kWh"
+   },
+   {
+    "zeile": 110,
+    "modell": "F-150 Lightning SR",
+    "brutto": 110.0,
+    "netto": 98.0,
+    "ca": false,
+    "brutto_raw": "110 kWh",
+    "netto_raw": "98.0 kWh"
+   }
+  ]
+ },
+ "ford-mustang-mach-e": {
+  "brand": "Ford",
+  "name": "Ford Mustang Mach-E",
+  "rows": [
+   {
+    "zeile": 111,
+    "modell": "Mustang Mach-E ER AWD",
+    "brutto": 98.7,
+    "netto": 88.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "88.0 kWh"
+   },
+   {
+    "zeile": 112,
+    "modell": "Mustang Mach-E ER AWD",
+    "brutto": 98.7,
+    "netto": 91.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "91.0 kWh"
+   },
+   {
+    "zeile": 113,
+    "modell": "Mustang Mach-E ER RWD",
+    "brutto": 98.7,
+    "netto": 88.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "88.0 kWh"
+   },
+   {
+    "zeile": 114,
+    "modell": "Mustang Mach-E ER RWD",
+    "brutto": 98.7,
+    "netto": 91.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "91.0 kWh"
+   },
+   {
+    "zeile": 115,
+    "modell": "Mustang Mach-E GT",
+    "brutto": 98.7,
+    "netto": 88.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "88.0 kWh"
+   },
+   {
+    "zeile": 116,
+    "modell": "Mustang Mach-E GT",
+    "brutto": 98.7,
+    "netto": 91.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "91.0 kWh"
+   },
+   {
+    "zeile": 117,
+    "modell": "Mustang Mach-E Rally",
+    "brutto": 98.7,
+    "netto": 91.0,
+    "ca": false,
+    "brutto_raw": "98.7 kWh",
+    "netto_raw": "91.0 kWh"
+   },
+   {
+    "zeile": 118,
+    "modell": "Mustang Mach-E SR AWD",
+    "brutto": 75.7,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75.7 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 119,
+    "modell": "Mustang Mach-E SR AWD",
+    "brutto": 75.7,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "75.7 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 120,
+    "modell": "Mustang Mach-E SR AWD",
+    "brutto": 78.0,
+    "netto": 72.6,
+    "ca": false,
+    "brutto_raw": "78 kWh",
+    "netto_raw": "72.6 kWh"
+   },
+   {
+    "zeile": 121,
+    "modell": "Mustang Mach-E SR RWD",
+    "brutto": 75.7,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75.7 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 122,
+    "modell": "Mustang Mach-E SR RWD",
+    "brutto": 75.7,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "75.7 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 123,
+    "modell": "Mustang Mach-E SR RWD",
+    "brutto": 78.0,
+    "netto": 72.6,
+    "ca": false,
+    "brutto_raw": "78 kWh",
+    "netto_raw": "72.6 kWh"
+   }
+  ]
+ },
+ "hyundai-inster": {
+  "brand": "Hyundai",
+  "name": "Hyundai Inster",
+  "rows": [
+   {
+    "zeile": 124,
+    "modell": "INSTER Long Range",
+    "brutto": 49.0,
+    "netto": 46.0,
+    "ca": false,
+    "brutto_raw": "49.0 kWh",
+    "netto_raw": "46.0 kWh"
+   },
+   {
+    "zeile": 125,
+    "modell": "INSTER Standard Range",
+    "brutto": 42.0,
+    "netto": 39.0,
+    "ca": false,
+    "brutto_raw": "42.0 kWh",
+    "netto_raw": "39.0 kWh"
+   }
+  ]
+ },
+ "hyundai-ioniq-5": {
+  "brand": "Hyundai",
+  "name": "Hyundai IONIQ 5",
+  "rows": [
+   {
+    "zeile": 126,
+    "modell": "IONIQ 5 AWD",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 127,
+    "modell": "IONIQ 5 Long Range 2WD",
+    "brutto": 72.6,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "72.6 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 128,
+    "modell": "IONIQ 5 Long Range 2WD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 129,
+    "modell": "IONIQ 5 Long Range AWD",
+    "brutto": 72.6,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "72.6 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 130,
+    "modell": "IONIQ 5 Long Range AWD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 131,
+    "modell": "IONIQ 5 N",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 132,
+    "modell": "IONIQ 5 Project 45",
+    "brutto": 72.6,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "72.6 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 133,
+    "modell": "IONIQ 5 RWD",
+    "brutto": 63.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "63.0 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 134,
+    "modell": "IONIQ 5 RWD",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 135,
+    "modell": "IONIQ 5 Standard Range 2WD",
+    "brutto": 58.0,
+    "netto": 54.0,
+    "ca": false,
+    "brutto_raw": "58.0 kWh",
+    "netto_raw": "54.0 kWh"
+   },
+   {
+    "zeile": 136,
+    "modell": "IONIQ 5 Standard Range AWD",
+    "brutto": 58.0,
+    "netto": 54.0,
+    "ca": false,
+    "brutto_raw": "58.0 kWh",
+    "netto_raw": "54.0 kWh"
+   }
+  ]
+ },
+ "hyundai-ioniq-6": {
+  "brand": "Hyundai",
+  "name": "Hyundai IONIQ 6",
+  "rows": [
+   {
+    "zeile": 137,
+    "modell": "IONIQ 6 Long Range 2WD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 138,
+    "modell": "IONIQ 6 Long Range AWD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 139,
+    "modell": "IONIQ 6 Standard Range 2WD",
+    "brutto": 53.0,
+    "netto": 50.0,
+    "ca": false,
+    "brutto_raw": "53.0 kWh",
+    "netto_raw": "50.0 kWh"
+   }
+  ]
+ },
+ "hyundai-ioniq-9": {
+  "brand": "Hyundai",
+  "name": "Hyundai IONIQ 9",
+  "rows": [
+   {
+    "zeile": 140,
+    "modell": "IONIQ 9 Long Range AWD",
+    "brutto": 110.3,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "110.3 kWh",
+    "netto_raw": "106.0 kWh"
+   },
+   {
+    "zeile": 141,
+    "modell": "IONIQ 9 Long Range RWD",
+    "brutto": 110.3,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "110.3 kWh",
+    "netto_raw": "106.0 kWh"
+   },
+   {
+    "zeile": 142,
+    "modell": "IONIQ 9 Performance AWD",
+    "brutto": 110.3,
+    "netto": 106.0,
+    "ca": false,
+    "brutto_raw": "110.3 kWh",
+    "netto_raw": "106.0 kWh"
+   }
+  ]
+ },
+ "hyundai-ioniq-electric": {
+  "brand": "Hyundai",
+  "name": "Hyundai IONIQ Elektro",
+  "rows": [
+   {
+    "zeile": 143,
+    "modell": "IONIQ Electric",
+    "brutto": 30.5,
+    "netto": 28.0,
+    "ca": false,
+    "brutto_raw": "30.5 kWh",
+    "netto_raw": "28.0 kWh"
+   },
+   {
+    "zeile": 144,
+    "modell": "IONIQ Electric",
+    "brutto": 40.4,
+    "netto": 38.3,
+    "ca": false,
+    "brutto_raw": "40.4 kWh",
+    "netto_raw": "38.3 kWh"
+   }
+  ]
+ },
+ "hyundai-kona-electric": {
+  "brand": "Hyundai",
+  "name": "Hyundai Kona Elektro",
+  "rows": [
+   {
+    "zeile": 145,
+    "modell": "Kona Electric",
+    "brutto": 42.0,
+    "netto": 39.2,
+    "ca": false,
+    "brutto_raw": "42.0 kWh",
+    "netto_raw": "39.2 kWh"
+   },
+   {
+    "zeile": 146,
+    "modell": "Kona Electric",
+    "brutto": 51.0,
+    "netto": 48.4,
+    "ca": false,
+    "brutto_raw": "51.0 kWh",
+    "netto_raw": "48.4 kWh"
+   },
+   {
+    "zeile": 147,
+    "modell": "Kona Electric",
+    "brutto": 67.5,
+    "netto": 64.0,
+    "ca": false,
+    "brutto_raw": "67.5 kWh",
+    "netto_raw": "64.0 kWh"
+   },
+   {
+    "zeile": 148,
+    "modell": "Kona Electric",
+    "brutto": 68.5,
+    "netto": 65.4,
+    "ca": false,
+    "brutto_raw": "68.5 kWh",
+    "netto_raw": "65.4 kWh"
+   }
+  ]
+ },
+ "kia-niro-ev": {
+  "brand": "Kia",
+  "name": "Kia e-Niro / Niro EV",
+  "rows": [
+   {
+    "zeile": 149,
+    "modell": "e-Niro",
+    "brutto": 42.0,
+    "netto": 39.2,
+    "ca": false,
+    "brutto_raw": "42.0 kWh",
+    "netto_raw": "39.2 kWh"
+   },
+   {
+    "zeile": 150,
+    "modell": "e-Niro",
+    "brutto": 67.5,
+    "netto": 64.0,
+    "ca": false,
+    "brutto_raw": "67.5 kWh",
+    "netto_raw": "64.0 kWh"
+   },
+   {
+    "zeile": 173,
+    "modell": "Niro EV",
+    "brutto": 68.0,
+    "netto": 64.8,
+    "ca": false,
+    "brutto_raw": "68.0 kWh",
+    "netto_raw": "64.8 kWh"
+   }
+  ]
+ },
+ "kia-soul-ev": {
+  "brand": "Kia",
+  "name": "Kia Soul EV / e-Soul",
+  "rows": [
+   {
+    "zeile": 151,
+    "modell": "e-Soul",
+    "brutto": 42.0,
+    "netto": 39.2,
+    "ca": false,
+    "brutto_raw": "42.0 kWh",
+    "netto_raw": "39.2 kWh"
+   },
+   {
+    "zeile": 152,
+    "modell": "e-Soul",
+    "brutto": 67.5,
+    "netto": 64.0,
+    "ca": false,
+    "brutto_raw": "67.5 kWh",
+    "netto_raw": "64.0 kWh"
+   },
+   {
+    "zeile": 174,
+    "modell": "Soul EV",
+    "brutto": 30.5,
+    "netto": 27.0,
+    "ca": false,
+    "brutto_raw": "30.5 kWh",
+    "netto_raw": "27.0 kWh"
+   },
+   {
+    "zeile": 175,
+    "modell": "Soul EV",
+    "brutto": 33.0,
+    "netto": 30.0,
+    "ca": false,
+    "brutto_raw": "33.0 kWh",
+    "netto_raw": "30.0 kWh"
+   }
+  ]
+ },
+ "kia-ev3": {
+  "brand": "Kia",
+  "name": "Kia EV3",
+  "rows": [
+   {
+    "zeile": 153,
+    "modell": "EV3 Long Range",
+    "brutto": 81.4,
+    "netto": 78.0,
+    "ca": false,
+    "brutto_raw": "81.4 kWh",
+    "netto_raw": "78.0 kWh"
+   },
+   {
+    "zeile": 154,
+    "modell": "EV3 Standard Range",
+    "brutto": 58.3,
+    "netto": 55.0,
+    "ca": false,
+    "brutto_raw": "58.3 kWh",
+    "netto_raw": "55.0 kWh"
+   }
+  ]
+ },
+ "kia-ev4": {
+  "brand": "Kia",
+  "name": "Kia EV4",
+  "rows": [
+   {
+    "zeile": 155,
+    "modell": "EV4 Fastback",
+    "brutto": 81.4,
+    "netto": 78.0,
+    "ca": false,
+    "brutto_raw": "81.4 kWh",
+    "netto_raw": "78.0 kWh"
+   },
+   {
+    "zeile": 156,
+    "modell": "EV4 Hatchback",
+    "brutto": 58.3,
+    "netto": 55.0,
+    "ca": false,
+    "brutto_raw": "58.3 kWh",
+    "netto_raw": "55.0 kWh"
+   },
+   {
+    "zeile": 157,
+    "modell": "EV4 Hatchback",
+    "brutto": 81.4,
+    "netto": 78.0,
+    "ca": false,
+    "brutto_raw": "81.4 kWh",
+    "netto_raw": "78.0 kWh"
+   }
+  ]
+ },
+ "kia-ev6": {
+  "brand": "Kia",
+  "name": "Kia EV6",
+  "rows": [
+   {
+    "zeile": 158,
+    "modell": "EV6 GT",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 159,
+    "modell": "EV6 GT",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 160,
+    "modell": "EV6 Long Range 2WD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 161,
+    "modell": "EV6 Long Range 2WD",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 162,
+    "modell": "EV6 Long Range AWD",
+    "brutto": 77.4,
+    "netto": 74.0,
+    "ca": false,
+    "brutto_raw": "77.4 kWh",
+    "netto_raw": "74.0 kWh"
+   },
+   {
+    "zeile": 163,
+    "modell": "EV6 Long Range AWD",
+    "brutto": 84.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "84.0 kWh",
+    "netto_raw": "80.0 kWh"
+   },
+   {
+    "zeile": 164,
+    "modell": "EV6 Standard Range 2WD",
+    "brutto": 58.0,
+    "netto": 54.0,
+    "ca": false,
+    "brutto_raw": "58.0 kWh",
+    "netto_raw": "54.0 kWh"
+   },
+   {
+    "zeile": 165,
+    "modell": "EV6 Standard Range 2WD",
+    "brutto": 63.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "63.0 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 166,
+    "modell": "EV6 Standard Range AWD",
+    "brutto": 58.0,
+    "netto": 54.0,
+    "ca": false,
+    "brutto_raw": "58.0 kWh",
+    "netto_raw": "54.0 kWh"
+   },
+   {
+    "zeile": 167,
+    "modell": "EV6 Standard Range AWD",
+    "brutto": 63.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "63.0 kWh",
+    "netto_raw": "60.0 kWh"
+   }
+  ]
+ },
+ "kia-ev9": {
+  "brand": "Kia",
+  "name": "Kia EV9",
+  "rows": [
+   {
+    "zeile": 168,
+    "modell": "EV9 AWD",
+    "brutto": 99.8,
+    "netto": 96.0,
+    "ca": false,
+    "brutto_raw": "99.8 kWh",
+    "netto_raw": "96.0 kWh"
+   },
+   {
+    "zeile": 169,
+    "modell": "EV9 AWD GT",
+    "brutto": 99.8,
+    "netto": 96.0,
+    "ca": false,
+    "brutto_raw": "99.8 kWh",
+    "netto_raw": "96.0 kWh"
+   },
+   {
+    "zeile": 170,
+    "modell": "EV9 AWD GT-Line",
+    "brutto": 99.8,
+    "netto": 96.0,
+    "ca": false,
+    "brutto_raw": "99.8 kWh",
+    "netto_raw": "96.0 kWh"
+   },
+   {
+    "zeile": 171,
+    "modell": "EV9 RWD",
+    "brutto": 76.1,
+    "netto": 73.0,
+    "ca": false,
+    "brutto_raw": "76.1 kWh",
+    "netto_raw": "73.0 kWh"
+   },
+   {
+    "zeile": 172,
+    "modell": "EV9 RWD",
+    "brutto": 99.8,
+    "netto": 96.0,
+    "ca": false,
+    "brutto_raw": "99.8 kWh",
+    "netto_raw": "96.0 kWh"
+   }
+  ]
+ },
+ "mercedes-eqa": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz EQA",
+  "rows": [
+   {
+    "zeile": 176,
+    "modell": "EQA 250",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 177,
+    "modell": "EQA 250+",
+    "brutto": 73.9,
+    "netto": 70.5,
+    "ca": false,
+    "brutto_raw": "73.9 kWh",
+    "netto_raw": "70.5 kWh"
+   },
+   {
+    "zeile": 178,
+    "modell": "EQA 300 4MATIC",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 179,
+    "modell": "EQA 350 4MATIC",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   }
+  ]
+ },
+ "mercedes-eqb": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz EQB",
+  "rows": [
+   {
+    "zeile": 180,
+    "modell": "EQB 250",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 181,
+    "modell": "EQB 250+",
+    "brutto": 73.9,
+    "netto": 70.5,
+    "ca": false,
+    "brutto_raw": "73.9 kWh",
+    "netto_raw": "70.5 kWh"
+   },
+   {
+    "zeile": 182,
+    "modell": "EQB 300 4MATIC",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 183,
+    "modell": "EQB 300 4MATIC",
+    "brutto": 73.9,
+    "netto": 70.5,
+    "ca": false,
+    "brutto_raw": "73.9 kWh",
+    "netto_raw": "70.5 kWh"
+   },
+   {
+    "zeile": 184,
+    "modell": "EQB 350",
+    "brutto": 73.9,
+    "netto": 70.5,
+    "ca": false,
+    "brutto_raw": "73.9 kWh",
+    "netto_raw": "70.5 kWh"
+   },
+   {
+    "zeile": 185,
+    "modell": "EQB 350 4MATIC",
+    "brutto": 69.7,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "69.7 kWh",
+    "netto_raw": "66.5 kWh"
+   }
+  ]
+ },
+ "mercedes-eqc": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz EQC",
+  "rows": [
+   {
+    "zeile": 186,
+    "modell": "EQC 400",
+    "brutto": 85.0,
+    "netto": 80.0,
+    "ca": false,
+    "brutto_raw": "85 kWh",
+    "netto_raw": "80.0 kWh"
+   }
+  ]
+ },
+ "mercedes-eqt": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz EQT",
+  "rows": [
+   {
+    "zeile": 187,
+    "modell": "EQT",
+    "brutto": 50.0,
+    "netto": 45.0,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "45.0 kWh"
+   }
+  ]
+ },
+ "mercedes-eqv": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz EQV",
+  "rows": [
+   {
+    "zeile": 188,
+    "modell": "EQV 250",
+    "brutto": 66.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "66 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 189,
+    "modell": "EQV 300",
+    "brutto": 100.0,
+    "netto": 90.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "90.0 kWh"
+   }
+  ]
+ },
+ "mercedes-esprinter": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz eSprinter",
+  "rows": [
+   {
+    "zeile": 190,
+    "modell": "eSprinter",
+    "brutto": 41.0,
+    "netto": 35.0,
+    "ca": false,
+    "brutto_raw": "41 kWh",
+    "netto_raw": "35.0 kWh"
+   },
+   {
+    "zeile": 191,
+    "modell": "eSprinter",
+    "brutto": 55.0,
+    "netto": 47.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "47.0 kWh"
+   },
+   {
+    "zeile": 192,
+    "modell": "eSprinter LFP",
+    "brutto": 119.0,
+    "netto": 113.0,
+    "ca": true,
+    "brutto_raw": "ca. 119 kWh",
+    "netto_raw": "113.0 kWh"
+   },
+   {
+    "zeile": 193,
+    "modell": "eSprinter LFP",
+    "brutto": 60.0,
+    "netto": 56.0,
+    "ca": true,
+    "brutto_raw": "ca. 60 kWh",
+    "netto_raw": "56.0 kWh"
+   },
+   {
+    "zeile": 194,
+    "modell": "eSprinter LFP",
+    "brutto": 85.0,
+    "netto": 81.0,
+    "ca": true,
+    "brutto_raw": "ca. 85 kWh",
+    "netto_raw": "81.0 kWh"
+   }
+  ]
+ },
+ "mercedes-evito": {
+  "brand": "Mercedes",
+  "name": "Mercedes-Benz eVito",
+  "rows": [
+   {
+    "zeile": 195,
+    "modell": "eVito 129 Tourer pro extra long",
+    "brutto": 100.0,
+    "netto": 90.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "90.0 kWh"
+   },
+   {
+    "zeile": 196,
+    "modell": "eVito 129 Tourer pro long",
+    "brutto": 100.0,
+    "netto": 90.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "90.0 kWh"
+   },
+   {
+    "zeile": 197,
+    "modell": "eVito extra long",
+    "brutto": 41.0,
+    "netto": 35.0,
+    "ca": false,
+    "brutto_raw": "41 kWh",
+    "netto_raw": "35.0 kWh"
+   },
+   {
+    "zeile": 198,
+    "modell": "eVito extra long",
+    "brutto": 66.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "66 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 199,
+    "modell": "eVito long",
+    "brutto": 41.0,
+    "netto": 35.0,
+    "ca": false,
+    "brutto_raw": "41 kWh",
+    "netto_raw": "35.0 kWh"
+   },
+   {
+    "zeile": 200,
+    "modell": "eVito long",
+    "brutto": 66.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "66 kWh",
+    "netto_raw": "60.0 kWh"
+   }
+  ]
+ },
+ "mg-cyberster": {
+  "brand": "MG",
+  "name": "MG Cyberster",
+  "rows": [
+   {
+    "zeile": 201,
+    "modell": "Cyberster GT",
+    "brutto": 77.0,
+    "netto": 74.4,
+    "ca": false,
+    "brutto_raw": "77.0 kWh",
+    "netto_raw": "74.4 kWh"
+   },
+   {
+    "zeile": 202,
+    "modell": "Cyberster Trophy",
+    "brutto": 77.0,
+    "netto": 74.4,
+    "ca": false,
+    "brutto_raw": "77.0 kWh",
+    "netto_raw": "74.4 kWh"
+   }
+  ]
+ },
+ "mg-marvel-r": {
+  "brand": "MG",
+  "name": "MG Marvel R",
+  "rows": [
+   {
+    "zeile": 203,
+    "modell": "Marvel R",
+    "brutto": 75.0,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "75.0 kWh",
+    "netto_raw": "70.0 kWh"
+   },
+   {
+    "zeile": 204,
+    "modell": "Marvel R Performance",
+    "brutto": 75.0,
+    "netto": 70.0,
+    "ca": false,
+    "brutto_raw": "75.0 kWh",
+    "netto_raw": "70.0 kWh"
+   }
+  ]
+ },
+ "mg4-electric": {
+  "brand": "MG",
+  "name": "MG4 Electric",
+  "rows": [
+   {
+    "zeile": 205,
+    "modell": "MG4 Electric",
+    "brutto": 51.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "51.0 kWh",
+    "netto_raw": "50.8 kWh"
+   },
+   {
+    "zeile": 206,
+    "modell": "MG4 Electric",
+    "brutto": 64.0,
+    "netto": 61.7,
+    "ca": false,
+    "brutto_raw": "64.0 kWh",
+    "netto_raw": "61.7 kWh"
+   },
+   {
+    "zeile": 207,
+    "modell": "MG4 Electric",
+    "brutto": 77.0,
+    "netto": 74.4,
+    "ca": false,
+    "brutto_raw": "77.0 kWh",
+    "netto_raw": "74.4 kWh"
+   },
+   {
+    "zeile": 208,
+    "modell": "MG4 Electric XPOWER",
+    "brutto": 64.0,
+    "netto": 61.7,
+    "ca": false,
+    "brutto_raw": "64.0 kWh",
+    "netto_raw": "61.7 kWh"
+   }
+  ]
+ },
+ "mg5-electric": {
+  "brand": "MG",
+  "name": "MG5 Electric",
+  "rows": [
+   {
+    "zeile": 209,
+    "modell": "MG5 Electric Long Range",
+    "brutto": 61.1,
+    "netto": 57.4,
+    "ca": false,
+    "brutto_raw": "61.1 kWh",
+    "netto_raw": "57.4 kWh"
+   },
+   {
+    "zeile": 210,
+    "modell": "MG5 Electric Standard Range",
+    "brutto": 50.3,
+    "netto": 46.0,
+    "ca": false,
+    "brutto_raw": "50.3 kWh",
+    "netto_raw": "46.0 kWh"
+   },
+   {
+    "zeile": 211,
+    "modell": "MG5 EV",
+    "brutto": 52.5,
+    "netto": 48.8,
+    "ca": false,
+    "brutto_raw": "52.5 kWh",
+    "netto_raw": "48.8 kWh"
+   },
+   {
+    "zeile": 212,
+    "modell": "MG5 EV Long Range",
+    "brutto": 61.1,
+    "netto": 57.4,
+    "ca": false,
+    "brutto_raw": "61.1 kWh",
+    "netto_raw": "57.4 kWh"
+   }
+  ]
+ },
+ "mg-zs-ev": {
+  "brand": "MG",
+  "name": "MG ZS EV",
+  "rows": [
+   {
+    "zeile": 213,
+    "modell": "ZS EV",
+    "brutto": 44.5,
+    "netto": 42.5,
+    "ca": false,
+    "brutto_raw": "44.5 kWh",
+    "netto_raw": "42.5 kWh"
+   },
+   {
+    "zeile": 214,
+    "modell": "ZS EV Long Range",
+    "brutto": 72.6,
+    "netto": 68.3,
+    "ca": false,
+    "brutto_raw": "72.6 kWh",
+    "netto_raw": "68.3 kWh"
+   },
+   {
+    "zeile": 215,
+    "modell": "ZS EV Standard Range",
+    "brutto": 51.1,
+    "netto": 49.0,
+    "ca": false,
+    "brutto_raw": "51.1 kWh",
+    "netto_raw": "49.0 kWh"
+   }
+  ]
+ },
+ "mini-aceman": {
+  "brand": "Mini",
+  "name": "Mini Aceman",
+  "rows": [
+   {
+    "zeile": 216,
+    "modell": "Aceman E",
+    "brutto": 42.5,
+    "netto": 38.5,
+    "ca": false,
+    "brutto_raw": "42.5 kWh",
+    "netto_raw": "38.5 kWh"
+   },
+   {
+    "zeile": 217,
+    "modell": "Aceman JCW",
+    "brutto": 54.2,
+    "netto": 49.2,
+    "ca": false,
+    "brutto_raw": "54.2 kWh",
+    "netto_raw": "49.2 kWh"
+   },
+   {
+    "zeile": 218,
+    "modell": "Aceman SE",
+    "brutto": 54.2,
+    "netto": 49.2,
+    "ca": false,
+    "brutto_raw": "54.2 kWh",
+    "netto_raw": "49.2 kWh"
+   }
+  ]
+ },
+ "mini-cooper-electric": {
+  "brand": "Mini",
+  "name": "Mini Cooper E / SE",
+  "rows": [
+   {
+    "zeile": 219,
+    "modell": "Cooper E",
+    "brutto": 40.7,
+    "netto": 36.8,
+    "ca": false,
+    "brutto_raw": "40.7 kWh",
+    "netto_raw": "36.8 kWh"
+   },
+   {
+    "zeile": 220,
+    "modell": "Cooper SE",
+    "brutto": 32.6,
+    "netto": 28.9,
+    "ca": false,
+    "brutto_raw": "32.6 kWh",
+    "netto_raw": "28.9 kWh"
+   },
+   {
+    "zeile": 221,
+    "modell": "Cooper SE",
+    "brutto": 54.2,
+    "netto": 49.8,
+    "ca": false,
+    "brutto_raw": "54.2 kWh",
+    "netto_raw": "49.8 kWh"
+   }
+  ]
+ },
+ "mini-countryman-electric": {
+  "brand": "Mini",
+  "name": "Mini Countryman E / SE",
+  "rows": [
+   {
+    "zeile": 222,
+    "modell": "Countryman E",
+    "brutto": 66.5,
+    "netto": 64.6,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.6 kWh"
+   },
+   {
+    "zeile": 223,
+    "modell": "Countryman SE",
+    "brutto": 66.5,
+    "netto": 64.6,
+    "ca": false,
+    "brutto_raw": "66.5 kWh",
+    "netto_raw": "64.6 kWh"
+   }
+  ]
+ },
+ "peugeot-e-2008": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-2008",
+  "rows": [
+   {
+    "zeile": 224,
+    "modell": "e-2008",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 225,
+    "modell": "e-2008",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   },
+   {
+    "zeile": 226,
+    "modell": "e-2008 SUV",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   }
+  ]
+ },
+ "peugeot-e-208": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-208",
+  "rows": [
+   {
+    "zeile": 227,
+    "modell": "e-208",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 228,
+    "modell": "e-208",
+    "brutto": 51.0,
+    "netto": 48.1,
+    "ca": false,
+    "brutto_raw": "51 kWh",
+    "netto_raw": "48.1 kWh"
+   },
+   {
+    "zeile": 229,
+    "modell": "e-208",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   }
+  ]
+ },
+ "peugeot-e-3008": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-3008",
+  "rows": [
+   {
+    "zeile": 230,
+    "modell": "e-3008",
+    "brutto": 77.0,
+    "netto": 73.0,
+    "ca": false,
+    "brutto_raw": "77 kWh",
+    "netto_raw": "73.0 kWh"
+   },
+   {
+    "zeile": 231,
+    "modell": "e-3008 Long Range",
+    "brutto": 101.0,
+    "netto": 96.9,
+    "ca": false,
+    "brutto_raw": "101 kWh",
+    "netto_raw": "96.9 kWh"
+   }
+  ]
+ },
+ "peugeot-e-308": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-308",
+  "rows": [
+   {
+    "zeile": 232,
+    "modell": "e-308",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   },
+   {
+    "zeile": 233,
+    "modell": "e-308 SW",
+    "brutto": 54.0,
+    "netto": 50.8,
+    "ca": false,
+    "brutto_raw": "54 kWh",
+    "netto_raw": "50.8 kWh"
+   }
+  ]
+ },
+ "peugeot-e-408": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-408",
+  "rows": [
+   {
+    "zeile": 234,
+    "modell": "e-408",
+    "brutto": 61.0,
+    "netto": 58.3,
+    "ca": false,
+    "brutto_raw": "61 kWh",
+    "netto_raw": "58.3 kWh"
+   }
+  ]
+ },
+ "peugeot-e-expert": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-Expert Combi",
+  "rows": [
+   {
+    "zeile": 235,
+    "modell": "e-Expert Combi Compact",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 236,
+    "modell": "e-Expert Combi Long",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 237,
+    "modell": "e-Expert Combi Long",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 238,
+    "modell": "e-Expert Combi Standard",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 239,
+    "modell": "e-Expert Combi Standard",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   }
+  ]
+ },
+ "peugeot-e-partner": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-Partner",
+  "rows": [
+   {
+    "zeile": 240,
+    "modell": "e-Partner",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   }
+  ]
+ },
+ "peugeot-e-rifter": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-Rifter",
+  "rows": [
+   {
+    "zeile": 241,
+    "modell": "e-Rifter Long",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 242,
+    "modell": "e-Rifter M",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 243,
+    "modell": "e-Rifter Standard",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 244,
+    "modell": "e-Rifter XL",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   }
+  ]
+ },
+ "peugeot-e-traveller": {
+  "brand": "Peugeot",
+  "name": "Peugeot e-Traveller",
+  "rows": [
+   {
+    "zeile": 245,
+    "modell": "e-Traveller Compact",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 246,
+    "modell": "e-Traveller L2",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 247,
+    "modell": "e-Traveller L2",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 248,
+    "modell": "e-Traveller L3",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 249,
+    "modell": "e-Traveller L3",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 250,
+    "modell": "e-Traveller Long",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 251,
+    "modell": "e-Traveller Long",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   },
+   {
+    "zeile": 252,
+    "modell": "e-Traveller Standard",
+    "brutto": 50.0,
+    "netto": 46.3,
+    "ca": false,
+    "brutto_raw": "50 kWh",
+    "netto_raw": "46.3 kWh"
+   },
+   {
+    "zeile": 253,
+    "modell": "e-Traveller Standard",
+    "brutto": 75.0,
+    "netto": 68.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "68.0 kWh"
+   }
+  ]
+ },
+ "peugeot-ion": {
+  "brand": "Peugeot",
+  "name": "Peugeot iOn",
+  "rows": [
+   {
+    "zeile": 254,
+    "modell": "iOn",
+    "brutto": 16.0,
+    "netto": 14.5,
+    "ca": false,
+    "brutto_raw": "16 kWh",
+    "netto_raw": "14.5 kWh"
+   }
+  ]
+ },
+ "peugeot-partner-tepee-electric": {
+  "brand": "Peugeot",
+  "name": "Peugeot Partner Tepee Electric",
+  "rows": [
+   {
+    "zeile": 255,
+    "modell": "Partner Tepee Electric",
+    "brutto": 22.5,
+    "netto": 20.5,
+    "ca": false,
+    "brutto_raw": "22.5 kWh",
+    "netto_raw": "20.5 kWh"
+   }
+  ]
+ },
+ "porsche-macan-electric": {
+  "brand": "Porsche",
+  "name": "Porsche Macan (Elektro)",
+  "rows": [
+   {
+    "zeile": 256,
+    "modell": "Macan",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 257,
+    "modell": "Macan 4",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 258,
+    "modell": "Macan 4S",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 259,
+    "modell": "Macan Turbo",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   }
+  ]
+ },
+ "porsche-taycan": {
+  "brand": "Porsche",
+  "name": "Porsche Taycan",
+  "rows": [
+   {
+    "zeile": 260,
+    "modell": "Taycan",
+    "brutto": 79.2,
+    "netto": 71.0,
+    "ca": false,
+    "brutto_raw": "79.2 kWh",
+    "netto_raw": "71.0 kWh"
+   },
+   {
+    "zeile": 261,
+    "modell": "Taycan",
+    "brutto": 89.0,
+    "netto": 82.3,
+    "ca": false,
+    "brutto_raw": "89 kWh",
+    "netto_raw": "82.3 kWh"
+   },
+   {
+    "zeile": 262,
+    "modell": "Taycan",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 263,
+    "modell": "Taycan",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 264,
+    "modell": "Taycan 4 Cross Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 265,
+    "modell": "Taycan 4 Cross Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 266,
+    "modell": "Taycan 4S",
+    "brutto": 79.2,
+    "netto": 71.0,
+    "ca": false,
+    "brutto_raw": "79.2 kWh",
+    "netto_raw": "71.0 kWh"
+   },
+   {
+    "zeile": 267,
+    "modell": "Taycan 4S",
+    "brutto": 89.0,
+    "netto": 82.3,
+    "ca": false,
+    "brutto_raw": "89 kWh",
+    "netto_raw": "82.3 kWh"
+   },
+   {
+    "zeile": 268,
+    "modell": "Taycan 4S",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 269,
+    "modell": "Taycan 4S",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 270,
+    "modell": "Taycan 4S Cross Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 271,
+    "modell": "Taycan 4S Cross Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 272,
+    "modell": "Taycan 4S Sport Turismo",
+    "brutto": 79.2,
+    "netto": 71.0,
+    "ca": false,
+    "brutto_raw": "79.2 kWh",
+    "netto_raw": "71.0 kWh"
+   },
+   {
+    "zeile": 273,
+    "modell": "Taycan 4S Sport Turismo",
+    "brutto": 89.0,
+    "netto": 82.3,
+    "ca": false,
+    "brutto_raw": "89 kWh",
+    "netto_raw": "82.3 kWh"
+   },
+   {
+    "zeile": 274,
+    "modell": "Taycan 4S Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 275,
+    "modell": "Taycan 4S Sport Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 276,
+    "modell": "Taycan GTS",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 277,
+    "modell": "Taycan GTS",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 278,
+    "modell": "Taycan GTS Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 279,
+    "modell": "Taycan GTS Sport Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 280,
+    "modell": "Taycan Sport Turismo",
+    "brutto": 79.2,
+    "netto": 71.0,
+    "ca": false,
+    "brutto_raw": "79.2 kWh",
+    "netto_raw": "71.0 kWh"
+   },
+   {
+    "zeile": 281,
+    "modell": "Taycan Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 282,
+    "modell": "Taycan Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 283,
+    "modell": "Taycan Sport Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 284,
+    "modell": "Taycan Turbo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 285,
+    "modell": "Taycan Turbo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 286,
+    "modell": "Taycan Turbo Cross Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 287,
+    "modell": "Taycan Turbo Cross Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 288,
+    "modell": "Taycan Turbo GT",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 289,
+    "modell": "Taycan Turbo S",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 290,
+    "modell": "Taycan Turbo S",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 291,
+    "modell": "Taycan Turbo S Cross Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 292,
+    "modell": "Taycan Turbo S Cross Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 293,
+    "modell": "Taycan Turbo S Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 294,
+    "modell": "Taycan Turbo S Sport Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   },
+   {
+    "zeile": 295,
+    "modell": "Taycan Turbo Sport Turismo",
+    "brutto": 93.4,
+    "netto": 83.7,
+    "ca": false,
+    "brutto_raw": "93.4 kWh",
+    "netto_raw": "83.7 kWh"
+   },
+   {
+    "zeile": 296,
+    "modell": "Taycan Turbo Sport Turismo",
+    "brutto": 105.0,
+    "netto": 97.0,
+    "ca": false,
+    "brutto_raw": "105 kWh",
+    "netto_raw": "97.0 kWh"
+   }
+  ]
+ },
+ "renault-city-k-ze": {
+  "brand": "Renault",
+  "name": "Renault City K-ZE",
+  "rows": [
+   {
+    "zeile": 297,
+    "modell": "City K-ZE",
+    "brutto": 30.0,
+    "netto": 26.8,
+    "ca": false,
+    "brutto_raw": "30 kWh",
+    "netto_raw": "26.8 kWh"
+   }
+  ]
+ },
+ "renault-kangoo-electric": {
+  "brand": "Renault",
+  "name": "Renault Kangoo Z.E. / E-Tech",
+  "rows": [
+   {
+    "zeile": 298,
+    "modell": "Kangoo E-Tech",
+    "brutto": 48.0,
+    "netto": 45.0,
+    "ca": false,
+    "brutto_raw": "48 kWh",
+    "netto_raw": "45.0 kWh"
+   },
+   {
+    "zeile": 299,
+    "modell": "Kangoo Grand E-Tech",
+    "brutto": 48.0,
+    "netto": 45.0,
+    "ca": false,
+    "brutto_raw": "48 kWh",
+    "netto_raw": "45.0 kWh"
+   },
+   {
+    "zeile": 300,
+    "modell": "Kangoo Maxi Z.E.",
+    "brutto": 33.0,
+    "netto": 31.0,
+    "ca": false,
+    "brutto_raw": "33 kWh",
+    "netto_raw": "31.0 kWh"
+   },
+   {
+    "zeile": 301,
+    "modell": "Kangoo Z.E.",
+    "brutto": 22.0,
+    "netto": 20.0,
+    "ca": false,
+    "brutto_raw": "22 kWh",
+    "netto_raw": "20.0 kWh"
+   },
+   {
+    "zeile": 302,
+    "modell": "Kangoo Z.E.",
+    "brutto": 33.0,
+    "netto": 31.0,
+    "ca": false,
+    "brutto_raw": "33 kWh",
+    "netto_raw": "31.0 kWh"
+   }
+  ]
+ },
+ "renault-master-electric": {
+  "brand": "Renault",
+  "name": "Renault Master Z.E. / E-Tech",
+  "rows": [
+   {
+    "zeile": 303,
+    "modell": "Master E-Tech",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 304,
+    "modell": "Master E-Tech",
+    "brutto": 92.0,
+    "netto": 87.0,
+    "ca": false,
+    "brutto_raw": "92 kWh",
+    "netto_raw": "87.0 kWh"
+   },
+   {
+    "zeile": 305,
+    "modell": "Master Z.E.",
+    "brutto": 33.0,
+    "netto": 31.0,
+    "ca": false,
+    "brutto_raw": "33 kWh",
+    "netto_raw": "31.0 kWh"
+   }
+  ]
+ },
+ "renault-scenic-e-tech": {
+  "brand": "Renault",
+  "name": "Renault Scenic E-Tech",
+  "rows": [
+   {
+    "zeile": 306,
+    "modell": "Scenic E-Tech EV60",
+    "brutto": 65.0,
+    "netto": 60.0,
+    "ca": false,
+    "brutto_raw": "65 kWh",
+    "netto_raw": "60.0 kWh"
+   },
+   {
+    "zeile": 307,
+    "modell": "Scenic E-Tech EV87",
+    "brutto": 92.0,
+    "netto": 87.0,
+    "ca": false,
+    "brutto_raw": "92 kWh",
+    "netto_raw": "87.0 kWh"
+   }
+  ]
+ },
+ "renault-twingo-electric": {
+  "brand": "Renault",
+  "name": "Renault Twingo Electric",
+  "rows": [
+   {
+    "zeile": 308,
+    "modell": "Twingo Electric ZE",
+    "brutto": 22.0,
+    "netto": 21.3,
+    "ca": false,
+    "brutto_raw": "22 kWh",
+    "netto_raw": "21.3 kWh"
+   }
+  ]
+ },
+ "renault-zoe": {
+  "brand": "Renault",
+  "name": "Renault Zoe",
+  "rows": [
+   {
+    "zeile": 309,
+    "modell": "Zoe Q210",
+    "brutto": 25.9,
+    "netto": 23.3,
+    "ca": false,
+    "brutto_raw": "25.9 kWh",
+    "netto_raw": "23.3 kWh"
+   },
+   {
+    "zeile": 310,
+    "modell": "Zoe Q90",
+    "brutto": 44.1,
+    "netto": 41.0,
+    "ca": false,
+    "brutto_raw": "44.1 kWh",
+    "netto_raw": "41.0 kWh"
+   },
+   {
+    "zeile": 311,
+    "modell": "Zoe R110",
+    "brutto": 44.1,
+    "netto": 41.0,
+    "ca": false,
+    "brutto_raw": "44.1 kWh",
+    "netto_raw": "41.0 kWh"
+   },
+   {
+    "zeile": 312,
+    "modell": "Zoe R110 Z.E. 40",
+    "brutto": 44.1,
+    "netto": 41.0,
+    "ca": false,
+    "brutto_raw": "44.1 kWh",
+    "netto_raw": "41.0 kWh"
+   },
+   {
+    "zeile": 313,
+    "modell": "Zoe R110 Z.E. 50",
+    "brutto": 54.7,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "54.7 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 314,
+    "modell": "Zoe R135 Z.E. 50",
+    "brutto": 54.7,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "54.7 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 315,
+    "modell": "Zoe R210",
+    "brutto": 25.9,
+    "netto": 23.3,
+    "ca": false,
+    "brutto_raw": "25.9 kWh",
+    "netto_raw": "23.3 kWh"
+   },
+   {
+    "zeile": 316,
+    "modell": "Zoe R240",
+    "brutto": 25.9,
+    "netto": 23.3,
+    "ca": false,
+    "brutto_raw": "25.9 kWh",
+    "netto_raw": "23.3 kWh"
+   },
+   {
+    "zeile": 317,
+    "modell": "Zoe R75",
+    "brutto": 25.9,
+    "netto": 23.3,
+    "ca": false,
+    "brutto_raw": "25.9 kWh",
+    "netto_raw": "23.3 kWh"
+   },
+   {
+    "zeile": 318,
+    "modell": "Zoe R75",
+    "brutto": 44.1,
+    "netto": 41.0,
+    "ca": false,
+    "brutto_raw": "44.1 kWh",
+    "netto_raw": "41.0 kWh"
+   },
+   {
+    "zeile": 319,
+    "modell": "Zoe R90",
+    "brutto": 44.1,
+    "netto": 41.0,
+    "ca": false,
+    "brutto_raw": "44.1 kWh",
+    "netto_raw": "41.0 kWh"
+   },
+   {
+    "zeile": 320,
+    "modell": "Zoe R90 Entry",
+    "brutto": 25.9,
+    "netto": 23.3,
+    "ca": false,
+    "brutto_raw": "25.9 kWh",
+    "netto_raw": "23.3 kWh"
+   }
+  ]
+ },
+ "seat-mii-electric": {
+  "brand": "Seat",
+  "name": "Seat Mii electric",
+  "rows": [
+   {
+    "zeile": 321,
+    "modell": "Mii electric",
+    "brutto": 36.8,
+    "netto": 32.3,
+    "ca": false,
+    "brutto_raw": "36.8 kWh",
+    "netto_raw": "32.3 kWh"
+   }
+  ]
+ },
+ "skoda-citigo-e-iv": {
+  "brand": "Skoda",
+  "name": "Škoda Citigo e iV",
+  "rows": [
+   {
+    "zeile": 322,
+    "modell": "Citigo-e IV",
+    "brutto": 36.8,
+    "netto": 32.3,
+    "ca": false,
+    "brutto_raw": "36.8 kWh",
+    "netto_raw": "32.3 kWh"
+   }
+  ]
+ },
+ "skoda-elroq": {
+  "brand": "Skoda",
+  "name": "Škoda Elroq",
+  "rows": [
+   {
+    "zeile": 323,
+    "modell": "Elroq 50",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 324,
+    "modell": "Elroq 60",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 325,
+    "modell": "Elroq 85",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 326,
+    "modell": "Elroq 85x",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "skoda-enyaq": {
+  "brand": "Skoda",
+  "name": "Škoda Enyaq",
+  "rows": [
+   {
+    "zeile": 327,
+    "modell": "Enyaq 85",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 328,
+    "modell": "Enyaq 85 Coupe",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 329,
+    "modell": "Enyaq 85x",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 330,
+    "modell": "Enyaq 85x Coupe",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 331,
+    "modell": "Enyaq iV 50",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 332,
+    "modell": "Enyaq iV 50 Coupe",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 333,
+    "modell": "Enyaq iV 60",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   },
+   {
+    "zeile": 334,
+    "modell": "Enyaq iV 60",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 335,
+    "modell": "Enyaq iV 60 Coupe",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   },
+   {
+    "zeile": 336,
+    "modell": "Enyaq iV 60 Coupe",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 337,
+    "modell": "Enyaq iV 80",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 338,
+    "modell": "Enyaq iV 80 Coupe",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 339,
+    "modell": "Enyaq iV 80x",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 340,
+    "modell": "Enyaq iV 85",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 341,
+    "modell": "Enyaq iV 85 Coupe",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 342,
+    "modell": "Enyaq iV 85x",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 343,
+    "modell": "Enyaq iV 85x Coupe",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 344,
+    "modell": "Enyaq iV RS",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "tesla-model-3": {
+  "brand": "Tesla",
+  "name": "Tesla Model 3",
+  "rows": [
+   {
+    "zeile": 345,
+    "modell": "Model 3 Long Range AWD",
+    "brutto": 75.0,
+    "netto": 72.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.0 kWh"
+   },
+   {
+    "zeile": 346,
+    "modell": "Model 3 Long Range AWD",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 347,
+    "modell": "Model 3 Long Range AWD",
+    "brutto": 78.8,
+    "netto": 73.5,
+    "ca": false,
+    "brutto_raw": "78.8 kWh",
+    "netto_raw": "73.5 kWh"
+   },
+   {
+    "zeile": 348,
+    "modell": "Model 3 Long Range AWD",
+    "brutto": 82.0,
+    "netto": 76.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.0 kWh"
+   },
+   {
+    "zeile": 349,
+    "modell": "Model 3 Long Range RWD",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 350,
+    "modell": "Model 3 Long Range RWD",
+    "brutto": 78.8,
+    "netto": 73.5,
+    "ca": false,
+    "brutto_raw": "78.8 kWh",
+    "netto_raw": "73.5 kWh"
+   },
+   {
+    "zeile": 351,
+    "modell": "Model 3 Performance",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 352,
+    "modell": "Model 3 Performance",
+    "brutto": 78.8,
+    "netto": 73.5,
+    "ca": false,
+    "brutto_raw": "78.8 kWh",
+    "netto_raw": "73.5 kWh"
+   },
+   {
+    "zeile": 353,
+    "modell": "Model 3 Performance",
+    "brutto": 82.0,
+    "netto": 76.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "76.0 kWh"
+   },
+   {
+    "zeile": 354,
+    "modell": "Model 3 RWD",
+    "brutto": 60.0,
+    "netto": 57.5,
+    "ca": false,
+    "brutto_raw": "60 kWh",
+    "netto_raw": "57.5 kWh"
+   },
+   {
+    "zeile": 355,
+    "modell": "Model 3 RWD",
+    "brutto": 64.0,
+    "netto": 60.5,
+    "ca": false,
+    "brutto_raw": "64 kWh",
+    "netto_raw": "60.5 kWh"
+   },
+   {
+    "zeile": 356,
+    "modell": "Model 3 Standard Range plus",
+    "brutto": 53.1,
+    "netto": 49.0,
+    "ca": false,
+    "brutto_raw": "53.1 kWh",
+    "netto_raw": "49.0 kWh"
+   },
+   {
+    "zeile": 357,
+    "modell": "Model 3 Standard Range plus",
+    "brutto": 55.0,
+    "netto": 51.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "51.0 kWh"
+   },
+   {
+    "zeile": 358,
+    "modell": "Model 3 Standard Range plus",
+    "brutto": 55.0,
+    "netto": 52.5,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.5 kWh"
+   }
+  ]
+ },
+ "tesla-model-s": {
+  "brand": "Tesla",
+  "name": "Tesla Model S",
+  "rows": [
+   {
+    "zeile": 359,
+    "modell": "Model S 100D",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 360,
+    "modell": "Model S 60",
+    "brutto": 75.0,
+    "netto": 62.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "62.0 kWh"
+   },
+   {
+    "zeile": 361,
+    "modell": "Model S 60D",
+    "brutto": 75.0,
+    "netto": 62.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "62.0 kWh"
+   },
+   {
+    "zeile": 362,
+    "modell": "Model S 70",
+    "brutto": 70.0,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "70 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 363,
+    "modell": "Model S 70",
+    "brutto": 75.0,
+    "netto": 69.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "69.0 kWh"
+   },
+   {
+    "zeile": 364,
+    "modell": "Model S 70D",
+    "brutto": 70.0,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "70 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 365,
+    "modell": "Model S 70D",
+    "brutto": 75.0,
+    "netto": 69.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "69.0 kWh"
+   },
+   {
+    "zeile": 366,
+    "modell": "Model S 75",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   },
+   {
+    "zeile": 367,
+    "modell": "Model S 75D",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   },
+   {
+    "zeile": 368,
+    "modell": "Model S 85",
+    "brutto": 85.0,
+    "netto": 80.8,
+    "ca": false,
+    "brutto_raw": "85 kWh",
+    "netto_raw": "80.8 kWh"
+   },
+   {
+    "zeile": 369,
+    "modell": "Model S 85D",
+    "brutto": 85.0,
+    "netto": 80.8,
+    "ca": false,
+    "brutto_raw": "85 kWh",
+    "netto_raw": "80.8 kWh"
+   },
+   {
+    "zeile": 370,
+    "modell": "Model S 90",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 371,
+    "modell": "Model S 90D",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 372,
+    "modell": "Model S Dual Motor",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 373,
+    "modell": "Model S Long Range",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 374,
+    "modell": "Model S Long Range Plus",
+    "brutto": 103.0,
+    "netto": 98.0,
+    "ca": false,
+    "brutto_raw": "103 kWh",
+    "netto_raw": "98.0 kWh"
+   },
+   {
+    "zeile": 375,
+    "modell": "Model S P100D",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 376,
+    "modell": "Model S P60",
+    "brutto": 75.0,
+    "netto": 62.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "62.0 kWh"
+   },
+   {
+    "zeile": 377,
+    "modell": "Model S P70",
+    "brutto": 70.0,
+    "netto": 66.5,
+    "ca": false,
+    "brutto_raw": "70 kWh",
+    "netto_raw": "66.5 kWh"
+   },
+   {
+    "zeile": 378,
+    "modell": "Model S P75",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   },
+   {
+    "zeile": 379,
+    "modell": "Model S P85",
+    "brutto": 85.0,
+    "netto": 80.8,
+    "ca": false,
+    "brutto_raw": "85 kWh",
+    "netto_raw": "80.8 kWh"
+   },
+   {
+    "zeile": 380,
+    "modell": "Model S P85D",
+    "brutto": 85.0,
+    "netto": 80.8,
+    "ca": false,
+    "brutto_raw": "85 kWh",
+    "netto_raw": "80.8 kWh"
+   },
+   {
+    "zeile": 381,
+    "modell": "Model S P90D",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 382,
+    "modell": "Model S P90DL",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 383,
+    "modell": "Model S Performance",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 384,
+    "modell": "Model S Performance",
+    "brutto": 103.0,
+    "netto": 98.0,
+    "ca": false,
+    "brutto_raw": "103 kWh",
+    "netto_raw": "98.0 kWh"
+   },
+   {
+    "zeile": 385,
+    "modell": "Model S Plaid",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 386,
+    "modell": "Model S Standard Range",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   }
+  ]
+ },
+ "tesla-model-x": {
+  "brand": "Tesla",
+  "name": "Tesla Model X",
+  "rows": [
+   {
+    "zeile": 387,
+    "modell": "Model X 100D",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 388,
+    "modell": "Model X 60D",
+    "brutto": 75.0,
+    "netto": 62.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "62.0 kWh"
+   },
+   {
+    "zeile": 389,
+    "modell": "Model X 75D",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   },
+   {
+    "zeile": 390,
+    "modell": "Model X 90D",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 391,
+    "modell": "Model X Dual Motor",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 392,
+    "modell": "Model X Long Range",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 393,
+    "modell": "Model X Long Range Plus",
+    "brutto": 103.0,
+    "netto": 98.0,
+    "ca": false,
+    "brutto_raw": "103 kWh",
+    "netto_raw": "98.0 kWh"
+   },
+   {
+    "zeile": 394,
+    "modell": "Model X Ludicrous Performance",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 395,
+    "modell": "Model X P100D",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 396,
+    "modell": "Model X P90D",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 397,
+    "modell": "Model X P90DL",
+    "brutto": 90.0,
+    "netto": 85.5,
+    "ca": false,
+    "brutto_raw": "90 kWh",
+    "netto_raw": "85.5 kWh"
+   },
+   {
+    "zeile": 398,
+    "modell": "Model X Performance",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 399,
+    "modell": "Model X Performance",
+    "brutto": 103.0,
+    "netto": 98.0,
+    "ca": false,
+    "brutto_raw": "103 kWh",
+    "netto_raw": "98.0 kWh"
+   },
+   {
+    "zeile": 400,
+    "modell": "Model X Plaid",
+    "brutto": 100.0,
+    "netto": 95.0,
+    "ca": false,
+    "brutto_raw": "100 kWh",
+    "netto_raw": "95.0 kWh"
+   },
+   {
+    "zeile": 401,
+    "modell": "Model X Standard Range",
+    "brutto": 75.0,
+    "netto": 72.5,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.5 kWh"
+   }
+  ]
+ },
+ "tesla-model-y": {
+  "brand": "Tesla",
+  "name": "Tesla Model Y",
+  "rows": [
+   {
+    "zeile": 402,
+    "modell": "Model Y Long Range AWD",
+    "brutto": 75.0,
+    "netto": 72.0,
+    "ca": false,
+    "brutto_raw": "75 kWh",
+    "netto_raw": "72.0 kWh"
+   },
+   {
+    "zeile": 403,
+    "modell": "Model Y Long Range AWD",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 404,
+    "modell": "Model Y Long Range RWD",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 405,
+    "modell": "Model Y Performance",
+    "brutto": 78.1,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.1 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 406,
+    "modell": "Model Y RWD",
+    "brutto": 60.0,
+    "netto": 57.5,
+    "ca": false,
+    "brutto_raw": "60 kWh",
+    "netto_raw": "57.5 kWh"
+   },
+   {
+    "zeile": 407,
+    "modell": "Model Y RWD",
+    "brutto": 64.0,
+    "netto": 60.5,
+    "ca": false,
+    "brutto_raw": "64 kWh",
+    "netto_raw": "60.5 kWh"
+   }
+  ]
+ },
+ "vw-e-golf": {
+  "brand": "Volkswagen",
+  "name": "VW e-Golf",
+  "rows": [
+   {
+    "zeile": 408,
+    "modell": "e-Golf",
+    "brutto": 24.2,
+    "netto": 21.1,
+    "ca": false,
+    "brutto_raw": "24.2 kWh",
+    "netto_raw": "21.1 kWh"
+   },
+   {
+    "zeile": 409,
+    "modell": "e-Golf",
+    "brutto": 35.8,
+    "netto": 31.5,
+    "ca": false,
+    "brutto_raw": "35.8 kWh",
+    "netto_raw": "31.5 kWh"
+   }
+  ]
+ },
+ "vw-e-up": {
+  "brand": "Volkswagen",
+  "name": "VW e-up!",
+  "rows": [
+   {
+    "zeile": 410,
+    "modell": "e-Up",
+    "brutto": 18.7,
+    "netto": 16.4,
+    "ca": false,
+    "brutto_raw": "18.7 kWh",
+    "netto_raw": "16.4 kWh"
+   },
+   {
+    "zeile": 411,
+    "modell": "e-Up",
+    "brutto": 36.8,
+    "netto": 32.3,
+    "ca": false,
+    "brutto_raw": "36.8 kWh",
+    "netto_raw": "32.3 kWh"
+   }
+  ]
+ },
+ "vw-id-3": {
+  "brand": "Volkswagen",
+  "name": "VW ID.3",
+  "rows": [
+   {
+    "zeile": 412,
+    "modell": "ID.3 Pro",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   },
+   {
+    "zeile": 413,
+    "modell": "ID.3 Pro",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 414,
+    "modell": "ID.3 Pro Performance",
+    "brutto": 62.0,
+    "netto": 58.0,
+    "ca": false,
+    "brutto_raw": "62 kWh",
+    "netto_raw": "58.0 kWh"
+   },
+   {
+    "zeile": 415,
+    "modell": "ID.3 Pro S",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 416,
+    "modell": "ID.3 Pure",
+    "brutto": 55.0,
+    "netto": 45.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "45.0 kWh"
+   },
+   {
+    "zeile": 417,
+    "modell": "ID.3 Pure Performance",
+    "brutto": 55.0,
+    "netto": 45.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "45.0 kWh"
+   }
+  ]
+ },
+ "vw-id-4": {
+  "brand": "Volkswagen",
+  "name": "VW ID.4",
+  "rows": [
+   {
+    "zeile": 418,
+    "modell": "ID.4 AWD",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 419,
+    "modell": "ID.4 GTX",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 420,
+    "modell": "ID.4 Pro",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 421,
+    "modell": "ID.4 Pro 4M",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 422,
+    "modell": "ID.4 Pro Performance",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 423,
+    "modell": "ID.4 Pro S",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 424,
+    "modell": "ID.4 Pure",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 425,
+    "modell": "ID.4 Pure Performance",
+    "brutto": 55.0,
+    "netto": 52.0,
+    "ca": false,
+    "brutto_raw": "55 kWh",
+    "netto_raw": "52.0 kWh"
+   },
+   {
+    "zeile": 426,
+    "modell": "ID.4 RWD",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "vw-id-5": {
+  "brand": "Volkswagen",
+  "name": "VW ID.5",
+  "rows": [
+   {
+    "zeile": 427,
+    "modell": "ID.5 GTX",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 428,
+    "modell": "ID.5 GTX 4M",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 429,
+    "modell": "ID.5 Pro",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 430,
+    "modell": "ID.5 Pro Performance",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "vw-id-7": {
+  "brand": "Volkswagen",
+  "name": "VW ID.7",
+  "rows": [
+   {
+    "zeile": 431,
+    "modell": "ID.7 GTX 4Motion",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 432,
+    "modell": "ID.7 GTX 4Motion Tourer",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 433,
+    "modell": "ID.7 Pro",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 434,
+    "modell": "ID.7 Pro S",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 435,
+    "modell": "ID.7 Pro S Tourer",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 436,
+    "modell": "ID.7 Pro Tourer",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   }
+  ]
+ },
+ "vw-id-buzz": {
+  "brand": "Volkswagen",
+  "name": "VW ID. Buzz",
+  "rows": [
+   {
+    "zeile": 437,
+    "modell": "ID.BUZZ",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 438,
+    "modell": "ID.BUZZ AWD",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 439,
+    "modell": "ID.BUZZ Cargo",
+    "brutto": 82.0,
+    "netto": 77.0,
+    "ca": false,
+    "brutto_raw": "82 kWh",
+    "netto_raw": "77.0 kWh"
+   },
+   {
+    "zeile": 440,
+    "modell": "ID.BUZZ Cargo Pro",
+    "brutto": 84.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "84 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 441,
+    "modell": "ID.BUZZ Cargo Pro 4M",
+    "brutto": 84.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "84 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 442,
+    "modell": "ID.BUZZ GTX",
+    "brutto": 84.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "84 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 443,
+    "modell": "ID.BUZZ GTX",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 444,
+    "modell": "ID.BUZZ LWB",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 445,
+    "modell": "ID.BUZZ Pro",
+    "brutto": 84.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "84 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 446,
+    "modell": "ID.BUZZ Pro",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   },
+   {
+    "zeile": 447,
+    "modell": "ID.BUZZ Pure",
+    "brutto": 63.0,
+    "netto": 59.0,
+    "ca": false,
+    "brutto_raw": "63 kWh",
+    "netto_raw": "59.0 kWh"
+   },
+   {
+    "zeile": 448,
+    "modell": "ID.BUZZ RWD",
+    "brutto": 91.0,
+    "netto": 86.0,
+    "ca": false,
+    "brutto_raw": "91 kWh",
+    "netto_raw": "86.0 kWh"
+   }
+  ]
+ },
+ "volvo-ec40": {
+  "brand": "Volvo",
+  "name": "Volvo EC40 (C40 Recharge)",
+  "rows": [
+   {
+    "zeile": 449,
+    "modell": "C40 Recharge Pure Electric",
+    "brutto": 69.0,
+    "netto": 67.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "67.0 kWh"
+   },
+   {
+    "zeile": 450,
+    "modell": "C40 Recharge Single Motor",
+    "brutto": 69.0,
+    "netto": 66.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "66.0 kWh"
+   },
+   {
+    "zeile": 451,
+    "modell": "C40 Recharge Single Motor ER",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 452,
+    "modell": "C40 Recharge Twin Motor",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 453,
+    "modell": "C40 Recharge Twin Pure Electric",
+    "brutto": 78.0,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.0 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 454,
+    "modell": "EC40 Single Motor",
+    "brutto": 69.0,
+    "netto": 67.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "67.0 kWh"
+   },
+   {
+    "zeile": 455,
+    "modell": "EC40 Single Motor ER",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 456,
+    "modell": "EC40 Twin Motor",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 457,
+    "modell": "EC40 Twin Motor Performance",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   }
+  ]
+ },
+ "volvo-ex40": {
+  "brand": "Volvo",
+  "name": "Volvo EX40 (XC40 Recharge)",
+  "rows": [
+   {
+    "zeile": 458,
+    "modell": "EX40 Single Motor",
+    "brutto": 69.0,
+    "netto": 67.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "67.0 kWh"
+   },
+   {
+    "zeile": 459,
+    "modell": "EX40 Single Motor ER",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 460,
+    "modell": "EX40 Twin Motor",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 461,
+    "modell": "EX40 Twin Motor Performance",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 465,
+    "modell": "XC40 P8 AWD Recharge",
+    "brutto": 78.0,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.0 kWh",
+    "netto_raw": "75.0 kWh"
+   },
+   {
+    "zeile": 466,
+    "modell": "XC40 Recharge Pure Electric",
+    "brutto": 69.0,
+    "netto": 67.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "67.0 kWh"
+   },
+   {
+    "zeile": 467,
+    "modell": "XC40 Recharge Single Motor",
+    "brutto": 69.0,
+    "netto": 66.0,
+    "ca": false,
+    "brutto_raw": "69.0 kWh",
+    "netto_raw": "66.0 kWh"
+   },
+   {
+    "zeile": 468,
+    "modell": "XC40 Recharge Single Motor ER",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 469,
+    "modell": "XC40 Recharge Twin Motor",
+    "brutto": 82.0,
+    "netto": 79.0,
+    "ca": false,
+    "brutto_raw": "82.0 kWh",
+    "netto_raw": "79.0 kWh"
+   },
+   {
+    "zeile": 470,
+    "modell": "XC40 Recharge Twin Pure Electric",
+    "brutto": 78.0,
+    "netto": 75.0,
+    "ca": false,
+    "brutto_raw": "78.0 kWh",
+    "netto_raw": "75.0 kWh"
+   }
+  ]
+ },
+ "volvo-ex90": {
+  "brand": "Volvo",
+  "name": "Volvo EX90",
+  "rows": [
+   {
+    "zeile": 462,
+    "modell": "EX90 Single Motor",
+    "brutto": 104.0,
+    "netto": 100.0,
+    "ca": false,
+    "brutto_raw": "104.0 kWh",
+    "netto_raw": "100.0 kWh"
+   },
+   {
+    "zeile": 463,
+    "modell": "EX90 Twin Motor",
+    "brutto": 111.0,
+    "netto": 107.0,
+    "ca": false,
+    "brutto_raw": "111.0 kWh",
+    "netto_raw": "107.0 kWh"
+   },
+   {
+    "zeile": 464,
+    "modell": "EX90 Twin Motor Performance",
+    "brutto": 111.0,
+    "netto": 107.0,
+    "ca": false,
+    "brutto_raw": "111.0 kWh",
+    "netto_raw": "107.0 kWh"
+   }
+  ]
+ }
+}

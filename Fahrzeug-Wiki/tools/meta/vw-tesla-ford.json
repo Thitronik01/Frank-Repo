@@ -1,0 +1,567 @@
+{
+  "fahrzeuge": {
+    "cupra-born": {
+      "kurz": "Kompaktes Elektroauto der Marke Cupra, technisch eng verwandt mit dem VW ID.3 und wie dieser auf dem Modularen E-Antriebs-Baukasten aufgebaut.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck-Limousine (fünftürig)",
+      "bauzeit": "seit 2021",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der Cupra Born ist das erste reine Elektroauto der Marke Cupra und ein reiner [[bev|batterieelektrischer]] Kompaktwagen. Er basiert auf dem [[plattform-meb|MEB]] des Volkswagen-Konzerns und teilt sich Grundstruktur, Antrieb und Batterien weitgehend mit dem [[vw-id-3|VW ID.3]], von dem er sich vor allem durch Design, Abstimmung und Innenraum unterscheidet. Gebaut wird er gemeinsam mit dem ID.3 im VW-Werk Zwickau.\n\nWie bei allen MEB-Fahrzeugen sitzt die [[traktionsbatterie|Traktionsbatterie]] flach im Unterboden zwischen den Achsen, der [[elektromotor|Elektromotor]] treibt die Hinterräder an ([[hinterradantrieb|Hinterradantrieb]]). Die Batterie ist modular aufgebaut, sodass mit unterschiedlicher Modulzahl mehrere Kapazitätsstufen möglich sind. Zwischen [[bruttokapazitaet|Bruttokapazität]] und [[nettokapazitaet|Nettokapazität]] hält Volkswagen einen [[batteriepuffer|Puffer]] frei, der die Zellen vor Tiefentladung und Überladung schützt.\n\nDie in den Rohdaten auftauchenden Batteriegrößen entsprechen den bekannten MEB-Stufen, die auch im ID.3 verwendet werden. Die Zusatzbezeichnung „e-boost“ steht bei Cupra für eine leistungsgesteigerte Motorvariante und ändert an der Batterie nichts.",
+      "varianten": "Die Zeilen tragen nur den Modellnamen „Born“ und unterscheiden sich allein durch die Batteriegröße: eine kleine Einstiegsbatterie, die mittlere Batterie (62 kWh brutto) und die große Batterie (82 kWh brutto). „Born e-boost“ nutzt dieselbe mittlere Batterie wie die Standardvariante, der Unterschied liegt in der Motorleistung. Die Kapazitätsstufen entsprechen den MEB-Batterien aus [[vw-id-3|VW ID.3]] und [[skoda-enyaq|Škoda Enyaq]].",
+      "konzepte": [
+        "plattform-meb",
+        "bev",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "batteriepuffer",
+        "hinterradantrieb",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "Zeile 99: Nettokapazität (60,0 kWh) ist größer als die Bruttokapazität (53 kWh) – physikalisch unmöglich, vermutlich Tipp- oder Zuordnungsfehler (Einstiegsbatterie des MEB wird meist mit 45 kWh netto geführt).",
+        "Zeilen 100 und 102 haben identische Batteriewerte; der Unterschied (e-boost) betrifft nur die Motorleistung."
+      ]
+    },
+    "cupra-tavascan": {
+      "kurz": "Elektrisches SUV-Coupé der Marke Cupra auf Basis des MEB, das mit der großen 82-kWh-Batterie des Konzerns angeboten wird.",
+      "segment": "Kompakt-SUV / SUV-Coupé",
+      "karosserie": "SUV-Coupé",
+      "bauzeit": "seit 2024",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der Cupra Tavascan ist nach dem [[cupra-born|Cupra Born]] das zweite reine Elektromodell der Marke. Er ist als SUV mit abfallender Dachlinie gestaltet und basiert wie [[vw-id-5|VW ID.5]] und [[skoda-enyaq|Škoda Enyaq Coupé]] auf dem [[plattform-meb|MEB]]. Produziert wird der Tavascan in China bei einem Gemeinschaftsunternehmen des Volkswagen-Konzerns.\n\nTechnisch nutzt der Tavascan die große MEB-[[traktionsbatterie|Traktionsbatterie]]. Die Basisversion hat einen Heckmotor ([[hinterradantrieb|Hinterradantrieb]]), die sportliche Version VZ zusätzlich einen Motor an der Vorderachse und damit [[allradantrieb|Allradantrieb]]. Die Batterie ist in beiden Fällen gleich, der Unterschied zwischen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]] entspricht dem üblichen MEB-[[batteriepuffer|Puffer]].",
+      "varianten": "„Endurance“ bezeichnet die reichweitenorientierte Version mit Hinterradantrieb, „VZ“ die leistungsstärkere Allradversion. Beide Zeilen (103 und 104) nutzen dieselbe Batterie mit 82 kWh brutto und 77 kWh netto; eine zweite Batteriegröße ist in den Rohdaten nicht enthalten.",
+      "konzepte": [
+        "plattform-meb",
+        "bev",
+        "allradantrieb",
+        "hinterradantrieb",
+        "karosserieformen",
+        "batteriepuffer"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": []
+    },
+    "ford-f-150-lightning": {
+      "kurz": "Elektrische Version des Full-Size-Pick-ups Ford F-150, vor allem für den nordamerikanischen Markt, mit sehr großen Batterien.",
+      "segment": "Pick-up (Full-Size)",
+      "karosserie": "Pick-up (Doppelkabine)",
+      "bauzeit": null,
+      "plattform": "Leiterrahmen-Plattform des Ford F-150, für den Elektroantrieb angepasst",
+      "beschreibung": "Der Ford F-150 Lightning ist die [[bev|batterieelektrische]] Ausführung des in den USA meistverkauften Pick-ups F-150. Er übernimmt Karosserie und Grundaufbau des Verbrenners, erhält aber eine eigene Batterie im Rahmen, Elektromotoren an beiden Achsen ([[allradantrieb|Allradantrieb]]) und anstelle des Motorraums einen zusätzlichen Stauraum unter der Fronthaube. Damit ist er ein [[konversionsfahrzeug|aus einem Verbrennermodell abgeleitetes]] Elektrofahrzeug, allerdings mit weitreichenden Anpassungen.\n\nWegen des hohen Gewichts und des Anhängebetriebs sind die [[traktionsbatterie|Traktionsbatterien]] außergewöhnlich groß. Es gibt zwei Stufen: Standard Range (SR) und Extended Range (ER). Die Differenz zwischen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]] liegt im üblichen Bereich eines [[batteriepuffer|Batteriepuffers]].",
+      "varianten": "„SR“ steht für Standard Range (110 kWh brutto, Zeile 110), „ER“ für Extended Range (143,4 kWh brutto, Zeile 109). Die Ausstattungslinien des Pick-ups sind in den Rohdaten nicht aufgeschlüsselt; beide Batteriegrößen wurden parallel angeboten und stellen keine Generationen dar.",
+      "konzepte": [
+        "bev",
+        "traktionsbatterie",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "batteriepuffer",
+        "allradantrieb",
+        "konversionsfahrzeug"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Bauzeit bewusst offen gelassen: Marktstart war 2022; Angaben zu einem Produktionsende bzw. einer Umstellung auf ein Modell mit Range-Extender sind nicht sicher bestätigt.",
+        "Das Fahrzeug wurde in Europa nicht regulär angeboten; Bruttowerte stammen vermutlich aus US-Quellen."
+      ]
+    },
+    "ford-mustang-mach-e": {
+      "kurz": "Elektrisches Crossover-SUV von Ford auf der eigenen Elektroplattform GE1, angeboten mit zwei Batteriegrößen sowie Heck- oder Allradantrieb.",
+      "segment": "Mittelklasse-SUV",
+      "karosserie": "SUV-Crossover (fünftürig)",
+      "bauzeit": "seit 2020",
+      "plattform": "Ford GE1 (Global Electrified 1)",
+      "beschreibung": "Der Ford Mustang Mach-E war Fords erstes eigens als [[bev|Elektroauto]] entwickeltes Serienmodell. Trotz des Namens handelt es sich nicht um einen Sportwagen, sondern um ein fünftüriges Crossover-SUV, das Designelemente des Mustang übernimmt. Gebaut wird es in Mexiko.\n\nDas Modell nutzt Fords Elektroplattform GE1 mit einer [[traktionsbatterie|Traktionsbatterie]] im Unterboden. Es gibt eine Standard-Range- (SR) und eine Extended-Range-Batterie (ER), jeweils mit [[hinterradantrieb|Hinterradantrieb]] (RWD) oder [[allradantrieb|Allradantrieb]] (AWD). Die Sportversion GT und die auf unbefestigte Strecken abgestimmte Rally-Version haben stets Allradantrieb und die große Batterie.\n\nIm Laufe der [[modellpflege|Modellpflege]] hat Ford die nutzbare Kapazität bei gleicher [[bruttokapazitaet|Bruttokapazität]] angehoben, also den [[batteriepuffer|Puffer]] verkleinert. Zusätzlich taucht in den Rohdaten eine dritte SR-Batterie auf, die sich im Brutto- und Nettowert von der ursprünglichen unterscheidet und vermutlich auf eine andere [[lfp-zellchemie|Zellchemie]] zurückgeht.",
+      "varianten": "„SR“ = Standard Range, „ER“ = Extended Range, „RWD“ = Heckantrieb, „AWD“ = Allradantrieb, „GT“ und „Rally“ sind Top-Versionen mit Allrad. Für jede Kombination gibt es mehrere Zeilen mit gleichem Bruttowert (98,7 bzw. 75,7 kWh), aber unterschiedlichem Nettowert (88 bzw. 91 kWh, 68 bzw. 70 kWh) – das spricht für eine per Software geänderte Nutzbarkeit in späteren Modelljahren. Die SR-Zeilen mit 78 kWh brutto / 72,6 kWh netto (120 und 123) gehören zu einer späteren Batteriegeneration.",
+      "konzepte": [
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "batteriepuffer",
+        "allradantrieb",
+        "hinterradantrieb",
+        "modellpflege",
+        "lfp-zellchemie",
+        "typbezeichnungen"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Gleiche Modellbezeichnungen erscheinen mehrfach mit identischem Brutto-, aber unterschiedlichem Nettowert (z. B. Zeilen 111/112, 118/119). Zuordnung zu Modelljahren ist in den Rohdaten nicht vermerkt.",
+        "Dass die Batterie mit 78 kWh brutto / 72,6 kWh netto LFP-Zellen verwendet, ist eine Vermutung und nicht gesichert.",
+        "Die Rally-Version (Zeile 117) ist nur mit dem höheren Nettowert 91 kWh gelistet, passend zu ihrer späteren Markteinführung."
+      ]
+    },
+    "seat-mii-electric": {
+      "kurz": "Elektrischer Kleinstwagen von SEAT, baugleich mit VW e-up! und Škoda Citigo e iV.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck (fünftürig)",
+      "bauzeit": null,
+      "plattform": "NSF (New Small Family) des Volkswagen-Konzerns, Verbrenner-Plattform",
+      "beschreibung": "Der SEAT Mii electric ist die elektrische Variante des Kleinstwagens Mii und gehört zur sogenannten New Small Family des Volkswagen-Konzerns, zu der auch [[vw-e-up|VW e-up!]] und [[skoda-citigo-e-iv|Škoda Citigo e iV]] zählen. Alle drei wurden im VW-Werk Bratislava gebaut und unterscheiden sich im Wesentlichen nur durch Design-Details.\n\nAls [[konversionsfahrzeug|Konversionsfahrzeug]] nutzt der Mii electric die Karosserie des Verbrenners; die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden und unter der Rücksitzbank untergebracht, der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Der Mii electric war das bislang einzige Elektroauto der Marke SEAT.",
+      "varianten": "Es gibt nur eine Zeile (321) mit 36,8 kWh brutto und 32,3 kWh netto. Das ist dieselbe Batterie, die auch im überarbeiteten e-up! und im Citigo e iV steckt.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "plattform-geschwister",
+        "frontantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "traktionsbatterie"
+      ],
+      "geschwister": [
+        "vw-e-up",
+        "skoda-citigo-e-iv"
+      ],
+      "hinweise": [
+        "Bauzeit offen gelassen: Markteinführung um 2019/2020, genaues Produktionsende nicht sicher belegt."
+      ]
+    },
+    "skoda-citigo-e-iv": {
+      "kurz": "Elektrischer Kleinstwagen von Škoda, baugleich mit VW e-up! und SEAT Mii electric.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck (fünftürig)",
+      "bauzeit": null,
+      "plattform": "NSF (New Small Family) des Volkswagen-Konzerns, Verbrenner-Plattform",
+      "beschreibung": "Der Škoda Citigo e iV ist die elektrische Version des Kleinstwagens Citigo und das erste reine Elektroauto von Škoda. Er ist ein Drilling aus der New Small Family des Volkswagen-Konzerns und technisch identisch mit [[vw-e-up|VW e-up!]] und [[seat-mii-electric|SEAT Mii electric]].\n\nAls [[konversionsfahrzeug|Konversionsfahrzeug]] übernimmt er die Karosserie des Verbrennermodells; [[traktionsbatterie|Traktionsbatterie]] und [[elektromotor|Elektromotor]] wurden in die vorhandene Struktur integriert, angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]). Das Kürzel „iV“ verwendete Škoda damals für elektrifizierte Modelle.",
+      "varianten": "Nur eine Zeile (322) mit 36,8 kWh brutto und 32,3 kWh netto – dieselbe Batterie wie im SEAT Mii electric und im e-up! ab der Modellpflege.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "plattform-geschwister",
+        "frontantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "vw-e-up",
+        "seat-mii-electric"
+      ],
+      "hinweise": [
+        "Schreibweise in den Rohdaten „Citigo-e IV“; offizielle Schreibweise ist „Citigo e iV“.",
+        "Bauzeit offen gelassen, da genaue Produktionsdaten nicht sicher sind (Markteinführung um 2019/2020, nur kurze Bauzeit)."
+      ]
+    },
+    "skoda-elroq": {
+      "kurz": "Kompaktes Elektro-SUV von Škoda auf Basis des MEB, unterhalb des Enyaq positioniert.",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2024",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der Škoda Elroq ist ein kompaktes Elektro-SUV und nach dem [[skoda-enyaq|Enyaq]] das zweite Škoda-Modell auf dem [[plattform-meb|MEB]]. Er ist kürzer als der Enyaq und führt eine neue Designsprache der Marke ein. Technisch ist er eng mit [[vw-id-3|VW ID.3]], [[cupra-born|Cupra Born]] und dem Enyaq verwandt.\n\nAngeboten wird der Elroq mit drei MEB-Batteriegrößen und [[hinterradantrieb|Hinterradantrieb]], die Version mit dem Zusatz „x“ hat einen zweiten Motor an der Vorderachse und damit [[allradantrieb|Allradantrieb]]. Die Zahl im Namen orientiert sich grob an der nutzbaren [[nettokapazitaet|Nettokapazität]] bzw. an der Leistungsstufe, nicht exakt an einem Messwert.",
+      "varianten": "Die Zahl in der Bezeichnung steht für die Batterie-/Leistungsstufe: „50“ = kleine Batterie (55 kWh brutto), „60“ = mittlere Batterie (63 kWh brutto), „85“ = große Batterie (82 kWh brutto). „85x“ nutzt dieselbe große Batterie, hat aber Allradantrieb. Die Nummern sind also Typbezeichnungen, keine exakten Kapazitätsangaben.",
+      "konzepte": [
+        "plattform-meb",
+        "typbezeichnungen",
+        "hinterradantrieb",
+        "allradantrieb",
+        "nettokapazitaet",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": []
+    },
+    "skoda-enyaq": {
+      "kurz": "Elektro-SUV von Škoda auf dem MEB, erhältlich als SUV und als SUV-Coupé, mit mehreren Batteriestufen und Modellpflege.",
+      "segment": "Mittelklasse-SUV",
+      "karosserie": "SUV, SUV-Coupé",
+      "bauzeit": "seit 2020",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der Škoda Enyaq (bis zur Modellpflege „Enyaq iV“) war das erste Škoda-Modell auf dem [[plattform-meb|MEB]] und wird im Stammwerk Mladá Boleslav gebaut. Er ist technisch mit [[vw-id-4|VW ID.4]] und [[audi-q4-e-tron|Audi Q4 e-tron]] verwandt, bietet aber einen etwas längeren Aufbau mit großem Kofferraum. Neben dem klassischen SUV gibt es eine Variante mit abfallender Dachlinie (Coupé).\n\nDie [[traktionsbatterie|Traktionsbatterie]] im Unterboden gibt es in mehreren Stufen. Grundsätzlich haben die Modelle [[hinterradantrieb|Hinterradantrieb]], Versionen mit „x“ im Namen sowie der RS haben einen zweiten Motor und damit [[allradantrieb|Allradantrieb]].\n\nMit der [[modellpflege|Modellpflege]] hat Škoda das Kürzel „iV“ gestrichen und die Modellnummern neu vergeben (z. B. „85“ statt „80“). Zusätzlich wurde die mittlere Batterie auf eine neuere Zellgeneration umgestellt, was sich in leicht höheren Brutto- und Nettowerten zeigt.",
+      "varianten": "Die Zahl steht für die Batterie-/Leistungsstufe: „50“ = 55 kWh brutto, „60“ = 62 bzw. 63 kWh brutto, „80“ und „85“ = 82 kWh brutto; „x“ bedeutet Allradantrieb, „Coupe“ die Coupé-Karosserie, „RS“ die sportliche Top-Version (ebenfalls 82 kWh). Beim „iV 60“ gibt es zwei Batterien (62/58 und 63/59 kWh) – das ist eine Zellgeneration aus der Laufzeit, keine eigene Variante. Die Einträge ohne „iV“ („Enyaq 85“, „Enyaq 85x“ usw.) gehören zur überarbeiteten Baureihe.",
+      "konzepte": [
+        "plattform-meb",
+        "typbezeichnungen",
+        "modellpflege",
+        "allradantrieb",
+        "hinterradantrieb",
+        "karosserieformen",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "Doppelte Einträge durch Namensschema: „Enyaq iV 85“ (Zeile 340) und „Enyaq 85“ (Zeile 327) haben identische Werte, ebenso die jeweiligen x- und Coupé-Versionen.",
+        "Schreibweise „Coupe“ ohne Akzent (offiziell „Coupé“).",
+        "Zeilen 333/334 und 335/336: gleicher Name, zwei leicht unterschiedliche Batterien (62/58 vs. 63/59 kWh)."
+      ]
+    },
+    "tesla-model-3": {
+      "kurz": "Mittelklasse-Limousine von Tesla und eines der meistverkauften Elektroautos, mit zahlreichen Batterievarianten verschiedener Zellchemien und Lieferanten.",
+      "segment": "Mittelklasse-Limousine",
+      "karosserie": "Stufenheck-Limousine",
+      "bauzeit": "seit 2017",
+      "plattform": "Tesla-eigene Plattform (gemeinsam mit Model Y)",
+      "beschreibung": "Das Tesla Model 3 ist die Mittelklasse-Limousine des Herstellers und bildet technisch die Basis für das [[tesla-model-y|Model Y]]. Es wird in den USA und in China gebaut; europäische Fahrzeuge kamen je nach Zeitraum aus beiden Werken. Eine umfassende [[modellpflege|Modellpflege]] (intern „Highland“) brachte ab 2023 überarbeitete Karosserie und Innenraum.\n\nDie Einstiegsversionen (Standard Range Plus, später „RWD“) nutzen je nach Baujahr und Werk [[lfp-zellchemie|LFP-Zellen]] in prismatischer Bauform, die Long-Range- und Performance-Versionen nickelhaltige Zellen (NCA bzw. [[nmc-zellchemie|NMC]]) im zylindrischen [[zellformat|Zellformat]] 2170 verschiedener Lieferanten. Dadurch ergeben sich bei gleicher Modellbezeichnung mehrere unterschiedliche Batterien.\n\nDie Basisversion hat [[hinterradantrieb|Hinterradantrieb]], Long Range und Performance meist zwei Motoren und [[allradantrieb|Allradantrieb]]. Der [[batteriepuffer|Puffer]] zwischen Brutto- und Nettowert fällt bei Tesla vergleichsweise klein aus.",
+      "varianten": "„Standard Range plus“ ist die frühe Einstiegsversion, die später in „RWD“ umbenannt wurde; „Long Range“ bezeichnet die große Batterie, „AWD“/„RWD“ die Antriebsart, „Performance“ die Topversion. Die vielen Batteriewerte (z. B. 75, 78,1, 78,8 und 82 kWh brutto bei Long Range; 53,1 bzw. 55 kWh bei SR+; 60 bzw. 64 kWh bei RWD) gehen auf wechselnde Zelllieferanten, Zellchemien und Produktionsstandorte zurück, nicht auf offizielle Ausstattungsvarianten.",
+      "konzepte": [
+        "lfp-zellchemie",
+        "nmc-zellchemie",
+        "zellformat",
+        "batteriepuffer",
+        "allradantrieb",
+        "hinterradantrieb",
+        "modellpflege",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "tesla-model-y"
+      ],
+      "hinweise": [
+        "Mehrfach vorkommende Bezeichnungen mit unterschiedlichen Werten (z. B. Long Range AWD in vier Varianten, Zeilen 345–348); Zuordnung zu Baujahr, Werk oder Zelllieferant fehlt in den Rohdaten.",
+        "Die Bruttowerte bei Tesla sind oft nicht offiziell veröffentlicht und stammen aus Messungen bzw. Schätzungen Dritter.",
+        "Standard Range plus in drei Varianten (Zeilen 356–358), vermutlich unterschiedliche Zellchemien (NCA vs. LFP)."
+      ]
+    },
+    "tesla-model-s": {
+      "kurz": "Oberklasse-Limousine von Tesla, die den Durchbruch der Marke markierte und über viele Jahre mit einer Vielzahl von Batteriegrößen angeboten wurde.",
+      "segment": "Oberklasse-Limousine",
+      "karosserie": "Fließheck-Limousine (Liftback)",
+      "bauzeit": null,
+      "plattform": "Tesla-eigene Plattform (gemeinsam mit Model X)",
+      "beschreibung": "Das Tesla Model S ist eine große [[bev|batterieelektrische]] Fließhecklimousine und war das erste in großer Stückzahl gebaute Modell des Herstellers. Es teilt seine technische Basis mit dem [[tesla-model-x|Model X]]. Über die lange Bauzeit hat Tesla die Batterie und den Antrieb häufig verändert, wodurch eine sehr unübersichtliche Variantenlandschaft entstanden ist.\n\nDie [[traktionsbatterie|Traktionsbatterie]] besteht aus tausenden zylindrischen Rundzellen ([[zellformat|Zellformat]] 18650). In frühen Jahren benannte Tesla die Modelle nach der ungefähren Batteriekapazität (60, 70, 75, 85, 90, 100). Bei einigen Einstiegsversionen war eine größere Batterie verbaut, deren Kapazität per [[software-lock|Software-Sperre]] begrenzt und gegen Aufpreis freischaltbar war.\n\nAb etwa 2019 wurden die Zahlenbezeichnungen durch Namen wie „Long Range“, „Performance“ und später „Plaid“ ersetzt. Ein „D“ im Namen steht für Dual Motor, also [[allradantrieb|Allradantrieb]].",
+      "varianten": "Zahl = ungefähre Batteriegröße in kWh, „D“ = Dual Motor (Allrad), „P“ = Performance, „L“ = Ludicrous-Modus. Auffällig: Die Versionen „60“, „60D“ und „P60“ (Zeilen 360, 361, 376) haben 75 kWh brutto, aber nur 62 kWh netto – das entspricht einer softwareseitig begrenzten 75-kWh-Batterie. Die späteren Namen „Long Range“, „Long Range Plus“, „Performance“, „Plaid“ und „Dual Motor“ nutzen die 100- bzw. 103-kWh-Batterie.",
+      "konzepte": [
+        "software-lock",
+        "zellformat",
+        "typbezeichnungen",
+        "allradantrieb",
+        "batteriepuffer",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "modellpflege"
+      ],
+      "geschwister": [
+        "tesla-model-x"
+      ],
+      "hinweise": [
+        "Viele Nettowerte entsprechen exakt 95 % des Bruttowerts (z. B. 100/95, 90/85,5, 85/80,8, 70/66,5) – wirkt schematisch berechnet statt gemessen.",
+        "Bauzeit offen gelassen: Produktionsstart 2012; ein angekündigtes Produktionsende (2026) ist nicht sicher bestätigt.",
+        "„Model S P60“ und „Model S P70“ sind als offizielle Varianten nicht bekannt; möglicherweise Fehler in den Rohdaten.",
+        "„Model S 70“ und „70D“ erscheinen mit 70 kWh und mit 75 kWh brutto; die 75-kWh-Variante könnte ebenfalls softwarebegrenzt sein – nicht gesichert.",
+        "„Model S Performance“ mit zwei Batteriewerten (100 und 103 kWh brutto, Zeilen 383/384)."
+      ]
+    },
+    "tesla-model-x": {
+      "kurz": "Großes Oberklasse-SUV von Tesla mit Flügeltüren im Fond, technisch eng verwandt mit dem Model S.",
+      "segment": "Oberklasse-SUV",
+      "karosserie": "SUV",
+      "bauzeit": null,
+      "plattform": "Tesla-eigene Plattform (gemeinsam mit Model S)",
+      "beschreibung": "Das Tesla Model X ist ein großes [[bev|Elektro]]-SUV mit bis zu sieben Sitzen, das sich Plattform, Antrieb und Batterien mit dem [[tesla-model-s|Model S]] teilt. Markantes Merkmal sind die nach oben öffnenden hinteren Türen („Falcon Wing“).\n\nAlle Model X haben zwei oder mehr Motoren und damit [[allradantrieb|Allradantrieb]]. Die [[traktionsbatterie|Traktionsbatterie]] besteht wie beim Model S aus zylindrischen Rundzellen ([[zellformat|Zellformat]] 18650). Die Einstiegsversion 60D nutzte eine per [[software-lock|Software]] begrenzte 75-kWh-Batterie.\n\nDie Benennung folgt dem Model S: zunächst Zahlen für die Batteriegröße, später Namen wie „Long Range“, „Performance“ und „Plaid“.",
+      "varianten": "Zahl = ungefähre Batteriegröße, „D“ = Dual Motor, „P“ = Performance, „L“ = Ludicrous. „60D“ (Zeile 388) hat 75 kWh brutto bei nur 62 kWh netto (softwarebegrenzt). Die 100- und 103-kWh-Batterien finden sich bei „100D“, „P100D“, „Long Range“, „Long Range Plus“, „Performance“, „Ludicrous Performance“, „Dual Motor“ und „Plaid“; 103 kWh entspricht einer späteren Ausbaustufe.",
+      "konzepte": [
+        "software-lock",
+        "zellformat",
+        "typbezeichnungen",
+        "allradantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "tesla-model-s"
+      ],
+      "hinweise": [
+        "Nettowerte vielfach exakt 95 % des Bruttowerts – vermutlich schematisch berechnet.",
+        "Bauzeit offen gelassen: Produktionsstart 2015; ein angekündigtes Produktionsende (2026) ist nicht sicher bestätigt.",
+        "„Model X Performance“ mit zwei Batteriewerten (100 und 103 kWh brutto, Zeilen 398/399)."
+      ]
+    },
+    "tesla-model-y": {
+      "kurz": "Mittelklasse-SUV von Tesla auf Basis des Model 3, in Europa unter anderem im Werk Grünheide bei Berlin gebaut.",
+      "segment": "Mittelklasse-SUV",
+      "karosserie": "SUV (Crossover)",
+      "bauzeit": "seit 2020",
+      "plattform": "Tesla-eigene Plattform (gemeinsam mit Model 3)",
+      "beschreibung": "Das Tesla Model Y ist ein Crossover-SUV, das einen Großteil seiner Technik vom [[tesla-model-3|Model 3]] übernimmt, aber höher und geräumiger ausfällt. Es wird in den USA, in China und seit 2022 in Grünheide (Brandenburg) gebaut.\n\nWie beim Model 3 gibt es eine Einstiegsversion mit [[hinterradantrieb|Hinterradantrieb]] sowie Long-Range- und Performance-Versionen, meist mit [[allradantrieb|Allradantrieb]]. Die Einstiegsversionen nutzen häufig [[lfp-zellchemie|LFP-Zellen]], die Long-Range-Versionen nickelreiche Zellen ([[nmc-zellchemie|NMC]] bzw. NCA). Je nach Werk kamen unterschiedliche [[zellformat|Zellformate]] und Batterielieferanten zum Einsatz.",
+      "varianten": "„RWD“ = Einstiegsversion mit Heckantrieb (60 bzw. 64 kWh brutto), „Long Range AWD/RWD“ = große Batterie mit Allrad- oder Heckantrieb (75 bzw. 78,1 kWh brutto), „Performance“ = Topversion. Die zwei Werte je Bezeichnung spiegeln Zelllieferanten bzw. Produktionsstandorte wider; die Batterien entsprechen weitgehend denen des Model 3.",
+      "konzepte": [
+        "lfp-zellchemie",
+        "nmc-zellchemie",
+        "zellformat",
+        "hinterradantrieb",
+        "allradantrieb",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "tesla-model-3"
+      ],
+      "hinweise": [
+        "„Model Y RWD“ und „Long Range AWD“ jeweils mit zwei Batteriewerten; Zuordnung zu Werk oder Baujahr fehlt.",
+        "Bruttowerte bei Tesla sind überwiegend Messwerte Dritter, keine Herstellerangaben."
+      ]
+    },
+    "vw-e-golf": {
+      "kurz": "Elektrische Version des VW Golf VII – ein Konversionsfahrzeug auf der Verbrenner-Plattform MQB, Vorgänger des ID.3.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck-Limousine (fünftürig)",
+      "bauzeit": "2014–2020",
+      "plattform": "MQB (Modularer Querbaukasten), Verbrenner-Plattform",
+      "beschreibung": "Der VW e-Golf war die batterieelektrische Ausführung des Golf der siebten Generation. Anders als die späteren ID.-Modelle wurde er nicht auf einer eigenen Elektroplattform entwickelt, sondern als [[konversionsfahrzeug|Konversionsfahrzeug]] aus dem Verbrennermodell abgeleitet: Die [[traktionsbatterie|Traktionsbatterie]] sitzt im Unterboden, der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]).\n\nMit der [[modellpflege|Modellpflege]] des Golf VII erhielt der e-Golf eine neue Batterie mit deutlich höherer Kapazität bei unveränderten Außenmaßen – möglich durch Zellen mit höherer Energiedichte. Als Nachfolger im Konzernprogramm gilt der [[vw-id-3|VW ID.3]] auf dem MEB.",
+      "varianten": "Beide Zeilen heißen „e-Golf“. Zeile 408 (24,2 kWh brutto / 21,1 kWh netto) gehört zur ersten Version, Zeile 409 (35,8 kWh brutto / 31,5 kWh netto) zur überarbeiteten Version nach der Modellpflege von 2017.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "modellpflege",
+        "frontantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "traktionsbatterie"
+      ],
+      "geschwister": [],
+      "hinweise": []
+    },
+    "vw-e-up": {
+      "kurz": "Elektrischer Kleinstwagen von Volkswagen auf Basis des up!, baugleich mit SEAT Mii electric und Škoda Citigo e iV.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck (drei- und fünftürig)",
+      "bauzeit": null,
+      "plattform": "NSF (New Small Family) des Volkswagen-Konzerns, Verbrenner-Plattform",
+      "beschreibung": "Der VW e-up! ist die elektrische Variante des Kleinstwagens up! und war eines der ersten Serien-Elektroautos von Volkswagen. Als [[konversionsfahrzeug|Konversionsfahrzeug]] nutzt er die Karosserie des Verbrenners; [[traktionsbatterie|Traktionsbatterie]] und [[elektromotor|Elektromotor]] wurden in die vorhandene Struktur integriert. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nMit einer [[modellpflege|Modellpflege]] erhielt der e-up! eine neue, deutlich größere Batterie bei gleichem Bauraum. In dieser Form ist er technisch identisch mit dem [[seat-mii-electric|SEAT Mii electric]] und dem [[skoda-citigo-e-iv|Škoda Citigo e iV]].",
+      "varianten": "Beide Zeilen heißen „e-Up“. Zeile 410 (18,7 kWh brutto / 16,4 kWh netto) ist die erste Version, Zeile 411 (36,8 kWh brutto / 32,3 kWh netto) die überarbeitete Version mit neuer Batterie, die auch in Mii electric und Citigo e iV verbaut ist.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "modellpflege",
+        "frontantrieb",
+        "plattform-geschwister",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "seat-mii-electric",
+        "skoda-citigo-e-iv"
+      ],
+      "hinweise": [
+        "Schreibweise in den Rohdaten „e-Up“; offizielle Schreibweise ist „e-up!“.",
+        "Bauzeit offen gelassen: Markteinführung 2013, das Produktionsende ist nicht sicher belegt."
+      ]
+    },
+    "vw-id-3": {
+      "kurz": "Kompaktes Elektroauto von Volkswagen und erstes Serienmodell auf dem Modularen E-Antriebs-Baukasten (MEB).",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck-Limousine (fünftürig)",
+      "bauzeit": "seit 2019",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der VW ID.3 ist das erste Modell der ID.-Familie und zugleich das erste Serienfahrzeug auf dem [[plattform-meb|MEB]]. Er gilt als elektrischer Nachfolger des [[vw-e-golf|e-Golf]] und wird unter anderem im Werk Zwickau gebaut. Technisch eng verwandt ist er mit dem [[cupra-born|Cupra Born]].\n\nDie [[traktionsbatterie|Traktionsbatterie]] liegt flach zwischen den Achsen, der [[elektromotor|Elektromotor]] sitzt an der Hinterachse ([[hinterradantrieb|Hinterradantrieb]]). Dank modularer Bauweise gibt es mehrere Batteriegrößen, die sich in der Zahl der Module unterscheiden. Zwischen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]] hält Volkswagen einen [[batteriepuffer|Puffer]] frei.\n\nIm Zuge der [[modellpflege|Modellpflege]] wurde neben Innenraum und Software auch die mittlere Batterie überarbeitet; die neuere Version hat etwas höhere Brutto- und Nettowerte.",
+      "varianten": "„Pure“ = kleine Batterie (55 kWh brutto laut Rohdaten), „Pro“ = mittlere Batterie (62 bzw. 63 kWh brutto), „Pro S“ = große Batterie (82 kWh brutto). Der Zusatz „Performance“ bezeichnet eine stärkere Motorvariante bei gleicher Batterie. Die zwei Werte beim „Pro“ (Zeilen 412/413) entsprechen der ursprünglichen und der überarbeiteten Batterie.",
+      "konzepte": [
+        "plattform-meb",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "batteriepuffer",
+        "hinterradantrieb",
+        "modellpflege",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "ID.3 Pure und Pure Performance (Zeilen 416/417): 55 kWh brutto bei nur 45 kWh netto – ungewöhnlich großer Puffer (ca. 18 %). Der Bruttowert ist vermutlich zu hoch angesetzt oder bezieht sich auf eine andere Batterie.",
+        "Die Varianten GTX und Pro S nach der Modellpflege sind in den Rohdaten nicht gesondert aufgeführt."
+      ]
+    },
+    "vw-id-4": {
+      "kurz": "Elektro-SUV von Volkswagen auf dem MEB, weltweit gebaut und eines der wichtigsten Elektromodelle des Konzerns.",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2020",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der VW ID.4 ist das SUV-Modell der ID.-Familie und basiert wie der [[vw-id-3|ID.3]] auf dem [[plattform-meb|MEB]]. Er wird in mehreren Werken in Europa, China und den USA gebaut. Eng verwandt sind der [[skoda-enyaq|Škoda Enyaq]], der [[audi-q4-e-tron|Audi Q4 e-tron]] sowie der coupéartige [[vw-id-5|ID.5]].\n\nStandardmäßig hat der ID.4 [[hinterradantrieb|Hinterradantrieb]]; Versionen mit „4MOTION“ bzw. „4M“ sowie der sportliche GTX haben einen zusätzlichen Motor an der Vorderachse und damit [[allradantrieb|Allradantrieb]]. In den Rohdaten finden sich nur zwei Batteriegrößen: die kleine (55 kWh brutto) und die große (82 kWh brutto).",
+      "varianten": "„Pure“ und „Pure Performance“ = kleine Batterie (55/52 kWh), alle übrigen Zeilen = große Batterie (82/77 kWh). „Pro“, „Pro Performance“ und „Pro S“ sind Leistungs- bzw. Ausstattungsstufen, „4M“ und „AWD“ bedeuten Allrad, „RWD“ Heckantrieb, „GTX“ ist die sportliche Allradversion. Die Bezeichnungen „AWD“ und „RWD“ sind keine offiziellen VW-Namen in Europa und stammen vermutlich aus Nordamerika.",
+      "konzepte": [
+        "plattform-meb",
+        "allradantrieb",
+        "hinterradantrieb",
+        "typbezeichnungen",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-5",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "Mehrere Bezeichnungen mit identischen Werten (82/77 kWh) für im Grunde dieselbe Batterie; „ID.4 AWD“/„ID.4 RWD“ überschneiden sich vermutlich mit „Pro 4M“/„Pro“.",
+        "Eine mittlere Batterie (62/58 kWh), die es beim ID.4 zeitweise gab, ist in den Rohdaten nicht enthalten."
+      ]
+    },
+    "vw-id-5": {
+      "kurz": "SUV-Coupé von Volkswagen auf dem MEB, die Variante des ID.4 mit abfallender Dachlinie.",
+      "segment": "Kompakt-SUV / SUV-Coupé",
+      "karosserie": "SUV-Coupé",
+      "bauzeit": "seit 2021",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der VW ID.5 ist technisch ein [[vw-id-4|ID.4]] mit flacher auslaufendem Dach und etwas geänderter Heckpartie. Er basiert auf dem [[plattform-meb|MEB]] und entspricht in seiner Grundidee dem [[skoda-enyaq|Škoda Enyaq Coupé]] und dem [[cupra-tavascan|Cupra Tavascan]].\n\nIn den Rohdaten ist der ID.5 ausschließlich mit der großen MEB-[[traktionsbatterie|Batterie]] vertreten. Die Pro-Versionen haben [[hinterradantrieb|Hinterradantrieb]], der GTX ist die sportliche Version mit [[allradantrieb|Allradantrieb]].",
+      "varianten": "Alle vier Zeilen (427–430) haben 82 kWh brutto und 77 kWh netto. „Pro“ und „Pro Performance“ unterscheiden sich in der Motorleistung, „GTX“ bzw. „GTX 4M“ bezeichnen die Allradversion.",
+      "konzepte": [
+        "plattform-meb",
+        "karosserieformen",
+        "allradantrieb",
+        "hinterradantrieb",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-7",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "„ID.5 GTX“ und „ID.5 GTX 4M“ bezeichnen vermutlich dasselbe Fahrzeug (der GTX hat grundsätzlich Allradantrieb) – mögliche Dublette."
+      ]
+    },
+    "vw-id-7": {
+      "kurz": "Elektrische Mittelklasse-Limousine und Kombi (Tourer) von Volkswagen auf dem MEB, mit der größten MEB-Batterie.",
+      "segment": "Mittelklasse (Limousine und Kombi)",
+      "karosserie": "Fließheck-Limousine, Kombi (Tourer)",
+      "bauzeit": "seit 2023",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der VW ID.7 ist das bislang größte Pkw-Modell der ID.-Familie und nimmt im Programm etwa die Position des Passat bzw. Arteon ein. Neben der Fließhecklimousine gibt es mit dem ID.7 Tourer einen Kombi. Beide basieren auf einer weiterentwickelten Version des [[plattform-meb|MEB]].\n\nNeben der bekannten 82-kWh-Batterie (brutto) bietet der ID.7 eine neue, größere [[traktionsbatterie|Traktionsbatterie]] mit 91 kWh brutto, die auch im langen [[vw-id-buzz|ID. Buzz]] zum Einsatz kommt. Die Basisversionen haben [[hinterradantrieb|Hinterradantrieb]], der GTX „4Motion“ [[allradantrieb|Allradantrieb]].",
+      "varianten": "„Pro“ = große Standardbatterie (82/77 kWh), „Pro S“ = neue, größere Batterie (91/86 kWh), „GTX 4Motion“ = Allradversion mit der 91-kWh-Batterie. Der Zusatz „Tourer“ kennzeichnet den Kombi; er hat dieselben Batterien wie die Limousine.",
+      "konzepte": [
+        "plattform-meb",
+        "karosserieformen",
+        "allradantrieb",
+        "hinterradantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-buzz",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": []
+    },
+    "vw-id-buzz": {
+      "kurz": "Elektrischer Kleinbus und Transporter von Volkswagen auf dem MEB, im Design an den klassischen VW-Bus angelehnt.",
+      "segment": "Van / Kleinbus und Transporter",
+      "karosserie": "Van (Pkw), Kastenwagen (Cargo); kurzer und langer Radstand",
+      "bauzeit": "seit 2022",
+      "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
+      "beschreibung": "Der VW ID. Buzz überträgt das Konzept des klassischen VW-Busses in die Elektro-Ära. Er basiert auf dem [[plattform-meb|MEB]] und wird in Hannover gebaut. Es gibt eine Pkw-Version für bis zu sieben Personen und als ID. Buzz Cargo einen [[elektro-transporter|Elektro-Transporter]] für den gewerblichen Einsatz. Später kam eine Version mit langem Radstand (LWB) hinzu.\n\nDie ersten Fahrzeuge hatten die große MEB-Batterie mit 82 kWh brutto. Mit der langen Version und im Zuge der [[modellpflege|Modellpflege]] kamen weitere [[traktionsbatterie|Batterien]] hinzu: eine überarbeitete Batterie mit 84 kWh brutto für den kurzen Radstand und eine mit 91 kWh brutto, die auch der [[vw-id-7|ID.7]] nutzt. Die Einstiegsversion „Pure“ hat eine kleinere Batterie.\n\nSerienmäßig hat der ID. Buzz [[hinterradantrieb|Hinterradantrieb]]; der GTX und die Versionen mit „4M“ bzw. „AWD“ haben [[allradantrieb|Allradantrieb]].",
+      "varianten": "„Pure“ = kleinste Batterie (63/59 kWh). Ohne Zusatz bzw. „Cargo“ = ursprüngliche Batterie (82/77 kWh). „Pro“, „Cargo Pro“ und „GTX“ erscheinen mit 84/79 kWh (kurzer Radstand, überarbeitete Batterie) und teils mit 91/86 kWh (langer Radstand). „LWB“ = langer Radstand, „AWD“/„4M“ = Allrad, „RWD“ = Heckantrieb.",
+      "konzepte": [
+        "plattform-meb",
+        "elektro-transporter",
+        "modellpflege",
+        "allradantrieb",
+        "hinterradantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "vw-id-3",
+        "vw-id-4",
+        "vw-id-5",
+        "vw-id-7",
+        "skoda-enyaq",
+        "skoda-elroq",
+        "cupra-born",
+        "cupra-tavascan",
+        "audi-q4-e-tron"
+      ],
+      "hinweise": [
+        "„ID.BUZZ Pro“ und „ID.BUZZ GTX“ jeweils mit zwei Batteriewerten (84 und 91 kWh brutto); vermutlich kurzer vs. langer Radstand, in den Rohdaten nicht gekennzeichnet.",
+        "Schreibweise „ID.BUZZ“ in den Rohdaten; offiziell „ID. Buzz“.",
+        "Die Zuordnung der 84-kWh-Batterie zu einer bestimmten Modellpflege ist nicht gesichert."
+      ]
+    }
+  },
+  "hersteller": {
+    "Volkswagen": {
+      "name": "Volkswagen",
+      "kurz": "Kernmarke des Volkswagen-Konzerns mit Sitz in Wolfsburg und Entwickler der Elektroplattform MEB.",
+      "beschreibung": "Volkswagen ist die Kernmarke des gleichnamigen Konzerns, zu dem unter anderem auch Škoda, SEAT, Cupra, Audi und Porsche gehören. Die ersten Elektroautos der Marke – e-up! und e-Golf – waren [[konversionsfahrzeug|Konversionsfahrzeuge]] auf Basis bestehender Verbrennermodelle.\n\nMit dem [[plattform-meb|MEB]] entwickelte Volkswagen eine eigene Elektroplattform, auf der die ID.-Modelle sowie zahlreiche [[plattform-geschwister|Plattform-Geschwister]] anderer Konzernmarken aufbauen. Für größere und sportlichere Modelle der Marken Audi und Porsche nutzt der Konzern die [[plattform-ppe|PPE]]."
+    },
+    "Skoda": {
+      "name": "Škoda",
+      "kurz": "Tschechischer Automobilhersteller aus Mladá Boleslav, Teil des Volkswagen-Konzerns.",
+      "beschreibung": "Škoda gehört seit den 1990er-Jahren zum Volkswagen-Konzern und nutzt weitgehend dessen Plattformen. Das erste reine Elektroauto der Marke war der Citigo e iV, ein [[konversionsfahrzeug|Konversionsfahrzeug]] aus der Kleinstwagenfamilie des Konzerns.\n\nDie eigentlichen Elektromodelle Enyaq und Elroq basieren auf dem [[plattform-meb|MEB]]. Charakteristisch für Škoda sind [[typbezeichnungen|Typbezeichnungen]] mit Zahlen, die grob die Batterie- bzw. Leistungsstufe angeben."
+    },
+    "Cupra": {
+      "name": "Cupra",
+      "kurz": "Aus SEAT hervorgegangene, sportlich positionierte Marke des Volkswagen-Konzerns.",
+      "beschreibung": "Cupra war ursprünglich eine Bezeichnung für sportliche SEAT-Modelle und wurde 2018 als eigenständige Marke etabliert. Sie gehört zum Volkswagen-Konzern und hat ihren Sitz in Martorell bei Barcelona.\n\nDie Elektromodelle der Marke, Born und Tavascan, basieren auf dem [[plattform-meb|MEB]] und sind damit [[plattform-geschwister|Plattform-Geschwister]] von VW ID.3, ID.4 und ID.5 sowie der Škoda-Elektromodelle."
+    },
+    "Seat": {
+      "name": "SEAT",
+      "kurz": "Spanischer Automobilhersteller aus Martorell, Teil des Volkswagen-Konzerns.",
+      "beschreibung": "SEAT gehört zum Volkswagen-Konzern. Das bislang einzige reine Elektroauto der Marke war der Mii electric, ein [[konversionsfahrzeug|Konversionsfahrzeug]] und [[plattform-geschwister|Plattform-Geschwister]] von VW e-up! und Škoda Citigo e iV.\n\nNeue Elektromodelle aus Martorell erscheinen seither unter der Marke Cupra, die auf dem [[plattform-meb|MEB]] des Konzerns aufbaut."
+    },
+    "Tesla": {
+      "name": "Tesla",
+      "kurz": "US-amerikanischer Hersteller von Elektroautos, der ausschließlich batterieelektrische Fahrzeuge baut.",
+      "beschreibung": "Tesla wurde 2003 gegründet und baut ausschließlich [[bev|batterieelektrische Fahrzeuge]]. Das Modellprogramm besteht aus zwei Plattformpaaren: der großen Limousine Model S mit dem SUV Model X sowie dem kleineren Model 3 mit dem SUV Model Y. Produziert wird in den USA, in China und in Grünheide bei Berlin.\n\nTesla setzt überwiegend auf zylindrische Rundzellen verschiedener [[zellformat|Zellformate]] und Lieferanten und verwendet – je nach Modell und Werk – sowohl nickelbasierte Zellen ([[nmc-zellchemie|NMC]] bzw. NCA) als auch [[lfp-zellchemie|LFP-Zellen]]. Charakteristisch sind häufige Änderungen während der Bauzeit und zeitweise per [[software-lock|Software begrenzte]] Batterien."
+    },
+    "Ford": {
+      "name": "Ford",
+      "kurz": "US-amerikanischer Automobilhersteller mit Sitz in Dearborn, Michigan.",
+      "beschreibung": "Ford bietet mit dem Mustang Mach-E ein eigens entwickeltes Elektro-SUV und mit dem F-150 Lightning eine [[bev|batterieelektrische]] Version seines wichtigsten Pick-ups an. Im Nutzfahrzeugbereich ergänzt der E-Transit das Angebot um einen [[elektro-transporter|Elektro-Transporter]].\n\nFür den europäischen Markt kooperiert Ford mit Volkswagen und nutzt für einige Elektromodelle den [[plattform-meb|MEB]] des VW-Konzerns."
+    }
+  }
+}

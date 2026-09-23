@@ -1,0 +1,448 @@
+{
+  "fahrzeuge": {
+    "hyundai-inster": {
+      "kurz": "Elektrischer Kleinwagen von Hyundai im Crossover-Stil, der oberhalb eines klassischen Kleinstwagens positioniert ist und in zwei Batteriegrößen angeboten wird.",
+      "segment": "Kleinwagen",
+      "karosserie": "Kleinwagen (Crossover-Optik, fünftürig)",
+      "bauzeit": "seit 2024",
+      "plattform": "Kleinwagen-Plattform auf Basis des Hyundai Casper (keine E-GMP)",
+      "beschreibung": "Der Hyundai Inster ist ein kompakt geschnittener [[bev|Elektro-Kleinwagen]], der aus dem in Korea angebotenen Verbrennermodell Casper abgeleitet wurde. Gegenüber dem Casper ist er verlängert, um Platz für die [[traktionsbatterie|Traktionsbatterie]] im Unterboden und einen größeren Innenraum zu schaffen. Er ist damit kein Modell der [[plattform-e-gmp|E-GMP]], sondern ein angepasstes Fahrzeug auf Kleinwagenbasis.\n\nAngetrieben wird der Inster von einem [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]). Das Bordnetz arbeitet auf dem bei Kleinwagen üblichen 400-Volt-Niveau; [[dc-schnellladen|DC-Schnellladen]] und [[ac-laden|AC-Laden]] sind vorgesehen.\n\nDie beiden Batterievarianten unterscheiden sich in der [[bruttokapazitaet|Bruttokapazität]] um wenige Kilowattstunden; der [[batteriepuffer|Puffer]] zwischen brutto und netto ist bei beiden Ausführungen gleich groß.",
+      "varianten": "Die Rohdaten nennen zwei Ausführungen: **INSTER Standard Range** mit der kleineren und **INSTER Long Range** mit der größeren Batterie. Es handelt sich nicht um Generationen, sondern um parallel angebotene Batteriegrößen derselben Baureihe; die Differenz zwischen [[bruttokapazitaet|brutto]] und [[nettokapazitaet|netto]] liegt bei beiden bei 3 kWh.",
+      "konzepte": [
+        "bev",
+        "traktionsbatterie",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "batteriepuffer",
+        "frontantrieb",
+        "dc-schnellladen"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Die Plattformzuordnung (Ableitung vom Hyundai Casper) ist als Einordnung zu verstehen; eine offizielle Plattformbezeichnung wurde nicht übernommen.",
+        "Zellchemie der beiden Batterien in den Rohdaten nicht angegeben und hier nicht behauptet."
+      ]
+    },
+    "hyundai-ioniq-5": {
+      "kurz": "Elektrisches Mittelklasse-Crossover von Hyundai und erstes Serienmodell der Marke auf der E-GMP mit 800-Volt-Technik.",
+      "segment": "Mittelklasse-SUV / Crossover",
+      "karosserie": "Crossover (Fließheck-SUV)",
+      "bauzeit": "seit 2021",
+      "plattform": "E-GMP",
+      "beschreibung": "Der IONIQ 5 war 2021 das erste Serienfahrzeug der Hyundai Motor Group auf der reinen Elektroplattform [[plattform-e-gmp|E-GMP]]. Kennzeichnend sind der lange Radstand, der flache Unterboden mit der [[traktionsbatterie|Traktionsbatterie]] und die [[800-volt-architektur|800-Volt-Architektur]], die sehr kurze Ladezeiten beim [[dc-schnellladen|DC-Schnellladen]] ermöglicht.\n\nDie Basisversionen haben einen [[elektromotor|Elektromotor]] an der Hinterachse ([[hinterradantrieb|Hinterradantrieb]]), die AWD-Versionen einen zusätzlichen Motor vorne ([[allradantrieb|Allradantrieb]]). Der IONIQ 5 N ist die leistungsorientierte Topversion mit Allradantrieb.\n\nIm Laufe der Bauzeit wurde die Batterie zweimal vergrößert: Auf die erste Long-Range-Batterie folgte eine Version mit höherer Kapazität, und mit der [[modellpflege|Modellpflege]] 2024 wurden sowohl die Standard- als auch die Long-Range-Batterie erneut vergrößert. Technisch eng verwandt sind [[kia-ev6|Kia EV6]] und [[hyundai-ioniq-6|Hyundai IONIQ 6]].",
+      "varianten": "Die Bezeichnungen folgen dem Muster *Batteriegröße + Antrieb*. „Standard Range“ und „Long Range“ bezeichnen die Batterie, „2WD“/„RWD“ Hinterradantrieb und „AWD“ Allradantrieb. Drei Batterie-Generationen lassen sich unterscheiden:\n\n- **Erste Generation (ab 2021):** Standard Range 58,0/54 kWh und Long Range 72,6/70 kWh; auch das Launch-Sondermodell **Project 45** nutzt diese Long-Range-Batterie.\n- **Zweite Stufe:** Long Range 77,4/74 kWh (die Zeilen „Long Range 2WD/AWD“ erscheinen daher doppelt).\n- **Nach der Modellpflege 2024:** 63,0/60 kWh (als „RWD“ geführt) und 84,0/80 kWh („RWD“, „AWD“ sowie IONIQ 5 N).\n\nNach der Modellpflege verwendet Hyundai statt „Long Range 2WD“ meist die Kurzform „RWD“ bzw. „AWD“.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "800-volt-architektur",
+        "dc-schnellladen",
+        "hinterradantrieb",
+        "allradantrieb",
+        "modellpflege",
+        "plattform-geschwister",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "kia-ev6",
+        "hyundai-ioniq-6",
+        "hyundai-ioniq-9",
+        "kia-ev9"
+      ],
+      "hinweise": [
+        "„IONIQ 5 Long Range 2WD“ und „IONIQ 5 Long Range AWD“ kommen je zweimal mit unterschiedlichen Kapazitäten vor (72,6 bzw. 77,4 kWh brutto) – verschiedene Batterie-Generationen unter gleichem Namen.",
+        "„IONIQ 5 RWD“ erscheint zweimal (63,0 und 84,0 kWh brutto); gemeint sind die Standard- und die Long-Range-Batterie nach der Modellpflege.",
+        "Uneinheitliche Antriebsbezeichnung: „2WD“ (vor der Modellpflege) und „RWD“ (danach) meinen beide Hinterradantrieb.",
+        "Die Zuordnung der Stufen zu Modelljahren (insbesondere Einführung der 77,4-kWh-Batterie) ist aus den Rohdaten nicht ablesbar."
+      ]
+    },
+    "hyundai-ioniq-6": {
+      "kurz": "Elektrische Mittelklasse-Limousine von Hyundai mit stromlinienförmiger Karosserie auf der E-GMP.",
+      "segment": "Mittelklasse-Limousine",
+      "karosserie": "Limousine (Fließheck-Linie, viertürig)",
+      "bauzeit": "seit 2022",
+      "plattform": "E-GMP",
+      "beschreibung": "Der IONIQ 6 ist die Limousinen-Variante der IONIQ-Familie und nutzt dieselbe Plattform [[plattform-e-gmp|E-GMP]] wie der [[hyundai-ioniq-5|IONIQ 5]]. Die Karosserie ist auf geringen Luftwiderstand ausgelegt, was sich vor allem bei der [[wltp|WLTP]]-Reichweite bemerkbar macht.\n\nWie alle E-GMP-Modelle der ersten Generation verfügt der IONIQ 6 über eine [[800-volt-architektur|800-Volt-Architektur]] für schnelles [[dc-schnellladen|DC-Schnellladen]]. Es gibt Ausführungen mit [[hinterradantrieb|Hinterradantrieb]] (2WD) und mit [[allradantrieb|Allradantrieb]] (AWD).\n\nDie Long-Range-Batterie entspricht in den Rohdaten der zweiten Batteriestufe von IONIQ 5 und [[kia-ev6|Kia EV6]]; die Standard-Range-Batterie ist eine eigene, kleinere Ausführung.",
+      "varianten": "**Standard Range 2WD** (53,0/50 kWh) und **Long Range 2WD/AWD** (77,4/74 kWh) sind parallel angebotene Batteriegrößen. „2WD“ steht für Hinterradantrieb, „AWD“ für Allradantrieb; die Long-Range-Zeilen unterscheiden sich nur im Antrieb, nicht in der Batterie.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "800-volt-architektur",
+        "dc-schnellladen",
+        "hinterradantrieb",
+        "allradantrieb",
+        "wltp",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "hyundai-ioniq-5",
+        "kia-ev6"
+      ],
+      "hinweise": [
+        "Die Rohdaten enthalten keine Varianten nach einer möglichen Modellpflege mit größeren Batterien (wie beim IONIQ 5); ob solche Versionen fehlen, ist nicht geprüft."
+      ]
+    },
+    "hyundai-ioniq-9": {
+      "kurz": "Großes siebensitziges Elektro-SUV von Hyundai auf der E-GMP und Flaggschiff der IONIQ-Reihe.",
+      "segment": "Oberklasse-SUV (drei Sitzreihen)",
+      "karosserie": "SUV",
+      "bauzeit": null,
+      "plattform": "E-GMP",
+      "beschreibung": "Der IONIQ 9 ist das größte Modell der IONIQ-Familie und bietet drei Sitzreihen. Er basiert auf der [[plattform-e-gmp|E-GMP]] mit verlängertem Radstand und ist damit eng mit dem [[kia-ev9|Kia EV9]] verwandt.\n\nDie [[traktionsbatterie|Traktionsbatterie]] ist die größte im Hyundai-Programm. Wie andere E-GMP-Modelle nutzt der IONIQ 9 eine [[800-volt-architektur|800-Volt-Architektur]] für schnelles [[dc-schnellladen|DC-Schnellladen]]. Es gibt eine Version mit [[hinterradantrieb|Hinterradantrieb]] sowie zwei Versionen mit [[allradantrieb|Allradantrieb]].",
+      "varianten": "Alle drei Zeilen (**Long Range RWD**, **Long Range AWD**, **Performance AWD**) nutzen dieselbe Batterie mit 110,3/106 kWh. Die Bezeichnungen unterscheiden nur Antrieb und Leistungsstufe; unterschiedliche Batteriegrößen oder Generationen gibt es in den Rohdaten nicht.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "800-volt-architektur",
+        "traktionsbatterie",
+        "allradantrieb",
+        "hinterradantrieb",
+        "dc-schnellladen"
+      ],
+      "geschwister": [
+        "kia-ev9",
+        "hyundai-ioniq-5"
+      ],
+      "hinweise": [
+        "Bauzeit bewusst offen gelassen: Produktionsstart Ende 2024, Markteinführung in Europa 2025 – exakte Angabe nicht gesichert.",
+        "Alle Varianten mit identischen Kapazitäten; in den Rohdaten existiert keine kleinere Batterieoption."
+      ]
+    },
+    "hyundai-ioniq-electric": {
+      "kurz": "Kompaktes Elektro-Fließheckmodell von Hyundai aus der IONIQ-Baureihe, die parallel als Hybrid, Plug-in-Hybrid und Elektroauto angeboten wurde.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Fließhecklimousine (fünftürig)",
+      "bauzeit": "2016–2022",
+      "plattform": "Mehrenergie-Plattform der IONIQ-Baureihe (Hybrid, Plug-in-Hybrid, Elektro)",
+      "beschreibung": "Der Hyundai IONIQ Elektro war die batterieelektrische Variante des IONIQ, der von Beginn an für drei Antriebsarten entwickelt wurde. Das Modell ist nicht mit der späteren IONIQ-Submarke ([[hyundai-ioniq-5|IONIQ 5]] usw.) zu verwechseln, deren Fahrzeuge auf der [[plattform-e-gmp|E-GMP]] stehen.\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Das Fahrzeug galt als besonders effizient, was vor allem auf die windschlüpfige Karosserie zurückgeführt wird.\n\nMit der [[modellpflege|Modellpflege]] 2019 erhielt der IONIQ Elektro eine größere [[traktionsbatterie|Traktionsbatterie]]; die beiden Zeilen der Rohdaten entsprechen diesen zwei Generationen.",
+      "varianten": "Beide Zeilen tragen den identischen Namen **IONIQ Electric**. Die kleinere Batterie (30,5/28 kWh) gehört zur ersten Generation, die größere (40,4/38,3 kWh) zum Modell nach der Modellpflege 2019. Eine Unterscheidung ist nur über die Kapazität bzw. das Baujahr möglich.",
+      "konzepte": [
+        "modellpflege",
+        "frontantrieb",
+        "traktionsbatterie",
+        "batteriepuffer",
+        "typbezeichnungen",
+        "bev"
+      ],
+      "geschwister": [
+        "kia-soul-ev"
+      ],
+      "hinweise": [
+        "Zwei Zeilen mit identischer Bezeichnung „IONIQ Electric“ – Unterscheidung nur über die Kapazität (Generation vor/nach Modellpflege 2019).",
+        "Die Brutto-Angabe der ersten Generation (30,5 kWh) entspricht der des Kia Soul EV (erste Generation), die Netto-Werte unterscheiden sich jedoch (28 vs. 27 kWh); ob es sich um denselben Batteriepack handelt, ist nicht belegt."
+      ]
+    },
+    "hyundai-kona-electric": {
+      "kurz": "Elektrische Variante des Kompakt-SUV Hyundai Kona, erhältlich in zwei Generationen mit jeweils zwei Batteriegrößen.",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2018",
+      "plattform": "Mehrenergie-Plattform des Kona (Verbrenner, Hybrid, Elektro; keine E-GMP)",
+      "beschreibung": "Der Kona Elektro ist die batterieelektrische Ausführung des Hyundai Kona, der auch mit Verbrennungs- und Hybridantrieb angeboten wird. Er steht deshalb nicht auf der [[plattform-e-gmp|E-GMP]], sondern auf einer Plattform, die mehrere Antriebsarten aufnehmen kann. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDie erste Generation (ab 2018) teilte ihre beiden Batteriegrößen mit dem [[kia-niro-ev|Kia e-Niro]] und dem [[kia-soul-ev|Kia e-Soul]]. Die zweite Generation (ab 2023) ist größer und erhielt neue, etwas größere Batterien.\n\nDie Rohdaten enthalten damit vier Batterien unter demselben Modellnamen – je zwei pro Generation.",
+      "varianten": "Alle vier Zeilen heißen schlicht **Kona Electric**. Zuordnung über die Kapazität:\n\n- **1. Generation:** 42,0/39,2 kWh und 67,5/64,0 kWh.\n- **2. Generation:** 51,0/48,4 kWh und 68,5/65,4 kWh.\n\nInnerhalb jeder Generation gab es eine kleinere und eine größere Batterie als parallele Ausstattungsoption.",
+      "konzepte": [
+        "frontantrieb",
+        "traktionsbatterie",
+        "plattform-geschwister",
+        "typbezeichnungen",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "kia-niro-ev",
+        "kia-soul-ev"
+      ],
+      "hinweise": [
+        "Vier Zeilen mit identischem Namen „Kona Electric“ ohne Hinweis auf Generation oder Batteriegröße.",
+        "Die Batterien der 1. Generation sind mit Kia e-Niro und e-Soul identisch (42,0/39,2 und 67,5/64,0 kWh).",
+        "Die großen Batterien der 2. Generation (68,5/65,4 kWh) und des Kia Niro EV (68,0/64,8 kWh) liegen sehr nah beieinander; ob es sich um denselben Pack mit abweichender Angabe handelt, ist unklar."
+      ]
+    },
+    "kia-niro-ev": {
+      "kurz": "Elektrische Variante des Kia Niro, eines Kompakt-Crossovers, der parallel als Hybrid, Plug-in-Hybrid und Elektroauto angeboten wird.",
+      "segment": "Kompakt-SUV / Crossover",
+      "karosserie": "Crossover (SUV)",
+      "bauzeit": "seit 2018",
+      "plattform": "Mehrenergie-Plattform des Niro (Hybrid, Plug-in-Hybrid, Elektro; keine E-GMP)",
+      "beschreibung": "Der Kia Niro wurde von Beginn an für mehrere Antriebsarten konzipiert. Die batterieelektrische Version hieß in der ersten Generation **e-Niro**, in der zweiten Generation (ab 2022) **Niro EV**. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDie erste Generation nutzte dieselben beiden Batteriegrößen wie der erste [[hyundai-kona-electric|Hyundai Kona Elektro]] und der [[kia-soul-ev|Kia e-Soul]]. Der Niro EV der zweiten Generation wird in den Rohdaten nur mit einer, etwas größeren [[traktionsbatterie|Traktionsbatterie]] geführt.\n\nDer Namenswechsel von e-Niro zu Niro EV ist ein Beispiel dafür, wie [[typbezeichnungen|Typbezeichnungen]] mit einem Generationswechsel geändert werden.",
+      "varianten": "**e-Niro** (1. Generation) gibt es mit 42,0/39,2 kWh und 67,5/64,0 kWh – zwei parallel angebotene Batteriegrößen. **Niro EV** (2. Generation) steht mit 68,0/64,8 kWh in den Rohdaten. Der Name zeigt hier also direkt die Generation an.",
+      "konzepte": [
+        "frontantrieb",
+        "traktionsbatterie",
+        "typbezeichnungen",
+        "plattform-geschwister",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "hyundai-kona-electric",
+        "kia-soul-ev"
+      ],
+      "hinweise": [
+        "Die Zeilennummern sind nicht zusammenhängend (e-Niro und Niro EV liegen in der Quelle an verschiedenen Stellen), vermutlich wegen alphabetischer Sortierung.",
+        "Niro EV 68,0/64,8 kWh vs. Kona Elektro 2. Generation 68,5/65,4 kWh – ähnliche, aber nicht identische Werte."
+      ]
+    },
+    "kia-soul-ev": {
+      "kurz": "Elektrische Version des kastenförmigen Kia Soul, als Soul EV eines der frühen Serien-Elektroautos von Kia und später als e-Soul neu aufgelegt.",
+      "segment": "Kompaktklasse / Crossover",
+      "karosserie": "Kompaktvan-artiges Crossover (fünftürig)",
+      "bauzeit": "seit 2014 (Soul EV bis 2019, danach e-Soul)",
+      "plattform": "Verbrenner-Plattform des Kia Soul (Konversionsfahrzeug)",
+      "beschreibung": "Der Soul EV wurde aus dem konventionellen Kia Soul abgeleitet und ist damit ein [[konversionsfahrzeug|Konversionsfahrzeug]]. Die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden des ursprünglich für Verbrenner konstruierten Fahrzeugs untergebracht; angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDie erste Generation (Soul EV) erhielt im Laufe der Bauzeit eine etwas größere Batterie. Mit dem Generationswechsel 2019 wurde das Modell in Europa als **e-Soul** vermarktet und übernahm die beiden Batteriegrößen von [[kia-niro-ev|Kia e-Niro]] und [[hyundai-kona-electric|Hyundai Kona Elektro]].",
+      "varianten": "**Soul EV** (1. Generation) erscheint mit 30,5/27,0 kWh und – nach einer [[modellpflege|Modellpflege]] – mit 33,0/30,0 kWh. **e-Soul** (2. Generation) gibt es mit 42,0/39,2 kWh und 67,5/64,0 kWh als parallele Batterieoptionen. Der Name zeigt die Generation an, die Kapazität die Batteriegröße.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "frontantrieb",
+        "modellpflege",
+        "typbezeichnungen",
+        "batteriepuffer",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "kia-niro-ev",
+        "hyundai-kona-electric",
+        "hyundai-ioniq-electric"
+      ],
+      "hinweise": [
+        "Der Puffer der ersten Soul-EV-Batterie ist mit 3,5 kWh (30,5 brutto / 27,0 netto) im Verhältnis zur Größe vergleichsweise groß.",
+        "Zeilennummern nicht zusammenhängend (e-Soul und Soul EV an getrennten Stellen der Quelle).",
+        "Ob die 33-kWh-Version einer Modellpflege oder einem Modelljahreswechsel zuzuordnen ist, ist aus den Rohdaten nicht ersichtlich."
+      ]
+    },
+    "kia-ev3": {
+      "kurz": "Kompaktes Elektro-SUV von Kia auf einer 400-Volt-Ausführung der E-GMP, positioniert unterhalb von EV6 und EV9.",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2024",
+      "plattform": "E-GMP (400-Volt-Ausführung)",
+      "beschreibung": "Der Kia EV3 ist das kompakteste SUV der EV-Baureihe und basiert auf der [[plattform-e-gmp|E-GMP]], allerdings nicht mit [[800-volt-architektur|800-Volt-Technik]] wie EV6 oder EV9, sondern mit einem 400-Volt-System. Angetrieben wird er über die Vorderachse ([[frontantrieb|Frontantrieb]]).\n\nDer EV3 teilt seine beiden Batteriegrößen mit dem [[kia-ev4|Kia EV4]]. Die große Batterie bietet für ein Fahrzeug dieser Größe eine vergleichsweise hohe Kapazität, was sich in der [[wltp|WLTP]]-Reichweite niederschlägt.",
+      "varianten": "**EV3 Standard Range** (58,3/55,0 kWh) und **EV3 Long Range** (81,4/78,0 kWh) sind parallel angebotene Batteriegrößen derselben Generation; Generationswechsel gibt es in den Rohdaten nicht.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "frontantrieb",
+        "plattform-geschwister",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "wltp"
+      ],
+      "geschwister": [
+        "kia-ev4"
+      ],
+      "hinweise": [
+        "Kia kommuniziert die Batterien häufig als „58,3 kWh“ und „81,4 kWh“; ob diese Werte brutto oder netto sind, wird in Quellen uneinheitlich dargestellt. Die Rohdaten führen sie als brutto."
+      ]
+    },
+    "kia-ev4": {
+      "kurz": "Kompakter Elektro-Pkw von Kia, angeboten als Fließheck-Limousine (Fastback) und als Schrägheck (Hatchback), technisch eng mit dem EV3 verwandt.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Fließhecklimousine (Fastback), Schrägheck (Hatchback)",
+      "bauzeit": "seit 2025",
+      "plattform": "E-GMP (400-Volt-Ausführung)",
+      "beschreibung": "Der Kia EV4 ist das erste Kompaktmodell der EV-Reihe ohne SUV-Karosserie. Er wird in zwei [[karosserieformen|Karosserieformen]] angeboten: als Fastback mit Stufenheck-ähnlicher Linie und als Hatchback.\n\nTechnisch entspricht er weitgehend dem [[kia-ev3|Kia EV3]]: Er basiert auf der 400-Volt-Ausführung der [[plattform-e-gmp|E-GMP]], hat [[frontantrieb|Frontantrieb]] und nutzt dieselben beiden Batteriegrößen.",
+      "varianten": "Die Zusätze **Fastback** und **Hatchback** bezeichnen die Karosserieform, nicht die Batterie. Der Hatchback erscheint mit beiden Batterien (58,3/55,0 und 81,4/78,0 kWh), der Fastback in den Rohdaten nur mit der großen Batterie.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "karosserieformen",
+        "frontantrieb",
+        "plattform-geschwister",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "kia-ev3"
+      ],
+      "hinweise": [
+        "EV4 Fastback nur mit 81,4 kWh gelistet; ob eine Standard-Range-Version des Fastback existiert oder in den Rohdaten fehlt, ist unklar.",
+        "Brutto-/Netto-Zuordnung wie beim EV3 (Herstellerangabe 81,4 kWh wird teils als Nennwert kommuniziert)."
+      ]
+    },
+    "kia-ev6": {
+      "kurz": "Elektrisches Crossover von Kia auf der E-GMP mit 800-Volt-Technik und technischer Zwilling des Hyundai IONIQ 5.",
+      "segment": "Mittelklasse-SUV / Crossover",
+      "karosserie": "Crossover (Fließheck)",
+      "bauzeit": "seit 2021",
+      "plattform": "E-GMP",
+      "beschreibung": "Der Kia EV6 war 2021 das erste Modell von Kia auf der [[plattform-e-gmp|E-GMP]] und teilt Plattform, Batterien und [[800-volt-architektur|800-Volt-Architektur]] mit dem [[hyundai-ioniq-5|Hyundai IONIQ 5]]. Die Karosserie ist flacher und sportlicher ausgelegt als beim Hyundai-Schwestermodell.\n\nEs gibt Versionen mit [[hinterradantrieb|Hinterradantrieb]] (2WD) und [[allradantrieb|Allradantrieb]] (AWD); der **EV6 GT** ist die leistungsstärkste Variante mit Allradantrieb.\n\nMit der [[modellpflege|Modellpflege]] 2024 wurden beide Batteriegrößen vergrößert – daher erscheinen fast alle Versionsbezeichnungen in den Rohdaten doppelt.",
+      "varianten": "Die Bezeichnungen folgen dem Muster *Batteriegröße + Antrieb*. Jede Version erscheint in zwei Batterie-Generationen:\n\n- **Vor der Modellpflege:** Standard Range 58,0/54 kWh, Long Range und GT 77,4/74 kWh.\n- **Nach der Modellpflege 2024:** Standard Range 63,0/60 kWh, Long Range und GT 84,0/80 kWh.\n\nDie Werte entsprechen jeweils den Batterien des IONIQ 5.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "800-volt-architektur",
+        "dc-schnellladen",
+        "hinterradantrieb",
+        "allradantrieb",
+        "modellpflege",
+        "plattform-geschwister",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "hyundai-ioniq-5",
+        "hyundai-ioniq-6",
+        "kia-ev9"
+      ],
+      "hinweise": [
+        "Alle Versionsbezeichnungen (GT, Long Range 2WD/AWD, Standard Range 2WD/AWD) kommen je zweimal mit unterschiedlichen Kapazitäten vor – Generation vor und nach der Modellpflege.",
+        "Die erste Long-Range-Batterie des IONIQ 5 (72,6/70 kWh) taucht beim EV6 nicht auf."
+      ]
+    },
+    "kia-ev9": {
+      "kurz": "Großes Elektro-SUV von Kia mit drei Sitzreihen auf der E-GMP und Schwestermodell des Hyundai IONIQ 9.",
+      "segment": "Oberklasse-SUV (drei Sitzreihen)",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2023",
+      "plattform": "E-GMP",
+      "beschreibung": "Der Kia EV9 ist das größte Modell der EV-Baureihe und bietet bis zu sieben Sitzplätze. Er nutzt die [[plattform-e-gmp|E-GMP]] mit langem Radstand und eine [[800-volt-architektur|800-Volt-Architektur]] für schnelles [[dc-schnellladen|DC-Schnellladen]].\n\nDas Basismodell hat [[hinterradantrieb|Hinterradantrieb]], die AWD-Versionen einen zweiten Motor an der Vorderachse ([[allradantrieb|Allradantrieb]]). Der **EV9 GT** ist die leistungsstärkste Version.\n\nTechnisch eng verwandt ist der [[hyundai-ioniq-9|Hyundai IONIQ 9]], der allerdings eine andere, größere Batterie verwendet.",
+      "varianten": "Die meisten Zeilen (AWD, AWD GT-Line, AWD GT und RWD) nutzen die große Batterie mit 99,8/96 kWh. Zusätzlich gibt es eine **EV9 RWD** mit 76,1/73 kWh – eine kleinere Batterieoption, die in der Bezeichnung nicht als „Standard Range“ gekennzeichnet ist. „GT-Line“ ist eine Ausstattungslinie, „GT“ die Leistungsversion.",
+      "konzepte": [
+        "plattform-e-gmp",
+        "800-volt-architektur",
+        "dc-schnellladen",
+        "allradantrieb",
+        "hinterradantrieb",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "hyundai-ioniq-9",
+        "kia-ev6",
+        "hyundai-ioniq-5"
+      ],
+      "hinweise": [
+        "„EV9 RWD“ erscheint zweimal (76,1 und 99,8 kWh brutto); die kleine Batterie ist nicht als Standard Range gekennzeichnet.",
+        "Ob die 76,1-kWh-Version in Deutschland angeboten wurde, ist nicht gesichert."
+      ]
+    },
+    "mg-cyberster": {
+      "kurz": "Elektrischer zweisitziger Roadster der Marke MG mit elektrisch betätigtem Stoffverdeck.",
+      "segment": "Sportwagen / Roadster",
+      "karosserie": "Roadster (Cabrio, zweisitzig)",
+      "bauzeit": "seit 2024",
+      "plattform": null,
+      "beschreibung": "Der MG Cyberster knüpft an die Roadster-Tradition der ursprünglich britischen Marke an und ist ein zweisitziges [[bev|Elektroauto]] mit offener Karosserie. Er gehört zu den wenigen batterieelektrischen Roadstern am Markt.\n\nDie Version **Trophy** hat einen [[elektromotor|Elektromotor]] an der Hinterachse ([[hinterradantrieb|Hinterradantrieb]]), die Version **GT** zusätzlich einen Motor vorne ([[allradantrieb|Allradantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] entspricht in ihren Kapazitätswerten der größten Batterie des [[mg4-electric|MG4 Electric]].",
+      "varianten": "**Cyberster Trophy** und **Cyberster GT** bezeichnen Antrieb und Leistungsstufe; beide nutzen dieselbe Batterie mit 77,0/74,4 kWh. Weitere Batterieoptionen sind in den Rohdaten nicht enthalten.",
+      "konzepte": [
+        "bev",
+        "hinterradantrieb",
+        "allradantrieb",
+        "traktionsbatterie",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "mg4-electric"
+      ],
+      "hinweise": [
+        "Plattform nicht angegeben: Eine Zuordnung zur MSP-Plattform des MG4 ist nicht gesichert.",
+        "Kapazität identisch mit der größten MG4-Batterie (77,0/74,4 kWh); ob es derselbe Pack ist, ist nicht belegt.",
+        "Die Antriebszuordnung Trophy = Hinterradantrieb, GT = Allradantrieb gilt für den europäischen Markt; in anderen Märkten können die Bezeichnungen abweichen."
+      ]
+    },
+    "mg-marvel-r": {
+      "kurz": "Elektrisches Mittelklasse-SUV der Marke MG, das als technisch aufwendigeres Modell oberhalb des ZS EV positioniert war.",
+      "segment": "Mittelklasse-SUV",
+      "karosserie": "SUV",
+      "bauzeit": null,
+      "plattform": null,
+      "beschreibung": "Der MG Marvel R ist ein [[bev|Elektro-SUV]] von SAIC, das in China als Roewe Marvel X angeboten wird und in Europa unter der Marke MG vertrieben wurde. Er war eines der ersten MG-Modelle mit mehr als einem [[elektromotor|Elektromotor]].\n\nDie Performance-Version verfügt über [[allradantrieb|Allradantrieb]]. Die [[traktionsbatterie|Traktionsbatterie]] ist in beiden Versionen gleich; der [[batteriepuffer|Puffer]] zwischen brutto und netto fällt mit 5 kWh vergleichsweise groß aus.",
+      "varianten": "**Marvel R** und **Marvel R Performance** unterscheiden sich im Antrieb bzw. der Leistung, nicht in der Batterie (beide 75,0/70,0 kWh).",
+      "konzepte": [
+        "bev",
+        "allradantrieb",
+        "traktionsbatterie",
+        "batteriepuffer",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Bauzeit offen gelassen: Europa-Marktstart 2021, Ende des Vertriebs in Europa nicht gesichert.",
+        "Motoranordnung der Basisversion (Hinterachse, ggf. zwei Motoren) nicht gesichert und daher nicht im Text ausgeführt.",
+        "Puffer von 5 kWh (75 brutto / 70 netto) – deutlich größer als bei anderen MG-Modellen."
+      ]
+    },
+    "mg4-electric": {
+      "kurz": "Kompakter Elektro-Schrägheckwagen der Marke MG und erstes Modell auf der eigenen Elektroplattform MSP von SAIC.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck (fünftürig)",
+      "bauzeit": "seit 2022",
+      "plattform": "MSP (Modular Scalable Platform) von SAIC",
+      "beschreibung": "Der MG4 Electric ist ein [[bev|Elektroauto]] der Kompaktklasse und das erste Modell auf der reinen Elektroplattform MSP des SAIC-Konzerns. Die Grundversionen haben [[hinterradantrieb|Hinterradantrieb]], die Top-Version **XPOWER** einen zusätzlichen Motor vorne ([[allradantrieb|Allradantrieb]]).\n\nBemerkenswert ist der Mix unterschiedlicher Zellchemien: Die kleinste Batterie verwendet [[lfp-zellchemie|LFP-Zellen]], die größeren Batterien [[nmc-zellchemie|NMC-Zellen]]. LFP-Batterien werden oft mit sehr kleinem [[batteriepuffer|Puffer]] betrieben, was sich in den Rohdaten der kleinen Batterie zeigt.\n\nDie größte Batterie (77 kWh brutto) entspricht in den Kapazitätswerten der des [[mg-cyberster|MG Cyberster]].",
+      "varianten": "Drei Zeilen heißen schlicht **MG4 Electric** und unterscheiden sich nur in der Batterie: 51,0/50,8 kWh (LFP), 64,0/61,7 kWh und 77,0/74,4 kWh. Im Handel wurden diese Stufen unter Ausstattungsnamen verkauft, die in den Rohdaten fehlen. **MG4 Electric XPOWER** nutzt die mittlere Batterie (64,0/61,7 kWh) mit Allradantrieb.",
+      "konzepte": [
+        "lfp-zellchemie",
+        "nmc-zellchemie",
+        "batteriepuffer",
+        "hinterradantrieb",
+        "allradantrieb",
+        "bev",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "mg-cyberster"
+      ],
+      "hinweise": [
+        "Die 51-kWh-Batterie hat laut Rohdaten nur 0,2 kWh Puffer (51,0 brutto / 50,8 netto) – ungewöhnlich klein, bei LFP-Batterien aber nicht untypisch.",
+        "Drei Zeilen mit identischer Bezeichnung „MG4 Electric“ – Unterscheidung nur über die Kapazität."
+      ]
+    },
+    "mg5-electric": {
+      "kurz": "Elektrischer Kompaktkombi der Marke MG, der aus einem konventionellen Modell abgeleitet ist.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Kombi",
+      "bauzeit": "seit 2020",
+      "plattform": "Verbrenner-Plattform (Konversionsfahrzeug)",
+      "beschreibung": "Der MG5 Electric ist ein Kompaktkombi und damit eines der wenigen batterieelektrischen Modelle mit dieser [[karosserieformen|Karosserieform]] in seiner Preisklasse. Er basiert auf einem Fahrzeug, das auch mit Verbrennungsmotor angeboten wird, und ist somit ein [[konversionsfahrzeug|Konversionsfahrzeug]]. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]).\n\nDas Modell wurde zunächst mit einer Batterie angeboten; mit der [[modellpflege|Modellpflege]] kamen eine Standard- und eine Long-Range-Batterie hinzu.",
+      "varianten": "- **MG5 EV** (52,5/48,8 kWh): ursprüngliche Version.\n- **MG5 Electric Standard Range** (50,3/46,0 kWh) und **MG5 Electric Long Range** (61,1/57,4 kWh): Versionen nach der Modellpflege.\n- **MG5 EV Long Range** (61,1/57,4 kWh): gleiche Werte wie „MG5 Electric Long Range“ – vermutlich dieselbe Batterie unter älterer Bezeichnung.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "frontantrieb",
+        "modellpflege",
+        "typbezeichnungen",
+        "karosserieformen",
+        "batteriepuffer"
+      ],
+      "geschwister": [
+        "mg-zs-ev"
+      ],
+      "hinweise": [
+        "„MG5 EV Long Range“ und „MG5 Electric Long Range“ mit identischen Werten (61,1/57,4 kWh) – wahrscheinlich Duplikat mit unterschiedlicher Schreibweise.",
+        "Uneinheitliche Namensgebung „MG5 EV“ vs. „MG5 Electric“.",
+        "Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert und daher nicht behauptet.",
+        "Die Einordnung als Geschwister des ZS EV bezieht sich auf die gemeinsame Konversionsbauweise und Antriebstechnik, nicht auf identische Batterien."
+      ]
+    },
+    "mg-zs-ev": {
+      "kurz": "Elektrische Version des Kompakt-SUV MG ZS und eines der ersten MG-Elektroautos in Europa.",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2019 (Europa)",
+      "plattform": "Verbrenner-Plattform des MG ZS (Konversionsfahrzeug)",
+      "beschreibung": "Der MG ZS EV ist die batterieelektrische Variante des MG ZS, der auch mit Verbrennungsmotor angeboten wurde – ein typisches [[konversionsfahrzeug|Konversionsfahrzeug]]. Er trug maßgeblich zur Rückkehr der Marke MG auf den europäischen Markt bei. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nNach der ersten Version mit einer einzigen Batterie erhielt der ZS EV mit der [[modellpflege|Modellpflege]] zwei neue Batteriegrößen (Standard und Long Range).",
+      "varianten": "- **ZS EV** ohne Zusatz (44,5/42,5 kWh): erste Version.\n- **ZS EV Standard Range** (51,1/49,0 kWh) und **ZS EV Long Range** (72,6/68,3 kWh): parallel angebotene Batterien nach der Modellpflege.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "frontantrieb",
+        "modellpflege",
+        "typbezeichnungen",
+        "batteriepuffer"
+      ],
+      "geschwister": [
+        "mg5-electric"
+      ],
+      "hinweise": [
+        "Die Long-Range-Batterie (72,6 kWh brutto) hat denselben Bruttowert wie die erste Long-Range-Batterie des Hyundai IONIQ 5 – rein zufällige Übereinstimmung, kein technischer Zusammenhang.",
+        "Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert."
+      ]
+    }
+  },
+  "hersteller": {
+    "Hyundai": {
+      "name": "Hyundai",
+      "kurz": "Südkoreanischer Automobilhersteller und Kernmarke der Hyundai Motor Group, zu der auch Kia gehört.",
+      "beschreibung": "Hyundai gehört zusammen mit Kia und der Premiummarke Genesis zur Hyundai Motor Group. Die ersten Elektromodelle (IONIQ Elektro, Kona Elektro) basierten auf Plattformen, die auch Hybrid- oder Verbrennerantriebe aufnehmen. Mit der eigenen Elektroplattform [[plattform-e-gmp|E-GMP]] und der [[800-volt-architektur|800-Volt-Architektur]] folgte ab 2021 die Submarke IONIQ mit IONIQ 5, IONIQ 6 und IONIQ 9.\n\nViele Hyundai-Modelle haben technische Schwestermodelle bei Kia ([[plattform-geschwister|Plattform-Geschwister]]), etwa IONIQ 5 und EV6 oder Kona Elektro und Niro EV."
+    },
+    "Kia": {
+      "name": "Kia",
+      "kurz": "Südkoreanischer Automobilhersteller, Teil der Hyundai Motor Group.",
+      "beschreibung": "Kia ist Teil der Hyundai Motor Group und nutzt deren Plattformen gemeinsam mit Hyundai. Frühe Elektromodelle wie Soul EV und e-Niro waren aus konventionellen Baureihen abgeleitet. Seit dem EV6 (2021) setzt Kia auf die [[plattform-e-gmp|E-GMP]]; die EV-Baureihe reicht inzwischen vom kompakten EV3 bis zum großen EV9.\n\nDie großen E-GMP-Modelle (EV6, EV9) verwenden eine [[800-volt-architektur|800-Volt-Architektur]], die kompakteren EV3 und EV4 eine 400-Volt-Ausführung der Plattform."
+    },
+    "MG": {
+      "name": "MG",
+      "kurz": "Ursprünglich britische Automobilmarke, die heute zum chinesischen SAIC-Konzern gehört.",
+      "beschreibung": "MG (ursprünglich „Morris Garages“) gehört seit 2007 zum chinesischen Staatskonzern SAIC Motor. In Europa ist die Marke seit 2019 vor allem mit Elektroautos präsent, zunächst mit dem ZS EV und dem MG5 als [[konversionsfahrzeug|Konversionsfahrzeugen]].\n\nMit dem MG4 Electric führte SAIC eine eigene Elektroplattform (MSP) ein. MG setzt je nach Modell sowohl [[lfp-zellchemie|LFP]]- als auch [[nmc-zellchemie|NMC]]-Zellen ein."
+    }
+  }
+}

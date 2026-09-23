@@ -1,0 +1,658 @@
+{
+  "fahrzeuge": {
+    "citroen-c-zero": {
+      "kurz": "Elektrischer Kleinstwagen von Citroën, der als Schwestermodell des Mitsubishi i-MiEV bei Mitsubishi in Japan gebaut wurde.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck, fünftürig",
+      "bauzeit": "2010–2020",
+      "plattform": "Mitsubishi i-MiEV (abgeleitet vom Kei-Car Mitsubishi i)",
+      "beschreibung": "Der Citroën C-Zero gehört zu den ersten in Großserie angebotenen Elektroautos in Europa. Er entstand aus einer Kooperation des damaligen PSA-Konzerns mit Mitsubishi: Technik, Karosserie und Fertigung stammen vom Mitsubishi i-MiEV, Citroën steuerte im Wesentlichen Markenzeichen und Ausstattungsdetails bei. Baugleich ist der [[peugeot-ion|Peugeot iOn]]; man spricht hier von [[plattform-geschwister|Plattform-Geschwistern]] bzw. Badge-Engineering.\n\nDas Fahrzeug basiert auf dem japanischen Kleinstwagen Mitsubishi i, dessen Heckmotor-Layout für den [[elektromotor|Elektromotor]] übernommen wurde; angetrieben werden die Hinterräder ([[hinterradantrieb|Hinterradantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] aus [[lithium-ionen-akku|Lithium-Ionen-Zellen]] liegt flach im Unterboden.\n\nMit seiner kleinen Batterie ist der C-Zero auf Stadt- und Pendelverkehr ausgelegt. Für heutige Gebrauchtwagenkäufer ist wegen des Alters vor allem die [[batteriealterung|Batteriealterung]] relevant; ein [[batteriecheck|Batteriecheck]] mit Ermittlung des [[state-of-health|State of Health]] ist bei diesen Fahrzeugen besonders empfehlenswert.",
+      "varianten": "Die Rohdaten enthalten nur eine Zeile (C-Zero) mit 16 kWh [[bruttokapazitaet|brutto]] und 14,5 kWh [[nettokapazitaet|netto]]. Eine Unterscheidung nach Baujahren oder Batteriegenerationen ist in den Daten nicht abgebildet; dieselben Werte finden sich beim baugleichen [[peugeot-ion|Peugeot iOn]].",
+      "konzepte": [
+        "plattform-geschwister",
+        "traktionsbatterie",
+        "lithium-ionen-akku",
+        "hinterradantrieb",
+        "batteriealterung",
+        "state-of-health",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "peugeot-ion"
+      ],
+      "hinweise": [
+        "In der Literatur werden für i-MiEV/C-Zero/iOn je nach Baujahr sowohl 16 kWh als auch 14,5 kWh als Gesamtkapazität genannt. Möglicherweise ist der Wert 14,5 kWh keine Nettokapazität, sondern die Bruttokapazität einer späteren Batterieversion – bitte prüfen."
+      ]
+    },
+    "citroen-e-berlingo": {
+      "kurz": "Elektrischer Hochdachkombi von Citroën auf Stellantis-Technik; die Modellreihe umfasst hier auch den älteren Berlingo mit kleiner Batterie.",
+      "segment": "Hochdachkombi / Kleintransporter",
+      "karosserie": "Hochdachkombi (Van), kurze und lange Version",
+      "bauzeit": null,
+      "plattform": "EMP2 (K9-Baureihe) für den aktuellen ë-Berlingo; Vorgänger auf Basis des Berlingo der zweiten Generation",
+      "beschreibung": "Der Citroën ë-Berlingo ist die batterieelektrische Version des Hochdachkombis Berlingo. Die aktuelle Generation (Baureihe K9) teilt sich Technik und Karosserie mit dem [[peugeot-e-rifter|Peugeot e-Rifter]] und dem [[peugeot-e-partner|Peugeot e-Partner]] sowie weiteren Stellantis-Marken; sie ist ein typisches Beispiel für [[plattform-geschwister|Plattform-Geschwister]] innerhalb der [[plattform-stellantis|Stellantis-Plattformen]]. Die Plattform ist als Multi-Energie-Plattform ausgelegt, d. h. dieselbe Karosserie wird auch mit Verbrennungsmotor angeboten.\n\nAntriebsseitig nutzt der ë-Berlingo den aus dem Pkw-Bereich bekannten Stellantis-Baukasten mit [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]) und einer [[traktionsbatterie|Traktionsbatterie]] im Unterboden. Mit der [[modellpflege|Modellpflege]] wurde eine neuere Batterieversion eingeführt, die in den Rohdaten als eigene Zeile erscheint.\n\nUnter demselben Slug sind außerdem Daten des älteren Berlingo mit Elektroantrieb erfasst, der noch auf der Vorgängergeneration beruhte und eine deutlich kleinere Batterie hatte. Dieses frühere Modell war ein [[konversionsfahrzeug|Konversionsfahrzeug]] auf Basis eines Verbrennermodells; sein Gegenstück bei Peugeot ist der [[peugeot-partner-tepee-electric|Partner Tepee Electric]].",
+      "varianten": "„M“ und „XL“ bezeichnen die beiden Karosserielängen des aktuellen ë-Berlingo. Beide gibt es in den Rohdaten jeweils mit 50 kWh brutto / 46,3 kWh netto (ursprüngliche Batterie) und mit 52 kWh brutto / 50,0 kWh netto (neuere Batterie nach der [[modellpflege|Modellpflege]]). Die Zeile „E-Berlingo Multispace“ mit 22,5 kWh gehört dagegen zur älteren Generation des elektrischen Berlingo und entspricht dem [[peugeot-partner-tepee-electric|Peugeot Partner Tepee Electric]].",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "elektro-transporter",
+        "modellpflege",
+        "konversionsfahrzeug",
+        "batteriepuffer",
+        "frontantrieb"
+      ],
+      "geschwister": [
+        "peugeot-e-rifter",
+        "peugeot-e-partner",
+        "peugeot-partner-tepee-electric"
+      ],
+      "hinweise": [
+        "Unter einem Slug sind zwei Fahrzeuggenerationen zusammengefasst: das alte Berlingo-Elektromodell (22,5 kWh) und der aktuelle ë-Berlingo (50/52 kWh). Ggf. trennen.",
+        "Schreibweise uneinheitlich: „e-Berlingo“ vs. „E-Berlingo Multispace“.",
+        "Die 52-kWh-Batterie (50,0 kWh netto) hat einen deutlich kleineren Puffer als die 50-kWh-Version (46,3 kWh netto). Bei den Peugeot-Geschwistern (e-Rifter, e-Partner) fehlt die 52-kWh-Version in den Rohdaten.",
+        "Die genaue Zuordnung der 52-kWh-Batterie zur Modellpflege (Jahr) ist nicht gesichert."
+      ]
+    },
+    "citroen-e-c3": {
+      "kurz": "Elektrischer Kleinwagen von Citroën mit leicht erhöhter Crossover-Optik, konzipiert als preisgünstiges Elektroauto mit LFP-Batterie.",
+      "segment": "Kleinwagen",
+      "karosserie": "Schrägheck, fünftürig (Crossover-Stil)",
+      "bauzeit": "seit 2024",
+      "plattform": "Stellantis Smart Car Platform",
+      "beschreibung": "Der Citroën ë-C3 ist die batterieelektrische Version der vierten C3-Generation. Er steht auf der kostengünstigen Smart-Car-Plattform, einer der [[plattform-stellantis|Stellantis-Plattformen]], die sowohl Verbrenner als auch Elektroantrieb aufnehmen kann. Die Plattform teilt er unter anderem mit dem größeren [[citroen-e-c3-aircross|ë-C3 Aircross]].\n\nAnders als die meisten älteren Stellantis-Elektroautos nutzt der ë-C3 eine Batterie mit [[lfp-zellchemie|LFP-Zellchemie]] (Lithium-Eisenphosphat). Diese Zellchemie gilt als kostengünstig und zyklenfest, hat aber eine geringere Energiedichte als [[nmc-zellchemie|NMC-Zellen]]. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nAuffällig ist der sehr geringe Unterschied zwischen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]]; der [[batteriepuffer|Batteriepuffer]] ist damit deutlich kleiner als bei den NMC-Batterien anderer Stellantis-Modelle.",
+      "varianten": "Die Rohdaten enthalten eine einzige Zeile (e-C3) mit 44 kWh brutto und 43,8 kWh netto. Weitere Batteriegrößen sind für dieses Modell nicht erfasst.",
+      "konzepte": [
+        "lfp-zellchemie",
+        "plattform-stellantis",
+        "batteriepuffer",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "frontantrieb",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "citroen-e-c3-aircross"
+      ],
+      "hinweise": [
+        "Sehr kleiner Puffer: 44 kWh brutto vs. 43,8 kWh netto (ca. 0,5 %). Möglicherweise ist der Bruttowert gerundet oder die Nettoangabe entspricht eher der Herstellerangabe zur Gesamtkapazität."
+      ]
+    },
+    "citroen-e-c3-aircross": {
+      "kurz": "Kompaktes Elektro-SUV von Citroën auf der Smart-Car-Plattform von Stellantis, technisch eng mit dem ë-C3 verwandt.",
+      "segment": "Kleinwagen-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2024",
+      "plattform": "Stellantis Smart Car Platform",
+      "beschreibung": "Der Citroën ë-C3 Aircross ist die Elektroversion des C3 Aircross der zweiten Generation. Er nutzt dieselbe Smart-Car-Plattform wie der [[citroen-e-c3|ë-C3]], ist aber länger und bietet mehr Innenraum; die Plattform zählt zu den [[plattform-stellantis|Stellantis-Plattformen]] für preisorientierte Modelle.\n\nDie Basisversion verwendet dieselbe [[traktionsbatterie|Traktionsbatterie]] wie der ë-C3, die auf [[lfp-zellchemie|LFP-Zellchemie]] beruht. Später wurde zusätzlich eine Version mit größerer Batterie (Extended Range) angeboten. Angetrieben wird das Fahrzeug über die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nWie beim ë-C3 liegen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]] in den Rohdaten sehr nah beieinander, der [[batteriepuffer|Batteriepuffer]] ist also klein.",
+      "varianten": "„e-C3 Aircross“ steht für die Basisbatterie mit 44 kWh brutto / 43,8 kWh netto (identisch mit dem [[citroen-e-c3|ë-C3]]). „Extended Range“ bezeichnet die später ergänzte größere Batterie mit 54 kWh brutto / 53,5 kWh netto. Es handelt sich also nicht um Generationen, sondern um zwei parallel angebotene Batteriegrößen.",
+      "konzepte": [
+        "lfp-zellchemie",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "batteriepuffer",
+        "bruttokapazitaet",
+        "nettokapazitaet",
+        "frontantrieb"
+      ],
+      "geschwister": [
+        "citroen-e-c3"
+      ],
+      "hinweise": [
+        "Sehr kleiner Puffer bei beiden Batterien (44/43,8 und 54/53,5 kWh).",
+        "Ob auch die Extended-Range-Batterie auf LFP-Zellen basiert, ist nicht gesichert."
+      ]
+    },
+    "citroen-e-c4": {
+      "kurz": "Elektrische Version des kompakten Citroën C4 im Crossover-Stil auf der e-CMP-Plattform von Stellantis.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck mit Crossover-Elementen",
+      "bauzeit": "seit 2020",
+      "plattform": "e-CMP (Stellantis, ehemals PSA)",
+      "beschreibung": "Der Citroën ë-C4 ist die batterieelektrische Variante der dritten C4-Generation. Er basiert auf der e-CMP-Plattform, die der damalige PSA-Konzern für Klein- und Kompaktwagen entwickelt hat und die heute zu den [[plattform-stellantis|Stellantis-Plattformen]] zählt. Dieselbe Antriebstechnik findet sich unter anderem im [[peugeot-e-208|Peugeot e-208]], [[peugeot-e-2008|Peugeot e-2008]] und im [[citroen-e-c4-x|ë-C4 X]].\n\nDie [[traktionsbatterie|Traktionsbatterie]] mit [[nmc-zellchemie|NMC-Zellen]] sitzt im Unterboden, der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Im Zuge einer technischen Überarbeitung der e-CMP-Komponenten wurde die ursprüngliche Batterie durch eine etwas größere ersetzt.\n\nDa viele Modelle des Konzerns dieselbe Batterie nutzen, sind Erfahrungswerte zu [[batteriealterung|Batteriealterung]] und [[state-of-health|State of Health]] gut zwischen den [[plattform-geschwister|Plattform-Geschwistern]] übertragbar.",
+      "varianten": "Beide Zeilen tragen dieselbe Bezeichnung „e-C4“ und unterscheiden sich nur in der Batterie: 50 kWh brutto / 46,3 kWh netto ist die ursprüngliche e-CMP-Batterie, 54 kWh brutto / 50,8 kWh netto die spätere, überarbeitete Batteriegeneration. Das Baujahr bzw. die Motorleistung entscheidet also über die Batteriegröße.",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "nmc-zellchemie",
+        "modellpflege",
+        "batteriepuffer",
+        "frontantrieb",
+        "state-of-health"
+      ],
+      "geschwister": [
+        "citroen-e-c4-x",
+        "peugeot-e-208",
+        "peugeot-e-2008"
+      ],
+      "hinweise": []
+    },
+    "citroen-e-c4-x": {
+      "kurz": "Stufenheck-Ableger des Citroën ë-C4 mit verlängertem Heck, technisch identisch mit dem ë-C4.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Fließheck-Limousine (Stufenheck-Crossover)",
+      "bauzeit": "seit 2023",
+      "plattform": "e-CMP (Stellantis, ehemals PSA)",
+      "beschreibung": "Der Citroën ë-C4 X ist eine Karosserievariante des [[citroen-e-c4|ë-C4]] mit längerem Heck und separatem Kofferraum. Unter der Haut ist er mit dem ë-C4 identisch und nutzt die e-CMP-Plattform, eine der [[plattform-stellantis|Stellantis-Plattformen]]; zu den Varianten siehe auch [[karosserieformen|Karosserieformen]].\n\nAntrieb und [[traktionsbatterie|Traktionsbatterie]] entsprechen dem ë-C4 sowie weiteren e-CMP-Modellen wie dem [[peugeot-e-208|Peugeot e-208]]. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]).\n\nAuch beim ë-C4 X spiegeln die zwei Batteriegrößen den Wechsel von der ersten zur überarbeiteten e-CMP-Batterie wider.",
+      "varianten": "Wie beim [[citroen-e-c4|ë-C4]] gibt es zwei Zeilen mit identischer Bezeichnung: 50 kWh brutto / 46,3 kWh netto (ursprüngliche Batterie) und 54 kWh brutto / 50,8 kWh netto (überarbeitete Batterie). Die Unterscheidung ergibt sich aus Baujahr bzw. Leistungsstufe, nicht aus der Modellbezeichnung.",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "karosserieformen",
+        "modellpflege",
+        "frontantrieb",
+        "nmc-zellchemie"
+      ],
+      "geschwister": [
+        "citroen-e-c4",
+        "peugeot-e-208",
+        "peugeot-e-2008"
+      ],
+      "hinweise": []
+    },
+    "citroen-e-jumpy": {
+      "kurz": "Elektrischer Transporter bzw. Kleinbus von Citroën in der Personenversion „Combi“, baugleich mit Peugeot e-Expert und Citroën ë-SpaceTourer.",
+      "segment": "Transporter / Kleinbus",
+      "karosserie": "Kastenwagen-basierter Kleinbus (Combi), drei Längen",
+      "bauzeit": "seit 2020",
+      "plattform": "EMP2 (Transporter-Baureihe K0, Stellantis)",
+      "beschreibung": "Der Citroën ë-Jumpy ist die batterieelektrische Version des mittelgroßen Transporters Jumpy; die Rohdaten beziehen sich auf die Personenversion Combi. Er gehört zu einer Gruppe von [[plattform-geschwister|Plattform-Geschwistern]], zu der unter anderem der [[peugeot-e-expert|Peugeot e-Expert]], der [[citroen-e-spacetourer|ë-SpaceTourer]] und der [[peugeot-e-traveller|Peugeot e-Traveller]] zählen; siehe auch [[elektro-transporter|Elektro-Transporter]].\n\nTechnisch basiert das Fahrzeug auf der EMP2-Plattform in der Ausprägung für Transporter (Baureihe K0), die Stellantis für mehrere Marken nutzt. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]); die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden untergebracht, sodass der Innenraum gegenüber den Verbrennerversionen weitgehend unverändert bleibt.\n\nAngeboten wurden zwei Batteriegrößen, die parallel erhältlich waren; die kürzeste Karosserieversion war nur mit der kleineren Batterie verfügbar.",
+      "varianten": "XS, M und XL bezeichnen die drei Fahrzeuglängen. M und XL gibt es mit 50 kWh brutto / 46,3 kWh netto und mit 75 kWh brutto / 68,0 kWh netto; die kurze Version XS ist nur mit der 50-kWh-Batterie erfasst. Die beiden Batteriegrößen sind parallel angebotene Optionen, keine Generationen.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "batteriepuffer",
+        "frontantrieb",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "citroen-e-spacetourer",
+        "peugeot-e-expert",
+        "peugeot-e-traveller"
+      ],
+      "hinweise": [
+        "Der Puffer der 75-kWh-Batterie (68,0 kWh netto) ist mit rund 9 % größer als der der 50-kWh-Batterie (ca. 7 %)."
+      ]
+    },
+    "citroen-e-spacetourer": {
+      "kurz": "Elektrischer Großraum-Van von Citroën für die Personenbeförderung, baugleich mit Peugeot e-Traveller.",
+      "segment": "Großraum-Van / Kleinbus",
+      "karosserie": "Van (Kleinbus), drei Längen",
+      "bauzeit": "seit 2020",
+      "plattform": "EMP2 (Transporter-Baureihe K0, Stellantis)",
+      "beschreibung": "Der Citroën ë-SpaceTourer ist die Pkw-orientierte Variante des Transporters Jumpy mit Elektroantrieb und richtet sich an Familien, Shuttle- und Taxibetriebe. Baugleich ist der [[peugeot-e-traveller|Peugeot e-Traveller]]; eng verwandt sind [[citroen-e-jumpy|ë-Jumpy]] und [[peugeot-e-expert|Peugeot e-Expert]]. Das Fahrzeug zählt damit zu den [[elektro-transporter|Elektro-Transportern]] der [[plattform-stellantis|Stellantis-Plattformen]].\n\nTechnisch basiert das Fahrzeug auf der EMP2-Plattform in der Ausprägung für Transporter (Baureihe K0), die Stellantis für mehrere Marken nutzt. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]); die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden untergebracht, sodass der Innenraum gegenüber den Verbrennerversionen weitgehend unverändert bleibt.\n\nWie beim ë-Jumpy standen zwei Batteriegrößen zur Wahl; die kürzeste Version wurde nur mit der kleineren Batterie angeboten.",
+      "varianten": "XS, M und XL bezeichnen die Fahrzeuglängen. Für M und XL sind die 50-kWh-Batterie (46,3 kWh netto) und die 75-kWh-Batterie (68,0 kWh netto) erfasst, für XS nur die 50-kWh-Batterie. Die Batterien sind parallele Ausstattungsoptionen.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "batteriepuffer",
+        "frontantrieb",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "peugeot-e-traveller",
+        "citroen-e-jumpy",
+        "peugeot-e-expert"
+      ],
+      "hinweise": [
+        "Schreibweise in den Rohdaten „e-Spacetourer“, Herstellerschreibweise „ë-SpaceTourer“."
+      ]
+    },
+    "dacia-spring": {
+      "kurz": "Elektrischer Kleinstwagen von Dacia im SUV-Stil, gilt als eines der günstigsten Elektroautos in Europa und wird in China gebaut.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck im Mini-SUV-Stil, fünftürig",
+      "bauzeit": "seit 2021",
+      "plattform": "CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid)",
+      "beschreibung": "Der Dacia Spring Electric ist das erste Elektroauto der Renault-Tochter Dacia. Er ist eng mit dem in China angebotenen [[renault-city-k-ze|Renault City K-ZE]] verwandt, der wiederum auf dem Kleinwagen Renault Kwid beruht; beide sind damit [[plattform-geschwister|Plattform-Geschwister]]. Gefertigt wird der Spring in China.\n\nDas Konzept ist konsequent auf niedrige Kosten ausgelegt: kleine [[traktionsbatterie|Traktionsbatterie]], geringes Gewicht und ein leistungsschwacher [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]). Einsatzschwerpunkt ist der Stadt- und Nahverkehr; [[dc-schnellladen|DC-Schnellladen]] war je nach Ausstattung nur optional verfügbar.\n\nMit der [[modellpflege|Modellpflege]] 2024 erhielt der Spring eine neue Karosserie und neue Leistungsstufen; die Batteriekapazität blieb nach den Rohdaten unverändert.",
+      "varianten": "Alle vier Zeilen weisen dieselbe Batterie mit 26,8 kWh brutto / 25,0 kWh netto auf. Die Zahlen in „Spring Electric 45“ und „Spring Electric 65“ bezeichnen die Motorleistung in PS, „Extreme“ ist eine Ausstattungslinie. Die Zeile ohne Zusatz steht vermutlich für die frühe Version. Die Varianten unterscheiden sich also nur im Antrieb bzw. in der Ausstattung, nicht in der Batterie; siehe auch [[typbezeichnungen|Typbezeichnungen]].",
+      "konzepte": [
+        "plattform-geschwister",
+        "traktionsbatterie",
+        "frontantrieb",
+        "dc-schnellladen",
+        "modellpflege",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "renault-city-k-ze"
+      ],
+      "hinweise": [
+        "Vier Zeilen mit identischen Kapazitätswerten – für die Batteriekapazität de facto Duplikate.",
+        "Ob die Batterie beim Modell ab 2024 die Zellchemie gewechselt hat (NMC vs. LFP), ist nicht gesichert und wird hier bewusst nicht behauptet.",
+        "Der Bruttowert 26,8 kWh taucht beim Schwestermodell Renault City K-ZE als Nettowert auf – mögliche Inkonsistenz zwischen den beiden Datensätzen."
+      ]
+    },
+    "peugeot-e-2008": {
+      "kurz": "Elektrische Version des kompakten SUV Peugeot 2008 auf der e-CMP-Plattform von Stellantis.",
+      "segment": "Kleinwagen-SUV",
+      "karosserie": "SUV",
+      "bauzeit": "seit 2019",
+      "plattform": "e-CMP (Stellantis, ehemals PSA)",
+      "beschreibung": "Der Peugeot e-2008 ist die batterieelektrische Variante der zweiten Generation des 2008. Er nutzt die e-CMP-Plattform und teilt Antrieb und Batterie mit dem [[peugeot-e-208|e-208]], dem [[citroen-e-c4|Citroën ë-C4]] und weiteren [[plattform-geschwister|Plattform-Geschwistern]] innerhalb der [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]), die [[traktionsbatterie|Traktionsbatterie]] mit [[nmc-zellchemie|NMC-Zellen]] liegt im Unterboden. Mit einer [[modellpflege|Modellpflege]] wurde die ursprüngliche Batterie durch eine etwas größere ersetzt, zugleich stieg die Motorleistung.\n\nDa dieselbe Batterie in vielen Konzernmodellen verbaut ist, lassen sich Erkenntnisse zu [[batteriealterung|Batteriealterung]] und Ladeverhalten gut übertragen.",
+      "varianten": "„e-2008“ und „e-2008 SUV“ bezeichnen dasselbe Fahrzeug; die Zeile „e-2008 SUV“ mit 50 kWh entspricht der ersten Zeile. 50 kWh brutto / 46,3 kWh netto ist die ursprüngliche e-CMP-Batterie, 54 kWh brutto / 50,8 kWh netto die überarbeitete Batterie nach der [[modellpflege|Modellpflege]].",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "nmc-zellchemie",
+        "modellpflege",
+        "frontantrieb",
+        "batteriealterung"
+      ],
+      "geschwister": [
+        "peugeot-e-208",
+        "citroen-e-c4",
+        "citroen-e-c4-x"
+      ],
+      "hinweise": [
+        "„e-2008 SUV“ (50 kWh) ist inhaltlich ein Duplikat zu „e-2008“ (50 kWh) – nur abweichende Schreibweise."
+      ]
+    },
+    "peugeot-e-208": {
+      "kurz": "Elektrischer Kleinwagen von Peugeot und eines der ersten Modelle auf der e-CMP-Plattform von Stellantis (ehemals PSA).",
+      "segment": "Kleinwagen",
+      "karosserie": "Schrägheck, fünftürig",
+      "bauzeit": "seit 2019",
+      "plattform": "e-CMP (Stellantis, ehemals PSA)",
+      "beschreibung": "Der Peugeot e-208 ist die batterieelektrische Version der zweiten Generation des 208. Er war eines der ersten Fahrzeuge auf der e-CMP-Plattform, die in der Folge für zahlreiche Klein- und Kompaktwagen des Konzerns genutzt wurde, darunter [[peugeot-e-2008|e-2008]] und [[citroen-e-c4|Citroën ë-C4]]. Der e-208 ist damit ein zentrales Modell der [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] sitzt vorn und treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] mit [[nmc-zellchemie|NMC-Zellen]] ist im Unterboden und unter den Sitzen verteilt. Im Rahmen einer [[modellpflege|Modellpflege]] wurden Batterie und Motor überarbeitet.\n\nWegen der weiten Verbreitung ist der e-208 ein häufiger Kandidat für einen [[batteriecheck|Batteriecheck]] im Gebrauchtwagenhandel.",
+      "varianten": "Alle drei Zeilen heißen „e-208“ und unterscheiden sich nur in der Batterie: 50 kWh brutto / 46,3 kWh netto ist die ursprüngliche Batterie, 54 kWh brutto / 50,8 kWh netto die überarbeitete Version nach der [[modellpflege|Modellpflege]]. Die Zeile mit 51 kWh brutto / 48,1 kWh netto lässt sich keiner der beiden Generationen eindeutig zuordnen (siehe Hinweise).",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "nmc-zellchemie",
+        "modellpflege",
+        "frontantrieb",
+        "batteriecheck",
+        "bruttokapazitaet"
+      ],
+      "geschwister": [
+        "peugeot-e-2008",
+        "citroen-e-c4",
+        "citroen-e-c4-x"
+      ],
+      "hinweise": [
+        "Die Zeile 51 kWh brutto / 48,1 kWh netto passt zu keiner der bei den Geschwistermodellen erfassten Batterien (50/46,3 bzw. 54/50,8). Möglicherweise wurde ein Nettowert der neueren Batterie als Bruttowert erfasst – bitte prüfen."
+      ]
+    },
+    "peugeot-e-3008": {
+      "kurz": "Elektrisches Mittelklasse-SUV von Peugeot im Coupé-Stil und eines der ersten Modelle auf der STLA-Medium-Plattform von Stellantis.",
+      "segment": "Kompakt-SUV / Mittelklasse-SUV",
+      "karosserie": "SUV mit coupéartiger Dachlinie",
+      "bauzeit": "seit 2024",
+      "plattform": "STLA Medium (Stellantis)",
+      "beschreibung": "Der Peugeot e-3008 der dritten 3008-Generation ist eines der ersten Serienmodelle auf der STLA-Medium-Plattform, einer neuen, vorrangig für Elektroantriebe ausgelegten Architektur der [[plattform-stellantis|Stellantis-Plattformen]]. Die Karosserie ist als SUV mit abfallender Dachlinie gestaltet.\n\nGegenüber den älteren e-CMP-Modellen bietet die Plattform Platz für deutlich größere [[traktionsbatterie|Traktionsbatterien]]. Die Basisversion hat einen [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]); daneben gibt es eine Version mit zwei Motoren und [[allradantrieb|Allradantrieb]].\n\nDie Long-Range-Version gehört mit ihrer großen Batterie zu den reichweitenstärksten Modellen ihres Segments; in Kombination mit der [[wltp|WLTP]]-Reichweite ist sie auch für Langstrecken ausgelegt.",
+      "varianten": "„e-3008“ steht für die Standardbatterie mit 77 kWh brutto / 73,0 kWh netto, „e-3008 Long Range“ für die große Batterie mit 101 kWh brutto / 96,9 kWh netto. Beide werden parallel angeboten; die Unterscheidung ist also keine Generationenfrage, sondern eine Ausstattungsoption.",
+      "konzepte": [
+        "plattform-stellantis",
+        "traktionsbatterie",
+        "frontantrieb",
+        "allradantrieb",
+        "wltp",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Weitere STLA-Medium-Modelle (z. B. Peugeot e-5008, Opel Grandland Electric) sind in families.json nicht enthalten."
+      ]
+    },
+    "peugeot-e-308": {
+      "kurz": "Elektrische Version des Peugeot 308 in der dritten Generation, als Schrägheck und als Kombi (SW) erhältlich.",
+      "segment": "Kompaktklasse",
+      "karosserie": "Schrägheck, Kombi (SW)",
+      "bauzeit": "seit 2023",
+      "plattform": "EMP2 (Stellantis, Weiterentwicklung für Elektroantrieb)",
+      "beschreibung": "Der Peugeot e-308 ergänzt die dritte Generation des 308 um einen reinen Elektroantrieb. Anders als die kleineren Modelle basiert er nicht auf e-CMP, sondern auf einer weiterentwickelten Version der EMP2-Plattform, die ursprünglich für Verbrenner und Plug-in-Hybride entstand; sie zählt zu den [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Batterie und Motor entsprechen weitgehend der überarbeiteten Antriebsgeneration, die auch im [[peugeot-e-208|e-208]] und [[peugeot-e-2008|e-2008]] nach der [[modellpflege|Modellpflege]] zum Einsatz kommt.\n\nNeben dem Schrägheck gibt es den Kombi SW, der sich nur in der [[karosserieformen|Karosserieform]] unterscheidet.",
+      "varianten": "„e-308“ (Schrägheck) und „e-308 SW“ (Kombi) haben dieselbe Batterie mit 54 kWh brutto / 50,8 kWh netto. Die Bezeichnung SW steht bei Peugeot traditionell für die Kombiversion.",
+      "konzepte": [
+        "plattform-stellantis",
+        "karosserieformen",
+        "frontantrieb",
+        "plattform-geschwister",
+        "nmc-zellchemie",
+        "modellpflege"
+      ],
+      "geschwister": [
+        "peugeot-e-408",
+        "peugeot-e-208",
+        "peugeot-e-2008"
+      ],
+      "hinweise": [
+        "Die Batterie hat nach den Rohdaten dieselben Werte (54/50,8 kWh) wie die überarbeitete e-CMP-Batterie. Ob es sich um exakt dasselbe Batteriepaket handelt, ist nicht gesichert."
+      ]
+    },
+    "peugeot-e-408": {
+      "kurz": "Elektrische Version des Peugeot 408, eines Fastback-Crossovers zwischen Limousine und SUV.",
+      "segment": "Kompaktklasse / Mittelklasse",
+      "karosserie": "Fastback-Crossover",
+      "bauzeit": "seit 2024",
+      "plattform": "EMP2 (Stellantis, Weiterentwicklung für Elektroantrieb)",
+      "beschreibung": "Der Peugeot e-408 ist die batterieelektrische Variante des 408, der optisch zwischen Limousine, Coupé und SUV angesiedelt ist. Technisch ist er eng mit dem [[peugeot-e-308|e-308]] verwandt und nutzt ebenfalls die weiterentwickelte EMP2-Plattform der [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] ist nach den Rohdaten etwas größer als die des e-308.\n\nZur Einordnung der verschiedenen Aufbauformen siehe [[karosserieformen|Karosserieformen]].",
+      "varianten": "Es gibt nur eine Zeile (e-408) mit 61 kWh brutto / 58,3 kWh netto.",
+      "konzepte": [
+        "plattform-stellantis",
+        "karosserieformen",
+        "frontantrieb",
+        "traktionsbatterie",
+        "plattform-geschwister"
+      ],
+      "geschwister": [
+        "peugeot-e-308"
+      ],
+      "hinweise": [
+        "Die Batteriekapazität weicht vom technisch eng verwandten e-308 (54/50,8 kWh) ab; möglicherweise handelt es sich um eine neuere Batterieversion, die inzwischen auch im e-308 angeboten wird. Nicht gesichert."
+      ]
+    },
+    "peugeot-e-expert": {
+      "kurz": "Elektrischer Transporter bzw. Kleinbus von Peugeot in der Personenversion „Combi“, baugleich mit Citroën ë-Jumpy.",
+      "segment": "Transporter / Kleinbus",
+      "karosserie": "Kastenwagen-basierter Kleinbus (Combi), drei Längen",
+      "bauzeit": "seit 2020",
+      "plattform": "EMP2 (Transporter-Baureihe K0, Stellantis)",
+      "beschreibung": "Der Peugeot e-Expert ist die elektrische Version des mittelgroßen Transporters Expert; die Rohdaten betreffen die Personenversion Combi. Er ist baugleich mit dem [[citroen-e-jumpy|Citroën ë-Jumpy]] und eng verwandt mit [[peugeot-e-traveller|e-Traveller]] und [[citroen-e-spacetourer|Citroën ë-SpaceTourer]] – ein typisches Beispiel für [[plattform-geschwister|Plattform-Geschwister]] im Bereich der [[elektro-transporter|Elektro-Transporter]].\n\nTechnisch basiert das Fahrzeug auf der EMP2-Plattform in der Ausprägung für Transporter (Baureihe K0), die Stellantis für mehrere Marken nutzt. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]); die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden untergebracht, sodass der Innenraum gegenüber den Verbrennerversionen weitgehend unverändert bleibt.\n\nZwei Batteriegrößen wurden parallel angeboten; die kompakte Version gab es nur mit der kleineren Batterie.",
+      "varianten": "Compact, Standard und Long bezeichnen die drei Fahrzeuglängen (entsprechend XS, M und XL bei Citroën). Standard und Long gibt es mit 50 kWh brutto / 46,3 kWh netto und mit 75 kWh brutto / 68,0 kWh netto; Compact ist nur mit der 50-kWh-Batterie erfasst.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "typbezeichnungen",
+        "frontantrieb",
+        "batteriepuffer"
+      ],
+      "geschwister": [
+        "citroen-e-jumpy",
+        "peugeot-e-traveller",
+        "citroen-e-spacetourer"
+      ],
+      "hinweise": []
+    },
+    "peugeot-e-partner": {
+      "kurz": "Elektrischer Hochdach-Kleintransporter von Peugeot, technisch eng verwandt mit Peugeot e-Rifter und Citroën ë-Berlingo.",
+      "segment": "Kleintransporter / Hochdachkombi",
+      "karosserie": "Hochdachkombi bzw. Kastenwagen",
+      "bauzeit": null,
+      "plattform": "EMP2 (K9-Baureihe, Stellantis)",
+      "beschreibung": "Der Peugeot e-Partner ist die elektrische Version des Kleintransporters Partner der aktuellen Generation (K9). Er teilt Karosserie und Antrieb mit dem Pkw-orientierten [[peugeot-e-rifter|e-Rifter]] und dem [[citroen-e-berlingo|Citroën ë-Berlingo]] und gehört damit zu den [[plattform-geschwister|Plattform-Geschwistern]] der [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]), die [[traktionsbatterie|Traktionsbatterie]] liegt im Unterboden. Die Batterie entspricht der ursprünglichen 50-kWh-Batterie der e-CMP-Modelle.\n\nAls gewerblich genutzter [[elektro-transporter|Elektro-Transporter]] ist er häufig hohen Laufleistungen ausgesetzt; ein [[batteriecheck|Batteriecheck]] ist beim Gebrauchtkauf daher besonders sinnvoll.",
+      "varianten": "Es gibt nur eine Zeile (e-Partner) mit 50 kWh brutto / 46,3 kWh netto; Längenvarianten sind nicht erfasst.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "frontantrieb",
+        "batteriecheck"
+      ],
+      "geschwister": [
+        "peugeot-e-rifter",
+        "citroen-e-berlingo"
+      ],
+      "hinweise": [
+        "Die bei den Geschwistermodellen (ë-Berlingo) erfasste neuere 52-kWh-Batterie fehlt hier.",
+        "Nicht erkennbar, ob die Zeile die Personen- oder die Nutzfahrzeugversion betrifft."
+      ]
+    },
+    "peugeot-e-rifter": {
+      "kurz": "Elektrischer Hochdachkombi von Peugeot für die Personenbeförderung, baugleich mit Citroën ë-Berlingo.",
+      "segment": "Hochdachkombi",
+      "karosserie": "Hochdachkombi (Van), kurze und lange Version",
+      "bauzeit": null,
+      "plattform": "EMP2 (K9-Baureihe, Stellantis)",
+      "beschreibung": "Der Peugeot e-Rifter ist die Pkw-Version des Hochdachkombis der Baureihe K9 mit Elektroantrieb. Er ist baugleich mit dem [[citroen-e-berlingo|Citroën ë-Berlingo]] und technisch identisch mit dem Nutzfahrzeug [[peugeot-e-partner|e-Partner]]; alle zählen zu den [[plattform-geschwister|Plattform-Geschwistern]] der [[plattform-stellantis|Stellantis-Plattformen]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] im Unterboden entspricht der ursprünglichen 50-kWh-Batterie der e-CMP-Modelle.\n\nDer e-Rifter wird mit zwei Karosserielängen angeboten, die sich in Innenraum und Sitzplatzanzahl unterscheiden, nicht jedoch in der Batterie.",
+      "varianten": "Standard/M und Long/XL bezeichnen jeweils die kurze bzw. lange Karosserie; offenbar wurden in den Rohdaten zwei Namensschemata gemischt. Alle vier Zeilen haben dieselbe Batterie mit 50 kWh brutto / 46,3 kWh netto.",
+      "konzepte": [
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "elektro-transporter",
+        "frontantrieb",
+        "typbezeichnungen"
+      ],
+      "geschwister": [
+        "citroen-e-berlingo",
+        "peugeot-e-partner"
+      ],
+      "hinweise": [
+        "Vier Zeilen mit identischen Werten; „Standard“ und „M“ sowie „Long“ und „XL“ sind vermutlich jeweils dieselbe Version unter verschiedenen Bezeichnungen (Duplikate).",
+        "Die beim ë-Berlingo erfasste neuere 52-kWh-Batterie fehlt hier."
+      ]
+    },
+    "peugeot-e-traveller": {
+      "kurz": "Elektrischer Großraum-Van von Peugeot für die Personenbeförderung, baugleich mit Citroën ë-SpaceTourer.",
+      "segment": "Großraum-Van / Kleinbus",
+      "karosserie": "Van (Kleinbus), mehrere Längen",
+      "bauzeit": "seit 2020",
+      "plattform": "EMP2 (Transporter-Baureihe K0, Stellantis)",
+      "beschreibung": "Der Peugeot e-Traveller ist die Personenversion des Transporters Expert mit Elektroantrieb und richtet sich an Familien sowie gewerbliche Personenbeförderer. Er ist baugleich mit dem [[citroen-e-spacetourer|Citroën ë-SpaceTourer]] und eng verwandt mit [[peugeot-e-expert|e-Expert]] und [[citroen-e-jumpy|Citroën ë-Jumpy]]; siehe auch [[elektro-transporter|Elektro-Transporter]] und [[plattform-stellantis|Stellantis-Plattformen]].\n\nTechnisch basiert das Fahrzeug auf der EMP2-Plattform in der Ausprägung für Transporter (Baureihe K0), die Stellantis für mehrere Marken nutzt. Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]); die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden untergebracht, sodass der Innenraum gegenüber den Verbrennerversionen weitgehend unverändert bleibt.\n\nWie bei den Schwestermodellen standen zwei Batteriegrößen parallel zur Wahl.",
+      "varianten": "Compact, Standard und Long bezeichnen die drei Längen; zusätzlich tauchen die Bezeichnungen L2 und L3 auf, die vermutlich Standard und Long entsprechen (anderes Namensschema, eventuell nach einer [[modellpflege|Modellpflege]]). Standard/L2 und Long/L3 sind jeweils mit 50 kWh brutto / 46,3 kWh netto und 75 kWh brutto / 68,0 kWh netto erfasst, Compact nur mit 50 kWh.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-stellantis",
+        "plattform-geschwister",
+        "typbezeichnungen",
+        "frontantrieb",
+        "modellpflege"
+      ],
+      "geschwister": [
+        "citroen-e-spacetourer",
+        "peugeot-e-expert",
+        "citroen-e-jumpy"
+      ],
+      "hinweise": [
+        "L2/L3 und Standard/Long liefern identische Werte – vermutlich Duplikate unter zwei Namensschemata.",
+        "Ob die Längenbezeichnungen L2/L3 mit einer Modellpflege eingeführt wurden, ist nicht gesichert."
+      ]
+    },
+    "peugeot-ion": {
+      "kurz": "Elektrischer Kleinstwagen von Peugeot, baugleich mit Mitsubishi i-MiEV und Citroën C-Zero und bei Mitsubishi in Japan gebaut.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck, fünftürig",
+      "bauzeit": "2010–2020",
+      "plattform": "Mitsubishi i-MiEV (abgeleitet vom Kei-Car Mitsubishi i)",
+      "beschreibung": "Der Peugeot iOn ist das Peugeot-Pendant des Mitsubishi i-MiEV und damit baugleich mit dem [[citroen-c-zero|Citroën C-Zero]]. Die drei Modelle gelten als typisches Beispiel für Badge-Engineering bzw. [[plattform-geschwister|Plattform-Geschwister]]: Technik und Fertigung stammen von Mitsubishi.\n\nDer [[elektromotor|Elektromotor]] sitzt im Heck und treibt die Hinterräder an ([[hinterradantrieb|Hinterradantrieb]]). Die [[traktionsbatterie|Traktionsbatterie]] aus [[lithium-ionen-akku|Lithium-Ionen-Zellen]] ist flach im Unterboden eingebaut.\n\nAufgrund des Alters der Fahrzeuge ist die [[batteriealterung|Batteriealterung]] ein zentrales Thema; vor einem Kauf empfiehlt sich ein [[batteriecheck|Batteriecheck]].",
+      "varianten": "Es gibt nur eine Zeile (iOn) mit 16 kWh brutto / 14,5 kWh netto, identisch mit dem [[citroen-c-zero|Citroën C-Zero]].",
+      "konzepte": [
+        "plattform-geschwister",
+        "traktionsbatterie",
+        "lithium-ionen-akku",
+        "hinterradantrieb",
+        "batteriealterung",
+        "batteriecheck"
+      ],
+      "geschwister": [
+        "citroen-c-zero"
+      ],
+      "hinweise": [
+        "Je nach Baujahr werden für i-MiEV/C-Zero/iOn sowohl 16 kWh als auch 14,5 kWh als Gesamtkapazität genannt; möglicherweise ist 14,5 kWh eine spätere Bruttokapazität statt eines Nettowerts."
+      ]
+    },
+    "peugeot-partner-tepee-electric": {
+      "kurz": "Früher elektrischer Hochdachkombi von Peugeot auf Basis der zweiten Partner-Generation, baugleich mit dem damaligen elektrischen Citroën Berlingo.",
+      "segment": "Hochdachkombi",
+      "karosserie": "Hochdachkombi (Van)",
+      "bauzeit": null,
+      "plattform": "Partner/Berlingo der zweiten Generation (Konversion eines Verbrennermodells)",
+      "beschreibung": "Der Peugeot Partner Tepee Electric war die elektrische Pkw-Version des Hochdachkombis Partner der zweiten Generation. Er entstand als [[konversionsfahrzeug|Konversionsfahrzeug]]: Ein ursprünglich für Verbrennungsmotoren konstruiertes Fahrzeug wurde auf Elektroantrieb umgerüstet. Sein Gegenstück bei Citroën ist der ältere elektrische Berlingo, der in diesem Wiki unter dem [[citroen-e-berlingo|ë-Berlingo]] geführt wird.\n\nDie [[traktionsbatterie|Traktionsbatterie]] ist im Vergleich zu heutigen Modellen klein; das Fahrzeug war vor allem für innerstädtische Einsätze gedacht. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDer Nachfolger ist der [[peugeot-e-rifter|Peugeot e-Rifter]] auf der aktuellen K9-Plattform mit deutlich größerer Batterie.",
+      "varianten": "Es gibt nur eine Zeile (Partner Tepee Electric) mit 22,5 kWh brutto / 20,5 kWh netto. Dieselben Werte stehen beim [[citroen-e-berlingo|ë-Berlingo]] in der Zeile „E-Berlingo Multispace“.",
+      "konzepte": [
+        "konversionsfahrzeug",
+        "plattform-geschwister",
+        "traktionsbatterie",
+        "elektro-transporter",
+        "frontantrieb"
+      ],
+      "geschwister": [
+        "citroen-e-berlingo"
+      ],
+      "hinweise": [
+        "Bauzeit nicht sicher bekannt, daher null.",
+        "Die Konversion erfolgte nach verbreiteten Angaben in Zusammenarbeit mit einem externen Partner; Details nicht gesichert."
+      ]
+    },
+    "renault-city-k-ze": {
+      "kurz": "Elektrischer Kleinstwagen im SUV-Stil, den Renault für den chinesischen Markt anbot und der die Basis des Dacia Spring bildet.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck im Mini-SUV-Stil, fünftürig",
+      "bauzeit": null,
+      "plattform": "CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid)",
+      "beschreibung": "Der Renault City K-ZE ist eine elektrische Ableitung des Kleinwagens Renault Kwid und wurde in China über ein Gemeinschaftsunternehmen produziert und vermarktet. Für Europa wurde das Fahrzeug als [[dacia-spring|Dacia Spring]] adaptiert; beide Modelle sind damit [[plattform-geschwister|Plattform-Geschwister]].\n\nKonzipiert ist der City K-ZE als preiswertes Stadtauto mit kleiner [[traktionsbatterie|Traktionsbatterie]] und [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]).\n\nIn Europa wurde das Modell unter dem Renault-Namen nicht regulär angeboten; Relevanz hat es hier vor allem als technische Basis des Dacia Spring.",
+      "varianten": "Es gibt nur eine Zeile (City K-ZE) mit 30 kWh brutto / 26,8 kWh netto.",
+      "konzepte": [
+        "plattform-geschwister",
+        "traktionsbatterie",
+        "frontantrieb",
+        "bruttokapazitaet",
+        "nettokapazitaet"
+      ],
+      "geschwister": [
+        "dacia-spring"
+      ],
+      "hinweise": [
+        "Die Werte weichen vom baugleichen Dacia Spring ab (dort 26,8 kWh brutto / 25,0 kWh netto). Hier erscheint 26,8 kWh als Nettowert – möglicherweise ist der Bruttowert 30 kWh unsicher oder falsch.",
+        "Bauzeit nicht sicher bekannt, daher null."
+      ]
+    },
+    "renault-kangoo-electric": {
+      "kurz": "Elektrischer Hochdachkombi bzw. Kleintransporter von Renault, der als Kangoo Z.E. (zweite Generation) und als Kangoo E-Tech Electric (dritte Generation) angeboten wurde.",
+      "segment": "Hochdachkombi / Kleintransporter",
+      "karosserie": "Hochdachkombi bzw. Kastenwagen, normale und lange Version",
+      "bauzeit": null,
+      "plattform": "Kangoo II (Z.E.); Kangoo III auf Renault-Nissan-Plattform CMF-C/D (E-Tech)",
+      "beschreibung": "Der Renault Kangoo mit Elektroantrieb ist einer der am längsten angebotenen [[elektro-transporter|Elektro-Transporter]] in Europa. Der Kangoo Z.E. der zweiten Generation basierte auf dem Verbrennermodell und erhielt im Laufe der Bauzeit eine größere Batterie. Die dritte Generation wird als Kangoo E-Tech Electric vermarktet und ist baugleich mit Modellen anderer Hersteller, darunter der [[mercedes-eqt|Mercedes EQT]].\n\nIn beiden Generationen treibt ein [[elektromotor|Elektromotor]] die Vorderräder an ([[frontantrieb|Frontantrieb]]); die [[traktionsbatterie|Traktionsbatterie]] liegt im Unterboden. Beim Kangoo Z.E. war – wie bei der Renault Zoe – anfangs auch eine Batteriemiete üblich.\n\nDie Bezeichnung „Z.E.“ (Zero Emission) wurde bei Renault später durch „E-Tech Electric“ abgelöst; siehe auch [[typbezeichnungen|Typbezeichnungen]].",
+      "varianten": "„Kangoo Z.E.“ gibt es mit zwei Batteriegenerationen: 22 kWh brutto / 20,0 kWh netto (Erstausstattung) und 33 kWh brutto / 31,0 kWh netto (spätere, größere Batterie). „Kangoo Maxi Z.E.“ ist die Langversion mit der 33-kWh-Batterie. „Kangoo E-Tech“ und „Kangoo Grand E-Tech“ (Langversion) gehören zur dritten Generation mit 48 kWh brutto / 45,0 kWh netto.",
+      "konzepte": [
+        "elektro-transporter",
+        "plattform-geschwister",
+        "typbezeichnungen",
+        "modellpflege",
+        "frontantrieb",
+        "traktionsbatterie"
+      ],
+      "geschwister": [
+        "mercedes-eqt",
+        "renault-master-electric"
+      ],
+      "hinweise": [
+        "Unter einem Slug sind zwei Fahrzeuggenerationen (Kangoo Z.E. und Kangoo E-Tech) zusammengefasst.",
+        "Für den Kangoo Z.E. mit kleiner Batterie findet man 22 kWh teils als Brutto-, teils als Nettoangabe.",
+        "Mercedes EQT ist in families.json mit 50/45 kWh erfasst, der Kangoo E-Tech mit 48/45 kWh – gleicher Nettowert, abweichender Bruttowert."
+      ]
+    },
+    "renault-master-electric": {
+      "kurz": "Elektrischer großer Transporter von Renault, erst als Master Z.E. und in der neuen Generation als Master E-Tech Electric angeboten.",
+      "segment": "Transporter (großer Kastenwagen)",
+      "karosserie": "Kastenwagen, Fahrgestell",
+      "bauzeit": null,
+      "plattform": "Master III (Z.E.); Master IV (E-Tech)",
+      "beschreibung": "Der Renault Master mit Elektroantrieb ist der große [[elektro-transporter|Elektro-Transporter]] der Marke. Der Master Z.E. basierte auf der dritten Master-Generation und war mit einer vergleichsweise kleinen [[traktionsbatterie|Traktionsbatterie]] vor allem für den städtischen Lieferverkehr ausgelegt.\n\nMit der neuen Master-Generation (E-Tech Electric) wurde das Konzept grundlegend überarbeitet: Die Karosserie ist aerodynamischer, und es stehen deutlich größere Batterien zur Wahl, womit der Transporter auch für Überlandfahrten geeignet ist. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDie Bezeichnungswechsel von „Z.E.“ zu „E-Tech“ folgen der allgemeinen Namenssystematik von Renault; siehe [[typbezeichnungen|Typbezeichnungen]].",
+      "varianten": "„Master Z.E.“ ist die ältere Generation mit 33 kWh brutto / 31,0 kWh netto. „Master E-Tech“ gehört zur neuen Generation und ist mit zwei parallel angebotenen Batterien erfasst: 55 kWh brutto / 52,0 kWh netto und 92 kWh brutto / 87,0 kWh netto.",
+      "konzepte": [
+        "elektro-transporter",
+        "typbezeichnungen",
+        "frontantrieb",
+        "traktionsbatterie",
+        "batteriepuffer"
+      ],
+      "geschwister": [
+        "renault-kangoo-electric"
+      ],
+      "hinweise": [
+        "Zwei Generationen unter einem Slug zusammengefasst.",
+        "Für den Master E-Tech werden in Herstellerangaben häufig 40 kWh und 87 kWh (nutzbar) genannt. Die Zeile 55/52 kWh passt dazu nicht – bitte prüfen.",
+        "Die Batterie des Master Z.E. (33/31 kWh) hat dieselben Werte wie der Kangoo Z.E. mit großer Batterie; eine technische Identität wird hier nicht behauptet.",
+        "Die Werte 92/87 kWh stimmen mit der großen Batterie des Renault Scenic E-Tech überein; ob es sich um dasselbe Batteriepaket handelt, ist nicht gesichert."
+      ]
+    },
+    "renault-scenic-e-tech": {
+      "kurz": "Rein elektrischer Familien-SUV-Van von Renault auf der Elektroplattform AmpR Medium (ehemals CMF-EV).",
+      "segment": "Kompakt-SUV",
+      "karosserie": "SUV / Crossover-Van",
+      "bauzeit": "seit 2024",
+      "plattform": "AmpR Medium (ehemals CMF-EV, Renault-Nissan)",
+      "beschreibung": "Der Renault Scenic E-Tech Electric ist die fünfte Generation des Scenic und erstmals ein reines Elektroauto. Aus dem früheren Kompaktvan wurde ein familienorientierter Crossover mit SUV-Anmutung. Er basiert auf der dedizierten Elektroplattform AmpR Medium, die Renault gemeinsam mit Nissan entwickelt hat und die auch der Renault Megane E-Tech und der Nissan Ariya nutzen.\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Zwei Batteriegrößen mit [[nmc-zellchemie|NMC-Zellen]] werden parallel angeboten; die größere ermöglicht nach [[wltp|WLTP]] eine hohe Reichweite für die Klasse.\n\nDa die Plattform von vornherein für den [[bev|batterieelektrischen Antrieb]] entwickelt wurde, liegt die [[traktionsbatterie|Traktionsbatterie]] flach im Fahrzeugboden.",
+      "varianten": "Die Zahlen in den Bezeichnungen geben die gerundete [[nettokapazitaet|Nettokapazität]] an: „EV60“ steht für 65 kWh brutto / 60,0 kWh netto, „EV87“ für 92 kWh brutto / 87,0 kWh netto. Beide Batterien werden parallel angeboten.",
+      "konzepte": [
+        "bev",
+        "nmc-zellchemie",
+        "frontantrieb",
+        "wltp",
+        "nettokapazitaet",
+        "typbezeichnungen"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Weitere AmpR-Medium-Modelle (Renault Megane E-Tech, Nissan Ariya) sind in families.json nicht enthalten.",
+        "Die Werte der großen Batterie (92/87 kWh) stimmen mit dem Renault Master E-Tech überein."
+      ]
+    },
+    "renault-twingo-electric": {
+      "kurz": "Elektrische Version des Kleinstwagens Renault Twingo der dritten Generation mit Heckmotor, technisch verwandt mit dem Smart ForFour EQ.",
+      "segment": "Kleinstwagen",
+      "karosserie": "Schrägheck, fünftürig",
+      "bauzeit": "2020–2024",
+      "plattform": "Renault-Daimler-Kleinwagenplattform (Twingo III / Smart ForFour)",
+      "beschreibung": "Der Renault Twingo Electric ist die batterieelektrische Variante des Twingo der dritten Generation, die Renault gemeinsam mit Daimler entwickelt hat. Schwestermodell ist der Smart ForFour mit Elektroantrieb (EQ), der in families.json nicht enthalten ist.\n\nBesonderheit ist das Heckmotor-Layout: Der [[elektromotor|Elektromotor]] sitzt hinten und treibt die Hinterräder an ([[hinterradantrieb|Hinterradantrieb]]), was einen sehr kleinen Wendekreis ermöglicht. Die [[traktionsbatterie|Traktionsbatterie]] ist im Unterboden untergebracht.\n\nDer Twingo Electric bietet [[ac-laden|AC-Laden]] mit vergleichsweise hoher Leistung, ist aber insgesamt klar als Stadtfahrzeug konzipiert.",
+      "varianten": "Es gibt nur eine Zeile (Twingo Electric ZE) mit 22 kWh brutto / 21,3 kWh netto. Der Zusatz „ZE“ verweist auf die frühere Renault-Kennzeichnung „Z.E.“ für Elektrofahrzeuge.",
+      "konzepte": [
+        "hinterradantrieb",
+        "ac-laden",
+        "traktionsbatterie",
+        "batteriepuffer",
+        "typbezeichnungen"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "Kleiner Puffer (22 vs. 21,3 kWh); in manchen Quellen wird 22 kWh als nutzbare Kapazität angegeben.",
+        "Das Schwestermodell Smart ForFour EQ ist nicht in families.json enthalten."
+      ]
+    },
+    "renault-zoe": {
+      "kurz": "Elektrischer Kleinwagen von Renault und über viele Jahre eines der meistverkauften Elektroautos Europas, mit drei Batteriegenerationen.",
+      "segment": "Kleinwagen",
+      "karosserie": "Schrägheck, fünftürig",
+      "bauzeit": "2012–2024",
+      "plattform": "Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV)",
+      "beschreibung": "Die Renault Zoe wurde von Beginn an als reines Elektroauto ([[bev|BEV]]) entwickelt und war über mehrere Jahre eines der meistverkauften Elektroautos in Europa. Technisch lehnt sie sich an den Clio der vierten Generation an, hat aber eine eigene Karosserie.\n\nIm Laufe der Bauzeit erhielt die Zoe drei [[traktionsbatterie|Batteriegenerationen]] (22, Z.E. 40 und Z.E. 50) sowie verschiedene [[elektromotor|Elektromotoren]], die über die Typbezeichnung erkennbar sind. Charakteristisch für die frühen Versionen ist das leistungsfähige [[ac-laden|AC-Laden]] über das „Chameleon“-Ladegerät; [[dc-schnellladen|DC-Schnellladen]] (CCS) wurde erst mit der großen [[modellpflege|Modellpflege]] 2019 optional. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nViele Zoe wurden mit Batteriemiete verkauft, d. h. die Batterie gehörte nicht dem Fahrzeughalter. Für Gebrauchtkäufer sind deshalb neben dem [[state-of-health|State of Health]] auch die Eigentumsverhältnisse der Batterie relevant; ein [[batteriecheck|Batteriecheck]] ist empfehlenswert.",
+      "varianten": "Die [[typbezeichnungen|Typbezeichnungen]] setzen sich aus einem Buchstaben für den Motor (R = Renault-eigener Motor, Q = Motor mit Schnelllade-Option für AC 43 kW) und einer Zahl zusammen, die sich auf Reichweite bzw. Leistung bezieht. Die Rohdaten zeigen drei Batteriegenerationen: 25,9 kWh brutto / 23,3 kWh netto (erste Generation, „22 kWh“; Q210, R210, R240, R90 Entry, R75), 44,1 kWh brutto / 41,0 kWh netto (Z.E. 40; Q90, R90, R110, R75) und 54,7 kWh brutto / 52,0 kWh netto (Z.E. 50; R110, R135). Dieselbe Motorbezeichnung kann daher mit unterschiedlichen Batterien vorkommen.",
+      "konzepte": [
+        "typbezeichnungen",
+        "ac-laden",
+        "dc-schnellladen",
+        "modellpflege",
+        "bev",
+        "state-of-health",
+        "batteriecheck",
+        "frontantrieb"
+      ],
+      "geschwister": [],
+      "hinweise": [
+        "„Zoe R110“ und „Zoe R110 Z.E. 40“ haben identische Werte (44,1/41,0 kWh) – vermutlich Duplikat.",
+        "„Zoe R75“ erscheint mit zwei Batterien (25,9 und 44,1 kWh); die Zuordnung der R75-Variante ist nicht gesichert.",
+        "„Zoe R90 Entry“ mit 25,9 kWh ist ungewöhnlich, da R90 sonst mit der Z.E.-40-Batterie verbunden ist – bitte prüfen.",
+        "Die erste Batteriegeneration wird im Handel als „22 kWh“ bezeichnet, in den Rohdaten aber mit 25,9 kWh brutto / 23,3 kWh netto geführt.",
+        "Die Bedeutung der Zahl in den Motorbezeichnungen (Reichweite vs. Leistung) ist je nach Generation unterschiedlich; hier nur grob beschrieben."
+      ]
+    }
+  },
+  "hersteller": {
+    "Citroen": {
+      "name": "Citroën",
+      "kurz": "Französischer Automobilhersteller, heute Marke des Stellantis-Konzerns.",
+      "beschreibung": "Citroën gehörte bis 2021 zum französischen PSA-Konzern und ist seither eine Marke von Stellantis. Die Elektromodelle der Marke tragen meist das Präfix „ë-“ und nutzen die gemeinsamen [[plattform-stellantis|Stellantis-Plattformen]], vor allem e-CMP, EMP2 für Transporter und die kostengünstige Smart-Car-Plattform. Zahlreiche Modelle sind [[plattform-geschwister|Plattform-Geschwister]] von Peugeot- und Opel-Fahrzeugen.\n\nFrühe Elektromodelle wie der C-Zero entstanden in Kooperation mit Mitsubishi bzw. als [[konversionsfahrzeug|Konversionsfahrzeuge]]. Heute setzt Citroën auf preisgünstige Elektroautos, teils mit [[lfp-zellchemie|LFP-Batterien]], sowie auf elektrische Van- und Transporterversionen ([[elektro-transporter|Elektro-Transporter]])."
+    },
+    "Peugeot": {
+      "name": "Peugeot",
+      "kurz": "Französischer Automobilhersteller, heute Marke des Stellantis-Konzerns.",
+      "beschreibung": "Peugeot war die Kernmarke des PSA-Konzerns, der 2021 mit Fiat Chrysler zu Stellantis fusionierte. Die Elektromodelle der Marke tragen das Präfix „e-“ und verwenden die [[plattform-stellantis|Stellantis-Plattformen]]: e-CMP für Kleinwagen, EMP2 für Kompaktmodelle und Transporter sowie STLA Medium für neuere Modelle wie den e-3008.\n\nViele Peugeot-Elektroautos sind technisch eng mit Modellen von Citroën, Opel und weiteren Konzernmarken verwandt ([[plattform-geschwister|Plattform-Geschwister]]). Der frühe iOn entstand als Schwestermodell des Mitsubishi i-MiEV."
+    },
+    "Renault": {
+      "name": "Renault",
+      "kurz": "Französischer Automobilhersteller und einer der Pioniere der Elektromobilität in Europa.",
+      "beschreibung": "Renault ist Teil der Renault Group, zu der auch Dacia gehört, und kooperiert in einer Allianz mit Nissan und Mitsubishi. Mit der Zoe sowie den Z.E.-Versionen von Kangoo und Master gehörte Renault zu den ersten Herstellern mit einer breiten Palette an Elektrofahrzeugen ([[bev|BEV]]) in Europa.\n\nDie frühere Kennzeichnung „Z.E.“ (Zero Emission) wurde durch „E-Tech Electric“ ersetzt; siehe [[typbezeichnungen|Typbezeichnungen]]. Neuere Modelle wie der Scenic E-Tech basieren auf der dedizierten Elektroplattform AmpR Medium; das Elektrogeschäft ist in der Einheit Ampere gebündelt. Im Nutzfahrzeugbereich bietet Renault mehrere [[elektro-transporter|Elektro-Transporter]] an."
+    },
+    "Dacia": {
+      "name": "Dacia",
+      "kurz": "Rumänischer Automobilhersteller und preisorientierte Marke der Renault Group.",
+      "beschreibung": "Dacia gehört seit 1999 zu Renault und positioniert sich als Budgetmarke mit einfach gehaltenen, kostengünstigen Fahrzeugen. Das erste Elektroauto der Marke ist der Dacia Spring, der auf dem in China angebotenen Renault City K-ZE beruht und damit zu dessen [[plattform-geschwister|Plattform-Geschwistern]] zählt.\n\nDie Elektrostrategie von Dacia zielt auf besonders günstige Einstiegsmodelle mit kleiner [[traktionsbatterie|Traktionsbatterie]] und geringem Gewicht."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VW ID.3 · Fahrzeug-Wiki</title>
+<link rel="icon" href="../ci/signet.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"><link rel="stylesheet" href="../ci/tokens.css"><style>
+/* Farben, Schriften, Radien kommen aus ci/tokens.css (Corporate Identity) */
+:root{--bg:var(--fw-bg);--panel:var(--fw-surface);--ink:var(--fw-ink);--muted:var(--fw-muted);--line:var(--fw-line);
+  --accent:var(--fw-primary);--accent-soft:var(--fw-primary-soft);--code:var(--fw-surface-2)}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--fw-font-text);display:grid;grid-template-columns:290px minmax(0,1fr);min-height:100vh;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.stat b,.brand{font-family:var(--fw-font-display);letter-spacing:-.01em}
+aside{background:var(--panel);border-right:1px solid var(--line);padding:18px 16px;position:sticky;top:0;height:100vh;overflow-y:auto;font-size:14px}
+aside .brand{display:flex;align-items:center;gap:10px;margin-bottom:6px;color:var(--ink);text-decoration:none;font-size:19px;font-weight:500}
+aside .brand img{width:34px;height:34px}
+aside .brand b{color:var(--accent);font-weight:700}
+aside .claim{font-size:12px;color:var(--muted);margin:0 0 14px 44px}
+aside .ask{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;margin:0 0 12px;padding:9px 12px;border:0;border-radius:var(--fw-radius-m);
+  background:var(--accent);color:var(--fw-on-primary);font:600 14px var(--fw-font-text);cursor:pointer}
+aside .ask:hover{background:var(--fw-primary-strong)}
+aside .ask svg{width:16px;height:16px;color:var(--fw-accent)}
+table{font-variant-numeric:tabular-nums}
+aside input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit;margin-bottom:10px}
+aside h3{display:inline;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0}
+aside details{margin:4px 0}aside summary{cursor:pointer;padding:4px 0;list-style-position:outside}
+aside details.sec{margin-top:10px}
+aside ul{list-style:none;margin:2px 0 6px;padding-left:10px}
+aside li a{display:block;padding:2px 8px;border-radius:6px;color:var(--ink);text-decoration:none}
+aside li a:hover{background:var(--accent-soft)}aside li a.active{background:var(--accent);color:var(--fw-on-primary)}
+aside > h3{display:block;margin-top:14px}
+.n{color:var(--muted);font-weight:400;font-size:11px}
+#results{margin-bottom:8px}#results a{display:block;padding:3px 8px;border-radius:6px;color:var(--ink);text-decoration:none}#results a:hover{background:var(--accent-soft)}#results small{color:var(--muted)}
+main{padding:32px 48px 80px;max-width:1080px;width:100%;min-width:0;overflow-wrap:break-word}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:6px}
+h1{font-size:34px;line-height:1.2;margin:.2em 0 .5em}h2{margin-top:1.8em;padding-bottom:4px;border-bottom:1px solid var(--line);font-size:22px}h3{font-size:18px}
+a{color:var(--accent)}
+main img{max-width:100%;height:auto;border-radius:10px;display:block}
+main p > img:first-child{max-height:460px;object-fit:cover;width:100%}
+td img{border-radius:6px}
+blockquote{margin:1em 0;padding:12px 16px;background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p{margin:0}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:14.5px;display:block;overflow-x:auto}
+th,td{border-bottom:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:middle}
+th{background:var(--code);font-weight:600;white-space:nowrap}
+tr:hover td{background:color-mix(in srgb,var(--accent-soft) 50%,transparent)}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.9em}
+em{color:var(--muted)}
+.back{margin-top:3em;padding-top:1em;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.back a{margin-right:.6em}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin:1em 0 2em}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .15s ease,box-shadow .15s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.card img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:0}
+.card div{padding:8px 12px 10px}.card b{display:block;font-size:14.5px}.card small{color:var(--muted);font-size:12.5px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin:1em 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 16px}.stat b{font-size:24px;display:block}.stat span{color:var(--muted);font-size:13px}
+.menu{display:none}
+@media (max-width:860px){body{grid-template-columns:minmax(0,1fr)}aside{position:static;height:auto;display:none}aside.open{display:block}main{padding:16px}.menu{display:block;margin:12px 16px 0;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}}
+</style></head>
+<body><button class="menu">☰ Navigation</button>
+<aside><a class="brand" href="index.html"><img src="../ci/signet.svg" alt="">Fahrzeug<b>Wiki</b></a>
+<p class="claim">Jede Batterie. Jede Variante. Belegt.</p>
+<button class="ask" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.2 2.5 4.8 13.1h5.9l-2.4 8.4 9-11.4h-5.8l1.7-7.6z" fill="currentColor"/></svg>Ampere fragen</button>
+<input id="q" type="search" placeholder="Suchen … (Modell, Begriff, Marke)" autocomplete="off"><div id="results"></div>
+<details class='sec' open><summary><h3>Wiki <span class='n'>1</span></h3></summary><ul><li><a href='katalog.html'>Index</a></li><li><a href='corporate-identity.html'>Corporate Identity</a></li><li><a href='log.html'>Protokoll</a></li></ul></details>
+<details class='sec' open><summary><h3>Übersichten <span class='n'>3</span></h3></summary><ul><li><a href='datenqualitaet.html'>Datenqualität der Rohquelle</a></li><li><a href='fahrzeuguebersicht.html'>Fahrzeugübersicht</a></li><li><a href='puffer-analyse.html'>Puffer-Analyse: Brutto vs. Netto</a></li></ul></details>
+<details class='sec' open><summary><h3>Hersteller <span class='n'>19</span></h3></summary><ul><li><a href='audi.html'>Audi</a></li><li><a href='bmw.html'>BMW</a></li><li><a href='citroen.html'>Citroën</a></li><li><a href='cupra.html'>Cupra</a></li><li><a href='dacia.html'>Dacia</a></li><li><a href='ford.html'>Ford</a></li><li><a href='hyundai.html'>Hyundai</a></li><li><a href='kia.html'>Kia</a></li><li><a href='mercedes.html'>Mercedes-Benz</a></li><li><a href='mg.html'>MG</a></li><li><a href='mini.html'>Mini</a></li><li><a href='peugeot.html'>Peugeot</a></li><li><a href='porsche.html'>Porsche</a></li><li><a href='renault.html'>Renault</a></li><li><a href='seat.html'>SEAT</a></li><li><a href='tesla.html'>Tesla</a></li><li><a href='volkswagen.html'>Volkswagen</a></li><li><a href='volvo.html'>Volvo</a></li><li><a href='skoda.html'>Škoda</a></li></ul></details>
+<h3>Fahrzeuge <span class='n'>90</span></h3><details><summary>Audi <span class='n'>5</span></summary><ul><li><a href='audi-e-tron-gt.html'>Audi e-tron GT</a></li><li><a href='audi-e-tron.html'>Audi e-tron</a></li><li><a href='audi-q4-e-tron.html'>Audi Q4 e-tron</a></li><li><a href='audi-q6-e-tron.html'>Audi Q6 e-tron</a></li><li><a href='audi-q8-e-tron.html'>Audi Q8 e-tron</a></li></ul></details><details><summary>BMW <span class='n'>8</span></summary><ul><li><a href='bmw-i3.html'>BMW i3</a></li><li><a href='bmw-i4.html'>BMW i4</a></li><li><a href='bmw-i5.html'>BMW i5</a></li><li><a href='bmw-i7.html'>BMW i7</a></li><li><a href='bmw-ix.html'>BMW iX</a></li><li><a href='bmw-ix1.html'>BMW iX1</a></li><li><a href='bmw-ix2.html'>BMW iX2</a></li><li><a href='bmw-ix3.html'>BMW iX3</a></li></ul></details><details><summary>Citroën <span class='n'>8</span></summary><ul><li><a href='citroen-c-zero.html'>Citroën C-Zero</a></li><li><a href='citroen-e-berlingo.html'>Citroën ë-Berlingo</a></li><li><a href='citroen-e-c3-aircross.html'>Citroën ë-C3 Aircross</a></li><li><a href='citroen-e-c3.html'>Citroën ë-C3</a></li><li><a href='citroen-e-c4-x.html'>Citroën ë-C4 X</a></li><li><a href='citroen-e-c4.html'>Citroën ë-C4</a></li><li><a href='citroen-e-jumpy.html'>Citroën ë-Jumpy Combi</a></li><li><a href='citroen-e-spacetourer.html'>Citroën ë-SpaceTourer</a></li></ul></details><details><summary>Cupra <span class='n'>2</span></summary><ul><li><a href='cupra-born.html'>Cupra Born</a></li><li><a href='cupra-tavascan.html'>Cupra Tavascan</a></li></ul></details><details><summary>Dacia <span class='n'>1</span></summary><ul><li><a href='dacia-spring.html'>Dacia Spring Electric</a></li></ul></details><details><summary>Ford <span class='n'>2</span></summary><ul><li><a href='ford-f-150-lightning.html'>Ford F-150 Lightning</a></li><li><a href='ford-mustang-mach-e.html'>Ford Mustang Mach-E</a></li></ul></details><details><summary>Hyundai <span class='n'>6</span></summary><ul><li><a href='hyundai-inster.html'>Hyundai Inster</a></li><li><a href='hyundai-ioniq-5.html'>Hyundai IONIQ 5</a></li><li><a href='hyundai-ioniq-6.html'>Hyundai IONIQ 6</a></li><li><a href='hyundai-ioniq-9.html'>Hyundai IONIQ 9</a></li><li><a href='hyundai-ioniq-electric.html'>Hyundai IONIQ Elektro</a></li><li><a href='hyundai-kona-electric.html'>Hyundai Kona Elektro</a></li></ul></details><details><summary>Kia <span class='n'>6</span></summary><ul><li><a href='kia-ev3.html'>Kia EV3</a></li><li><a href='kia-ev4.html'>Kia EV4</a></li><li><a href='kia-ev6.html'>Kia EV6</a></li><li><a href='kia-ev9.html'>Kia EV9</a></li><li><a href='kia-niro-ev.html'>Kia e-Niro / Niro EV</a></li><li><a href='kia-soul-ev.html'>Kia Soul EV / e-Soul</a></li></ul></details><details><summary>MG <span class='n'>5</span></summary><ul><li><a href='mg-cyberster.html'>MG Cyberster</a></li><li><a href='mg-marvel-r.html'>MG Marvel R</a></li><li><a href='mg-zs-ev.html'>MG ZS EV</a></li><li><a href='mg4-electric.html'>MG4 Electric</a></li><li><a href='mg5-electric.html'>MG5 Electric</a></li></ul></details><details><summary>Mercedes-Benz <span class='n'>7</span></summary><ul><li><a href='mercedes-eqa.html'>Mercedes-Benz EQA</a></li><li><a href='mercedes-eqb.html'>Mercedes-Benz EQB</a></li><li><a href='mercedes-eqc.html'>Mercedes-Benz EQC</a></li><li><a href='mercedes-eqt.html'>Mercedes-Benz EQT</a></li><li><a href='mercedes-eqv.html'>Mercedes-Benz EQV</a></li><li><a href='mercedes-esprinter.html'>Mercedes-Benz eSprinter</a></li><li><a href='mercedes-evito.html'>Mercedes-Benz eVito</a></li></ul></details><details><summary>Mini <span class='n'>3</span></summary><ul><li><a href='mini-aceman.html'>Mini Aceman</a></li><li><a href='mini-cooper-electric.html'>Mini Cooper E / SE</a></li><li><a href='mini-countryman-electric.html'>Mini Countryman E / SE</a></li></ul></details><details><summary>Peugeot <span class='n'>11</span></summary><ul><li><a href='peugeot-e-2008.html'>Peugeot e-2008</a></li><li><a href='peugeot-e-208.html'>Peugeot e-208</a></li><li><a href='peugeot-e-3008.html'>Peugeot e-3008</a></li><li><a href='peugeot-e-308.html'>Peugeot e-308</a></li><li><a href='peugeot-e-408.html'>Peugeot e-408</a></li><li><a href='peugeot-e-expert.html'>Peugeot e-Expert Combi</a></li><li><a href='peugeot-e-partner.html'>Peugeot e-Partner</a></li><li><a href='peugeot-e-rifter.html'>Peugeot e-Rifter</a></li><li><a href='peugeot-e-traveller.html'>Peugeot e-Traveller</a></li><li><a href='peugeot-ion.html'>Peugeot iOn</a></li><li><a href='peugeot-partner-tepee-electric.html'>Peugeot Partner Tepee Electric</a></li></ul></details><details><summary>Porsche <span class='n'>2</span></summary><ul><li><a href='porsche-macan-electric.html'>Porsche Macan (Elektro)</a></li><li><a href='porsche-taycan.html'>Porsche Taycan</a></li></ul></details><details><summary>Renault <span class='n'>6</span></summary><ul><li><a href='renault-city-k-ze.html'>Renault City K-ZE</a></li><li><a href='renault-kangoo-electric.html'>Renault Kangoo Z.E. / E-Tech</a></li><li><a href='renault-master-electric.html'>Renault Master Z.E. / E-Tech</a></li><li><a href='renault-scenic-e-tech.html'>Renault Scenic E-Tech</a></li><li><a href='renault-twingo-electric.html'>Renault Twingo Electric</a></li><li><a href='renault-zoe.html'>Renault Zoe</a></li></ul></details><details><summary>SEAT <span class='n'>1</span></summary><ul><li><a href='seat-mii-electric.html'>Seat Mii electric</a></li></ul></details><details><summary>Tesla <span class='n'>4</span></summary><ul><li><a href='tesla-model-3.html'>Tesla Model 3</a></li><li><a href='tesla-model-s.html'>Tesla Model S</a></li><li><a href='tesla-model-x.html'>Tesla Model X</a></li><li><a href='tesla-model-y.html'>Tesla Model Y</a></li></ul></details><details open><summary>Volkswagen <span class='n'>7</span></summary><ul><li><a href='vw-e-golf.html'>VW e-Golf</a></li><li><a href='vw-e-up.html'>VW e-up!</a></li><li><a href='vw-id-3.html' class='active'>VW ID.3</a></li><li><a href='vw-id-4.html'>VW ID.4</a></li><li><a href='vw-id-5.html'>VW ID.5</a></li><li><a href='vw-id-7.html'>VW ID.7</a></li><li><a href='vw-id-buzz.html'>VW ID. Buzz</a></li></ul></details><details><summary>Volvo <span class='n'>3</span></summary><ul><li><a href='volvo-ec40.html'>Volvo EC40 (C40 Recharge)</a></li><li><a href='volvo-ex40.html'>Volvo EX40 (XC40 Recharge)</a></li><li><a href='volvo-ex90.html'>Volvo EX90</a></li></ul></details><details><summary>Škoda <span class='n'>3</span></summary><ul><li><a href='skoda-citigo-e-iv.html'>Škoda Citigo e iV</a></li><li><a href='skoda-elroq.html'>Škoda Elroq</a></li><li><a href='skoda-enyaq.html'>Škoda Enyaq</a></li></ul></details>
+<details class='sec'><summary><h3>Fachbegriffe <span class='n'>37</span></h3></summary><ul><li><a href='800-volt-architektur.html'>800-Volt-Architektur</a></li><li><a href='ac-laden.html'>AC-Laden</a></li><li><a href='allradantrieb.html'>Allradantrieb (AWD)</a></li><li><a href='batteriealterung.html'>Batteriealterung (Degradation)</a></li><li><a href='batteriecheck.html'>Batteriecheck (Batteriezertifikat)</a></li><li><a href='batteriemanagementsystem.html'>Batteriemanagementsystem (BMS)</a></li><li><a href='batteriepuffer.html'>Batteriepuffer</a></li><li><a href='bev.html'>BEV (batterieelektrisches Fahrzeug)</a></li><li><a href='bruttokapazitaet.html'>Bruttokapazität</a></li><li><a href='dc-schnellladen.html'>DC-Schnellladen</a></li><li><a href='plattform-e-gmp.html'>E-GMP (Electric Global Modular Platform)</a></li><li><a href='elektro-transporter.html'>Elektro-Transporter und Vans</a></li><li><a href='elektromotor.html'>Elektromotor (PSM / ASM / FSM)</a></li><li><a href='frontantrieb.html'>Frontantrieb (FWD)</a></li><li><a href='hinterradantrieb.html'>Hinterradantrieb (RWD)</a></li><li><a href='plattform-j1.html'>J1-Plattform</a></li><li><a href='karosserieformen.html'>Karosserieformen</a></li><li><a href='kilowattstunde.html'>Kilowattstunde (kWh)</a></li><li><a href='konversionsfahrzeug.html'>Konversionsfahrzeug</a></li><li><a href='lfp-zellchemie.html'>LFP-Zellchemie</a></li><li><a href='lithium-ionen-akku.html'>Lithium-Ionen-Akku</a></li><li><a href='plattform-meb.html'>MEB (Modularer E-Antriebs-Baukasten)</a></li><li><a href='modellpflege.html'>Modellpflege (Facelift)</a></li><li><a href='nettokapazitaet.html'>Nettokapazität</a></li><li><a href='nmc-zellchemie.html'>NMC-Zellchemie</a></li><li><a href='plattform-geschwister.html'>Plattform-Geschwister (Badge-Engineering)</a></li><li><a href='plattform-ppe.html'>PPE (Premium Platform Electric)</a></li><li><a href='range-extender.html'>Range Extender (REx)</a></li><li><a href='rekuperation.html'>Rekuperation</a></li><li><a href='software-lock.html'>Software-Lock (softwarebegrenzte Kapazität)</a></li><li><a href='state-of-charge.html'>State of Charge (SoC)</a></li><li><a href='state-of-health.html'>State of Health (SoH)</a></li><li><a href='plattform-stellantis.html'>Stellantis-Plattformen (e-CMP, EMP2, STLA)</a></li><li><a href='traktionsbatterie.html'>Traktionsbatterie</a></li><li><a href='typbezeichnungen.html'>Typbezeichnungen</a></li><li><a href='wltp.html'>WLTP</a></li><li><a href='zellformat.html'>Zellformat</a></li></ul></details>
+<details class='sec' open><summary><h3>Quellen <span class='n'>1</span></h3></summary><ul><li><a href='tn-batterycheck-alle-daten.html'>TN Batterycheck – alle Daten (Excel)</a></li></ul></details></aside>
+<main><div class='crumb'>Fahrzeuge</div><h1>VW ID.3</h1>
+<p><img alt="VW ID.3" src="../Bilder/vw-id-3.jpg">
+<em>Bild: <a href="https://commons.wikimedia.org/wiki/File:2020_Volkswagen_ID.3_1st_Front.jpg">2020 Volkswagen ID.3 1st Front.jpg</a> · Urheber: Vauxford · Lizenz: CC BY-SA 4.0 · via Wikimedia Commons.</em></p>
+<blockquote>
+<p>Kompaktes Elektroauto von Volkswagen und erstes Serienmodell auf dem Modularen E-Antriebs-Baukasten (MEB).</p>
+</blockquote>
+<h2>Steckbrief</h2>
+<table>
+<thead>
+<tr>
+<th>Feld</th>
+<th>Wert</th>
+<th>Beleg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hersteller</td>
+<td><a href="volkswagen.html">Volkswagen</a></td>
+<td><a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a></td>
+</tr>
+<tr>
+<td>Segment</td>
+<td>Kompaktklasse</td>
+<td>Fachwissen¹</td>
+</tr>
+<tr>
+<td>Karosserie</td>
+<td>Schrägheck-Limousine (fünftürig)</td>
+<td>Fachwissen¹</td>
+</tr>
+<tr>
+<td>Bauzeit</td>
+<td>seit 2019</td>
+<td>Fachwissen¹</td>
+</tr>
+<tr>
+<td>Plattform</td>
+<td>MEB (Modularer E-Antriebs-Baukasten)</td>
+<td>Fachwissen¹</td>
+</tr>
+<tr>
+<td>Varianten im Bestand</td>
+<td>6</td>
+<td><a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a></td>
+</tr>
+<tr>
+<td><a href="bruttokapazitaet.html">Bruttokapazität</a></td>
+<td>55–82&nbsp;kWh</td>
+<td><a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a></td>
+</tr>
+<tr>
+<td><a href="nettokapazitaet.html">Nettokapazität</a></td>
+<td>45–77&nbsp;kWh</td>
+<td><a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a></td>
+</tr>
+<tr>
+<td><a href="batteriepuffer.html">Puffer</a></td>
+<td>6,1–18,2&nbsp;%</td>
+<td>berechnet</td>
+</tr>
+</tbody>
+</table>
+<h2>Beschreibung</h2>
+<p>Der VW ID.3 ist das erste Modell der ID.-Familie und zugleich das erste Serienfahrzeug auf dem <a href="plattform-meb.html">MEB</a>. Er gilt als elektrischer Nachfolger des <a href="vw-e-golf.html">e-Golf</a> und wird unter anderem im Werk Zwickau gebaut. Technisch eng verwandt ist er mit dem <a href="cupra-born.html">Cupra Born</a>.</p>
+<p>Die <a href="traktionsbatterie.html">Traktionsbatterie</a> liegt flach zwischen den Achsen, der <a href="elektromotor.html">Elektromotor</a> sitzt an der Hinterachse (<a href="hinterradantrieb.html">Hinterradantrieb</a>). Dank modularer Bauweise gibt es mehrere Batteriegrößen, die sich in der Zahl der Module unterscheiden. Zwischen <a href="bruttokapazitaet.html">Brutto-</a> und <a href="nettokapazitaet.html">Nettokapazität</a> hält Volkswagen einen <a href="batteriepuffer.html">Puffer</a> frei.</p>
+<p>Im Zuge der <a href="modellpflege.html">Modellpflege</a> wurde neben Innenraum und Software auch die mittlere Batterie überarbeitet; die neuere Version hat etwas höhere Brutto- und Nettowerte.</p>
+<h2>Varianten und Batterien</h2>
+<p>„Pure“ = kleine Batterie (55&nbsp;kWh brutto laut Rohdaten), „Pro“ = mittlere Batterie (62 bzw. 63&nbsp;kWh brutto), „Pro S“ = große Batterie (82&nbsp;kWh brutto). Der Zusatz „Performance“ bezeichnet eine stärkere Motorvariante bei gleicher Batterie. Die zwei Werte beim „Pro“ (Zeilen 412/413) entsprechen der ursprünglichen und der überarbeiteten Batterie.</p>
+<table>
+<thead>
+<tr>
+<th>Variante</th>
+<th>Brutto</th>
+<th>Netto</th>
+<th>Puffer</th>
+<th>Zeile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID.3 Pro</td>
+<td>62&nbsp;kWh</td>
+<td>58,0&nbsp;kWh</td>
+<td>4&nbsp;kWh (6,5&nbsp;%)</td>
+<td>412</td>
+</tr>
+<tr>
+<td>ID.3 Pro</td>
+<td>63&nbsp;kWh</td>
+<td>59,0&nbsp;kWh</td>
+<td>4&nbsp;kWh (6,3&nbsp;%)</td>
+<td>413</td>
+</tr>
+<tr>
+<td>ID.3 Pro Performance</td>
+<td>62&nbsp;kWh</td>
+<td>58,0&nbsp;kWh</td>
+<td>4&nbsp;kWh (6,5&nbsp;%)</td>
+<td>414</td>
+</tr>
+<tr>
+<td>ID.3 Pro S</td>
+<td>82&nbsp;kWh</td>
+<td>77,0&nbsp;kWh</td>
+<td>5&nbsp;kWh (6,1&nbsp;%)</td>
+<td>415</td>
+</tr>
+<tr>
+<td>ID.3 Pure</td>
+<td>55&nbsp;kWh</td>
+<td>45,0&nbsp;kWh</td>
+<td>10&nbsp;kWh (18,2&nbsp;%)</td>
+<td>416</td>
+</tr>
+<tr>
+<td>ID.3 Pure Performance</td>
+<td>55&nbsp;kWh</td>
+<td>45,0&nbsp;kWh</td>
+<td>10&nbsp;kWh (18,2&nbsp;%)</td>
+<td>417</td>
+</tr>
+</tbody>
+</table>
+<p>Quelle: <a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a>, Blatt „Fahrzeuge“, Zeilen 412–417. Puffer = Brutto − Netto (berechnet).</p>
+<h2>Fachbegriffe</h2>
+<ul>
+<li><a href="plattform-meb.html">MEB (Modularer E-Antriebs-Baukasten)</a> — Volkswagens erste reine Elektroauto-Plattform, Basis für ID.-Modelle, Enyaq, Elroq, Born, Tavascan und Q4 e-tron.</li>
+<li><a href="bruttokapazitaet.html">Bruttokapazität</a> — Die gesamte, physikalisch in der Batterie verbaute Energiemenge – inklusive der Reserven, die der Fahrer nie nutzen kann.</li>
+<li><a href="nettokapazitaet.html">Nettokapazität</a> — Der Teil der Batteriekapazität, den der Fahrer tatsächlich nutzen kann – Grundlage für Reichweite und Batterietests.</li>
+<li><a href="batteriepuffer.html">Batteriepuffer</a> — Differenz zwischen Brutto- und Nettokapazität – eine Reserve, die die Batterie schont und Alterung ausgleicht.</li>
+<li><a href="hinterradantrieb.html">Hinterradantrieb (RWD)</a> — Der Elektromotor treibt die Hinterräder an – Standard auf vielen reinen Elektroplattformen.</li>
+<li><a href="modellpflege.html">Modellpflege (Facelift)</a> — Überarbeitung eines Modells während der Bauzeit – bei Elektroautos oft mit neuer Batterie.</li>
+<li><a href="plattform-geschwister.html">Plattform-Geschwister (Badge-Engineering)</a> — Fahrzeuge verschiedener Marken, die technisch weitgehend baugleich sind und dieselbe Batterie nutzen.</li>
+</ul>
+<h2>Verwandte Fahrzeuge</h2>
+<ul>
+<li><a href="vw-id-4.html">VW ID.4</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="vw-id-5.html">VW ID.5</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="vw-id-7.html">VW ID.7</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="vw-id-buzz.html">VW ID. Buzz</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="skoda-enyaq.html">Škoda Enyaq</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="skoda-elroq.html">Škoda Elroq</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="cupra-born.html">Cupra Born</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="cupra-tavascan.html">Cupra Tavascan</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li><a href="audi-q4-e-tron.html">Audi Q4 e-tron</a> — technisch verwandt / gleiche Plattform oder Batterie</li>
+<li>Weitere Modelle von Volkswagen: <a href="vw-e-golf.html">VW e-Golf</a>, <a href="vw-e-up.html">VW e-up!</a></li>
+</ul>
+<h2>Offene Punkte</h2>
+<ul>
+<li>ID.3 Pure und Pure Performance (Zeilen 416/417): 55&nbsp;kWh brutto bei nur 45&nbsp;kWh netto – ungewöhnlich großer Puffer (ca. 18&nbsp;%). Der Bruttowert ist vermutlich zu hoch angesetzt oder bezieht sich auf eine andere Batterie.</li>
+<li>Die Varianten GTX und Pro S nach der Modellpflege sind in den Rohdaten nicht gesondert aufgeführt.</li>
+</ul>
+<p>Siehe auch <a href="datenqualitaet.html">Datenqualität der Rohquelle</a>.</p>
+<h2>Quellen</h2>
+<ul>
+<li><a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a> — Brutto-/Nettokapazität aller Varianten (Zeilen 412–417)</li>
+<li>Weiterlesen: <a href="https://en.wikipedia.org/wiki/Volkswagen_ID.3">Wikipedia – Volkswagen ID.3</a></li>
+</ul>
+<p>¹ <em>Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.</em></p><div class='back'><b>Verlinkt von (24):</b> <a href='audi-q4-e-tron.html'>Audi Q4 e-tron</a> <a href='batteriepuffer.html'>Batteriepuffer</a> <a href='bruttokapazitaet.html'>Bruttokapazität</a> <a href='cupra-born.html'>Cupra Born</a> <a href='cupra-tavascan.html'>Cupra Tavascan</a> <a href='datenqualitaet.html'>Datenqualität der Rohquelle</a> <a href='elektromotor.html'>Elektromotor (PSM / ASM / FSM)</a> <a href='fahrzeuguebersicht.html'>Fahrzeugübersicht</a> <a href='hinterradantrieb.html'>Hinterradantrieb (RWD)</a> <a href='plattform-meb.html'>MEB (Modularer E-Antriebs-Baukasten)</a> <a href='modellpflege.html'>Modellpflege (Facelift)</a> <a href='nettokapazitaet.html'>Nettokapazität</a> <a href='plattform-geschwister.html'>Plattform-Geschwister (Badge-Engineering)</a> <a href='puffer-analyse.html'>Puffer-Analyse: Brutto vs. Netto</a> <a href='traktionsbatterie.html'>Traktionsbatterie</a> <a href='volkswagen.html'>Volkswagen</a> <a href='vw-e-golf.html'>VW e-Golf</a> <a href='vw-e-up.html'>VW e-up!</a> <a href='vw-id-buzz.html'>VW ID. Buzz</a> <a href='vw-id-4.html'>VW ID.4</a> <a href='vw-id-5.html'>VW ID.5</a> <a href='vw-id-7.html'>VW ID.7</a> <a href='skoda-elroq.html'>Škoda Elroq</a> <a href='skoda-enyaq.html'>Škoda Enyaq</a></div></main>
+<script>const SEARCH=[{"t": "Datenqualität der Rohquelle", "s": "Übersichten", "h": "datenqualitaet lint", "u": "datenqualitaet.html"}, {"t": "Fahrzeugübersicht", "s": "Übersichten", "h": "uebersicht", "u": "fahrzeuguebersicht.html"}, {"t": "Puffer-Analyse: Brutto vs. Netto", "s": "Übersichten", "h": "analyse batteriepuffer", "u": "puffer-analyse.html"}, {"t": "Audi", "s": "Hersteller", "h": "hersteller audi", "u": "audi.html"}, {"t": "BMW", "s": "Hersteller", "h": "hersteller bmw", "u": "bmw.html"}, {"t": "Citroën", "s": "Hersteller", "h": "hersteller citroen", "u": "citroen.html"}, {"t": "Cupra", "s": "Hersteller", "h": "hersteller cupra", "u": "cupra.html"}, {"t": "Dacia", "s": "Hersteller", "h": "hersteller dacia", "u": "dacia.html"}, {"t": "Ford", "s": "Hersteller", "h": "hersteller ford", "u": "ford.html"}, {"t": "Hyundai", "s": "Hersteller", "h": "hersteller hyundai", "u": "hyundai.html"}, {"t": "Kia", "s": "Hersteller", "h": "hersteller kia", "u": "kia.html"}, {"t": "Mercedes-Benz", "s": "Hersteller", "h": "hersteller mercedes", "u": "mercedes.html"}, {"t": "MG", "s": "Hersteller", "h": "hersteller mg", "u": "mg.html"}, {"t": "Mini", "s": "Hersteller", "h": "hersteller mini", "u": "mini.html"}, {"t": "Peugeot", "s": "Hersteller", "h": "hersteller peugeot", "u": "peugeot.html"}, {"t": "Porsche", "s": "Hersteller", "h": "hersteller porsche", "u": "porsche.html"}, {"t": "Renault", "s": "Hersteller", "h": "hersteller renault", "u": "renault.html"}, {"t": "SEAT", "s": "Hersteller", "h": "hersteller seat", "u": "seat.html"}, {"t": "Škoda", "s": "Hersteller", "h": "hersteller skoda", "u": "skoda.html"}, {"t": "Tesla", "s": "Hersteller", "h": "hersteller tesla", "u": "tesla.html"}, {"t": "Volkswagen", "s": "Hersteller", "h": "hersteller volkswagen", "u": "volkswagen.html"}, {"t": "Volvo", "s": "Hersteller", "h": "hersteller volvo", "u": "volvo.html"}, {"t": "Audi e-tron GT", "s": "Audi", "h": "fahrzeug audi oberklasse-sportlimousine", "u": "audi-e-tron-gt.html"}, {"t": "Audi e-tron", "s": "Audi", "h": "fahrzeug audi oberklasse-suv", "u": "audi-e-tron.html"}, {"t": "Audi Q4 e-tron", "s": "Audi", "h": "fahrzeug audi kompakt-suv", "u": "audi-q4-e-tron.html"}, {"t": "Audi Q6 e-tron", "s": "Audi", "h": "fahrzeug audi mittelklasse-suv", "u": "audi-q6-e-tron.html"}, {"t": "Audi Q8 e-tron", "s": "Audi", "h": "fahrzeug audi oberklasse-suv", "u": "audi-q8-e-tron.html"}, {"t": "BMW i3", "s": "BMW", "h": "fahrzeug bmw kleinwagen", "u": "bmw-i3.html"}, {"t": "BMW i4", "s": "BMW", "h": "fahrzeug bmw mittelklasse-limousine", "u": "bmw-i4.html"}, {"t": "BMW i5", "s": "BMW", "h": "fahrzeug bmw obere-mittelklasse", "u": "bmw-i5.html"}, {"t": "BMW i7", "s": "BMW", "h": "fahrzeug bmw oberklasse-limousine", "u": "bmw-i7.html"}, {"t": "BMW iX", "s": "BMW", "h": "fahrzeug bmw oberklasse-suv", "u": "bmw-ix.html"}, {"t": "BMW iX1", "s": "BMW", "h": "fahrzeug bmw kompakt-suv", "u": "bmw-ix1.html"}, {"t": "BMW iX2", "s": "BMW", "h": "fahrzeug bmw kompakt-suv", "u": "bmw-ix2.html"}, {"t": "BMW iX3", "s": "BMW", "h": "fahrzeug bmw mittelklasse-suv", "u": "bmw-ix3.html"}, {"t": "Citroën C-Zero", "s": "Citroën", "h": "fahrzeug citroen kleinstwagen", "u": "citroen-c-zero.html"}, {"t": "Citroën ë-Berlingo", "s": "Citroën", "h": "fahrzeug citroen hochdachkombi-kleintransporter", "u": "citroen-e-berlingo.html"}, {"t": "Citroën ë-C3 Aircross", "s": "Citroën", "h": "fahrzeug citroen kleinwagen-suv", "u": "citroen-e-c3-aircross.html"}, {"t": "Citroën ë-C3", "s": "Citroën", "h": "fahrzeug citroen kleinwagen", "u": "citroen-e-c3.html"}, {"t": "Citroën ë-C4 X", "s": "Citroën", "h": "fahrzeug citroen kompaktklasse", "u": "citroen-e-c4-x.html"}, {"t": "Citroën ë-C4", "s": "Citroën", "h": "fahrzeug citroen kompaktklasse", "u": "citroen-e-c4.html"}, {"t": "Citroën ë-Jumpy Combi", "s": "Citroën", "h": "fahrzeug citroen transporter-kleinbus", "u": "citroen-e-jumpy.html"}, {"t": "Citroën ë-SpaceTourer", "s": "Citroën", "h": "fahrzeug citroen großraum-van-kleinbus", "u": "citroen-e-spacetourer.html"}, {"t": "Cupra Born", "s": "Cupra", "h": "fahrzeug cupra kompaktklasse", "u": "cupra-born.html"}, {"t": "Cupra Tavascan", "s": "Cupra", "h": "fahrzeug cupra kompakt-suv-suv-coup", "u": "cupra-tavascan.html"}, {"t": "Dacia Spring Electric", "s": "Dacia", "h": "fahrzeug dacia kleinstwagen", "u": "dacia-spring.html"}, {"t": "Ford F-150 Lightning", "s": "Ford", "h": "fahrzeug ford pick-up-full-size", "u": "ford-f-150-lightning.html"}, {"t": "Ford Mustang Mach-E", "s": "Ford", "h": "fahrzeug ford mittelklasse-suv", "u": "ford-mustang-mach-e.html"}, {"t": "Hyundai Inster", "s": "Hyundai", "h": "fahrzeug hyundai kleinwagen", "u": "hyundai-inster.html"}, {"t": "Hyundai IONIQ 5", "s": "Hyundai", "h": "fahrzeug hyundai mittelklasse-suv-crossover", "u": "hyundai-ioniq-5.html"}, {"t": "Hyundai IONIQ 6", "s": "Hyundai", "h": "fahrzeug hyundai mittelklasse-limousine", "u": "hyundai-ioniq-6.html"}, {"t": "Hyundai IONIQ 9", "s": "Hyundai", "h": "fahrzeug hyundai oberklasse-suv-drei-sitzreihen", "u": "hyundai-ioniq-9.html"}, {"t": "Hyundai IONIQ Elektro", "s": "Hyundai", "h": "fahrzeug hyundai kompaktklasse", "u": "hyundai-ioniq-electric.html"}, {"t": "Hyundai Kona Elektro", "s": "Hyundai", "h": "fahrzeug hyundai kompakt-suv", "u": "hyundai-kona-electric.html"}, {"t": "Kia EV3", "s": "Kia", "h": "fahrzeug kia kompakt-suv", "u": "kia-ev3.html"}, {"t": "Kia EV4", "s": "Kia", "h": "fahrzeug kia kompaktklasse", "u": "kia-ev4.html"}, {"t": "Kia EV6", "s": "Kia", "h": "fahrzeug kia mittelklasse-suv-crossover", "u": "kia-ev6.html"}, {"t": "Kia EV9", "s": "Kia", "h": "fahrzeug kia oberklasse-suv-drei-sitzreihen", "u": "kia-ev9.html"}, {"t": "Kia e-Niro / Niro EV", "s": "Kia", "h": "fahrzeug kia kompakt-suv-crossover", "u": "kia-niro-ev.html"}, {"t": "Kia Soul EV / e-Soul", "s": "Kia", "h": "fahrzeug kia kompaktklasse-crossover", "u": "kia-soul-ev.html"}, {"t": "Mercedes-Benz EQA", "s": "Mercedes-Benz", "h": "fahrzeug mercedes kompakt-suv", "u": "mercedes-eqa.html"}, {"t": "Mercedes-Benz EQB", "s": "Mercedes-Benz", "h": "fahrzeug mercedes kompakt-suv", "u": "mercedes-eqb.html"}, {"t": "Mercedes-Benz EQC", "s": "Mercedes-Benz", "h": "fahrzeug mercedes mittelklasse-suv", "u": "mercedes-eqc.html"}, {"t": "Mercedes-Benz EQT", "s": "Mercedes-Benz", "h": "fahrzeug mercedes hochdachkombi", "u": "mercedes-eqt.html"}, {"t": "Mercedes-Benz EQV", "s": "Mercedes-Benz", "h": "fahrzeug mercedes großraum-van", "u": "mercedes-eqv.html"}, {"t": "Mercedes-Benz eSprinter", "s": "Mercedes-Benz", "h": "fahrzeug mercedes transporter", "u": "mercedes-esprinter.html"}, {"t": "Mercedes-Benz eVito", "s": "Mercedes-Benz", "h": "fahrzeug mercedes transporter", "u": "mercedes-evito.html"}, {"t": "MG Cyberster", "s": "MG", "h": "fahrzeug mg sportwagen-roadster", "u": "mg-cyberster.html"}, {"t": "MG Marvel R", "s": "MG", "h": "fahrzeug mg mittelklasse-suv", "u": "mg-marvel-r.html"}, {"t": "MG ZS EV", "s": "MG", "h": "fahrzeug mg kompakt-suv", "u": "mg-zs-ev.html"}, {"t": "MG4 Electric", "s": "MG", "h": "fahrzeug mg kompaktklasse", "u": "mg4-electric.html"}, {"t": "MG5 Electric", "s": "MG", "h": "fahrzeug mg kompaktklasse", "u": "mg5-electric.html"}, {"t": "Mini Aceman", "s": "Mini", "h": "fahrzeug mini kleinwagen-suv", "u": "mini-aceman.html"}, {"t": "Mini Cooper E / SE", "s": "Mini", "h": "fahrzeug mini kleinwagen", "u": "mini-cooper-electric.html"}, {"t": "Mini Countryman E / SE", "s": "Mini", "h": "fahrzeug mini kompakt-suv", "u": "mini-countryman-electric.html"}, {"t": "Peugeot e-2008", "s": "Peugeot", "h": "fahrzeug peugeot kleinwagen-suv", "u": "peugeot-e-2008.html"}, {"t": "Peugeot e-208", "s": "Peugeot", "h": "fahrzeug peugeot kleinwagen", "u": "peugeot-e-208.html"}, {"t": "Peugeot e-3008", "s": "Peugeot", "h": "fahrzeug peugeot kompakt-suv-mittelklasse-suv", "u": "peugeot-e-3008.html"}, {"t": "Peugeot e-308", "s": "Peugeot", "h": "fahrzeug peugeot kompaktklasse", "u": "peugeot-e-308.html"}, {"t": "Peugeot e-408", "s": "Peugeot", "h": "fahrzeug peugeot kompaktklasse-mittelklasse", "u": "peugeot-e-408.html"}, {"t": "Peugeot e-Expert Combi", "s": "Peugeot", "h": "fahrzeug peugeot transporter-kleinbus", "u": "peugeot-e-expert.html"}, {"t": "Peugeot e-Partner", "s": "Peugeot", "h": "fahrzeug peugeot kleintransporter-hochdachkombi", "u": "peugeot-e-partner.html"}, {"t": "Peugeot e-Rifter", "s": "Peugeot", "h": "fahrzeug peugeot hochdachkombi", "u": "peugeot-e-rifter.html"}, {"t": "Peugeot e-Traveller", "s": "Peugeot", "h": "fahrzeug peugeot großraum-van-kleinbus", "u": "peugeot-e-traveller.html"}, {"t": "Peugeot iOn", "s": "Peugeot", "h": "fahrzeug peugeot kleinstwagen", "u": "peugeot-ion.html"}, {"t": "Peugeot Partner Tepee Electric", "s": "Peugeot", "h": "fahrzeug peugeot hochdachkombi", "u": "peugeot-partner-tepee-electric.html"}, {"t": "Porsche Macan (Elektro)", "s": "Porsche", "h": "fahrzeug porsche mittelklasse-suv", "u": "porsche-macan-electric.html"}, {"t": "Porsche Taycan", "s": "Porsche", "h": "fahrzeug porsche oberklasse-sportlimousine", "u": "porsche-taycan.html"}, {"t": "Renault City K-ZE", "s": "Renault", "h": "fahrzeug renault kleinstwagen", "u": "renault-city-k-ze.html"}, {"t": "Renault Kangoo Z.E. / E-Tech", "s": "Renault", "h": "fahrzeug renault hochdachkombi-kleintransporter", "u": "renault-kangoo-electric.html"}, {"t": "Renault Master Z.E. / E-Tech", "s": "Renault", "h": "fahrzeug renault transporter-großer-kastenwagen", "u": "renault-master-electric.html"}, {"t": "Renault Scenic E-Tech", "s": "Renault", "h": "fahrzeug renault kompakt-suv", "u": "renault-scenic-e-tech.html"}, {"t": "Renault Twingo Electric", "s": "Renault", "h": "fahrzeug renault kleinstwagen", "u": "renault-twingo-electric.html"}, {"t": "Renault Zoe", "s": "Renault", "h": "fahrzeug renault kleinwagen", "u": "renault-zoe.html"}, {"t": "Seat Mii electric", "s": "SEAT", "h": "fahrzeug seat kleinstwagen", "u": "seat-mii-electric.html"}, {"t": "Škoda Citigo e iV", "s": "Škoda", "h": "fahrzeug skoda kleinstwagen", "u": "skoda-citigo-e-iv.html"}, {"t": "Škoda Elroq", "s": "Škoda", "h": "fahrzeug skoda kompakt-suv", "u": "skoda-elroq.html"}, {"t": "Škoda Enyaq", "s": "Škoda", "h": "fahrzeug skoda mittelklasse-suv", "u": "skoda-enyaq.html"}, {"t": "Tesla Model 3", "s": "Tesla", "h": "fahrzeug tesla mittelklasse-limousine", "u": "tesla-model-3.html"}, {"t": "Tesla Model S", "s": "Tesla", "h": "fahrzeug tesla oberklasse-limousine", "u": "tesla-model-s.html"}, {"t": "Tesla Model X", "s": "Tesla", "h": "fahrzeug tesla oberklasse-suv", "u": "tesla-model-x.html"}, {"t": "Tesla Model Y", "s": "Tesla", "h": "fahrzeug tesla mittelklasse-suv", "u": "tesla-model-y.html"}, {"t": "Volvo EC40 (C40 Recharge)", "s": "Volvo", "h": "fahrzeug volvo kompakt-suv", "u": "volvo-ec40.html"}, {"t": "Volvo EX40 (XC40 Recharge)", "s": "Volvo", "h": "fahrzeug volvo kompakt-suv", "u": "volvo-ex40.html"}, {"t": "Volvo EX90", "s": "Volvo", "h": "fahrzeug volvo oberklasse-suv", "u": "volvo-ex90.html"}, {"t": "VW e-Golf", "s": "Volkswagen", "h": "fahrzeug volkswagen kompaktklasse", "u": "vw-e-golf.html"}, {"t": "VW e-up!", "s": "Volkswagen", "h": "fahrzeug volkswagen kleinstwagen", "u": "vw-e-up.html"}, {"t": "VW ID.3", "s": "Volkswagen", "h": "fahrzeug volkswagen kompaktklasse", "u": "vw-id-3.html"}, {"t": "VW ID.4", "s": "Volkswagen", "h": "fahrzeug volkswagen kompakt-suv", "u": "vw-id-4.html"}, {"t": "VW ID.5", "s": "Volkswagen", "h": "fahrzeug volkswagen kompakt-suv-suv-coup", "u": "vw-id-5.html"}, {"t": "VW ID.7", "s": "Volkswagen", "h": "fahrzeug volkswagen mittelklasse-limousine-und-kombi", "u": "vw-id-7.html"}, {"t": "VW ID. Buzz", "s": "Volkswagen", "h": "fahrzeug volkswagen van-kleinbus-und-transporter", "u": "vw-id-buzz.html"}, {"t": "800-Volt-Architektur", "s": "Fachbegriffe", "h": "fachbegriff laden technik", "u": "800-volt-architektur.html"}, {"t": "AC-Laden", "s": "Fachbegriffe", "h": "fachbegriff laden", "u": "ac-laden.html"}, {"t": "Allradantrieb (AWD)", "s": "Fachbegriffe", "h": "fachbegriff antrieb", "u": "allradantrieb.html"}, {"t": "Batteriealterung (Degradation)", "s": "Fachbegriffe", "h": "fachbegriff batterie diagnose", "u": "batteriealterung.html"}, {"t": "Batteriecheck (Batteriezertifikat)", "s": "Fachbegriffe", "h": "fachbegriff diagnose gebrauchtwagen", "u": "batteriecheck.html"}, {"t": "Batteriemanagementsystem (BMS)", "s": "Fachbegriffe", "h": "fachbegriff batterie elektronik", "u": "batteriemanagementsystem.html"}, {"t": "Batteriepuffer", "s": "Fachbegriffe", "h": "fachbegriff batterie kennzahl", "u": "batteriepuffer.html"}, {"t": "BEV (batterieelektrisches Fahrzeug)", "s": "Fachbegriffe", "h": "fachbegriff antrieb grundlagen", "u": "bev.html"}, {"t": "Bruttokapazität", "s": "Fachbegriffe", "h": "fachbegriff batterie kennzahl", "u": "bruttokapazitaet.html"}, {"t": "DC-Schnellladen", "s": "Fachbegriffe", "h": "fachbegriff laden", "u": "dc-schnellladen.html"}, {"t": "Elektro-Transporter und Vans", "s": "Fachbegriffe", "h": "fachbegriff nutzfahrzeug", "u": "elektro-transporter.html"}, {"t": "Elektromotor (PSM / ASM / FSM)", "s": "Fachbegriffe", "h": "fachbegriff antrieb technik", "u": "elektromotor.html"}, {"t": "Frontantrieb (FWD)", "s": "Fachbegriffe", "h": "fachbegriff antrieb", "u": "frontantrieb.html"}, {"t": "Hinterradantrieb (RWD)", "s": "Fachbegriffe", "h": "fachbegriff antrieb", "u": "hinterradantrieb.html"}, {"t": "Karosserieformen", "s": "Fachbegriffe", "h": "fachbegriff bezeichnungen", "u": "karosserieformen.html"}, {"t": "Kilowattstunde (kWh)", "s": "Fachbegriffe", "h": "fachbegriff einheit", "u": "kilowattstunde.html"}, {"t": "Konversionsfahrzeug", "s": "Fachbegriffe", "h": "fachbegriff plattform", "u": "konversionsfahrzeug.html"}, {"t": "LFP-Zellchemie", "s": "Fachbegriffe", "h": "fachbegriff batterie chemie", "u": "lfp-zellchemie.html"}, {"t": "Lithium-Ionen-Akku", "s": "Fachbegriffe", "h": "fachbegriff batterie chemie", "u": "lithium-ionen-akku.html"}, {"t": "Modellpflege (Facelift)", "s": "Fachbegriffe", "h": "fachbegriff bezeichnungen", "u": "modellpflege.html"}, {"t": "Nettokapazität", "s": "Fachbegriffe", "h": "fachbegriff batterie kennzahl", "u": "nettokapazitaet.html"}, {"t": "NMC-Zellchemie", "s": "Fachbegriffe", "h": "fachbegriff batterie chemie", "u": "nmc-zellchemie.html"}, {"t": "E-GMP (Electric Global Modular Platform)", "s": "Fachbegriffe", "h": "fachbegriff plattform hyundai-kia", "u": "plattform-e-gmp.html"}, {"t": "Plattform-Geschwister (Badge-Engineering)", "s": "Fachbegriffe", "h": "fachbegriff plattform", "u": "plattform-geschwister.html"}, {"t": "J1-Plattform", "s": "Fachbegriffe", "h": "fachbegriff plattform vw-konzern", "u": "plattform-j1.html"}, {"t": "MEB (Modularer E-Antriebs-Baukasten)", "s": "Fachbegriffe", "h": "fachbegriff plattform vw-konzern", "u": "plattform-meb.html"}, {"t": "PPE (Premium Platform Electric)", "s": "Fachbegriffe", "h": "fachbegriff plattform vw-konzern", "u": "plattform-ppe.html"}, {"t": "Stellantis-Plattformen (e-CMP, EMP2, STLA)", "s": "Fachbegriffe", "h": "fachbegriff plattform stellantis", "u": "plattform-stellantis.html"}, {"t": "Range Extender (REx)", "s": "Fachbegriffe", "h": "fachbegriff antrieb", "u": "range-extender.html"}, {"t": "Rekuperation", "s": "Fachbegriffe", "h": "fachbegriff antrieb energie", "u": "rekuperation.html"}, {"t": "Software-Lock (softwarebegrenzte Kapazität)", "s": "Fachbegriffe", "h": "fachbegriff batterie software", "u": "software-lock.html"}, {"t": "State of Charge (SoC)", "s": "Fachbegriffe", "h": "fachbegriff batterie diagnose", "u": "state-of-charge.html"}, {"t": "State of Health (SoH)", "s": "Fachbegriffe", "h": "fachbegriff batterie diagnose", "u": "state-of-health.html"}, {"t": "Traktionsbatterie", "s": "Fachbegriffe", "h": "fachbegriff batterie", "u": "traktionsbatterie.html"}, {"t": "Typbezeichnungen", "s": "Fachbegriffe", "h": "fachbegriff bezeichnungen", "u": "typbezeichnungen.html"}, {"t": "WLTP", "s": "Fachbegriffe", "h": "fachbegriff norm", "u": "wltp.html"}, {"t": "Zellformat", "s": "Fachbegriffe", "h": "fachbegriff batterie technik", "u": "zellformat.html"}, {"t": "TN Batterycheck – alle Daten (Excel)", "s": "Quellen", "h": "rohquelle tabelle batteriekapazitaet", "u": "tn-batterycheck-alle-daten.html"}, {"t": "Index", "s": "Wiki", "h": "", "u": "katalog.html"}, {"t": "Protokoll", "s": "Wiki", "h": "", "u": "log.html"}, {"t": "Corporate Identity", "s": "Wiki", "h": "", "u": "corporate-identity.html"}];
+const box=document.getElementById('q'),res=document.getElementById('results');
+box.addEventListener('input',()=>{const q=box.value.trim().toLowerCase();res.innerHTML='';if(q.length<2)return;
+ SEARCH.filter(p=>(p.t+' '+p.s+' '+(p.h||'')).toLowerCase().includes(q)).slice(0,25)
+ .forEach(p=>{const a=document.createElement('a');a.href=p.u;a.innerHTML=p.t+' <small>'+p.s+'</small>';res.appendChild(a)});});
+document.querySelector('.menu').addEventListener('click',()=>document.querySelector('aside').classList.toggle('open'));
+document.querySelector('.ask').addEventListener('click',()=>window.FahrzeugWikiChat&&window.FahrzeugWikiChat.open());
+</script>
+<script src="../chat/widget/fw-chat.js" defer></script></body></html>

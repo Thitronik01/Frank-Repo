@@ -1,0 +1,16 @@
+# Geheimnisse – niemals committen
+.env
+**/chat/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Lokale Claude-/Editor-Einstellungen
+.claude/settings.local.json
+.obsidian/workspace*.json
+
+# Betriebssystem
+Thumbs.db
+desktop.ini
+.DS_Store

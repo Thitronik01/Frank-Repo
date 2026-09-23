@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fahrzeug-Wiki Signet">
+  <!-- Signet: Batterie mit Ladeblitz auf Ladegrün -->
+  <rect width="64" height="64" rx="15" fill="#0A6B4E"/>
+  <rect x="11" y="20" width="36" height="24" rx="5.5" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <rect x="48.5" y="27" width="4.5" height="10" rx="1.8" fill="#FFFFFF"/>
+  <path d="M31.5 23.5 L22.5 34 H28.8 L26.2 40.5 L36 29.8 H29.8 L32.8 23.5 Z" fill="#F4B82E"/>
+</svg>

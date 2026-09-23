@@ -1,0 +1,61 @@
+/* Fahrzeug-Wiki · Design-Tokens (Corporate Identity)
+ * Einzige Quelle für Farben, Schrift, Radien und Abstände.
+ * Genutzt von der Wiki-Seite (site/) und dem Chat-Widget (chat/widget/).
+ * Leitfaden: ci/CI-Leitfaden.md
+ */
+:root {
+  /* Markenfarben */
+  --fw-ladegruen: #0A6B4E;        /* Primärfarbe – Energie, Vertrauen, Nachhaltigkeit */
+  --fw-ladegruen-tief: #064A36;   /* Hover, gedrückt */
+  --fw-ladegruen-hell: #E1F0EA;   /* Flächen, Hinweise */
+  --fw-voltgelb: #F4B82E;         /* Akzent – nur sparsam: Ladeblitz, Markierungen */
+  --fw-graphit: #14171C;          /* Text, Logo einfarbig */
+
+  /* Zustandsfarben (State of Health / Datenqualität) */
+  --fw-gut: #17744A;
+  --fw-warnung: #8F5E00;
+  --fw-kritisch: #C23B3B;
+
+  /* Semantische Rollen – hell */
+  --fw-bg: #F6F5F1;
+  --fw-surface: #FFFFFF;
+  --fw-surface-2: #EFEDE7;
+  --fw-line: #E2DFD8;
+  --fw-ink: var(--fw-graphit);
+  --fw-muted: #5B616C;
+  --fw-primary: var(--fw-ladegruen);
+  --fw-primary-strong: var(--fw-ladegruen-tief);
+  --fw-primary-soft: var(--fw-ladegruen-hell);
+  --fw-on-primary: #FFFFFF;
+  --fw-accent: var(--fw-voltgelb);
+  --fw-on-accent: var(--fw-graphit);
+
+  /* Typografie */
+  --fw-font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --fw-font-text: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --fw-font-mono: "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+
+  /* Form */
+  --fw-radius-s: 6px;
+  --fw-radius-m: 10px;
+  --fw-radius-l: 16px;
+  --fw-shadow: 0 1px 2px rgba(20, 23, 28, .06), 0 8px 24px rgba(20, 23, 28, .08);
+  --fw-ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fw-bg: #111317;
+    --fw-surface: #1A1D22;
+    --fw-surface-2: #22262C;
+    --fw-line: #2B3037;
+    --fw-ink: #ECEDEF;
+    --fw-muted: #9CA3AE;
+    --fw-primary: #45C79B;
+    --fw-primary-strong: #6DD8B2;
+    --fw-primary-soft: #14332A;
+    --fw-on-primary: #0B1F18;
+    --fw-accent: #F6C54A;
+    --fw-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+}
