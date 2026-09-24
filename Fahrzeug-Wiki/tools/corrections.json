@@ -642,13 +642,13 @@
    "issue": 2,
    "thema": "VW ID.3 Pure 55/45 vs. ID.4 Pure 55/52",
    "zeilen": "416, 417",
-   "stand": "geklärt: Werte korrekt (Software-Lock) – kann geschlossen werden"
+   "stand": "geklärt: Werte korrekt (Software-Lock) – geschlossen am 2026-09-24"
   },
   {
    "issue": 3,
    "thema": "Mercedes EQT vs. Renault Kangoo E-Tech",
    "zeilen": "187",
-   "stand": "korrigiert auf 48 / 45 kWh – kann geschlossen werden"
+   "stand": "korrigiert auf 48 / 45 kWh – geschlossen am 2026-09-24"
   },
   {
    "issue": 4,
@@ -660,13 +660,13 @@
    "issue": 5,
    "thema": "Audi e-tron S quattro mit Taycan-Werten",
    "zeilen": "7",
-   "stand": "korrigiert auf 95 / 86,5 kWh – kann geschlossen werden"
+   "stand": "korrigiert auf 95 / 86,5 kWh – geschlossen am 2026-09-24"
   },
   {
    "issue": 6,
    "thema": "Peugeot e-208 51/48,1 kWh",
    "zeilen": "228",
-   "stand": "geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – kann geschlossen werden"
+   "stand": "geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – geschlossen am 2026-09-24"
   },
   {
    "issue": 7,
@@ -678,13 +678,13 @@
    "issue": 8,
    "thema": "Mini Aceman vs. Cooper",
    "zeilen": "219, 221",
-   "stand": "korrigiert (Cooper E und SE netto) – kann geschlossen werden"
+   "stand": "korrigiert (Cooper E und SE netto) – geschlossen am 2026-09-24"
   },
   {
    "issue": 9,
    "thema": "BMW iX: zu kleine Puffer",
    "zeilen": "65–70",
-   "stand": "korrigiert (xDrive40, xDrive50, M60) – kann geschlossen werden"
+   "stand": "korrigiert (xDrive40, xDrive50, M60) – geschlossen am 2026-09-24"
   },
   {
    "issue": 10,
@@ -708,7 +708,7 @@
    "issue": 13,
    "thema": "Renault Zoe: R90 Entry und R75",
    "zeilen": "317, 318, 320",
-   "stand": "geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – kann geschlossen werden"
+   "stand": "geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – geschlossen am 2026-09-24"
   },
   {
    "issue": 14,
@@ -720,7 +720,7 @@
    "issue": 15,
    "thema": "Bezeichnungen: iX2 eDrive30, EQB 350, i5 M60",
    "zeilen": "58, 74, 184",
-   "stand": "korrigiert – kann geschlossen werden"
+   "stand": "korrigiert – geschlossen am 2026-09-24"
   },
   {
    "issue": 16,

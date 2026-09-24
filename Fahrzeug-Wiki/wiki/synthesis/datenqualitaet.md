@@ -51,20 +51,20 @@ Was sich nicht eindeutig belegen ließ, wird in GitHub-Issues geklärt. Bis dahi
 | Issue | Thema | Zeilen | Stand |
 |---|---|---|---|
 | [#1](https://github.com/Thitronik01/Frank-Repo/issues/1) | Cupra Born (Zeile 99): Netto größer als Brutto | 99 | korrigiert auf 63 / 59 kWh (erschlossen) – bitte bestätigen |
-| [#2](https://github.com/Thitronik01/Frank-Repo/issues/2) | VW ID.3 Pure 55/45 vs. ID.4 Pure 55/52 | 416, 417 | geklärt: Werte korrekt (Software-Lock) – kann geschlossen werden |
-| [#3](https://github.com/Thitronik01/Frank-Repo/issues/3) | Mercedes EQT vs. Renault Kangoo E-Tech | 187 | korrigiert auf 48 / 45 kWh – kann geschlossen werden |
+| [#2](https://github.com/Thitronik01/Frank-Repo/issues/2) | VW ID.3 Pure 55/45 vs. ID.4 Pure 55/52 | 416, 417 | geklärt: Werte korrekt (Software-Lock) – geschlossen am 2026-09-24 |
+| [#3](https://github.com/Thitronik01/Frank-Repo/issues/3) | Mercedes EQT vs. Renault Kangoo E-Tech | 187 | korrigiert auf 48 / 45 kWh – geschlossen am 2026-09-24 |
 | [#4](https://github.com/Thitronik01/Frank-Repo/issues/4) | Renault City K-ZE vs. Dacia Spring | 297, 105–108 | K-ZE korrigiert; Spring: Quellen widersprechen (netto 26,8 vs. 25,0) – Entscheidung offen |
-| [#5](https://github.com/Thitronik01/Frank-Repo/issues/5) | Audi e-tron S quattro mit Taycan-Werten | 7 | korrigiert auf 95 / 86,5 kWh – kann geschlossen werden |
-| [#6](https://github.com/Thitronik01/Frank-Repo/issues/6) | Peugeot e-208 51/48,1 kWh | 228 | geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – kann geschlossen werden |
+| [#5](https://github.com/Thitronik01/Frank-Repo/issues/5) | Audi e-tron S quattro mit Taycan-Werten | 7 | korrigiert auf 95 / 86,5 kWh – geschlossen am 2026-09-24 |
+| [#6](https://github.com/Thitronik01/Frank-Repo/issues/6) | Peugeot e-208 51/48,1 kWh | 228 | geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – geschlossen am 2026-09-24 |
 | [#7](https://github.com/Thitronik01/Frank-Repo/issues/7) | Renault Master E-Tech 55/52 kWh | 303, 304 | offen: Bruttowerte nirgends belegt |
-| [#8](https://github.com/Thitronik01/Frank-Repo/issues/8) | Mini Aceman vs. Cooper | 219, 221 | korrigiert (Cooper E und SE netto) – kann geschlossen werden |
-| [#9](https://github.com/Thitronik01/Frank-Repo/issues/9) | BMW iX: zu kleine Puffer | 65–70 | korrigiert (xDrive40, xDrive50, M60) – kann geschlossen werden |
+| [#8](https://github.com/Thitronik01/Frank-Repo/issues/8) | Mini Aceman vs. Cooper | 219, 221 | korrigiert (Cooper E und SE netto) – geschlossen am 2026-09-24 |
+| [#9](https://github.com/Thitronik01/Frank-Repo/issues/9) | BMW iX: zu kleine Puffer | 65–70 | korrigiert (xDrive40, xDrive50, M60) – geschlossen am 2026-09-24 |
 | [#10](https://github.com/Thitronik01/Frank-Repo/issues/10) | Puffer unter 1 %: ë-C3, ë-C3 Aircross, MG4 | 82–84, 205, 206, 208 | ë-C3 bestätigt, Aircross ER korrigiert; MG4: Quellen widersprechen – Entscheidung offen |
 | [#11](https://github.com/Thitronik01/Frank-Repo/issues/11) | Mercedes eSprinter LFP: nur „ca.“-Bruttowerte | 192–194 | nicht klärbar: Hersteller nennt nur netto – Schätzung bleibt markiert |
 | [#12](https://github.com/Thitronik01/Frank-Repo/issues/12) | Tesla: Nettowerte exakt 95 % des Bruttowerts | Tesla-Block | offen |
-| [#13](https://github.com/Thitronik01/Frank-Repo/issues/13) | Renault Zoe: R90 Entry und R75 | 317, 318, 320 | geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – kann geschlossen werden |
+| [#13](https://github.com/Thitronik01/Frank-Repo/issues/13) | Renault Zoe: R90 Entry und R75 | 317, 318, 320 | geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – geschlossen am 2026-09-24 |
 | [#14](https://github.com/Thitronik01/Frank-Repo/issues/14) | Kleine Abweichungen bei baugleichen Batterien | siehe Issue | offen (Mini Cooper SE über #8 erledigt) |
-| [#15](https://github.com/Thitronik01/Frank-Repo/issues/15) | Bezeichnungen: iX2 eDrive30, EQB 350, i5 M60 | 58, 74, 184 | korrigiert – kann geschlossen werden |
+| [#15](https://github.com/Thitronik01/Frank-Repo/issues/15) | Bezeichnungen: iX2 eDrive30, EQB 350, i5 M60 | 58, 74, 184 | korrigiert – geschlossen am 2026-09-24 |
 | [#16](https://github.com/Thitronik01/Frank-Repo/issues/16) | Namensdubletten | 12 Zeilen | als Alias gekennzeichnet – bitte bestätigen |
 | [#17](https://github.com/Thitronik01/Frank-Repo/issues/17) | Modelljahr / Batterie-Generation fehlt | ganze Tabelle | Spalten angelegt, für recherchierte Zeilen gefüllt – Rest offen |
 | [#18](https://github.com/Thitronik01/Frank-Repo/issues/18) | Herausgeber und Stichtag der Rohdaten | – | offen |

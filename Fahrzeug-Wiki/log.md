@@ -42,3 +42,6 @@ Mini Cooper E/SE, ë-C3 Aircross ER, City K-ZE), 26 Zeilen bestätigt mit Modell
 Offen (Issues): Spring #4, Master E-Tech #7, MG4 #10 (Quellen widersprechen), eSprinter #11, Tesla #12, Rundung #14, Modelljahr #17, Herausgeber #18;
 Bestätigung erbeten: Cupra Born #1, Aliase #16.
 Geändert: families.py liest die bereinigte Fassung; Fahrzeugseiten mit Status-Spalte und Abschnitt „Korrekturen“; [[datenqualitaet]] mit Änderungsprotokoll.
+
+## [2026-09-24] maintenance | GitHub-Issues abgeschlossen
+Geschlossen mit Rechercheergebnis und Quellen: #2, #3, #5, #6, #8, #9, #13, #15. Offen: #1, #4, #7, #10, #11, #12, #14, #16, #17, #18.

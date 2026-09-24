@@ -577,7 +577,7 @@ def main():
     stand = ".".join(reversed(max(dates).split("-"))) if dates else ""
     corr_file = ROOT / "tools" / "corrections.json"   # offene Klärungen = Issues, die nicht als erledigt vermerkt sind
     n_issues = sum(1 for e in json.loads(corr_file.read_text(encoding="utf-8")).get("offene_issues", [])
-                   if "kann geschlossen werden" not in e["stand"]) if corr_file.exists() else 0
+                   if "geschlossen" not in e["stand"]) if corr_file.exists() else 0
 
     OUT.mkdir(exist_ok=True)
     for old in OUT.glob("*.html"):
