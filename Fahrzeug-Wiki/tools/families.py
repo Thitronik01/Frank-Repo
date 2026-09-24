@@ -1,6 +1,7 @@
-"""Liest die Rohquelle und ordnet jede Zeile einer Modellreihe (Wiki-Artikel) zu.
+"""Liest die bereinigte Tabelle (data/, erzeugt von tools/clean.py) und ordnet jede Zeile einer Modellreihe zu.
 
-Ausgabe: tools/families.json  ->  {slug: {brand, name, rows: [[modell, brutto, netto], ...]}}
+Die Zuordnung (RULES) arbeitet mit Marke/Modell der Rohquelle, damit sie von Umbenennungen unabhängig bleibt.
+Ausgabe: tools/families.json  ->  {slug: {brand, name, rows: [{zeile, modell, brutto, netto, status, …}]}}
 """
 import json
 import re
@@ -10,7 +11,7 @@ from pathlib import Path
 import openpyxl
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW = ROOT / "raw" / "tn_batterycheck_alle_daten.xlsx"
+DATA = ROOT / "data" / "tn_batterycheck_bereinigt.xlsx"
 
 # (Marke, Regex auf Modellbezeichnung, Slug, Artikelname) — erste passende Regel gewinnt
 RULES = [
@@ -107,25 +108,33 @@ RULES = [
 ]
 
 
-def kwh(value):
-    """'ca. 85 kWh' -> (85.0, True)  |  '64.7 kWh' -> (64.7, False)"""
-    s = str(value)
-    approx = s.strip().lower().startswith("ca.")
-    num = float(re.search(r"\d+(?:\.\d+)?", s).group())
-    return num, approx
+def fmt(x):
+    return ("%g" % x) + " kWh"
 
 
 def main():
-    ws = openpyxl.load_workbook(RAW, data_only=True).worksheets[0]
+    ws = openpyxl.load_workbook(DATA, data_only=True)["Fahrzeuge"]
+    it = ws.iter_rows(values_only=True)
+    head = next(it)
     fams = OrderedDict()
-    for zeile, (marke, modell, brutto, netto) in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
+    for values in it:
+        r = dict(zip(head, values))
+        marke, modell = r["Marke (Rohquelle)"], r["Modell (Rohquelle)"]
         for b, pat, slug, name in RULES:
             if b == marke and re.search(pat, modell):
                 f = fams.setdefault(slug, {"brand": marke, "name": name, "rows": []})
-                bw, ba = kwh(brutto)
-                nw, na = kwh(netto)
-                f["rows"].append({"zeile": zeile, "modell": modell, "brutto": bw, "netto": nw,
-                                  "ca": ba or na, "brutto_raw": brutto, "netto_raw": netto})
+                ca = r["Status"] == "Näherungswert"
+                f["rows"].append({
+                    "zeile": r["Zeile (Rohquelle)"], "modell": r["Modell"], "modell_raw": modell,
+                    "brutto": float(r["Brutto kWh"]), "netto": float(r["Netto kWh"]), "ca": ca,
+                    "brutto_raw": ("ca. " if ca else "") + fmt(float(r["Brutto kWh"])),
+                    "netto_raw": fmt(float(r["Netto kWh"])),
+                    "brutto_alt": str(r["Brutto (Rohquelle)"]), "netto_alt": str(r["Netto (Rohquelle)"]),
+                    "status": r["Status"], "alias_von": r["Alias von Zeile"] or None, "bemerkung": r["Bemerkung"] or "",
+                    "issue": r["Issue"] or "", "quelle": r["Quelle"] or "",
+                    "mj_von": r["Modelljahr von"] or "", "mj_bis": r["Modelljahr bis"] or "",
+                    "generation": r["Batterie-Generation"] or "",
+                })
                 break
         else:
             raise SystemExit(f"Keine Regel fuer {marke} {modell}")

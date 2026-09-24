@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 0
 tags: ["fachbegriff", "einheit"]
 ---
@@ -25,4 +25,4 @@ Faustregel für die Praxis: Ein Kompaktwagen verbraucht grob 15–20 kWh pro 100
 
 ## Belege
 
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

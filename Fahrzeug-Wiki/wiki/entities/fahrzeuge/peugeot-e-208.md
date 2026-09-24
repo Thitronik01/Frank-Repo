@@ -12,7 +12,7 @@ brutto_max: 54.0
 netto_min: 46.3
 netto_max: 50.8
 bild: "Bilder/peugeot-e-208.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "kleinwagen"]
 ---
@@ -50,13 +50,13 @@ Wegen der weiten Verbreitung ist der e-208 ein häufiger Kandidat für einen [[b
 
 Alle drei Zeilen heißen „e-208“ und unterscheiden sich nur in der Batterie: 50 kWh brutto / 46,3 kWh netto ist die ursprüngliche Batterie, 54 kWh brutto / 50,8 kWh netto die überarbeitete Version nach der [[modellpflege|Modellpflege]]. Die Zeile mit 51 kWh brutto / 48,1 kWh netto lässt sich keiner der beiden Generationen eindeutig zuordnen (siehe Hinweise).
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-208 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 227 |
-| e-208 | 51 kWh | 48,1 kWh | 2,9 kWh (5,7 %) | 228 |
-| e-208 | 54 kWh | 50,8 kWh | 3,2 kWh (5,9 %) | 229 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| e-208 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 227 | bestätigt |
+| e-208 | 51 kWh | 48,1 kWh | 2,9 kWh (5,7 %) | 228 | bestätigt |
+| e-208 | 54 kWh | 50,8 kWh | 3,2 kWh (5,9 %) | 229 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 227–229. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 227–229 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -75,15 +75,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 227–229.
 - [[citroen-e-c4-x|Citroën ë-C4 X]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Peugeot: [[peugeot-e-3008|Peugeot e-3008]], [[peugeot-e-308|Peugeot e-308]], [[peugeot-e-408|Peugeot e-408]], [[peugeot-e-expert|Peugeot e-Expert Combi]], [[peugeot-e-partner|Peugeot e-Partner]], [[peugeot-e-rifter|Peugeot e-Rifter]], [[peugeot-e-traveller|Peugeot e-Traveller]], [[peugeot-ion|Peugeot iOn]], [[peugeot-partner-tepee-electric|Peugeot Partner Tepee Electric]]
 
-## Offene Punkte
-
-- Die Zeile 51 kWh brutto / 48,1 kWh netto passt zu keiner der bei den Geschwistermodellen erfassten Batterien (50/46,3 bzw. 54/50,8). Möglicherweise wurde ein Nettowert der neueren Batterie als Bruttowert erfasst – bitte prüfen.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 227–229)
 - Weiterlesen: [Wikipedia – Peugeot 208](https://en.wikipedia.org/wiki/Peugeot_208)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

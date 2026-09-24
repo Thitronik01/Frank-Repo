@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#0A6B4E">
 <script>try{var t=localStorage.getItem("fw-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="../ci/signet.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"><link rel="stylesheet" href="../ci/tokens.css?v=00846f22"><link rel="stylesheet" href="app.css?v=b00658a6"></head>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"><link rel="stylesheet" href="../ci/tokens.css?v=00846f22"><link rel="stylesheet" href="app.css?v=eafb279d"></head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
 <header class="topbar">
@@ -27,31 +27,347 @@
   <div class="scrim" data-close-nav></div>
   <main id="main" tabindex="-1"><div class="page with-toc"><article class="content"><nav class="crumbs" aria-label="Brotkrumen"><a href="index.html">Start</a><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 18 6-6-6-6"/></svg><a href="katalog.html">Übersichten</a><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 18 6-6-6-6"/></svg><span aria-current="page">Datenqualität der Rohquelle</span></nav>
 <header class="hero-c"><span class="eyebrow">Übersicht</span><h1>Datenqualität der Rohquelle</h1></header><div class="prose">
-<p><strong>Anlass:</strong> Befunde beim Ingest von <a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a> am 2026-09-23</p>
+<p><strong>Anlass:</strong> Befunde beim Ingest von <a href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a> am 2026-09-23, Bereinigung am 2026-09-24</p>
 <h2 id="stand">Stand</h2>
-<p>Die Quelle ist formal vollständig: Das Blatt „Übersicht“ bestätigt für alle 19 Marken, dass die extrahierten Zeilen der Quellangabe entsprechen (469/469). Inhaltlich gibt es aber <strong>5 automatisch erkannte Auffälligkeiten</strong> (Duplikate, unmögliche Werte, Näherungswerte) und <strong>161 fachliche Hinweise</strong> aus der Einordnung der einzelnen Fahrzeuge.</p>
+<p>Die Rohquelle bleibt unverändert. Das Wiki nutzt seit 2026-09-24 die <strong>bereinigte Fassung</strong> <code>data/tn_batterycheck_bereinigt.xlsx</code> (erzeugt von <code>tools/clean.py</code> aus der Rohquelle und <code>tools/corrections.json</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Maßnahme</th>
+<th>Anzahl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zeilen mit korrigierten Werten</td>
+<td>10 (12 Werte)</td>
+</tr>
+<tr>
+<td>Entfernte Duplikate</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Als Alias gekennzeichnet (gleiches Fahrzeug, anderer Name)</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Schreibweisen vereinheitlicht</td>
+<td>56</td>
+</tr>
+<tr>
+<td>Noch zu prüfen (offenes Issue)</td>
+<td>9 Zeilen</td>
+</tr>
+<tr>
+<td>Näherungswerte („ca.“)</td>
+<td>3 Zeilen</td>
+</tr>
+<tr>
+<td>Zeilen in der bereinigten Fassung</td>
+<td>467 von 469</td>
+</tr>
+</tbody>
+</table>
 
-<h2 id="automatisch-erkannte-befunde">Automatisch erkannte Befunde</h2>
-<ul>
-<li><a href="cupra-born.html">Cupra Born</a>: <strong>Netto &gt; Brutto:</strong> „Born“ 53&nbsp;kWh brutto / 60,0&nbsp;kWh netto (Zeile 99) – physikalisch unmöglich, vermutlich vertauschte oder falsche Werte.</li>
-<li><a href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a>: <strong>Näherungswert:</strong> „eSprinter LFP“ ist in der Quelle als „ca. 119&nbsp;kWh“ angegeben (Zeile 192).</li>
-<li><a href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a>: <strong>Näherungswert:</strong> „eSprinter LFP“ ist in der Quelle als „ca. 60&nbsp;kWh“ angegeben (Zeile 193).</li>
-<li><a href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a>: <strong>Näherungswert:</strong> „eSprinter LFP“ ist in der Quelle als „ca. 85&nbsp;kWh“ angegeben (Zeile 194).</li>
-<li><a href="porsche-taycan.html">Porsche Taycan</a>: <strong>Duplikat:</strong> „Taycan Sport Turismo“ 93,4/83,7&nbsp;kWh steht 2× in der Quelle (Zeilen 281, 282).</li>
-</ul>
+<h2 id="korrekturen">Korrekturen</h2>
+<table>
+<thead>
+<tr>
+<th>Zeile</th>
+<th>Fahrzeug</th>
+<th>Feld</th>
+<th>Alt</th>
+<th>Neu</th>
+<th>Grund</th>
+<th>Beleg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td><a href="audi-e-tron.html">Audi e-tron S quattro</a></td>
+<td>Brutto kWh</td>
+<td>105</td>
+<td>95</td>
+<td>105/97 sind die Werte der großen Taycan-Batterie. Der e-tron S (SUV) hat dieselbe 95-kWh-Batterie wie der Sportback S.</td>
+<td><a href="https://ev-database.org/car/1658/Audi-e-tron-S">Quelle 1</a>, <a href="https://ev-database.org/car/1659/Audi-e-tron-S-Sportback">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/5">#5</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="audi-e-tron.html">Audi e-tron S quattro</a></td>
+<td>Netto kWh</td>
+<td>97</td>
+<td>86,5</td>
+<td>105/97 sind die Werte der großen Taycan-Batterie. Der e-tron S (SUV) hat dieselbe 95-kWh-Batterie wie der Sportback S.</td>
+<td><a href="https://ev-database.org/car/1658/Audi-e-tron-S">Quelle 1</a>, <a href="https://ev-database.org/car/1659/Audi-e-tron-S-Sportback">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/5">#5</a></td>
+</tr>
+<tr>
+<td>58</td>
+<td><a href="bmw-i5.html">BMW i5 M60</a></td>
+<td>Modell</td>
+<td>i5 M60</td>
+<td>i5 M60 xDrive</td>
+<td>Offizielle Bezeichnung „i5 M60 xDrive“.</td>
+<td><a href="https://ev-database.org/car/1907/BMW-i5-M60-xDrive-Sedan">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/15">#15</a></td>
+</tr>
+<tr>
+<td>65</td>
+<td><a href="bmw-ix.html">BMW iX M60</a></td>
+<td>Netto kWh</td>
+<td>107,7</td>
+<td>105,2</td>
+<td>Laut BMW-Datenblatt und ev-database hat der iX M60 111,5 / 105,2&nbsp;kWh.</td>
+<td><a href="https://ev-database.org/uk/car/1590/BMW-iX-M60">Quelle 1</a>, <a href="https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/9">#9</a></td>
+</tr>
+<tr>
+<td>67</td>
+<td><a href="bmw-ix.html">BMW iX xDrive 40</a></td>
+<td>Netto kWh</td>
+<td>74,4</td>
+<td>71</td>
+<td>Laut BMW-Datenblatt (06/2021) hat der iX xDrive40 76,6 / 71,0&nbsp;kWh.</td>
+<td><a href="https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303">Quelle 1</a>, <a href="https://ev-database.org/uk/car/1472/BMW-iX-xDrive-40">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/9">#9</a></td>
+</tr>
+<tr>
+<td>69</td>
+<td><a href="bmw-ix.html">BMW iX xDrive 50</a></td>
+<td>Netto kWh</td>
+<td>109,4</td>
+<td>105,2</td>
+<td>Laut BMW-Datenblatt (06/2021) hat der iX xDrive50 111,5 / 105,2&nbsp;kWh.</td>
+<td><a href="https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/9">#9</a></td>
+</tr>
+<tr>
+<td>74</td>
+<td><a href="bmw-ix2.html">BMW iX2 eDrive30</a></td>
+<td>Modell</td>
+<td>iX2 eDrive30</td>
+<td>iX2 xDrive30</td>
+<td>„eDrive30“ gibt es nicht, nur eDrive20 und xDrive30.</td>
+<td><a href="https://www.bimmertoday.de/2023/10/11/bmw-ix2-xdrive30-edrive20-bilder-infos-zum-elektro-x2/">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/15">#15</a></td>
+</tr>
+<tr>
+<td>84</td>
+<td><a href="citroen-e-c3-aircross.html">Citroen e-C3 Aircross Extended Range</a></td>
+<td>Netto kWh</td>
+<td>53,5</td>
+<td>52,8</td>
+<td>ADAC (Herstellerdaten): 54,0 / 52,8&nbsp;kWh. Die 53,5&nbsp;kWh sind ein Schätzwert von ev-database. Der baugleiche Opel Frontera ER hat laut ADAC 52,0&nbsp;kWh netto.</td>
+<td><a href="https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/c3-aircross/2generation/350756/">Quelle 1</a>, <a href="https://ev-database.org/car/3228/Citroen-e-C3-Aircross-Extended-Range-54-kWh">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/10">#10</a></td>
+</tr>
+<tr>
+<td>99</td>
+<td><a href="cupra-born.html">Cupra Born</a></td>
+<td>Brutto kWh</td>
+<td>53</td>
+<td>63</td>
+<td>53/60 ist unmöglich (netto &gt; brutto). Gemeint ist vermutlich die 59-kWh-Batterie ab Modelljahr 2025 mit 63 / 59&nbsp;kWh (ev-database; electrive nennt 63 / 60). Die Zuordnung ist erschlossen und muss bestätigt werden.</td>
+<td><a href="https://ev-database.org/de/pkw/3262/CUPRA-Born-150-kW---59-kWh">Quelle 1</a>, <a href="https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh">Quelle 2</a>, <a href="https://www.electrive.net/2024/08/08/cupra-ueberarbeitet-das-born-angebot/">Quelle 3</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/1">#1</a></td>
+</tr>
+<tr>
+<td>99</td>
+<td><a href="cupra-born.html">Cupra Born</a></td>
+<td>Netto kWh</td>
+<td>60</td>
+<td>59</td>
+<td>53/60 ist unmöglich (netto &gt; brutto). Gemeint ist vermutlich die 59-kWh-Batterie ab Modelljahr 2025 mit 63 / 59&nbsp;kWh (ev-database; electrive nennt 63 / 60). Die Zuordnung ist erschlossen und muss bestätigt werden.</td>
+<td><a href="https://ev-database.org/de/pkw/3262/CUPRA-Born-150-kW---59-kWh">Quelle 1</a>, <a href="https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh">Quelle 2</a>, <a href="https://www.electrive.net/2024/08/08/cupra-ueberarbeitet-das-born-angebot/">Quelle 3</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/1">#1</a></td>
+</tr>
+<tr>
+<td>184</td>
+<td><a href="mercedes-eqb.html">Mercedes EQB 350</a></td>
+<td>Modell</td>
+<td>EQB 350</td>
+<td>EQB 350 4MATIC</td>
+<td>Den EQB 350 gibt es nur mit 4MATIC.</td>
+<td><a href="https://en.wikipedia.org/wiki/Mercedes-Benz_EQB">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/15">#15</a></td>
+</tr>
+<tr>
+<td>187</td>
+<td><a href="mercedes-eqt.html">Mercedes EQT</a></td>
+<td>Brutto kWh</td>
+<td>50</td>
+<td>48</td>
+<td>Der EQT nutzt die 45-kWh-Batterie des Renault Kangoo E-Tech. ev-database: 48 / 45&nbsp;kWh; für 50&nbsp;kWh brutto gibt es keinen Beleg.</td>
+<td><a href="https://ev-database.org/car/1908/Mercedes-Benz-EQT-200-Standard">Quelle 1</a>, <a href="https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/3">#3</a></td>
+</tr>
+<tr>
+<td>219</td>
+<td><a href="mini-cooper-electric.html">Mini Cooper E</a></td>
+<td>Netto kWh</td>
+<td>36,8</td>
+<td>36,6</td>
+<td>Laut ev-database und Auto Bild hat der Cooper E 40,7 / 36,6&nbsp;kWh.</td>
+<td><a href="https://ev-database.org/uk/car/1997/Mini-Cooper-E">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/8">#8</a></td>
+</tr>
+<tr>
+<td>221</td>
+<td><a href="mini-cooper-electric.html">Mini Cooper SE</a></td>
+<td>Netto kWh</td>
+<td>49,8</td>
+<td>49,2</td>
+<td>Der neue Cooper SE (J01) hat dieselbe Batterie wie der Aceman SE: 54,2 / 49,2&nbsp;kWh.</td>
+<td><a href="https://ev-database.org/uk/car/1998/Mini-Cooper-SE">Quelle 1</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/8">#8</a></td>
+</tr>
+<tr>
+<td>282</td>
+<td><a href="porsche-taycan.html">Porsche Taycan Sport Turismo</a></td>
+<td>Zeile</td>
+<td>93,4&nbsp;kWh / 83,7&nbsp;kWh</td>
+<td>entfernt</td>
+<td>Exaktes Duplikat von Zeile 281 (Taycan Sport Turismo, 93,4 / 83,7&nbsp;kWh).</td>
+<td></td>
+</tr>
+<tr>
+<td>297</td>
+<td><a href="renault-city-k-ze.html">Renault City K-ZE</a></td>
+<td>Brutto kWh</td>
+<td>30</td>
+<td>27,4</td>
+<td>30&nbsp;kWh brutto sind nicht belegt (nur auto-data.net). Renault nennt 26,8&nbsp;kWh; der baugleiche Dacia Spring hat laut ADAC (Herstellerdaten) 27,4 / 26,8&nbsp;kWh.</td>
+<td><a href="https://paultan.org/2019/09/10/renault-k-ze-launched-in-china/">Quelle 1</a>, <a href="https://www.batterydesign.net/dacia-spring-battery/">Quelle 2</a>, <a href="https://github.com/Thitronik01/Frank-Repo/issues/4">#4</a></td>
+</tr>
+<tr>
+<td>317</td>
+<td><a href="renault-zoe.html">Renault Zoe R75</a></td>
+<td>Zeile</td>
+<td>25,9&nbsp;kWh / 23,3&nbsp;kWh</td>
+<td>entfernt</td>
+<td>Einen Zoe R75 mit 22-kWh-Batterie gab es nicht; der R75 wurde nur mit Z.E. 40 angeboten (Zeile 318).</td>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/13">#13</a></td>
+</tr>
+</tbody>
+</table>
 
-<h2 id="uneinheitliche-schreibweisen">Uneinheitliche Schreibweisen</h2>
-<ul>
-<li>Hersteller „Citroen“ ohne Trema (offiziell Citroën), Modelle „e-C4“ statt „ë-C4“; „E-Berlingo Multispace“ mit großem E neben „e-Berlingo“.</li>
-<li>„Mercedes“ statt „Mercedes-Benz“; „Skoda“ statt „Škoda“.</li>
-<li>Leerzeichen uneinheitlich: BMW „iX xDrive 40“ vs. „iX1 xDrive30“.</li>
-<li>Werte teils mit, teils ohne Nachkommastelle („71&nbsp;kWh“ vs. „71.0&nbsp;kWh“); Dezimalpunkt statt Komma.</li>
-</ul>
+<h2 id="offene-klärungen">Offene Klärungen</h2>
+<p>Was sich nicht eindeutig belegen ließ, wird in GitHub-Issues geklärt. Bis dahin sind die betroffenen Zeilen als „zu prüfen“ markiert und auf der Fahrzeugseite unter „Offene Punkte“ vermerkt.</p>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Thema</th>
+<th>Zeilen</th>
+<th>Stand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/1">#1</a></td>
+<td>Cupra Born (Zeile 99): Netto größer als Brutto</td>
+<td>99</td>
+<td>korrigiert auf 63 / 59&nbsp;kWh (erschlossen) – bitte bestätigen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/2">#2</a></td>
+<td>VW ID.3 Pure 55/45 vs. ID.4 Pure 55/52</td>
+<td>416, 417</td>
+<td>geklärt: Werte korrekt (Software-Lock) – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/3">#3</a></td>
+<td>Mercedes EQT vs. Renault Kangoo E-Tech</td>
+<td>187</td>
+<td>korrigiert auf 48 / 45&nbsp;kWh – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/4">#4</a></td>
+<td>Renault City K-ZE vs. Dacia Spring</td>
+<td>297, 105–108</td>
+<td>K-ZE korrigiert; Spring: Quellen widersprechen (netto 26,8 vs. 25,0) – Entscheidung offen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/5">#5</a></td>
+<td>Audi e-tron S quattro mit Taycan-Werten</td>
+<td>7</td>
+<td>korrigiert auf 95 / 86,5&nbsp;kWh – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/6">#6</a></td>
+<td>Peugeot e-208 51/48,1&nbsp;kWh</td>
+<td>228</td>
+<td>geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/7">#7</a></td>
+<td>Renault Master E-Tech 55/52&nbsp;kWh</td>
+<td>303, 304</td>
+<td>offen: Bruttowerte nirgends belegt</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/8">#8</a></td>
+<td>Mini Aceman vs. Cooper</td>
+<td>219, 221</td>
+<td>korrigiert (Cooper E und SE netto) – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/9">#9</a></td>
+<td>BMW iX: zu kleine Puffer</td>
+<td>65–70</td>
+<td>korrigiert (xDrive40, xDrive50, M60) – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/10">#10</a></td>
+<td>Puffer unter 1&nbsp;%: ë-C3, ë-C3 Aircross, MG4</td>
+<td>82–84, 205, 206, 208</td>
+<td>ë-C3 bestätigt, Aircross ER korrigiert; MG4: Quellen widersprechen – Entscheidung offen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/11">#11</a></td>
+<td>Mercedes eSprinter LFP: nur „ca.“-Bruttowerte</td>
+<td>192–194</td>
+<td>nicht klärbar: Hersteller nennt nur netto – Schätzung bleibt markiert</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/12">#12</a></td>
+<td>Tesla: Nettowerte exakt 95&nbsp;% des Bruttowerts</td>
+<td>Tesla-Block</td>
+<td>offen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/13">#13</a></td>
+<td>Renault Zoe: R90 Entry und R75</td>
+<td>317, 318, 320</td>
+<td>geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/14">#14</a></td>
+<td>Kleine Abweichungen bei baugleichen Batterien</td>
+<td>siehe Issue</td>
+<td>offen (Mini Cooper SE über #8 erledigt)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/15">#15</a></td>
+<td>Bezeichnungen: iX2 eDrive30, EQB 350, i5 M60</td>
+<td>58, 74, 184</td>
+<td>korrigiert – kann geschlossen werden</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/16">#16</a></td>
+<td>Namensdubletten</td>
+<td>12 Zeilen</td>
+<td>als Alias gekennzeichnet – bitte bestätigen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/17">#17</a></td>
+<td>Modelljahr / Batterie-Generation fehlt</td>
+<td>ganze Tabelle</td>
+<td>Spalten angelegt, für recherchierte Zeilen gefüllt – Rest offen</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Thitronik01/Frank-Repo/issues/18">#18</a></td>
+<td>Herausgeber und Stichtag der Rohdaten</td>
+<td>–</td>
+<td>offen</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="schreibweisen">Schreibweisen</h2>
+<p>Vereinheitlicht auf die Herstellerschreibweise; der Originalname bleibt in der Spalte „Modell (Rohquelle)“ erhalten: Citroën, Mercedes-Benz, Škoda, SEAT; ë-C3, ë-C4, ë-Berlingo, ë-Jumpy, ë-SpaceTourer; Enyaq … Coupé; Citigo e iV; iX xDrive40 usw.; e-up!; ID. Buzz; EQC 400 4MATIC. Kapazitäten als Zahl mit Dezimalpunkt statt Text mit Einheit.</p>
 
 <h2 id="fachliche-hinweise-je-fahrzeug">Fachliche Hinweise je Fahrzeug</h2>
 <h3 id="audi-e-tron"><a href="audi-e-tron.html">Audi e-tron</a></h3>
 <ul>
-<li>Zeile 7 (e-tron S quattro, 105/97&nbsp;kWh) passt nicht zur Baureihe: 105/97&nbsp;kWh entspricht der Performancebatterie Plus von Porsche Taycan/Audi e-tron GT nach Modellpflege; der Sportback S (Zeile 12) steht mit 95/86,5&nbsp;kWh. Wahrscheinlich Datenfehler.</li>
 <li>Der Nettowert 89,0&nbsp;kWh (Zeilen 5 und 11) entspricht dem Wert des Q8 50 e-tron; ob er für den e-tron 55 zutrifft, ist unsicher.</li>
 <li>Drei Nettowerte bei identischer Bezeichnung e-tron 55 quattro (83,6 / 86,5 / 89,0&nbsp;kWh) – ohne Modelljahr nicht eindeutig zuzuordnen.</li>
 </ul>
@@ -77,20 +393,6 @@
 <ul>
 <li>i4 M60 xDrive ist mit 81,1&nbsp;kWh netto gelistet, die übrigen 83,9-kWh-Versionen mit 80,7&nbsp;kWh – vermutlich Rundungs- oder Quellenunterschied bei gleicher Batterie.</li>
 </ul>
-<h3 id="bmw-i5"><a href="bmw-i5.html">BMW i5</a></h3>
-<ul>
-<li>Zeile 58 heißt nur "i5 M60", Zeile 59 "i5 M60 xDrive Touring" – uneinheitliche Schreibweise; der i5 M60 hat ebenfalls Allradantrieb.</li>
-</ul>
-<h3 id="bmw-ix"><a href="bmw-ix.html">BMW iX</a></h3>
-<ul>
-<li>Die Nettowerte der 111,5-kWh-Batterie variieren (107,7 / 108,9 / 109,1 / 109,4&nbsp;kWh), der Puffer wäre teils sehr klein (ca. 2&nbsp;kWh). Andere Quellen nennen für den iX xDrive50 deutlich niedrigere Nettowerte – prüfen.</li>
-<li>iX xDrive 40 mit 74,4&nbsp;kWh netto bei 76,6&nbsp;kWh brutto ergibt ebenfalls einen ungewöhnlich kleinen Puffer; Quelle prüfen.</li>
-<li>Schreibweise mit Leerzeichen ("xDrive 40") statt "xDrive40".</li>
-</ul>
-<h3 id="bmw-ix2"><a href="bmw-ix2.html">BMW iX2</a></h3>
-<ul>
-<li>Zeile 74 lautet "iX2 eDrive30"; üblich ist beim iX2 die Bezeichnung xDrive30 (Allradantrieb). Wahrscheinlich Schreibfehler.</li>
-</ul>
 <h3 id="bmw-ix3"><a href="bmw-ix3.html">BMW iX3</a></h3>
 <ul>
 <li>Nettowert mit zwei Nachkommastellen (73,83&nbsp;kWh) – ungewöhnlich präzise im Vergleich zu den übrigen Einträgen.</li>
@@ -107,33 +409,18 @@
 <li>Die 52-kWh-Batterie (50,0&nbsp;kWh netto) hat einen deutlich kleineren Puffer als die 50-kWh-Version (46,3&nbsp;kWh netto). Bei den Peugeot-Geschwistern (e-Rifter, e-Partner) fehlt die 52-kWh-Version in den Rohdaten.</li>
 <li>Die genaue Zuordnung der 52-kWh-Batterie zur Modellpflege (Jahr) ist nicht gesichert.</li>
 </ul>
-<h3 id="citroën-ë-c3"><a href="citroen-e-c3.html">Citroën ë-C3</a></h3>
-<ul>
-<li>Sehr kleiner Puffer: 44&nbsp;kWh brutto vs. 43,8&nbsp;kWh netto (ca. 0,5&nbsp;%). Möglicherweise ist der Bruttowert gerundet oder die Nettoangabe entspricht eher der Herstellerangabe zur Gesamtkapazität.</li>
-</ul>
-<h3 id="citroën-ë-c3-aircross"><a href="citroen-e-c3-aircross.html">Citroën ë-C3 Aircross</a></h3>
-<ul>
-<li>Sehr kleiner Puffer bei beiden Batterien (44/43,8 und 54/53,5&nbsp;kWh).</li>
-<li>Ob auch die Extended-Range-Batterie auf LFP-Zellen basiert, ist nicht gesichert.</li>
-</ul>
 <h3 id="citroën-ë-jumpy-combi"><a href="citroen-e-jumpy.html">Citroën ë-Jumpy Combi</a></h3>
 <ul>
 <li>Der Puffer der 75-kWh-Batterie (68,0&nbsp;kWh netto) ist mit rund 9&nbsp;% größer als der der 50-kWh-Batterie (ca. 7&nbsp;%).</li>
 </ul>
-<h3 id="citroën-ë-spacetourer"><a href="citroen-e-spacetourer.html">Citroën ë-SpaceTourer</a></h3>
-<ul>
-<li>Schreibweise in den Rohdaten „e-Spacetourer“, Herstellerschreibweise „ë-SpaceTourer“.</li>
-</ul>
 <h3 id="cupra-born"><a href="cupra-born.html">Cupra Born</a></h3>
 <ul>
-<li>Zeile 99: Nettokapazität (60,0&nbsp;kWh) ist größer als die Bruttokapazität (53&nbsp;kWh) – physikalisch unmöglich, vermutlich Tipp- oder Zuordnungsfehler (Einstiegsbatterie des MEB wird meist mit 45&nbsp;kWh netto geführt).</li>
 <li>Zeilen 100 und 102 haben identische Batteriewerte; der Unterschied (e-boost) betrifft nur die Motorleistung.</li>
 </ul>
 <h3 id="dacia-spring-electric"><a href="dacia-spring.html">Dacia Spring Electric</a></h3>
 <ul>
 <li>Vier Zeilen mit identischen Kapazitätswerten – für die Batteriekapazität de facto Duplikate.</li>
 <li>Ob die Batterie beim Modell ab 2024 die Zellchemie gewechselt hat (NMC vs. LFP), ist nicht gesichert und wird hier bewusst nicht behauptet.</li>
-<li>Der Bruttowert 26,8&nbsp;kWh taucht beim Schwestermodell Renault City K-ZE als Nettowert auf – mögliche Inkonsistenz zwischen den beiden Datensätzen.</li>
 </ul>
 <h3 id="ford-f-150-lightning"><a href="ford-f-150-lightning.html">Ford F-150 Lightning</a></h3>
 <ul>
@@ -215,16 +502,10 @@
 <h3 id="mercedes-benz-eqb"><a href="mercedes-eqb.html">Mercedes-Benz EQB</a></h3>
 <ul>
 <li>EQB 300 4MATIC steht zweimal mit unterschiedlichen Batterien (Zeilen 182 und 183).</li>
-<li>Zeile 184 "EQB 350" ohne 4MATIC: Die Leistungsstufe 350 ist bei Mercedes üblicherweise ein Allradmodell – mögliche unvollständige Bezeichnung.</li>
 </ul>
 <h3 id="mercedes-benz-eqc"><a href="mercedes-eqc.html">Mercedes-Benz EQC</a></h3>
 <ul>
 <li>Bauzeit nicht sicher belegt (Marktstart 2019, Produktionsende ca. 2023/2024).</li>
-<li>Die Bezeichnung in den Daten lautet nur "EQC 400"; offiziell EQC 400 4MATIC.</li>
-</ul>
-<h3 id="mercedes-benz-eqt"><a href="mercedes-eqt.html">Mercedes-Benz EQT</a></h3>
-<ul>
-<li>Runde Werte 50/45&nbsp;kWh – vermutlich gerundete Herstellerangaben.</li>
 </ul>
 <h3 id="mercedes-benz-eqv"><a href="mercedes-eqv.html">Mercedes-Benz EQV</a></h3>
 <ul>
@@ -232,7 +513,6 @@
 </ul>
 <h3 id="mercedes-benz-esprinter"><a href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a></h3>
 <ul>
-<li>Bruttowerte der LFP-Versionen sind als "ca." markiert (geschätzt).</li>
 <li>Die Reihenfolge der LFP-Zeilen (119, 60, 85&nbsp;kWh) ist nicht nach Größe sortiert.</li>
 </ul>
 <h3 id="mercedes-benz-evito"><a href="mercedes-evito.html">Mercedes-Benz eVito</a></h3>
@@ -253,12 +533,10 @@
 </ul>
 <h3 id="mg4-electric"><a href="mg4-electric.html">MG4 Electric</a></h3>
 <ul>
-<li>Die 51-kWh-Batterie hat laut Rohdaten nur 0,2&nbsp;kWh Puffer (51,0 brutto / 50,8 netto) – ungewöhnlich klein, bei LFP-Batterien aber nicht untypisch.</li>
 <li>Drei Zeilen mit identischer Bezeichnung „MG4 Electric“ – Unterscheidung nur über die Kapazität.</li>
 </ul>
 <h3 id="mg5-electric"><a href="mg5-electric.html">MG5 Electric</a></h3>
 <ul>
-<li>„MG5 EV Long Range“ und „MG5 Electric Long Range“ mit identischen Werten (61,1/57,4&nbsp;kWh) – wahrscheinlich Duplikat mit unterschiedlicher Schreibweise.</li>
 <li>Uneinheitliche Namensgebung „MG5 EV“ vs. „MG5 Electric“.</li>
 <li>Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert und daher nicht behauptet.</li>
 <li>Die Einordnung als Geschwister des ZS EV bezieht sich auf die gemeinsame Konversionsbauweise und Antriebstechnik, nicht auf identische Batterien.</li>
@@ -268,26 +546,13 @@
 <li>Die Long-Range-Batterie (72,6&nbsp;kWh brutto) hat denselben Bruttowert wie die erste Long-Range-Batterie des Hyundai IONIQ 5 – rein zufällige Übereinstimmung, kein technischer Zusammenhang.</li>
 <li>Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert.</li>
 </ul>
-<h3 id="mini-aceman"><a href="mini-aceman.html">Mini Aceman</a></h3>
-<ul>
-<li>Kleine Batterie hier mit 42,5/38,5&nbsp;kWh, beim Cooper E dagegen 40,7/36,8&nbsp;kWh – möglicherweise dieselbe Batterie mit unterschiedlichen Quellenangaben.</li>
-</ul>
 <h3 id="mini-cooper-e-se"><a href="mini-cooper-electric.html">Mini Cooper E / SE</a></h3>
 <ul>
 <li>Cooper SE erscheint zweimal mit völlig unterschiedlichen Batterien (Zeilen 220 und 221) – zwei Fahrzeuggenerationen unter gleichem Namen.</li>
-<li>Nettowert 49,8&nbsp;kWh bei 54,2&nbsp;kWh brutto weicht vom Aceman (49,2&nbsp;kWh netto bei gleicher Bruttokapazität) ab; vermutlich Quellen- oder Tippfehler.</li>
 </ul>
 <h3 id="mini-countryman-e-se"><a href="mini-countryman-electric.html">Mini Countryman E / SE</a></h3>
 <ul>
 <li>Nettowert 64,6&nbsp;kWh gegenüber 64,7&nbsp;kWh bei iX1/iX2 mit identischer Batterie – Rundungsdifferenz.</li>
-</ul>
-<h3 id="peugeot-e-2008"><a href="peugeot-e-2008.html">Peugeot e-2008</a></h3>
-<ul>
-<li>„e-2008 SUV“ (50&nbsp;kWh) ist inhaltlich ein Duplikat zu „e-2008“ (50&nbsp;kWh) – nur abweichende Schreibweise.</li>
-</ul>
-<h3 id="peugeot-e-208"><a href="peugeot-e-208.html">Peugeot e-208</a></h3>
-<ul>
-<li>Die Zeile 51&nbsp;kWh brutto / 48,1&nbsp;kWh netto passt zu keiner der bei den Geschwistermodellen erfassten Batterien (50/46,3 bzw. 54/50,8). Möglicherweise wurde ein Nettowert der neueren Batterie als Bruttowert erfasst – bitte prüfen.</li>
 </ul>
 <h3 id="peugeot-e-3008"><a href="peugeot-e-3008.html">Peugeot e-3008</a></h3>
 <ul>
@@ -308,12 +573,10 @@
 </ul>
 <h3 id="peugeot-e-rifter"><a href="peugeot-e-rifter.html">Peugeot e-Rifter</a></h3>
 <ul>
-<li>Vier Zeilen mit identischen Werten; „Standard“ und „M“ sowie „Long“ und „XL“ sind vermutlich jeweils dieselbe Version unter verschiedenen Bezeichnungen (Duplikate).</li>
 <li>Die beim ë-Berlingo erfasste neuere 52-kWh-Batterie fehlt hier.</li>
 </ul>
 <h3 id="peugeot-e-traveller"><a href="peugeot-e-traveller.html">Peugeot e-Traveller</a></h3>
 <ul>
-<li>L2/L3 und Standard/Long liefern identische Werte – vermutlich Duplikate unter zwei Namensschemata.</li>
 <li>Ob die Längenbezeichnungen L2/L3 mit einer Modellpflege eingeführt wurden, ist nicht gesichert.</li>
 </ul>
 <h3 id="peugeot-ion"><a href="peugeot-ion.html">Peugeot iOn</a></h3>
@@ -331,26 +594,21 @@
 </ul>
 <h3 id="porsche-taycan"><a href="porsche-taycan.html">Porsche Taycan</a></h3>
 <ul>
-<li>Doppelter Eintrag: "Taycan Sport Turismo" mit 93,4/83,7&nbsp;kWh erscheint zweimal (Zeilen 281 und 282).</li>
 <li>Die Batteriebezeichnungen (Performancebatterie/Performancebatterie Plus) stehen nicht in den Rohdaten; die Zuordnung erfolgt über die Kapazität.</li>
 </ul>
 <h3 id="renault-city-k-ze"><a href="renault-city-k-ze.html">Renault City K-ZE</a></h3>
 <ul>
-<li>Die Werte weichen vom baugleichen Dacia Spring ab (dort 26,8&nbsp;kWh brutto / 25,0&nbsp;kWh netto). Hier erscheint 26,8&nbsp;kWh als Nettowert – möglicherweise ist der Bruttowert 30&nbsp;kWh unsicher oder falsch.</li>
 <li>Bauzeit nicht sicher bekannt, daher null.</li>
 </ul>
 <h3 id="renault-kangoo-ze-e-tech"><a href="renault-kangoo-electric.html">Renault Kangoo Z.E. / E-Tech</a></h3>
 <ul>
 <li>Unter einem Slug sind zwei Fahrzeuggenerationen (Kangoo Z.E. und Kangoo E-Tech) zusammengefasst.</li>
 <li>Für den Kangoo Z.E. mit kleiner Batterie findet man 22&nbsp;kWh teils als Brutto-, teils als Nettoangabe.</li>
-<li>Mercedes EQT ist in families.json mit 50/45&nbsp;kWh erfasst, der Kangoo E-Tech mit 48/45&nbsp;kWh – gleicher Nettowert, abweichender Bruttowert.</li>
 </ul>
 <h3 id="renault-master-ze-e-tech"><a href="renault-master-electric.html">Renault Master Z.E. / E-Tech</a></h3>
 <ul>
 <li>Zwei Generationen unter einem Slug zusammengefasst.</li>
-<li>Für den Master E-Tech werden in Herstellerangaben häufig 40&nbsp;kWh und 87&nbsp;kWh (nutzbar) genannt. Die Zeile 55/52&nbsp;kWh passt dazu nicht – bitte prüfen.</li>
 <li>Die Batterie des Master Z.E. (33/31&nbsp;kWh) hat dieselben Werte wie der Kangoo Z.E. mit großer Batterie; eine technische Identität wird hier nicht behauptet.</li>
-<li>Die Werte 92/87&nbsp;kWh stimmen mit der großen Batterie des Renault Scenic E-Tech überein; ob es sich um dasselbe Batteriepaket handelt, ist nicht gesichert.</li>
 </ul>
 <h3 id="renault-scenic-e-tech"><a href="renault-scenic-e-tech.html">Renault Scenic E-Tech</a></h3>
 <ul>
@@ -364,9 +622,6 @@
 </ul>
 <h3 id="renault-zoe"><a href="renault-zoe.html">Renault Zoe</a></h3>
 <ul>
-<li>„Zoe R110“ und „Zoe R110 Z.E. 40“ haben identische Werte (44,1/41,0&nbsp;kWh) – vermutlich Duplikat.</li>
-<li>„Zoe R75“ erscheint mit zwei Batterien (25,9 und 44,1&nbsp;kWh); die Zuordnung der R75-Variante ist nicht gesichert.</li>
-<li>„Zoe R90 Entry“ mit 25,9&nbsp;kWh ist ungewöhnlich, da R90 sonst mit der Z.E.-40-Batterie verbunden ist – bitte prüfen.</li>
 <li>Die erste Batteriegeneration wird im Handel als „22&nbsp;kWh“ bezeichnet, in den Rohdaten aber mit 25,9&nbsp;kWh brutto / 23,3&nbsp;kWh netto geführt.</li>
 <li>Die Bedeutung der Zahl in den Motorbezeichnungen (Reichweite vs. Leistung) ist je nach Generation unterschiedlich; hier nur grob beschrieben.</li>
 </ul>
@@ -376,13 +631,10 @@
 </ul>
 <h3 id="škoda-citigo-e-iv"><a href="skoda-citigo-e-iv.html">Škoda Citigo e iV</a></h3>
 <ul>
-<li>Schreibweise in den Rohdaten „Citigo-e IV“; offizielle Schreibweise ist „Citigo e iV“.</li>
 <li>Bauzeit offen gelassen, da genaue Produktionsdaten nicht sicher sind (Markteinführung um 2019/2020, nur kurze Bauzeit).</li>
 </ul>
 <h3 id="škoda-enyaq"><a href="skoda-enyaq.html">Škoda Enyaq</a></h3>
 <ul>
-<li>Doppelte Einträge durch Namensschema: „Enyaq iV 85“ (Zeile 340) und „Enyaq 85“ (Zeile 327) haben identische Werte, ebenso die jeweiligen x- und Coupé-Versionen.</li>
-<li>Schreibweise „Coupe“ ohne Akzent (offiziell „Coupé“).</li>
 <li>Zeilen 333/334 und 335/336: gleicher Name, zwei leicht unterschiedliche Batterien (62/58 vs. 63/59&nbsp;kWh).</li>
 </ul>
 <h3 id="tesla-model-3"><a href="tesla-model-3.html">Tesla Model 3</a></h3>
@@ -417,7 +669,6 @@
 </ul>
 <h3 id="vw-id3"><a href="vw-id-3.html">VW ID.3</a></h3>
 <ul>
-<li>ID.3 Pure und Pure Performance (Zeilen 416/417): 55&nbsp;kWh brutto bei nur 45&nbsp;kWh netto – ungewöhnlich großer Puffer (ca. 18&nbsp;%). Der Bruttowert ist vermutlich zu hoch angesetzt oder bezieht sich auf eine andere Batterie.</li>
 <li>Die Varianten GTX und Pro S nach der Modellpflege sind in den Rohdaten nicht gesondert aufgeführt.</li>
 </ul>
 <h3 id="vw-id4"><a href="vw-id-4.html">VW ID.4</a></h3>
@@ -449,16 +700,7 @@
 <ul>
 <li>Die Single-Motor-Version war nicht in allen Märkten erhältlich (hier nicht verifiziert).</li>
 <li>Eine spätere Umstellung auf 800-Volt-Technik wird berichtet, ist hier aber nicht geprüft.</li>
-</ul>
-
-<h2 id="empfehlungen">Empfehlungen</h2>
-<ol>
-<li>Cupra Born Zeile 99 (53/60&nbsp;kWh) korrigieren – Brutto und Netto sind so unmöglich; gegen Herstellerangabe prüfen.</li>
-<li>Exakte Duplikate entfernen (Porsche Taycan Sport Turismo 93,4/83,7).</li>
-<li>Spalte <strong>Modelljahr / Batterie-Generation</strong> ergänzen – viele gleichnamige Varianten haben mehrere Werte.</li>
-<li>„ca.“-Werte (Mercedes eSprinter LFP) durch Herstellerangaben ersetzen.</li>
-<li>Werte mit Puffer &lt; 1&nbsp;% gegen Herstellerdatenblätter prüfen.</li>
-</ol></div><section class="backrefs" aria-labelledby="rueckverweise"><h2 id="rueckverweise"><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>Verlinkt von</h2><details class="more"><summary>Alle 84 Seiten anzeigen</summary><div class="lchips"><a class="lchip" href="audi-e-tron.html">Audi e-tron</a><a class="lchip" href="audi-e-tron-gt.html">Audi e-tron GT</a><a class="lchip" href="audi-q4-e-tron.html">Audi Q4 e-tron</a><a class="lchip" href="audi-q8-e-tron.html">Audi Q8 e-tron</a><a class="lchip" href="batteriepuffer.html">Batteriepuffer</a><a class="lchip" href="bmw-i3.html">BMW i3</a><a class="lchip" href="bmw-i4.html">BMW i4</a><a class="lchip" href="bmw-i5.html">BMW i5</a><a class="lchip" href="bmw-ix.html">BMW iX</a><a class="lchip" href="bmw-ix2.html">BMW iX2</a><a class="lchip" href="bmw-ix3.html">BMW iX3</a><a class="lchip" href="citroen-c-zero.html">Citroën C-Zero</a><a class="lchip" href="citroen-e-berlingo.html">Citroën ë-Berlingo</a><a class="lchip" href="citroen-e-c3.html">Citroën ë-C3</a><a class="lchip" href="citroen-e-c3-aircross.html">Citroën ë-C3 Aircross</a><a class="lchip" href="citroen-e-jumpy.html">Citroën ë-Jumpy Combi</a><a class="lchip" href="citroen-e-spacetourer.html">Citroën ë-SpaceTourer</a><a class="lchip" href="cupra-born.html">Cupra Born</a><a class="lchip" href="dacia-spring.html">Dacia Spring Electric</a><a class="lchip" href="ford-f-150-lightning.html">Ford F-150 Lightning</a><a class="lchip" href="ford-mustang-mach-e.html">Ford Mustang Mach-E</a><a class="lchip" href="hyundai-inster.html">Hyundai Inster</a><a class="lchip" href="hyundai-ioniq-5.html">Hyundai IONIQ 5</a><a class="lchip" href="hyundai-ioniq-6.html">Hyundai IONIQ 6</a><a class="lchip" href="hyundai-ioniq-9.html">Hyundai IONIQ 9</a><a class="lchip" href="hyundai-ioniq-electric.html">Hyundai IONIQ Elektro</a><a class="lchip" href="hyundai-kona-electric.html">Hyundai Kona Elektro</a><a class="lchip" href="kia-niro-ev.html">Kia e-Niro / Niro EV</a><a class="lchip" href="kia-ev3.html">Kia EV3</a><a class="lchip" href="kia-ev4.html">Kia EV4</a><a class="lchip" href="kia-ev6.html">Kia EV6</a><a class="lchip" href="kia-ev9.html">Kia EV9</a><a class="lchip" href="kia-soul-ev.html">Kia Soul EV / e-Soul</a><a class="lchip" href="mercedes-eqa.html">Mercedes-Benz EQA</a><a class="lchip" href="mercedes-eqb.html">Mercedes-Benz EQB</a><a class="lchip" href="mercedes-eqc.html">Mercedes-Benz EQC</a><a class="lchip" href="mercedes-eqt.html">Mercedes-Benz EQT</a><a class="lchip" href="mercedes-eqv.html">Mercedes-Benz EQV</a><a class="lchip" href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a><a class="lchip" href="mercedes-evito.html">Mercedes-Benz eVito</a><a class="lchip" href="mg-cyberster.html">MG Cyberster</a><a class="lchip" href="mg-marvel-r.html">MG Marvel R</a><a class="lchip" href="mg-zs-ev.html">MG ZS EV</a><a class="lchip" href="mg4-electric.html">MG4 Electric</a><a class="lchip" href="mg5-electric.html">MG5 Electric</a><a class="lchip" href="mini-aceman.html">Mini Aceman</a><a class="lchip" href="mini-cooper-electric.html">Mini Cooper E / SE</a><a class="lchip" href="mini-countryman-electric.html">Mini Countryman E / SE</a><a class="lchip" href="peugeot-e-2008.html">Peugeot e-2008</a><a class="lchip" href="peugeot-e-208.html">Peugeot e-208</a><a class="lchip" href="peugeot-e-3008.html">Peugeot e-3008</a><a class="lchip" href="peugeot-e-308.html">Peugeot e-308</a><a class="lchip" href="peugeot-e-408.html">Peugeot e-408</a><a class="lchip" href="peugeot-e-partner.html">Peugeot e-Partner</a><a class="lchip" href="peugeot-e-rifter.html">Peugeot e-Rifter</a><a class="lchip" href="peugeot-e-traveller.html">Peugeot e-Traveller</a><a class="lchip" href="peugeot-ion.html">Peugeot iOn</a><a class="lchip" href="peugeot-partner-tepee-electric.html">Peugeot Partner Tepee Electric</a><a class="lchip" href="plattform-geschwister.html">Plattform-Geschwister (Badge-Engineering)</a><a class="lchip" href="porsche-macan-electric.html">Porsche Macan (Elektro)</a><a class="lchip" href="porsche-taycan.html">Porsche Taycan</a><a class="lchip" href="puffer-analyse.html">Puffer-Analyse: Brutto vs. Netto</a><a class="lchip" href="renault-city-k-ze.html">Renault City K-ZE</a><a class="lchip" href="renault-kangoo-electric.html">Renault Kangoo Z.E. / E-Tech</a><a class="lchip" href="renault-master-electric.html">Renault Master Z.E. / E-Tech</a><a class="lchip" href="renault-scenic-e-tech.html">Renault Scenic E-Tech</a><a class="lchip" href="renault-twingo-electric.html">Renault Twingo Electric</a><a class="lchip" href="renault-zoe.html">Renault Zoe</a><a class="lchip" href="seat-mii-electric.html">Seat Mii electric</a><a class="lchip" href="tesla-model-3.html">Tesla Model 3</a><a class="lchip" href="tesla-model-s.html">Tesla Model S</a><a class="lchip" href="tesla-model-x.html">Tesla Model X</a><a class="lchip" href="tesla-model-y.html">Tesla Model Y</a><a class="lchip" href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a><a class="lchip" href="volvo-ec40.html">Volvo EC40 (C40 Recharge)</a><a class="lchip" href="volvo-ex40.html">Volvo EX40 (XC40 Recharge)</a><a class="lchip" href="volvo-ex90.html">Volvo EX90</a><a class="lchip" href="vw-e-up.html">VW e-up!</a><a class="lchip" href="vw-id-buzz.html">VW ID. Buzz</a><a class="lchip" href="vw-id-3.html">VW ID.3</a><a class="lchip" href="vw-id-4.html">VW ID.4</a><a class="lchip" href="vw-id-5.html">VW ID.5</a><a class="lchip" href="skoda-citigo-e-iv.html">Škoda Citigo e iV</a><a class="lchip" href="skoda-enyaq.html">Škoda Enyaq</a></div></details></section><footer class="foot"><span>Fahrzeug<b>Wiki</b> · Stand 23.09.2026</span><a href="tn-batterycheck-alle-daten.html">Rohquelle</a><a href="datenqualitaet.html">Datenqualität</a><a href="corporate-identity.html">Corporate Identity</a><a href="https://github.com/Thitronik01/Frank-Repo/issues" target="_blank" rel="noopener">GitHub-Issues<svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><span>Fotos: Wikimedia Commons (CC)</span></footer></article><nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#stand">Stand</a></li><li><a href="#automatisch-erkannte-befunde">Automatisch erkannte Befunde</a></li><li><a href="#uneinheitliche-schreibweisen">Uneinheitliche Schreibweisen</a></li><li><a href="#fachliche-hinweise-je-fahrzeug">Fachliche Hinweise je Fahrzeug</a></li><li><a href="#empfehlungen">Empfehlungen</a></li></ul></nav></div></main>
+</ul></div><section class="backrefs" aria-labelledby="rueckverweise"><h2 id="rueckverweise"><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>Verlinkt von</h2><details class="more"><summary>Alle 94 Seiten anzeigen</summary><div class="lchips"><a class="lchip" href="audi-e-tron.html">Audi e-tron</a><a class="lchip" href="audi-e-tron-gt.html">Audi e-tron GT</a><a class="lchip" href="audi-q4-e-tron.html">Audi Q4 e-tron</a><a class="lchip" href="audi-q6-e-tron.html">Audi Q6 e-tron</a><a class="lchip" href="audi-q8-e-tron.html">Audi Q8 e-tron</a><a class="lchip" href="bmw-i3.html">BMW i3</a><a class="lchip" href="bmw-i4.html">BMW i4</a><a class="lchip" href="bmw-i5.html">BMW i5</a><a class="lchip" href="bmw-i7.html">BMW i7</a><a class="lchip" href="bmw-ix.html">BMW iX</a><a class="lchip" href="bmw-ix1.html">BMW iX1</a><a class="lchip" href="bmw-ix2.html">BMW iX2</a><a class="lchip" href="bmw-ix3.html">BMW iX3</a><a class="lchip" href="citroen-c-zero.html">Citroën C-Zero</a><a class="lchip" href="citroen-e-berlingo.html">Citroën ë-Berlingo</a><a class="lchip" href="citroen-e-c3.html">Citroën ë-C3</a><a class="lchip" href="citroen-e-c3-aircross.html">Citroën ë-C3 Aircross</a><a class="lchip" href="citroen-e-c4.html">Citroën ë-C4</a><a class="lchip" href="citroen-e-c4-x.html">Citroën ë-C4 X</a><a class="lchip" href="citroen-e-jumpy.html">Citroën ë-Jumpy Combi</a><a class="lchip" href="citroen-e-spacetourer.html">Citroën ë-SpaceTourer</a><a class="lchip" href="cupra-born.html">Cupra Born</a><a class="lchip" href="cupra-tavascan.html">Cupra Tavascan</a><a class="lchip" href="dacia-spring.html">Dacia Spring Electric</a><a class="lchip" href="ford-f-150-lightning.html">Ford F-150 Lightning</a><a class="lchip" href="ford-mustang-mach-e.html">Ford Mustang Mach-E</a><a class="lchip" href="hyundai-inster.html">Hyundai Inster</a><a class="lchip" href="hyundai-ioniq-5.html">Hyundai IONIQ 5</a><a class="lchip" href="hyundai-ioniq-6.html">Hyundai IONIQ 6</a><a class="lchip" href="hyundai-ioniq-9.html">Hyundai IONIQ 9</a><a class="lchip" href="hyundai-ioniq-electric.html">Hyundai IONIQ Elektro</a><a class="lchip" href="hyundai-kona-electric.html">Hyundai Kona Elektro</a><a class="lchip" href="kia-niro-ev.html">Kia e-Niro / Niro EV</a><a class="lchip" href="kia-ev3.html">Kia EV3</a><a class="lchip" href="kia-ev4.html">Kia EV4</a><a class="lchip" href="kia-ev6.html">Kia EV6</a><a class="lchip" href="kia-ev9.html">Kia EV9</a><a class="lchip" href="kia-soul-ev.html">Kia Soul EV / e-Soul</a><a class="lchip" href="mercedes-eqa.html">Mercedes-Benz EQA</a><a class="lchip" href="mercedes-eqb.html">Mercedes-Benz EQB</a><a class="lchip" href="mercedes-eqc.html">Mercedes-Benz EQC</a><a class="lchip" href="mercedes-eqt.html">Mercedes-Benz EQT</a><a class="lchip" href="mercedes-eqv.html">Mercedes-Benz EQV</a><a class="lchip" href="mercedes-esprinter.html">Mercedes-Benz eSprinter</a><a class="lchip" href="mercedes-evito.html">Mercedes-Benz eVito</a><a class="lchip" href="mg-cyberster.html">MG Cyberster</a><a class="lchip" href="mg-marvel-r.html">MG Marvel R</a><a class="lchip" href="mg-zs-ev.html">MG ZS EV</a><a class="lchip" href="mg4-electric.html">MG4 Electric</a><a class="lchip" href="mg5-electric.html">MG5 Electric</a><a class="lchip" href="mini-aceman.html">Mini Aceman</a><a class="lchip" href="mini-cooper-electric.html">Mini Cooper E / SE</a><a class="lchip" href="mini-countryman-electric.html">Mini Countryman E / SE</a><a class="lchip" href="nettokapazitaet.html">Nettokapazität</a><a class="lchip" href="peugeot-e-2008.html">Peugeot e-2008</a><a class="lchip" href="peugeot-e-208.html">Peugeot e-208</a><a class="lchip" href="peugeot-e-3008.html">Peugeot e-3008</a><a class="lchip" href="peugeot-e-308.html">Peugeot e-308</a><a class="lchip" href="peugeot-e-408.html">Peugeot e-408</a><a class="lchip" href="peugeot-e-expert.html">Peugeot e-Expert Combi</a><a class="lchip" href="peugeot-e-partner.html">Peugeot e-Partner</a><a class="lchip" href="peugeot-e-rifter.html">Peugeot e-Rifter</a><a class="lchip" href="peugeot-e-traveller.html">Peugeot e-Traveller</a><a class="lchip" href="peugeot-ion.html">Peugeot iOn</a><a class="lchip" href="peugeot-partner-tepee-electric.html">Peugeot Partner Tepee Electric</a><a class="lchip" href="plattform-geschwister.html">Plattform-Geschwister (Badge-Engineering)</a><a class="lchip" href="porsche-macan-electric.html">Porsche Macan (Elektro)</a><a class="lchip" href="porsche-taycan.html">Porsche Taycan</a><a class="lchip" href="puffer-analyse.html">Puffer-Analyse: Brutto vs. Netto</a><a class="lchip" href="renault-city-k-ze.html">Renault City K-ZE</a><a class="lchip" href="renault-kangoo-electric.html">Renault Kangoo Z.E. / E-Tech</a><a class="lchip" href="renault-master-electric.html">Renault Master Z.E. / E-Tech</a><a class="lchip" href="renault-scenic-e-tech.html">Renault Scenic E-Tech</a><a class="lchip" href="renault-twingo-electric.html">Renault Twingo Electric</a><a class="lchip" href="renault-zoe.html">Renault Zoe</a><a class="lchip" href="seat-mii-electric.html">Seat Mii electric</a><a class="lchip" href="tesla-model-3.html">Tesla Model 3</a><a class="lchip" href="tesla-model-s.html">Tesla Model S</a><a class="lchip" href="tesla-model-x.html">Tesla Model X</a><a class="lchip" href="tesla-model-y.html">Tesla Model Y</a><a class="lchip" href="tn-batterycheck-alle-daten.html">TN Batterycheck – alle Daten (Excel)</a><a class="lchip" href="volvo-ec40.html">Volvo EC40 (C40 Recharge)</a><a class="lchip" href="volvo-ex40.html">Volvo EX40 (XC40 Recharge)</a><a class="lchip" href="volvo-ex90.html">Volvo EX90</a><a class="lchip" href="vw-e-golf.html">VW e-Golf</a><a class="lchip" href="vw-e-up.html">VW e-up!</a><a class="lchip" href="vw-id-buzz.html">VW ID. Buzz</a><a class="lchip" href="vw-id-3.html">VW ID.3</a><a class="lchip" href="vw-id-4.html">VW ID.4</a><a class="lchip" href="vw-id-5.html">VW ID.5</a><a class="lchip" href="vw-id-7.html">VW ID.7</a><a class="lchip" href="skoda-citigo-e-iv.html">Škoda Citigo e iV</a><a class="lchip" href="skoda-elroq.html">Škoda Elroq</a><a class="lchip" href="skoda-enyaq.html">Škoda Enyaq</a></div></details></section><footer class="foot"><span>Fahrzeug<b>Wiki</b> · Stand 24.09.2026</span><a href="tn-batterycheck-alle-daten.html">Rohquelle</a><a href="datenqualitaet.html">Datenqualität</a><a href="corporate-identity.html">Corporate Identity</a><a href="https://github.com/Thitronik01/Frank-Repo/issues" target="_blank" rel="noopener">GitHub-Issues<svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><span>Fotos: Wikimedia Commons (CC)</span></footer></article><nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#stand">Stand</a></li><li><a href="#korrekturen">Korrekturen</a></li><li><a href="#offene-klärungen">Offene Klärungen</a></li><li><a href="#schreibweisen">Schreibweisen</a></li><li><a href="#fachliche-hinweise-je-fahrzeug">Fachliche Hinweise je Fahrzeug</a></li></ul></nav></div></main>
 </div>
 <dialog class="palette" aria-label="Suche">
   <div class="pal-head"><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></svg>
@@ -467,6 +709,6 @@
   <ul class="pal-list" id="pal-list" role="listbox" aria-label="Suchergebnisse"></ul>
   <div class="pal-foot"><span><kbd>↑</kbd><kbd>↓</kbd> auswählen</span><span><kbd>Enter</kbd> öffnen</span><span><kbd>Esc</kbd> schließen</span></div>
 </dialog>
-<script src="search.js?v=dbab152b" defer></script><script src="app.js?v=bd74294d" defer></script>
+<script src="search.js?v=b3288acf" defer></script><script src="app.js?v=bd74294d" defer></script>
 <script src="../chat/widget/fw-chat.js?v=c1f3bde3" defer></script>
 </body></html>

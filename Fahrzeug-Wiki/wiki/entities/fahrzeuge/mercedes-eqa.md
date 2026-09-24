@@ -12,7 +12,7 @@ brutto_max: 73.9
 netto_min: 66.5
 netto_max: 70.5
 bild: "Bilder/mercedes-eqa.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "kompakt-suv"]
 ---
@@ -55,7 +55,7 @@ Die Zahl (250, 300, 350) ist eine Leistungsklasse, "4MATIC" steht für Allradant
 | EQA 300 4MATIC | 69,7 kWh | 66,5 kWh | 3,2 kWh (4,6 %) | 178 |
 | EQA 350 4MATIC | 69,7 kWh | 66,5 kWh | 3,2 kWh (4,6 %) | 179 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 176–179. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 176–179 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -82,4 +82,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 176–179)
 - Weiterlesen: [Wikipedia – Mercedes-Benz EQA](https://en.wikipedia.org/wiki/Mercedes-Benz_EQA)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

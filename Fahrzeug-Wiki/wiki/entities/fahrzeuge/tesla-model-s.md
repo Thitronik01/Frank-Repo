@@ -11,7 +11,7 @@ brutto_max: 103.0
 netto_min: 62.0
 netto_max: 98.0
 bild: "Bilder/tesla-model-s.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "tesla", "oberklasse-limousine"]
 ---
@@ -50,36 +50,36 @@ Zahl = ungefähre Batteriegröße in kWh, „D“ = Dual Motor (Allrad), „P“
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Model S 100D | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 359 |
-| Model S 60 | 75 kWh | 62,0 kWh | 13 kWh (17,3 %) | 360 |
-| Model S 60D | 75 kWh | 62,0 kWh | 13 kWh (17,3 %) | 361 |
+| Model S 100D | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 359 |
+| Model S 60 | 75 kWh | 62 kWh | 13 kWh (17,3 %) | 360 |
+| Model S 60D | 75 kWh | 62 kWh | 13 kWh (17,3 %) | 361 |
 | Model S 70 | 70 kWh | 66,5 kWh | 3,5 kWh (5,0 %) | 362 |
-| Model S 70 | 75 kWh | 69,0 kWh | 6 kWh (8,0 %) | 363 |
+| Model S 70 | 75 kWh | 69 kWh | 6 kWh (8,0 %) | 363 |
 | Model S 70D | 70 kWh | 66,5 kWh | 3,5 kWh (5,0 %) | 364 |
-| Model S 70D | 75 kWh | 69,0 kWh | 6 kWh (8,0 %) | 365 |
+| Model S 70D | 75 kWh | 69 kWh | 6 kWh (8,0 %) | 365 |
 | Model S 75 | 75 kWh | 72,5 kWh | 2,5 kWh (3,3 %) | 366 |
 | Model S 75D | 75 kWh | 72,5 kWh | 2,5 kWh (3,3 %) | 367 |
 | Model S 85 | 85 kWh | 80,8 kWh | 4,2 kWh (4,9 %) | 368 |
 | Model S 85D | 85 kWh | 80,8 kWh | 4,2 kWh (4,9 %) | 369 |
 | Model S 90 | 90 kWh | 85,5 kWh | 4,5 kWh (5,0 %) | 370 |
 | Model S 90D | 90 kWh | 85,5 kWh | 4,5 kWh (5,0 %) | 371 |
-| Model S Dual Motor | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 372 |
-| Model S Long Range | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 373 |
-| Model S Long Range Plus | 103 kWh | 98,0 kWh | 5 kWh (4,9 %) | 374 |
-| Model S P100D | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 375 |
-| Model S P60 | 75 kWh | 62,0 kWh | 13 kWh (17,3 %) | 376 |
+| Model S Dual Motor | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 372 |
+| Model S Long Range | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 373 |
+| Model S Long Range Plus | 103 kWh | 98 kWh | 5 kWh (4,9 %) | 374 |
+| Model S P100D | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 375 |
+| Model S P60 | 75 kWh | 62 kWh | 13 kWh (17,3 %) | 376 |
 | Model S P70 | 70 kWh | 66,5 kWh | 3,5 kWh (5,0 %) | 377 |
 | Model S P75 | 75 kWh | 72,5 kWh | 2,5 kWh (3,3 %) | 378 |
 | Model S P85 | 85 kWh | 80,8 kWh | 4,2 kWh (4,9 %) | 379 |
 | Model S P85D | 85 kWh | 80,8 kWh | 4,2 kWh (4,9 %) | 380 |
 | Model S P90D | 90 kWh | 85,5 kWh | 4,5 kWh (5,0 %) | 381 |
 | Model S P90DL | 90 kWh | 85,5 kWh | 4,5 kWh (5,0 %) | 382 |
-| Model S Performance | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 383 |
-| Model S Performance | 103 kWh | 98,0 kWh | 5 kWh (4,9 %) | 384 |
-| Model S Plaid | 100 kWh | 95,0 kWh | 5 kWh (5,0 %) | 385 |
+| Model S Performance | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 383 |
+| Model S Performance | 103 kWh | 98 kWh | 5 kWh (4,9 %) | 384 |
+| Model S Plaid | 100 kWh | 95 kWh | 5 kWh (5,0 %) | 385 |
 | Model S Standard Range | 75 kWh | 72,5 kWh | 2,5 kWh (3,3 %) | 386 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 359–386. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 359–386 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -112,4 +112,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 359–386)
 - Weiterlesen: [Wikipedia – Tesla Model S](https://en.wikipedia.org/wiki/Tesla_Model_S)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

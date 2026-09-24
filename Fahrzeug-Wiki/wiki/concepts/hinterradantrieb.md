@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 0
 tags: ["fachbegriff", "antrieb"]
 ---
@@ -27,4 +27,4 @@ Rear-Wheel Drive (RWD, bei Hyundai/Kia „2WD") ist bei [[plattform-meb|MEB]], [
 
 ## Belege
 
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

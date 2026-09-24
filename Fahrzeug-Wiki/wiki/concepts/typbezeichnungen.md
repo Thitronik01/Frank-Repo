@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fachbegriff", "bezeichnungen"]
 ---
@@ -43,4 +43,4 @@ Achtung: Zahlen im Modellnamen stimmen **nicht** zwingend mit der Batteriegröß
 ## Belege
 
 - [[tn-batterycheck-alle-daten]] — Zahlenbeispiele in diesem Artikel
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

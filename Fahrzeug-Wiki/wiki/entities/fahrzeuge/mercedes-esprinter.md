@@ -12,7 +12,7 @@ brutto_max: 119.0
 netto_min: 35.0
 netto_max: 113.0
 bild: "Bilder/mercedes-esprinter.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "transporter"]
 ---
@@ -48,15 +48,15 @@ Die zweite Generation erhielt einen an der Hinterachse sitzenden [[elektromotor|
 
 Erste Generation ("eSprinter"): 41/35 kWh und 55/47 kWh. Zweite Generation ("eSprinter LFP"): 60/56, 85/81 und 119/113 kWh. Der Zusatz LFP kennzeichnet in den Daten die neue Generation mit Lithium-Eisenphosphat-Zellen; die Nettowerte entsprechen den Herstellerangaben, die Bruttowerte sind geschätzt.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| eSprinter | 41 kWh | 35,0 kWh | 6 kWh (14,6 %) | 190 |
-| eSprinter | 55 kWh | 47,0 kWh | 8 kWh (14,5 %) | 191 |
-| eSprinter LFP | ca, 60 kWh | 56,0 kWh | 4 kWh (6,7 %) | 193 |
-| eSprinter LFP | ca, 85 kWh | 81,0 kWh | 4 kWh (4,7 %) | 194 |
-| eSprinter LFP | ca, 119 kWh | 113,0 kWh | 6 kWh (5,0 %) | 192 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| eSprinter | 41 kWh | 35 kWh | 6 kWh (14,6 %) | 190 |  |
+| eSprinter | 55 kWh | 47 kWh | 8 kWh (14,5 %) | 191 |  |
+| eSprinter LFP | ca, 60 kWh | 56 kWh | 4 kWh (6,7 %) | 193 | Näherungswert |
+| eSprinter LFP | ca, 85 kWh | 81 kWh | 4 kWh (4,7 %) | 194 | Näherungswert |
+| eSprinter LFP | ca, 119 kWh | 113 kWh | 6 kWh (5,0 %) | 192 | Näherungswert |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 190–194. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 190–194 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -75,10 +75,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 190–194.
 
 ## Offene Punkte
 
-- **Näherungswert:** „eSprinter LFP“ ist in der Quelle als „ca. 119 kWh“ angegeben (Zeile 192).
-- **Näherungswert:** „eSprinter LFP“ ist in der Quelle als „ca. 60 kWh“ angegeben (Zeile 193).
-- **Näherungswert:** „eSprinter LFP“ ist in der Quelle als „ca. 85 kWh“ angegeben (Zeile 194).
-- Bruttowerte der LFP-Versionen sind als "ca." markiert (geschätzt).
+- **Näherungswert:** „eSprinter LFP“ ist in der Rohquelle nur als „ca. 119 kWh“ angegeben (Zeile 192). Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell. Klärung: [#11](https://github.com/Thitronik01/Frank-Repo/issues/11).
+- **Näherungswert:** „eSprinter LFP“ ist in der Rohquelle nur als „ca. 60 kWh“ angegeben (Zeile 193). Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell. Klärung: [#11](https://github.com/Thitronik01/Frank-Repo/issues/11).
+- **Näherungswert:** „eSprinter LFP“ ist in der Rohquelle nur als „ca. 85 kWh“ angegeben (Zeile 194). Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell. Klärung: [#11](https://github.com/Thitronik01/Frank-Repo/issues/11).
 - Die Reihenfolge der LFP-Zeilen (119, 60, 85 kWh) ist nicht nach Größe sortiert.
 
 Siehe auch [[datenqualitaet]].
@@ -87,4 +86,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 190–194)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

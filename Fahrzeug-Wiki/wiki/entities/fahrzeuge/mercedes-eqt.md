@@ -7,12 +7,12 @@ karosserie: "Hochdachkombi (Van)"
 bauzeit: "seit 2022"
 plattform: "Renault-Nissan-Plattform des Kangoo (dritte Generation)"
 varianten: 1
-brutto_min: 50.0
-brutto_max: 50.0
+brutto_min: 48.0
+brutto_max: 48.0
 netto_min: 45.0
 netto_max: 45.0
 bild: "Bilder/mercedes-eqt.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "hochdachkombi"]
 ---
@@ -34,9 +34,9 @@ tags: ["fahrzeug", "mercedes", "hochdachkombi"]
 | Bauzeit | seit 2022 | Fachwissen¹ |
 | Plattform | Renault-Nissan-Plattform des Kangoo (dritte Generation) | Fachwissen¹ |
 | Varianten im Bestand | 1 | [[tn-batterycheck-alle-daten]] |
-| [[bruttokapazitaet\|Bruttokapazität]] | 50 kWh | [[tn-batterycheck-alle-daten]] |
+| [[bruttokapazitaet\|Bruttokapazität]] | 48 kWh | [[tn-batterycheck-alle-daten]] |
 | [[nettokapazitaet\|Nettokapazität]] | 45 kWh | [[tn-batterycheck-alle-daten]] |
-| [[batteriepuffer\|Puffer]] | 10,0 % | berechnet |
+| [[batteriepuffer\|Puffer]] | 6,2 % | berechnet |
 
 ## Beschreibung
 
@@ -46,13 +46,19 @@ Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Fro
 
 ## Varianten und Batterien
 
-Nur eine Zeile: EQT mit 50/45 kWh. Gewerbliche Varianten (eCitan) sind in den Daten nicht enthalten.
+Nur eine Zeile: EQT mit 48/45 kWh (Rohquelle: 50/45, korrigiert). Gewerbliche Varianten (eCitan) sind in den Daten nicht enthalten.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| EQT | 50 kWh | 45,0 kWh | 5 kWh (10,0 %) | 187 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| EQT | 48 kWh | 45 kWh | 3 kWh (6,2 %) | 187 | korrigiert ([#3](https://github.com/Thitronik01/Frank-Repo/issues/3)) |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 187. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 187 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 187 korrigiert:** „EQT“ 50 kWh / 45,0 kWh → 48 kWh / 45 kWh. Der EQT nutzt die 45-kWh-Batterie des Renault Kangoo E-Tech. ev-database: 48 / 45 kWh; für 50 kWh brutto gibt es keinen Beleg. Beleg: [Quelle 1](https://ev-database.org/car/1908/Mercedes-Benz-EQT-200-Standard), [Quelle 2](https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric). Issue [#3](https://github.com/Thitronik01/Frank-Repo/issues/3).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -67,14 +73,8 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 187. Puffe
 - [[renault-kangoo-electric|Renault Kangoo Z.E. / E-Tech]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Mercedes-Benz: [[mercedes-eqa|Mercedes-Benz EQA]], [[mercedes-eqb|Mercedes-Benz EQB]], [[mercedes-eqc|Mercedes-Benz EQC]], [[mercedes-eqv|Mercedes-Benz EQV]], [[mercedes-esprinter|Mercedes-Benz eSprinter]], [[mercedes-evito|Mercedes-Benz eVito]]
 
-## Offene Punkte
-
-- Runde Werte 50/45 kWh – vermutlich gerundete Herstellerangaben.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 187)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

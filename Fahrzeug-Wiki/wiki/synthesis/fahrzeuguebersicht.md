@@ -1,20 +1,20 @@
 ---
 type: "synthesis"
-updated: "2026-09-23"
+updated: "2026-09-24"
 tags: ["uebersicht"]
 ---
 
 # Fahrzeugübersicht
 
-**Anlass:** laufende Übersicht über alle Modellreihen im Bestand · Stand 2026-09-23
+**Anlass:** laufende Übersicht über alle Modellreihen im Bestand · Stand 2026-09-24
 
-90 Modellreihen, 469 Varianten, 19 Hersteller – Quelle: [[tn-batterycheck-alle-daten]].
+90 Modellreihen, 467 Varianten, 19 Hersteller – Quelle: [[tn-batterycheck-alle-daten]].
 
 ## [[audi|Audi]]
 
 | Modell | Segment | Plattform | Varianten | Brutto | Netto |
 |---|---|---|---|---|---|
-| [[audi-e-tron\|Audi e-tron]] | Oberklasse-SUV | Elektrifizierte Längsbaukasten-Plattform MLB evo | 10 | 71–105 kWh | 64,7–97 kWh |
+| [[audi-e-tron\|Audi e-tron]] | Oberklasse-SUV | Elektrifizierte Längsbaukasten-Plattform MLB evo | 10 | 71–95 kWh | 64,7–89 kWh |
 | [[audi-e-tron-gt\|Audi e-tron GT]] | Oberklasse-Sportlimousine | J1 (gemeinsam mit Porsche) | 3 | 93,4–105 kWh | 83,7–97 kWh |
 | [[audi-q4-e-tron\|Audi Q4 e-tron]] | Kompakt-SUV | MEB | 14 | 55–82 kWh | 51,5–76,6 kWh |
 | [[audi-q6-e-tron\|Audi Q6 e-tron]] | Mittelklasse-SUV | PPE (Premium Platform Electric) | 7 | 83–100 kWh | 75,8–94,9 kWh |
@@ -28,7 +28,7 @@ tags: ["uebersicht"]
 | [[bmw-i4\|BMW i4]] | Mittelklasse-Limousine | CLAR (Mischplattform für Verbrenner und Elektro) | 5 | 70,3–83,9 kWh | 66–81,1 kWh |
 | [[bmw-i5\|BMW i5]] | Obere Mittelklasse | CLAR (Mischplattform für Verbrenner und Elektro) | 6 | 83,9 kWh | 81,2 kWh |
 | [[bmw-i7\|BMW i7]] | Oberklasse-Limousine | CLAR (Mischplattform für Verbrenner und Elektro) | 3 | 105,7 kWh | 101,7 kWh |
-| [[bmw-ix\|BMW iX]] | Oberklasse-SUV | Eigenständige Elektro-Architektur mit CFK-Rahmenstruktur (Carbon Cage) | 6 | 76,6–111,5 kWh | 74,4–109,4 kWh |
+| [[bmw-ix\|BMW iX]] | Oberklasse-SUV | Eigenständige Elektro-Architektur mit CFK-Rahmenstruktur (Carbon Cage) | 6 | 76,6–111,5 kWh | 71–109,1 kWh |
 | [[bmw-ix1\|BMW iX1]] | Kompakt-SUV | FAAR (Frontantriebs-Architektur für Verbrenner und Elektro) | 2 | 66,5 kWh | 64,7 kWh |
 | [[bmw-ix2\|BMW iX2]] | Kompakt-SUV | FAAR (Frontantriebs-Architektur für Verbrenner und Elektro) | 2 | 66,5 kWh | 64,7 kWh |
 | [[bmw-ix3\|BMW iX3]] | Mittelklasse-SUV | CLAR (Mischplattform für Verbrenner und Elektro) | 1 | 80 kWh | 73,83 kWh |
@@ -40,7 +40,7 @@ tags: ["uebersicht"]
 | [[citroen-c-zero\|Citroën C-Zero]] | Kleinstwagen | Mitsubishi i-MiEV (abgeleitet vom Kei-Car Mitsubishi i) | 1 | 16 kWh | 14,5 kWh |
 | [[citroen-e-berlingo\|Citroën ë-Berlingo]] | Hochdachkombi / Kleintransporter | EMP2 (K9-Baureihe) für den aktuellen ë-Berlingo; Vorgänger auf Basis des Berlingo der zweiten Generation | 5 | 22,5–52 kWh | 20,5–50 kWh |
 | [[citroen-e-c3\|Citroën ë-C3]] | Kleinwagen | Stellantis Smart Car Platform | 1 | 44 kWh | 43,8 kWh |
-| [[citroen-e-c3-aircross\|Citroën ë-C3 Aircross]] | Kleinwagen-SUV | Stellantis Smart Car Platform | 2 | 44–54 kWh | 43,8–53,5 kWh |
+| [[citroen-e-c3-aircross\|Citroën ë-C3 Aircross]] | Kleinwagen-SUV | Stellantis Smart Car Platform | 2 | 44–54 kWh | 43,8–52,8 kWh |
 | [[citroen-e-c4\|Citroën ë-C4]] | Kompaktklasse | e-CMP (Stellantis, ehemals PSA) | 2 | 50–54 kWh | 46,3–50,8 kWh |
 | [[citroen-e-c4-x\|Citroën ë-C4 X]] | Kompaktklasse | e-CMP (Stellantis, ehemals PSA) | 2 | 50–54 kWh | 46,3–50,8 kWh |
 | [[citroen-e-jumpy\|Citroën ë-Jumpy Combi]] | Transporter / Kleinbus | EMP2 (Transporter-Baureihe K0, Stellantis) | 5 | 50–75 kWh | 46,3–68 kWh |
@@ -50,7 +50,7 @@ tags: ["uebersicht"]
 
 | Modell | Segment | Plattform | Varianten | Brutto | Netto |
 |---|---|---|---|---|---|
-| [[cupra-born\|Cupra Born]] | Kompaktklasse | MEB (Modularer E-Antriebs-Baukasten) | 4 | 53–82 kWh | 58–77 kWh |
+| [[cupra-born\|Cupra Born]] | Kompaktklasse | MEB (Modularer E-Antriebs-Baukasten) | 4 | 62–82 kWh | 58–77 kWh |
 | [[cupra-tavascan\|Cupra Tavascan]] | Kompakt-SUV / SUV-Coupé | MEB (Modularer E-Antriebs-Baukasten) | 2 | 82 kWh | 77 kWh |
 
 ## [[dacia|Dacia]]
@@ -95,7 +95,7 @@ tags: ["uebersicht"]
 | [[mercedes-eqa\|Mercedes-Benz EQA]] | Kompakt-SUV | Verbrenner-Plattform MFA2 | 4 | 69,7–73,9 kWh | 66,5–70,5 kWh |
 | [[mercedes-eqb\|Mercedes-Benz EQB]] | Kompakt-SUV | Verbrenner-Plattform MFA2 | 6 | 69,7–73,9 kWh | 66,5–70,5 kWh |
 | [[mercedes-eqc\|Mercedes-Benz EQC]] | Mittelklasse-SUV | Verbrenner-Plattform MRA (GLC-Basis) | 1 | 85 kWh | 80 kWh |
-| [[mercedes-eqt\|Mercedes-Benz EQT]] | Hochdachkombi | Renault-Nissan-Plattform des Kangoo (dritte Generation) | 1 | 50 kWh | 45 kWh |
+| [[mercedes-eqt\|Mercedes-Benz EQT]] | Hochdachkombi | Renault-Nissan-Plattform des Kangoo (dritte Generation) | 1 | 48 kWh | 45 kWh |
 | [[mercedes-eqv\|Mercedes-Benz EQV]] | Großraum-Van | Verbrenner-Plattform der V-Klasse / Vito | 2 | 66–100 kWh | 60–90 kWh |
 | [[mercedes-esprinter\|Mercedes-Benz eSprinter]] | Transporter | Sprinter-Plattform (zweite Generation mit neu entwickelter elektrischer Antriebseinheit) | 5 | 41–119 kWh | 35–113 kWh |
 | [[mercedes-evito\|Mercedes-Benz eVito]] | Transporter | Verbrenner-Plattform des Vito | 6 | 41–100 kWh | 35–90 kWh |
@@ -115,7 +115,7 @@ tags: ["uebersicht"]
 | Modell | Segment | Plattform | Varianten | Brutto | Netto |
 |---|---|---|---|---|---|
 | [[mini-aceman\|Mini Aceman]] | Kleinwagen-SUV | Elektro-Plattform des Joint Ventures Spotlight Automotive (BMW und Great Wall Motor) | 3 | 42,5–54,2 kWh | 38,5–49,2 kWh |
-| [[mini-cooper-electric\|Mini Cooper E / SE]] | Kleinwagen | Erste Generation: Verbrenner-Plattform des Mini F56; aktuelle Generation: Plattform von Spotlight Automotive (BMW und Great Wall Motor) | 3 | 32,6–54,2 kWh | 28,9–49,8 kWh |
+| [[mini-cooper-electric\|Mini Cooper E / SE]] | Kleinwagen | Erste Generation: Verbrenner-Plattform des Mini F56; aktuelle Generation: Plattform von Spotlight Automotive (BMW und Great Wall Motor) | 3 | 32,6–54,2 kWh | 28,9–49,2 kWh |
 | [[mini-countryman-electric\|Mini Countryman E / SE]] | Kompakt-SUV | FAAR (Frontantriebs-Architektur für Verbrenner und Elektro) | 2 | 66,5 kWh | 64,6 kWh |
 
 ## [[peugeot|Peugeot]]
@@ -139,18 +139,18 @@ tags: ["uebersicht"]
 | Modell | Segment | Plattform | Varianten | Brutto | Netto |
 |---|---|---|---|---|---|
 | [[porsche-macan-electric\|Porsche Macan (Elektro)]] | Mittelklasse-SUV | PPE (Premium Platform Electric) | 4 | 100 kWh | 95 kWh |
-| [[porsche-taycan\|Porsche Taycan]] | Oberklasse-Sportlimousine | J1 | 37 | 79,2–105 kWh | 71–97 kWh |
+| [[porsche-taycan\|Porsche Taycan]] | Oberklasse-Sportlimousine | J1 | 36 | 79,2–105 kWh | 71–97 kWh |
 
 ## [[renault|Renault]]
 
 | Modell | Segment | Plattform | Varianten | Brutto | Netto |
 |---|---|---|---|---|---|
-| [[renault-city-k-ze\|Renault City K-ZE]] | Kleinstwagen | CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid) | 1 | 30 kWh | 26,8 kWh |
+| [[renault-city-k-ze\|Renault City K-ZE]] | Kleinstwagen | CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid) | 1 | 27,4 kWh | 26,8 kWh |
 | [[renault-kangoo-electric\|Renault Kangoo Z.E. / E-Tech]] | Hochdachkombi / Kleintransporter | Kangoo II (Z.E.); Kangoo III auf Renault-Nissan-Plattform CMF-C/D (E-Tech) | 5 | 22–48 kWh | 20–45 kWh |
 | [[renault-master-electric\|Renault Master Z.E. / E-Tech]] | Transporter (großer Kastenwagen) | Master III (Z.E.); Master IV (E-Tech) | 3 | 33–92 kWh | 31–87 kWh |
 | [[renault-scenic-e-tech\|Renault Scenic E-Tech]] | Kompakt-SUV | AmpR Medium (ehemals CMF-EV, Renault-Nissan) | 2 | 65–92 kWh | 60–87 kWh |
 | [[renault-twingo-electric\|Renault Twingo Electric]] | Kleinstwagen | Renault-Daimler-Kleinwagenplattform (Twingo III / Smart ForFour) | 1 | 22 kWh | 21,3 kWh |
-| [[renault-zoe\|Renault Zoe]] | Kleinwagen | Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV) | 12 | 25,9–54,7 kWh | 23,3–52 kWh |
+| [[renault-zoe\|Renault Zoe]] | Kleinwagen | Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV) | 11 | 25,9–54,7 kWh | 23,3–52 kWh |
 
 ## [[seat|SEAT]]
 

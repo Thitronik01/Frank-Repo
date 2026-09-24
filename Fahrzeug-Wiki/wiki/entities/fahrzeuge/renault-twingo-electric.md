@@ -12,7 +12,7 @@ brutto_max: 22.0
 netto_min: 21.3
 netto_max: 21.3
 bild: "Bilder/renault-twingo-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "renault", "kleinstwagen"]
 ---
@@ -54,7 +54,7 @@ Es gibt nur eine Zeile (Twingo Electric ZE) mit 22 kWh brutto / 21,3 kWh netto. 
 |---|---|---|---|---|
 | Twingo Electric ZE | 22 kWh | 21,3 kWh | 0,7 kWh (3,2 %) | 308 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 308. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 308 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -79,4 +79,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 308)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

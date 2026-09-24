@@ -74,9 +74,7 @@
       "geschwister": [
         "citroen-e-c3-aircross"
       ],
-      "hinweise": [
-        "Sehr kleiner Puffer: 44 kWh brutto vs. 43,8 kWh netto (ca. 0,5 %). Möglicherweise ist der Bruttowert gerundet oder die Nettoangabe entspricht eher der Herstellerangabe zur Gesamtkapazität."
-      ]
+      "hinweise": []
     },
     "citroen-e-c3-aircross": {
       "kurz": "Kompaktes Elektro-SUV von Citroën auf der Smart-Car-Plattform von Stellantis, technisch eng mit dem ë-C3 verwandt.",
@@ -85,7 +83,7 @@
       "bauzeit": "seit 2024",
       "plattform": "Stellantis Smart Car Platform",
       "beschreibung": "Der Citroën ë-C3 Aircross ist die Elektroversion des C3 Aircross der zweiten Generation. Er nutzt dieselbe Smart-Car-Plattform wie der [[citroen-e-c3|ë-C3]], ist aber länger und bietet mehr Innenraum; die Plattform zählt zu den [[plattform-stellantis|Stellantis-Plattformen]] für preisorientierte Modelle.\n\nDie Basisversion verwendet dieselbe [[traktionsbatterie|Traktionsbatterie]] wie der ë-C3, die auf [[lfp-zellchemie|LFP-Zellchemie]] beruht. Später wurde zusätzlich eine Version mit größerer Batterie (Extended Range) angeboten. Angetrieben wird das Fahrzeug über die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nWie beim ë-C3 liegen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettokapazität]] in den Rohdaten sehr nah beieinander, der [[batteriepuffer|Batteriepuffer]] ist also klein.",
-      "varianten": "„e-C3 Aircross“ steht für die Basisbatterie mit 44 kWh brutto / 43,8 kWh netto (identisch mit dem [[citroen-e-c3|ë-C3]]). „Extended Range“ bezeichnet die später ergänzte größere Batterie mit 54 kWh brutto / 53,5 kWh netto. Es handelt sich also nicht um Generationen, sondern um zwei parallel angebotene Batteriegrößen.",
+      "varianten": "„e-C3 Aircross“ steht für die Basisbatterie mit 44 kWh brutto / 43,8 kWh netto (identisch mit dem [[citroen-e-c3|ë-C3]]). „Extended Range“ bezeichnet die später ergänzte größere Batterie mit 54 kWh brutto / 52,8 kWh netto (korrigiert). Es handelt sich also nicht um Generationen, sondern um zwei parallel angebotene Batteriegrößen.",
       "konzepte": [
         "lfp-zellchemie",
         "plattform-stellantis",
@@ -98,10 +96,7 @@
       "geschwister": [
         "citroen-e-c3"
       ],
-      "hinweise": [
-        "Sehr kleiner Puffer bei beiden Batterien (44/43,8 und 54/53,5 kWh).",
-        "Ob auch die Extended-Range-Batterie auf LFP-Zellen basiert, ist nicht gesichert."
-      ]
+      "hinweise": []
     },
     "citroen-e-c4": {
       "kurz": "Elektrische Version des kompakten Citroën C4 im Crossover-Stil auf der e-CMP-Plattform von Stellantis.",
@@ -196,9 +191,7 @@
         "citroen-e-jumpy",
         "peugeot-e-expert"
       ],
-      "hinweise": [
-        "Schreibweise in den Rohdaten „e-Spacetourer“, Herstellerschreibweise „ë-SpaceTourer“."
-      ]
+      "hinweise": []
     },
     "dacia-spring": {
       "kurz": "Elektrischer Kleinstwagen von Dacia im SUV-Stil, gilt als eines der günstigsten Elektroautos in Europa und wird in China gebaut.",
@@ -207,7 +200,7 @@
       "bauzeit": "seit 2021",
       "plattform": "CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid)",
       "beschreibung": "Der Dacia Spring Electric ist das erste Elektroauto der Renault-Tochter Dacia. Er ist eng mit dem in China angebotenen [[renault-city-k-ze|Renault City K-ZE]] verwandt, der wiederum auf dem Kleinwagen Renault Kwid beruht; beide sind damit [[plattform-geschwister|Plattform-Geschwister]]. Gefertigt wird der Spring in China.\n\nDas Konzept ist konsequent auf niedrige Kosten ausgelegt: kleine [[traktionsbatterie|Traktionsbatterie]], geringes Gewicht und ein leistungsschwacher [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]). Einsatzschwerpunkt ist der Stadt- und Nahverkehr; [[dc-schnellladen|DC-Schnellladen]] war je nach Ausstattung nur optional verfügbar.\n\nMit der [[modellpflege|Modellpflege]] 2024 erhielt der Spring eine neue Karosserie und neue Leistungsstufen; die Batteriekapazität blieb nach den Rohdaten unverändert.",
-      "varianten": "Alle vier Zeilen weisen dieselbe Batterie mit 26,8 kWh brutto / 25,0 kWh netto auf. Die Zahlen in „Spring Electric 45“ und „Spring Electric 65“ bezeichnen die Motorleistung in PS, „Extreme“ ist eine Ausstattungslinie. Die Zeile ohne Zusatz steht vermutlich für die frühe Version. Die Varianten unterscheiden sich also nur im Antrieb bzw. in der Ausstattung, nicht in der Batterie; siehe auch [[typbezeichnungen|Typbezeichnungen]].",
+      "varianten": "Alle vier Zeilen weisen dieselbe Batterie auf (Rohquelle: 26,8 kWh brutto / 25,0 kWh netto). Die Zahlen in „Spring Electric 45“ und „Spring Electric 65“ bezeichnen die Motorleistung in PS, „Extreme“ ist eine Ausstattungslinie. Die Varianten unterscheiden sich also nur im Antrieb bzw. in der Ausstattung, nicht in der Batterie; siehe auch [[typbezeichnungen|Typbezeichnungen]]. Bei den Werten widersprechen sich die Quellen: ADAC (Herstellerdaten) nennt 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh mit geschätztem Nettowert – die Entscheidung ist offen.",
       "konzepte": [
         "plattform-geschwister",
         "traktionsbatterie",
@@ -221,8 +214,7 @@
       ],
       "hinweise": [
         "Vier Zeilen mit identischen Kapazitätswerten – für die Batteriekapazität de facto Duplikate.",
-        "Ob die Batterie beim Modell ab 2024 die Zellchemie gewechselt hat (NMC vs. LFP), ist nicht gesichert und wird hier bewusst nicht behauptet.",
-        "Der Bruttowert 26,8 kWh taucht beim Schwestermodell Renault City K-ZE als Nettowert auf – mögliche Inkonsistenz zwischen den beiden Datensätzen."
+        "Ob die Batterie beim Modell ab 2024 die Zellchemie gewechselt hat (NMC vs. LFP), ist nicht gesichert und wird hier bewusst nicht behauptet."
       ]
     },
     "peugeot-e-2008": {
@@ -246,9 +238,7 @@
         "citroen-e-c4",
         "citroen-e-c4-x"
       ],
-      "hinweise": [
-        "„e-2008 SUV“ (50 kWh) ist inhaltlich ein Duplikat zu „e-2008“ (50 kWh) – nur abweichende Schreibweise."
-      ]
+      "hinweise": []
     },
     "peugeot-e-208": {
       "kurz": "Elektrischer Kleinwagen von Peugeot und eines der ersten Modelle auf der e-CMP-Plattform von Stellantis (ehemals PSA).",
@@ -272,9 +262,7 @@
         "citroen-e-c4",
         "citroen-e-c4-x"
       ],
-      "hinweise": [
-        "Die Zeile 51 kWh brutto / 48,1 kWh netto passt zu keiner der bei den Geschwistermodellen erfassten Batterien (50/46,3 bzw. 54/50,8). Möglicherweise wurde ein Nettowert der neueren Batterie als Bruttowert erfasst – bitte prüfen."
-      ]
+      "hinweise": []
     },
     "peugeot-e-3008": {
       "kurz": "Elektrisches Mittelklasse-SUV von Peugeot im Coupé-Stil und eines der ersten Modelle auf der STLA-Medium-Plattform von Stellantis.",
@@ -412,7 +400,6 @@
         "peugeot-e-partner"
       ],
       "hinweise": [
-        "Vier Zeilen mit identischen Werten; „Standard“ und „M“ sowie „Long“ und „XL“ sind vermutlich jeweils dieselbe Version unter verschiedenen Bezeichnungen (Duplikate).",
         "Die beim ë-Berlingo erfasste neuere 52-kWh-Batterie fehlt hier."
       ]
     },
@@ -438,7 +425,6 @@
         "citroen-e-jumpy"
       ],
       "hinweise": [
-        "L2/L3 und Standard/Long liefern identische Werte – vermutlich Duplikate unter zwei Namensschemata.",
         "Ob die Längenbezeichnungen L2/L3 mit einer Modellpflege eingeführt wurden, ist nicht gesichert."
       ]
     },
@@ -495,7 +481,7 @@
       "bauzeit": null,
       "plattform": "CMF-A (Renault-Nissan-Kleinwagenplattform, Basis Renault Kwid)",
       "beschreibung": "Der Renault City K-ZE ist eine elektrische Ableitung des Kleinwagens Renault Kwid und wurde in China über ein Gemeinschaftsunternehmen produziert und vermarktet. Für Europa wurde das Fahrzeug als [[dacia-spring|Dacia Spring]] adaptiert; beide Modelle sind damit [[plattform-geschwister|Plattform-Geschwister]].\n\nKonzipiert ist der City K-ZE als preiswertes Stadtauto mit kleiner [[traktionsbatterie|Traktionsbatterie]] und [[elektromotor|Elektromotor]] an der Vorderachse ([[frontantrieb|Frontantrieb]]).\n\nIn Europa wurde das Modell unter dem Renault-Namen nicht regulär angeboten; Relevanz hat es hier vor allem als technische Basis des Dacia Spring.",
-      "varianten": "Es gibt nur eine Zeile (City K-ZE) mit 30 kWh brutto / 26,8 kWh netto.",
+      "varianten": "Es gibt nur eine Zeile (City K-ZE) mit 27,4 kWh brutto / 26,8 kWh netto – korrigiert, die Rohquelle nannte 30 kWh brutto ohne Beleg. Renault selbst nennt 26,8 kWh, ohne brutto und netto zu unterscheiden.",
       "konzepte": [
         "plattform-geschwister",
         "traktionsbatterie",
@@ -507,7 +493,6 @@
         "dacia-spring"
       ],
       "hinweise": [
-        "Die Werte weichen vom baugleichen Dacia Spring ab (dort 26,8 kWh brutto / 25,0 kWh netto). Hier erscheint 26,8 kWh als Nettowert – möglicherweise ist der Bruttowert 30 kWh unsicher oder falsch.",
         "Bauzeit nicht sicher bekannt, daher null."
       ]
     },
@@ -533,8 +518,7 @@
       ],
       "hinweise": [
         "Unter einem Slug sind zwei Fahrzeuggenerationen (Kangoo Z.E. und Kangoo E-Tech) zusammengefasst.",
-        "Für den Kangoo Z.E. mit kleiner Batterie findet man 22 kWh teils als Brutto-, teils als Nettoangabe.",
-        "Mercedes EQT ist in families.json mit 50/45 kWh erfasst, der Kangoo E-Tech mit 48/45 kWh – gleicher Nettowert, abweichender Bruttowert."
+        "Für den Kangoo Z.E. mit kleiner Batterie findet man 22 kWh teils als Brutto-, teils als Nettoangabe."
       ]
     },
     "renault-master-electric": {
@@ -544,7 +528,7 @@
       "bauzeit": null,
       "plattform": "Master III (Z.E.); Master IV (E-Tech)",
       "beschreibung": "Der Renault Master mit Elektroantrieb ist der große [[elektro-transporter|Elektro-Transporter]] der Marke. Der Master Z.E. basierte auf der dritten Master-Generation und war mit einer vergleichsweise kleinen [[traktionsbatterie|Traktionsbatterie]] vor allem für den städtischen Lieferverkehr ausgelegt.\n\nMit der neuen Master-Generation (E-Tech Electric) wurde das Konzept grundlegend überarbeitet: Die Karosserie ist aerodynamischer, und es stehen deutlich größere Batterien zur Wahl, womit der Transporter auch für Überlandfahrten geeignet ist. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nDie Bezeichnungswechsel von „Z.E.“ zu „E-Tech“ folgen der allgemeinen Namenssystematik von Renault; siehe [[typbezeichnungen|Typbezeichnungen]].",
-      "varianten": "„Master Z.E.“ ist die ältere Generation mit 33 kWh brutto / 31,0 kWh netto. „Master E-Tech“ gehört zur neuen Generation und ist mit zwei parallel angebotenen Batterien erfasst: 55 kWh brutto / 52,0 kWh netto und 92 kWh brutto / 87,0 kWh netto.",
+      "varianten": "„Master Z.E.“ ist die ältere Ausführung mit 33 kWh brutto / 31,0 kWh netto. Die Zeile „Master E-Tech“ mit 55/52 kWh gehört laut Renault zum überarbeiteten Master der dritten Generation (2022–2024, „52 kWh“); die Zeile mit 92/87 kWh zur neuen Generation ab 2024, für die Renault 40 und 87 kWh nennt. Beide Bruttowerte sind nicht belegt (92/87 entspricht dem Scenic EV87) – die Zeilen sind als „zu prüfen“ markiert.",
       "konzepte": [
         "elektro-transporter",
         "typbezeichnungen",
@@ -557,9 +541,7 @@
       ],
       "hinweise": [
         "Zwei Generationen unter einem Slug zusammengefasst.",
-        "Für den Master E-Tech werden in Herstellerangaben häufig 40 kWh und 87 kWh (nutzbar) genannt. Die Zeile 55/52 kWh passt dazu nicht – bitte prüfen.",
-        "Die Batterie des Master Z.E. (33/31 kWh) hat dieselben Werte wie der Kangoo Z.E. mit großer Batterie; eine technische Identität wird hier nicht behauptet.",
-        "Die Werte 92/87 kWh stimmen mit der großen Batterie des Renault Scenic E-Tech überein; ob es sich um dasselbe Batteriepaket handelt, ist nicht gesichert."
+        "Die Batterie des Master Z.E. (33/31 kWh) hat dieselben Werte wie der Kangoo Z.E. mit großer Batterie; eine technische Identität wird hier nicht behauptet."
       ]
     },
     "renault-scenic-e-tech": {
@@ -612,7 +594,7 @@
       "bauzeit": "2012–2024",
       "plattform": "Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV)",
       "beschreibung": "Die Renault Zoe wurde von Beginn an als reines Elektroauto ([[bev|BEV]]) entwickelt und war über mehrere Jahre eines der meistverkauften Elektroautos in Europa. Technisch lehnt sie sich an den Clio der vierten Generation an, hat aber eine eigene Karosserie.\n\nIm Laufe der Bauzeit erhielt die Zoe drei [[traktionsbatterie|Batteriegenerationen]] (22, Z.E. 40 und Z.E. 50) sowie verschiedene [[elektromotor|Elektromotoren]], die über die Typbezeichnung erkennbar sind. Charakteristisch für die frühen Versionen ist das leistungsfähige [[ac-laden|AC-Laden]] über das „Chameleon“-Ladegerät; [[dc-schnellladen|DC-Schnellladen]] (CCS) wurde erst mit der großen [[modellpflege|Modellpflege]] 2019 optional. Angetrieben werden die Vorderräder ([[frontantrieb|Frontantrieb]]).\n\nViele Zoe wurden mit Batteriemiete verkauft, d. h. die Batterie gehörte nicht dem Fahrzeughalter. Für Gebrauchtkäufer sind deshalb neben dem [[state-of-health|State of Health]] auch die Eigentumsverhältnisse der Batterie relevant; ein [[batteriecheck|Batteriecheck]] ist empfehlenswert.",
-      "varianten": "Die [[typbezeichnungen|Typbezeichnungen]] setzen sich aus einem Buchstaben für den Motor (R = Renault-eigener Motor, Q = Motor mit Schnelllade-Option für AC 43 kW) und einer Zahl zusammen, die sich auf Reichweite bzw. Leistung bezieht. Die Rohdaten zeigen drei Batteriegenerationen: 25,9 kWh brutto / 23,3 kWh netto (erste Generation, „22 kWh“; Q210, R210, R240, R90 Entry, R75), 44,1 kWh brutto / 41,0 kWh netto (Z.E. 40; Q90, R90, R110, R75) und 54,7 kWh brutto / 52,0 kWh netto (Z.E. 50; R110, R135). Dieselbe Motorbezeichnung kann daher mit unterschiedlichen Batterien vorkommen.",
+      "varianten": "Die [[typbezeichnungen|Typbezeichnungen]] setzen sich aus einem Buchstaben für den Motor (R = Renault-eigener Motor, Q = Motor mit Schnelllade-Option für AC 43 kW) und einer Zahl zusammen, die sich auf Reichweite bzw. Leistung bezieht. Die Rohdaten zeigen drei Batteriegenerationen: 25,9 kWh brutto / 23,3 kWh netto (erste Generation, „22 kWh“; Q210, R210, R240, R90 Entry), 44,1 kWh brutto / 41,0 kWh netto (Z.E. 40; Q90, R90, R110, R75) und 54,7 kWh brutto / 52,0 kWh netto (Z.E. 50; R110, R135). Dieselbe Motorbezeichnung kann daher mit unterschiedlichen Batterien vorkommen.",
       "konzepte": [
         "typbezeichnungen",
         "ac-laden",
@@ -625,9 +607,6 @@
       ],
       "geschwister": [],
       "hinweise": [
-        "„Zoe R110“ und „Zoe R110 Z.E. 40“ haben identische Werte (44,1/41,0 kWh) – vermutlich Duplikat.",
-        "„Zoe R75“ erscheint mit zwei Batterien (25,9 und 44,1 kWh); die Zuordnung der R75-Variante ist nicht gesichert.",
-        "„Zoe R90 Entry“ mit 25,9 kWh ist ungewöhnlich, da R90 sonst mit der Z.E.-40-Batterie verbunden ist – bitte prüfen.",
         "Die erste Batteriegeneration wird im Handel als „22 kWh“ bezeichnet, in den Rohdaten aber mit 25,9 kWh brutto / 23,3 kWh netto geführt.",
         "Die Bedeutung der Zahl in den Motorbezeichnungen (Reichweite vs. Leistung) ist je nach Generation unterschiedlich; hier nur grob beschrieben."
       ]

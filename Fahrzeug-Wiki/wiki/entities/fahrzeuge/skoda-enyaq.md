@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 52.0
 netto_max: 77.0
 bild: "Bilder/skoda-enyaq.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "skoda", "mittelklasse-suv"]
 ---
@@ -48,30 +48,30 @@ Mit der [[modellpflege|Modellpflege]] hat Škoda das Kürzel „iV“ gestrichen
 
 ## Varianten und Batterien
 
-Die Zahl steht für die Batterie-/Leistungsstufe: „50“ = 55 kWh brutto, „60“ = 62 bzw. 63 kWh brutto, „80“ und „85“ = 82 kWh brutto; „x“ bedeutet Allradantrieb, „Coupe“ die Coupé-Karosserie, „RS“ die sportliche Top-Version (ebenfalls 82 kWh). Beim „iV 60“ gibt es zwei Batterien (62/58 und 63/59 kWh) – das ist eine Zellgeneration aus der Laufzeit, keine eigene Variante. Die Einträge ohne „iV“ („Enyaq 85“, „Enyaq 85x“ usw.) gehören zur überarbeiteten Baureihe.
+Die Zahl steht für die Batterie-/Leistungsstufe: „50“ = 55 kWh brutto, „60“ = 62 bzw. 63 kWh brutto, „80“ und „85“ = 82 kWh brutto; „x“ bedeutet Allradantrieb, „Coupé“ die Coupé-Karosserie, „RS“ die sportliche Top-Version (ebenfalls 82 kWh). Beim „iV 60“ gibt es zwei Batterien (62/58 und 63/59 kWh) – das ist eine Zellgeneration aus der Laufzeit, keine eigene Variante. Die Einträge ohne „iV“ („Enyaq 85“, „Enyaq 85x“ usw.) gehören zur überarbeiteten Baureihe.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Enyaq 85 | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 327 |
-| Enyaq 85 Coupe | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 328 |
-| Enyaq 85x | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 329 |
-| Enyaq 85x Coupe | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 330 |
-| Enyaq iV 50 | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 331 |
-| Enyaq iV 50 Coupe | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 332 |
-| Enyaq iV 60 | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 333 |
-| Enyaq iV 60 | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 334 |
-| Enyaq iV 60 Coupe | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 335 |
-| Enyaq iV 60 Coupe | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 336 |
-| Enyaq iV 80 | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 337 |
-| Enyaq iV 80 Coupe | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 338 |
-| Enyaq iV 80x | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 339 |
-| Enyaq iV 85 | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 340 |
-| Enyaq iV 85 Coupe | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 341 |
-| Enyaq iV 85x | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 342 |
-| Enyaq iV 85x Coupe | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 343 |
-| Enyaq iV RS | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 344 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Enyaq 85 | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 327 |  |
+| Enyaq 85 Coupé | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 328 |  |
+| Enyaq 85x | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 329 |  |
+| Enyaq 85x Coupé | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 330 |  |
+| Enyaq iV 50 | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 331 |  |
+| Enyaq iV 50 Coupé | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 332 |  |
+| Enyaq iV 60 | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 333 |  |
+| Enyaq iV 60 | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 334 |  |
+| Enyaq iV 60 Coupé | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 335 |  |
+| Enyaq iV 60 Coupé | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 336 |  |
+| Enyaq iV 80 | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 337 |  |
+| Enyaq iV 80 Coupé | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 338 |  |
+| Enyaq iV 80x | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 339 |  |
+| Enyaq iV 85 | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 340 | Alias von Z. 327 |
+| Enyaq iV 85 Coupé | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 341 | Alias von Z. 328 |
+| Enyaq iV 85x | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 342 | Alias von Z. 329 |
+| Enyaq iV 85x Coupé | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 343 | Alias von Z. 330 |
+| Enyaq iV RS | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 344 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 327–344. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 327–344 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -98,8 +98,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 327–344.
 
 ## Offene Punkte
 
-- Doppelte Einträge durch Namensschema: „Enyaq iV 85“ (Zeile 340) und „Enyaq 85“ (Zeile 327) haben identische Werte, ebenso die jeweiligen x- und Coupé-Versionen.
-- Schreibweise „Coupe“ ohne Akzent (offiziell „Coupé“).
 - Zeilen 333/334 und 335/336: gleicher Name, zwei leicht unterschiedliche Batterien (62/58 vs. 63/59 kWh).
 
 Siehe auch [[datenqualitaet]].
@@ -109,4 +107,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 327–344)
 - Weiterlesen: [Wikipedia – Škoda Enyaq](https://en.wikipedia.org/wiki/Škoda_Enyaq)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

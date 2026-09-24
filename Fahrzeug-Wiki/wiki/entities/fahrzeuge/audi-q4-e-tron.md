@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 51.5
 netto_max: 76.6
 bild: "Bilder/audi-q4-e-tron.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "audi", "kompakt-suv"]
 ---
@@ -53,21 +53,21 @@ Die Zahl (35, 40, 45, 50, 55) ist eine Leistungsklasse nach dem Audi-Schema der 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
 | Q4 35 e-tron | 55 kWh | 51,5 kWh | 3,5 kWh (6,4 %) | 13 |
-| Q4 40 e-tron | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 14 |
+| Q4 40 e-tron | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 14 |
 | Q4 40 e-tron | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 15 |
 | Q4 45 e-tron | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 16 |
 | Q4 45 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 17 |
 | Q4 50 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 18 |
 | Q4 55 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 19 |
 | Q4 Sportback 35 e-tron | 55 kWh | 51,5 kWh | 3,5 kWh (6,4 %) | 20 |
-| Q4 Sportback 40 e-tron | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 21 |
+| Q4 Sportback 40 e-tron | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 21 |
 | Q4 Sportback 40 e-tron | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 22 |
 | Q4 Sportback 45 e-tron | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 23 |
 | Q4 Sportback 45 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 24 |
 | Q4 Sportback 50 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 25 |
 | Q4 Sportback 55 e-tron quattro | 82 kWh | 76,6 kWh | 5,4 kWh (6,6 %) | 26 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 13–26. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 13–26 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -102,4 +102,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 13–26)
 - Weiterlesen: [Wikipedia – Audi Q4 e-tron](https://en.wikipedia.org/wiki/Audi_Q4_e-tron)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

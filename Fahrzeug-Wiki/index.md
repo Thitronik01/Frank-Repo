@@ -1,6 +1,6 @@
 # Index
 
-1 Quelle · 150 Seiten · Stand 2026-09-23
+1 Quelle · 150 Seiten · Stand 2026-09-24
 
 Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 
@@ -36,7 +36,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 
 ### Audi
 
-- [[audi-e-tron|Audi e-tron]] — Oberklasse-SUV · 10 Varianten · netto 64,7–97 kWh
+- [[audi-e-tron|Audi e-tron]] — Oberklasse-SUV · 10 Varianten · netto 64,7–89 kWh
 - [[audi-e-tron-gt|Audi e-tron GT]] — Oberklasse-Sportlimousine · 3 Varianten · netto 83,7–97 kWh
 - [[audi-q4-e-tron|Audi Q4 e-tron]] — Kompakt-SUV · 14 Varianten · netto 51,5–76,6 kWh
 - [[audi-q6-e-tron|Audi Q6 e-tron]] — Mittelklasse-SUV · 7 Varianten · netto 75,8–94,9 kWh
@@ -48,7 +48,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 - [[bmw-i4|BMW i4]] — Mittelklasse-Limousine · 5 Varianten · netto 66–81,1 kWh
 - [[bmw-i5|BMW i5]] — Obere Mittelklasse · 6 Varianten · netto 81,2 kWh
 - [[bmw-i7|BMW i7]] — Oberklasse-Limousine · 3 Varianten · netto 101,7 kWh
-- [[bmw-ix|BMW iX]] — Oberklasse-SUV · 6 Varianten · netto 74,4–109,4 kWh
+- [[bmw-ix|BMW iX]] — Oberklasse-SUV · 6 Varianten · netto 71–109,1 kWh
 - [[bmw-ix1|BMW iX1]] — Kompakt-SUV · 2 Varianten · netto 64,7 kWh
 - [[bmw-ix2|BMW iX2]] — Kompakt-SUV · 2 Varianten · netto 64,7 kWh
 - [[bmw-ix3|BMW iX3]] — Mittelklasse-SUV · 1 Varianten · netto 73,83 kWh
@@ -58,7 +58,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 - [[citroen-c-zero|Citroën C-Zero]] — Kleinstwagen · 1 Varianten · netto 14,5 kWh
 - [[citroen-e-berlingo|Citroën ë-Berlingo]] — Hochdachkombi / Kleintransporter · 5 Varianten · netto 20,5–50 kWh
 - [[citroen-e-c3|Citroën ë-C3]] — Kleinwagen · 1 Varianten · netto 43,8 kWh
-- [[citroen-e-c3-aircross|Citroën ë-C3 Aircross]] — Kleinwagen-SUV · 2 Varianten · netto 43,8–53,5 kWh
+- [[citroen-e-c3-aircross|Citroën ë-C3 Aircross]] — Kleinwagen-SUV · 2 Varianten · netto 43,8–52,8 kWh
 - [[citroen-e-c4|Citroën ë-C4]] — Kompaktklasse · 2 Varianten · netto 46,3–50,8 kWh
 - [[citroen-e-c4-x|Citroën ë-C4 X]] — Kompaktklasse · 2 Varianten · netto 46,3–50,8 kWh
 - [[citroen-e-jumpy|Citroën ë-Jumpy Combi]] — Transporter / Kleinbus · 5 Varianten · netto 46,3–68 kWh
@@ -117,7 +117,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 ### Mini
 
 - [[mini-aceman|Mini Aceman]] — Kleinwagen-SUV · 3 Varianten · netto 38,5–49,2 kWh
-- [[mini-cooper-electric|Mini Cooper E / SE]] — Kleinwagen · 3 Varianten · netto 28,9–49,8 kWh
+- [[mini-cooper-electric|Mini Cooper E / SE]] — Kleinwagen · 3 Varianten · netto 28,9–49,2 kWh
 - [[mini-countryman-electric|Mini Countryman E / SE]] — Kompakt-SUV · 2 Varianten · netto 64,6 kWh
 
 ### Peugeot
@@ -137,7 +137,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 ### Porsche
 
 - [[porsche-macan-electric|Porsche Macan (Elektro)]] — Mittelklasse-SUV · 4 Varianten · netto 95 kWh
-- [[porsche-taycan|Porsche Taycan]] — Oberklasse-Sportlimousine · 37 Varianten · netto 71–97 kWh
+- [[porsche-taycan|Porsche Taycan]] — Oberklasse-Sportlimousine · 36 Varianten · netto 71–97 kWh
 
 ### Renault
 
@@ -146,7 +146,7 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 - [[renault-master-electric|Renault Master Z.E. / E-Tech]] — Transporter (großer Kastenwagen) · 3 Varianten · netto 31–87 kWh
 - [[renault-scenic-e-tech|Renault Scenic E-Tech]] — Kompakt-SUV · 2 Varianten · netto 60–87 kWh
 - [[renault-twingo-electric|Renault Twingo Electric]] — Kleinstwagen · 1 Varianten · netto 21,3 kWh
-- [[renault-zoe|Renault Zoe]] — Kleinwagen · 12 Varianten · netto 23,3–52 kWh
+- [[renault-zoe|Renault Zoe]] — Kleinwagen · 11 Varianten · netto 23,3–52 kWh
 
 ### SEAT
 
@@ -240,4 +240,4 @@ Katalog aller Seiten des Fahrzeug-Wikis. Einstieg: [[fahrzeuguebersicht]].
 
 ## Quellen
 
-- [[tn-batterycheck-alle-daten]] — Excel-Tabelle, 469 Varianten, Eingang 2026-09-23 — Brutto-/Nettokapazität aller Fahrzeuge
+- [[tn-batterycheck-alle-daten]] — Excel-Tabelle, 467 Varianten, Eingang 2026-09-24 — Brutto-/Nettokapazität aller Fahrzeuge

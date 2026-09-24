@@ -12,7 +12,7 @@ brutto_max: 99.8
 netto_min: 73.0
 netto_max: 96.0
 bild: "Bilder/kia-ev9.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "kia", "oberklasse-suv-drei-sitzreihen"]
 ---
@@ -52,13 +52,13 @@ Die meisten Zeilen (AWD, AWD GT-Line, AWD GT und RWD) nutzen die große Batterie
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| EV9 AWD | 99,8 kWh | 96,0 kWh | 3,8 kWh (3,8 %) | 168 |
-| EV9 AWD GT | 99,8 kWh | 96,0 kWh | 3,8 kWh (3,8 %) | 169 |
-| EV9 AWD GT-Line | 99,8 kWh | 96,0 kWh | 3,8 kWh (3,8 %) | 170 |
-| EV9 RWD | 76,1 kWh | 73,0 kWh | 3,1 kWh (4,1 %) | 171 |
-| EV9 RWD | 99,8 kWh | 96,0 kWh | 3,8 kWh (3,8 %) | 172 |
+| EV9 AWD | 99,8 kWh | 96 kWh | 3,8 kWh (3,8 %) | 168 |
+| EV9 AWD GT | 99,8 kWh | 96 kWh | 3,8 kWh (3,8 %) | 169 |
+| EV9 AWD GT-Line | 99,8 kWh | 96 kWh | 3,8 kWh (3,8 %) | 170 |
+| EV9 RWD | 76,1 kWh | 73 kWh | 3,1 kWh (4,1 %) | 171 |
+| EV9 RWD | 99,8 kWh | 96 kWh | 3,8 kWh (3,8 %) | 172 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 168–172. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 168–172 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -88,4 +88,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 168–172)
 - Weiterlesen: [Wikipedia – Kia EV9](https://en.wikipedia.org/wiki/Kia_EV9)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

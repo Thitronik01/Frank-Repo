@@ -3,7 +3,7 @@ type: "entity"
 kategorie: "hersteller"
 modelle: 8
 varianten: 23
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["hersteller", "citroen"]
 ---
@@ -35,7 +35,7 @@ Frühe Elektromodelle wie der C-Zero entstanden in Kooperation mit Mitsubishi bz
 | ![[citroen-c-zero.jpg\|160]] | [[citroen-c-zero\|Citroën C-Zero]] | 1 | 16 kWh | 14,5 kWh |
 | ![[citroen-e-berlingo.jpg\|160]] | [[citroen-e-berlingo\|Citroën ë-Berlingo]] | 5 | 22,5–52 kWh | 20,5–50 kWh |
 | ![[citroen-e-c3.jpg\|160]] | [[citroen-e-c3\|Citroën ë-C3]] | 1 | 44 kWh | 43,8 kWh |
-| ![[citroen-e-c3-aircross.jpg\|160]] | [[citroen-e-c3-aircross\|Citroën ë-C3 Aircross]] | 2 | 44–54 kWh | 43,8–53,5 kWh |
+| ![[citroen-e-c3-aircross.jpg\|160]] | [[citroen-e-c3-aircross\|Citroën ë-C3 Aircross]] | 2 | 44–54 kWh | 43,8–52,8 kWh |
 | ![[citroen-e-c4.jpg\|160]] | [[citroen-e-c4\|Citroën ë-C4]] | 2 | 50–54 kWh | 46,3–50,8 kWh |
 | ![[citroen-e-c4-x.jpg\|160]] | [[citroen-e-c4-x\|Citroën ë-C4 X]] | 2 | 50–54 kWh | 46,3–50,8 kWh |
 | ![[citroen-e-jumpy.jpg\|160]] | [[citroen-e-jumpy\|Citroën ë-Jumpy Combi]] | 5 | 50–75 kWh | 46,3–68 kWh |

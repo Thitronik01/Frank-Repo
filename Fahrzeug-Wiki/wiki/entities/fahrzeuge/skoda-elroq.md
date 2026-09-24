@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 52.0
 netto_max: 77.0
 bild: "Bilder/skoda-elroq.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "skoda", "kompakt-suv"]
 ---
@@ -50,12 +50,12 @@ Die Zahl in der Bezeichnung steht für die Batterie-/Leistungsstufe: „50“ = 
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Elroq 50 | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 323 |
-| Elroq 60 | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 324 |
-| Elroq 85 | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 325 |
-| Elroq 85x | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 326 |
+| Elroq 50 | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 323 |
+| Elroq 60 | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 324 |
+| Elroq 85 | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 325 |
+| Elroq 85x | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 326 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 323–326. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 323–326 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -84,4 +84,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 323–326.
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 323–326)
 - Weiterlesen: [Wikipedia – Škoda Elroq](https://en.wikipedia.org/wiki/Škoda_Elroq)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -11,7 +11,7 @@ brutto_max: 48.0
 netto_min: 20.0
 netto_max: 45.0
 bild: "Bilder/renault-kangoo-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "renault", "hochdachkombi-kleintransporter"]
 ---
@@ -48,15 +48,15 @@ Die Bezeichnung „Z.E.“ (Zero Emission) wurde bei Renault später durch „E-
 
 „Kangoo Z.E.“ gibt es mit zwei Batteriegenerationen: 22 kWh brutto / 20,0 kWh netto (Erstausstattung) und 33 kWh brutto / 31,0 kWh netto (spätere, größere Batterie). „Kangoo Maxi Z.E.“ ist die Langversion mit der 33-kWh-Batterie. „Kangoo E-Tech“ und „Kangoo Grand E-Tech“ (Langversion) gehören zur dritten Generation mit 48 kWh brutto / 45,0 kWh netto.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Kangoo E-Tech | 48 kWh | 45,0 kWh | 3 kWh (6,2 %) | 298 |
-| Kangoo Grand E-Tech | 48 kWh | 45,0 kWh | 3 kWh (6,2 %) | 299 |
-| Kangoo Maxi Z.E. | 33 kWh | 31,0 kWh | 2 kWh (6,1 %) | 300 |
-| Kangoo Z.E. | 22 kWh | 20,0 kWh | 2 kWh (9,1 %) | 301 |
-| Kangoo Z.E. | 33 kWh | 31,0 kWh | 2 kWh (6,1 %) | 302 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Kangoo E-Tech | 48 kWh | 45 kWh | 3 kWh (6,2 %) | 298 | bestätigt |
+| Kangoo Grand E-Tech | 48 kWh | 45 kWh | 3 kWh (6,2 %) | 299 | bestätigt |
+| Kangoo Maxi Z.E. | 33 kWh | 31 kWh | 2 kWh (6,1 %) | 300 |  |
+| Kangoo Z.E. | 22 kWh | 20 kWh | 2 kWh (9,1 %) | 301 |  |
+| Kangoo Z.E. | 33 kWh | 31 kWh | 2 kWh (6,1 %) | 302 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 298–302. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 298–302 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -77,7 +77,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 298–302.
 
 - Unter einem Slug sind zwei Fahrzeuggenerationen (Kangoo Z.E. und Kangoo E-Tech) zusammengefasst.
 - Für den Kangoo Z.E. mit kleiner Batterie findet man 22 kWh teils als Brutto-, teils als Nettoangabe.
-- Mercedes EQT ist in families.json mit 50/45 kWh erfasst, der Kangoo E-Tech mit 48/45 kWh – gleicher Nettowert, abweichender Bruttowert.
 
 Siehe auch [[datenqualitaet]].
 
@@ -85,4 +84,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 298–302)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

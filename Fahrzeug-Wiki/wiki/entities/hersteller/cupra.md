@@ -3,7 +3,7 @@ type: "entity"
 kategorie: "hersteller"
 modelle: 2
 varianten: 6
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["hersteller", "cupra"]
 ---
@@ -18,9 +18,9 @@ tags: ["hersteller", "cupra"]
 |---|---|---|
 | Modellreihen im Bestand | 2 | [[tn-batterycheck-alle-daten]] |
 | Varianten im Bestand | 6 | [[tn-batterycheck-alle-daten]] |
-| Bruttokapazität | 53–82 kWh | [[tn-batterycheck-alle-daten]] |
+| Bruttokapazität | 62–82 kWh | [[tn-batterycheck-alle-daten]] |
 | Nettokapazität | 58–77 kWh | [[tn-batterycheck-alle-daten]] |
-| Puffer im Mittel | 6,2 % | berechnet |
+| Puffer im Mittel | 6,3 % | berechnet |
 
 ## Über den Hersteller
 
@@ -32,7 +32,7 @@ Die Elektromodelle der Marke, Born und Tavascan, basieren auf dem [[plattform-me
 
 | Bild | Modell | Varianten | Brutto | Netto |
 |---|---|---|---|---|
-| ![[cupra-born.jpg\|160]] | [[cupra-born\|Cupra Born]] | 4 | 53–82 kWh | 58–77 kWh |
+| ![[cupra-born.jpg\|160]] | [[cupra-born\|Cupra Born]] | 4 | 62–82 kWh | 58–77 kWh |
 | ![[cupra-tavascan.jpg\|160]] | [[cupra-tavascan\|Cupra Tavascan]] | 2 | 82 kWh | 77 kWh |
 
 Bilder: lokal in `Bilder/`, Quelle Wikimedia Commons – Urheber und Lizenz auf der jeweiligen Fahrzeugseite.

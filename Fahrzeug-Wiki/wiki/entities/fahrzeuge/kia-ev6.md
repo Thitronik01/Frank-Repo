@@ -12,7 +12,7 @@ brutto_max: 84.0
 netto_min: 54.0
 netto_max: 80.0
 bild: "Bilder/kia-ev6.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "kia", "mittelklasse-suv-crossover"]
 ---
@@ -57,18 +57,18 @@ Die Werte entsprechen jeweils den Batterien des IONIQ 5.
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| EV6 GT | 77,4 kWh | 74,0 kWh | 3,4 kWh (4,4 %) | 158 |
-| EV6 GT | 84,0 kWh | 80,0 kWh | 4 kWh (4,8 %) | 159 |
-| EV6 Long Range 2WD | 77,4 kWh | 74,0 kWh | 3,4 kWh (4,4 %) | 160 |
-| EV6 Long Range 2WD | 84,0 kWh | 80,0 kWh | 4 kWh (4,8 %) | 161 |
-| EV6 Long Range AWD | 77,4 kWh | 74,0 kWh | 3,4 kWh (4,4 %) | 162 |
-| EV6 Long Range AWD | 84,0 kWh | 80,0 kWh | 4 kWh (4,8 %) | 163 |
-| EV6 Standard Range 2WD | 58,0 kWh | 54,0 kWh | 4 kWh (6,9 %) | 164 |
-| EV6 Standard Range 2WD | 63,0 kWh | 60,0 kWh | 3 kWh (4,8 %) | 165 |
-| EV6 Standard Range AWD | 58,0 kWh | 54,0 kWh | 4 kWh (6,9 %) | 166 |
-| EV6 Standard Range AWD | 63,0 kWh | 60,0 kWh | 3 kWh (4,8 %) | 167 |
+| EV6 GT | 77,4 kWh | 74 kWh | 3,4 kWh (4,4 %) | 158 |
+| EV6 GT | 84 kWh | 80 kWh | 4 kWh (4,8 %) | 159 |
+| EV6 Long Range 2WD | 77,4 kWh | 74 kWh | 3,4 kWh (4,4 %) | 160 |
+| EV6 Long Range 2WD | 84 kWh | 80 kWh | 4 kWh (4,8 %) | 161 |
+| EV6 Long Range AWD | 77,4 kWh | 74 kWh | 3,4 kWh (4,4 %) | 162 |
+| EV6 Long Range AWD | 84 kWh | 80 kWh | 4 kWh (4,8 %) | 163 |
+| EV6 Standard Range 2WD | 58 kWh | 54 kWh | 4 kWh (6,9 %) | 164 |
+| EV6 Standard Range 2WD | 63 kWh | 60 kWh | 3 kWh (4,8 %) | 165 |
+| EV6 Standard Range AWD | 58 kWh | 54 kWh | 4 kWh (6,9 %) | 166 |
+| EV6 Standard Range AWD | 63 kWh | 60 kWh | 3 kWh (4,8 %) | 167 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 158–167. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 158–167 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -100,4 +100,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 158–167)
 - Weiterlesen: [Wikipedia – Kia EV6](https://en.wikipedia.org/wiki/Kia_EV6)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

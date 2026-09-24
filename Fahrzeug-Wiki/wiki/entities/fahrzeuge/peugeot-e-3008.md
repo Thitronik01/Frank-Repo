@@ -12,7 +12,7 @@ brutto_max: 101.0
 netto_min: 73.0
 netto_max: 96.9
 bild: "Bilder/peugeot-e-3008.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "kompakt-suv-mittelklasse-suv"]
 ---
@@ -52,10 +52,10 @@ Die Long-Range-Version gehört mit ihrer großen Batterie zu den reichweitenstä
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| e-3008 | 77 kWh | 73,0 kWh | 4 kWh (5,2 %) | 230 |
+| e-3008 | 77 kWh | 73 kWh | 4 kWh (5,2 %) | 230 |
 | e-3008 Long Range | 101 kWh | 96,9 kWh | 4,1 kWh (4,1 %) | 231 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 230–231. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 230–231 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -82,4 +82,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 230–231)
 - Weiterlesen: [Wikipedia – Peugeot 3008](https://en.wikipedia.org/wiki/Peugeot_3008)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -3,7 +3,7 @@ type: "entity"
 kategorie: "hersteller"
 modelle: 5
 varianten: 40
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["hersteller", "audi"]
 ---
@@ -32,7 +32,7 @@ Die Elektromodelle tragen die Bezeichnung e-tron; die Zahlen in den Modellnamen 
 
 | Bild | Modell | Varianten | Brutto | Netto |
 |---|---|---|---|---|
-| ![[audi-e-tron.jpg\|160]] | [[audi-e-tron\|Audi e-tron]] | 10 | 71–105 kWh | 64,7–97 kWh |
+| ![[audi-e-tron.jpg\|160]] | [[audi-e-tron\|Audi e-tron]] | 10 | 71–95 kWh | 64,7–89 kWh |
 | ![[audi-e-tron-gt.jpg\|160]] | [[audi-e-tron-gt\|Audi e-tron GT]] | 3 | 93,4–105 kWh | 83,7–97 kWh |
 | ![[audi-q4-e-tron.jpg\|160]] | [[audi-q4-e-tron\|Audi Q4 e-tron]] | 14 | 55–82 kWh | 51,5–76,6 kWh |
 | ![[audi-q6-e-tron.jpg\|160]] | [[audi-q6-e-tron\|Audi Q6 e-tron]] | 7 | 83–100 kWh | 75,8–94,9 kWh |

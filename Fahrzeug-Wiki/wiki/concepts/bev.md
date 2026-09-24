@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 0
 tags: ["fachbegriff", "antrieb", "grundlagen"]
 ---
@@ -32,4 +32,4 @@ Fast alle Fahrzeuge in diesem Wiki sind BEV; Ausnahme ist der [[bmw-i3]] mit Ran
 
 ## Belege
 
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

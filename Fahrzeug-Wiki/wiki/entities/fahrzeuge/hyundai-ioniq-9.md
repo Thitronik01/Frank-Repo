@@ -11,7 +11,7 @@ brutto_max: 110.3
 netto_min: 106.0
 netto_max: 106.0
 bild: "Bilder/hyundai-ioniq-9.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "hyundai", "oberklasse-suv-drei-sitzreihen"]
 ---
@@ -48,11 +48,11 @@ Alle drei Zeilen (**Long Range RWD**, **Long Range AWD**, **Performance AWD**) n
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| IONIQ 9 Long Range AWD | 110,3 kWh | 106,0 kWh | 4,3 kWh (3,9 %) | 140 |
-| IONIQ 9 Long Range RWD | 110,3 kWh | 106,0 kWh | 4,3 kWh (3,9 %) | 141 |
-| IONIQ 9 Performance AWD | 110,3 kWh | 106,0 kWh | 4,3 kWh (3,9 %) | 142 |
+| IONIQ 9 Long Range AWD | 110,3 kWh | 106 kWh | 4,3 kWh (3,9 %) | 140 |
+| IONIQ 9 Long Range RWD | 110,3 kWh | 106 kWh | 4,3 kWh (3,9 %) | 141 |
+| IONIQ 9 Performance AWD | 110,3 kWh | 106 kWh | 4,3 kWh (3,9 %) | 142 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 140–142. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 140–142 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -81,4 +81,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 140–142)
 - Weiterlesen: [Wikipedia – Hyundai Ioniq 9](https://en.wikipedia.org/wiki/Hyundai_Ioniq_9)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

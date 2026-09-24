@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fachbegriff", "batterie", "kennzahl"]
 ---
@@ -15,7 +15,7 @@ Die Nettokapazität (auch *nutzbare Kapazität*, *usable capacity*) ist das Ener
 
 Für die Bewertung einer gebrauchten Batterie ist die Nettokapazität der relevante Bezugswert: Ein [[batteriecheck]] misst, wie viel der ursprünglichen Nettokapazität heute noch verfügbar ist, und drückt das als [[state-of-health]] aus.
 
-In der Rohquelle [[tn-batterycheck-alle-daten]] ist die Nettokapazität je Variante angegeben. Einzelne Werte sind als „ca." gekennzeichnet (z. B. [[mercedes-esprinter|Mercedes eSprinter LFP]]), und in einem Fall ist netto größer als brutto ([[cupra-born]]) – das ist physikalisch unmöglich und deutet auf einen Datenfehler hin.
+In der Rohquelle [[tn-batterycheck-alle-daten]] ist die Nettokapazität je Variante angegeben. Einzelne Werte sind als „ca." gekennzeichnet (z. B. [[mercedes-esprinter|Mercedes eSprinter LFP]]), und in einem Fall war netto größer als brutto ([[cupra-born]]) – physikalisch unmöglich; in der bereinigten Fassung korrigiert (siehe [[datenqualitaet]]).
 
 ## Verwandte Begriffe
 
@@ -30,4 +30,4 @@ In der Rohquelle [[tn-batterycheck-alle-daten]] ist die Nettokapazität je Varia
 ## Belege
 
 - [[tn-batterycheck-alle-daten]] — Zahlenbeispiele in diesem Artikel
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

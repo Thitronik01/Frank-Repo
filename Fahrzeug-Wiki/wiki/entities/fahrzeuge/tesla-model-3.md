@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 49.0
 netto_max: 76.0
 bild: "Bilder/tesla-model-3.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "tesla", "mittelklasse-limousine"]
 ---
@@ -52,22 +52,22 @@ Die Basisversion hat [[hinterradantrieb|Hinterradantrieb]], Long Range und Perfo
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Model 3 Long Range AWD | 75 kWh | 72,0 kWh | 3 kWh (4,0 %) | 345 |
-| Model 3 Long Range AWD | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 346 |
+| Model 3 Long Range AWD | 75 kWh | 72 kWh | 3 kWh (4,0 %) | 345 |
+| Model 3 Long Range AWD | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 346 |
 | Model 3 Long Range AWD | 78,8 kWh | 73,5 kWh | 5,3 kWh (6,7 %) | 347 |
-| Model 3 Long Range AWD | 82 kWh | 76,0 kWh | 6 kWh (7,3 %) | 348 |
-| Model 3 Long Range RWD | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 349 |
+| Model 3 Long Range AWD | 82 kWh | 76 kWh | 6 kWh (7,3 %) | 348 |
+| Model 3 Long Range RWD | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 349 |
 | Model 3 Long Range RWD | 78,8 kWh | 73,5 kWh | 5,3 kWh (6,7 %) | 350 |
-| Model 3 Performance | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 351 |
+| Model 3 Performance | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 351 |
 | Model 3 Performance | 78,8 kWh | 73,5 kWh | 5,3 kWh (6,7 %) | 352 |
-| Model 3 Performance | 82 kWh | 76,0 kWh | 6 kWh (7,3 %) | 353 |
+| Model 3 Performance | 82 kWh | 76 kWh | 6 kWh (7,3 %) | 353 |
 | Model 3 RWD | 60 kWh | 57,5 kWh | 2,5 kWh (4,2 %) | 354 |
 | Model 3 RWD | 64 kWh | 60,5 kWh | 3,5 kWh (5,5 %) | 355 |
-| Model 3 Standard Range plus | 53,1 kWh | 49,0 kWh | 4,1 kWh (7,7 %) | 356 |
-| Model 3 Standard Range plus | 55 kWh | 51,0 kWh | 4 kWh (7,3 %) | 357 |
+| Model 3 Standard Range plus | 53,1 kWh | 49 kWh | 4,1 kWh (7,7 %) | 356 |
+| Model 3 Standard Range plus | 55 kWh | 51 kWh | 4 kWh (7,3 %) | 357 |
 | Model 3 Standard Range plus | 55 kWh | 52,5 kWh | 2,5 kWh (4,5 %) | 358 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 345–358. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 345–358 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -98,4 +98,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 345–358)
 - Weiterlesen: [Wikipedia – Tesla Model 3](https://en.wikipedia.org/wiki/Tesla_Model_3)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

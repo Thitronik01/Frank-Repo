@@ -12,7 +12,7 @@ brutto_max: 35.8
 netto_min: 21.1
 netto_max: 31.5
 bild: "Bilder/vw-e-golf.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "volkswagen", "kompaktklasse"]
 ---
@@ -53,7 +53,7 @@ Beide Zeilen heißen „e-Golf“. Zeile 408 (24,2 kWh brutto / 21,1 kWh netto) 
 | e-Golf | 24,2 kWh | 21,1 kWh | 3,1 kWh (12,8 %) | 408 |
 | e-Golf | 35,8 kWh | 31,5 kWh | 4,3 kWh (12,0 %) | 409 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 408–409. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 408–409 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -73,4 +73,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 408–409.
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 408–409)
 - Weiterlesen: [Wikipedia – Volkswagen e-Golf](https://en.wikipedia.org/wiki/Volkswagen_e-Golf)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -11,7 +11,7 @@ brutto_max: 85.0
 netto_min: 80.0
 netto_max: 80.0
 bild: "Bilder/mercedes-eqc.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "mittelklasse-suv"]
 ---
@@ -48,9 +48,9 @@ Nur eine Variante: EQC 400 (4MATIC) mit 85/80 kWh. "400" ist eine Leistungsklass
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| EQC 400 | 85 kWh | 80,0 kWh | 5 kWh (5,9 %) | 186 |
+| EQC 400 4MATIC | 85 kWh | 80 kWh | 5 kWh (5,9 %) | 186 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 186. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 186 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -67,7 +67,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 186. Puffe
 ## Offene Punkte
 
 - Bauzeit nicht sicher belegt (Marktstart 2019, Produktionsende ca. 2023/2024).
-- Die Bezeichnung in den Daten lautet nur "EQC 400"; offiziell EQC 400 4MATIC.
 
 Siehe auch [[datenqualitaet]].
 
@@ -76,4 +75,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 186)
 - Weiterlesen: [Wikipedia – Mercedes-Benz EQC](https://en.wikipedia.org/wiki/Mercedes-Benz_EQC)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

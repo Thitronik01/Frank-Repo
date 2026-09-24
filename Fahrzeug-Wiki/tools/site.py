@@ -59,6 +59,7 @@ _ICON_PATHS = {
     "percent": '<path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/>',
     "external": '<path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
     "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    "check": '<path d="M20 6 9 17l-5-5"/>',
     "link": '<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>',
 }
 
@@ -144,7 +145,7 @@ def build_info(pages):
         pm = re.search(r"batteriepuffer\\\|Puffer\]\]\s*\|\s*([^|]+?)\s*\|", body)
         kurz = re.search(r"^> (.+)$", body, re.M)
         issues = [l for l in md_section(body, "Offene Punkte").splitlines() if l.startswith("- ")]
-        hard = any(k in l for l in issues for k in ("**Duplikat:**", "**Netto > Brutto:**", "**Näherungswert:**"))
+        hard = any(k in l for l in issues for k in ("**Zu prüfen:**", "**Näherungswert:**"))
         variants = [l.split("|")[1].strip() for l in md_section(body, "Varianten und Batterien").splitlines()
                     if l.startswith("| ") and not l.startswith("| Variante")]
         vinfo[s] = {
@@ -205,7 +206,7 @@ def crumbs(items):
 def vcard(s, v, compact=False):
     img = (f'<img src="../{v["img"]}" alt="" loading="lazy" decoding="async" width="480" height="300">'
            if v["img"] else "")
-    badge = f'<span class="badge">{icon("alert")}Datenfehler</span>' if v["hard"] else ""
+    badge = f'<span class="badge">{icon("alert")}zu prüfen</span>' if v["hard"] else ""
     search = " ".join([v["title"], v["brand"], v["segment"], v["plattform"], " ".join(v["variants"])])
     return (f'<a class="vcard{" compact" if compact else ""}" href="{s}.html" data-t="{esc(v["title"])}" data-b="{esc(v["brand"])}" '
             f'data-n="{v["nmax"]}" data-nmin="{v["nmin"]}" data-v="{v["n"]}" data-s="{esc(search)}">'
@@ -298,6 +299,8 @@ def vehicle_page(slug, page, pages, vinfo):
                 block += f'<h3>Weitere Modelle von {esc(v["brand"])}</h3><div class="grid compact">' + \
                          "".join(vcard(s, vinfo[s], True) for s in same) + "</div>"
             out.append(block)
+        elif t == "korrekturen":
+            out.append(f'<section class="callout good">{h2(sec, icon("check"))}{sec["body"]}</section>')
         elif t == "offene punkte":
             out.append(f'<section class="callout warn">{h2(sec, icon("alert"))}{sec["body"]}'
                        f'<p class="callout-foot">Die Klärung läuft über GitHub: <a href="{REPO_ISSUES}" target="_blank" rel="noopener">'
@@ -572,8 +575,9 @@ def main():
     back = backlinks(pages)
     dates = [p["meta"].get("updated") for p in pages.values() if p["meta"].get("updated")]
     stand = ".".join(reversed(max(dates).split("-"))) if dates else ""
-    issues_file = ROOT / "issues" / "issues.json"
-    n_issues = len(json.loads(issues_file.read_text(encoding="utf-8"))) if issues_file.exists() else 0
+    corr_file = ROOT / "tools" / "corrections.json"   # offene Klärungen = Issues, die nicht als erledigt vermerkt sind
+    n_issues = sum(1 for e in json.loads(corr_file.read_text(encoding="utf-8")).get("offene_issues", [])
+                   if "kann geschlossen werden" not in e["stand"]) if corr_file.exists() else 0
 
     OUT.mkdir(exist_ok=True)
     for old in OUT.glob("*.html"):

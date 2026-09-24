@@ -12,7 +12,7 @@ brutto_max: 75.0
 netto_min: 46.3
 netto_max: 68.0
 bild: "Bilder/peugeot-e-traveller.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "großraum-van-kleinbus"]
 ---
@@ -50,19 +50,19 @@ Wie bei den Schwestermodellen standen zwei Batteriegrößen parallel zur Wahl.
 
 Compact, Standard und Long bezeichnen die drei Längen; zusätzlich tauchen die Bezeichnungen L2 und L3 auf, die vermutlich Standard und Long entsprechen (anderes Namensschema, eventuell nach einer [[modellpflege|Modellpflege]]). Standard/L2 und Long/L3 sind jeweils mit 50 kWh brutto / 46,3 kWh netto und 75 kWh brutto / 68,0 kWh netto erfasst, Compact nur mit 50 kWh.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-Traveller Compact | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 245 |
-| e-Traveller L2 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 246 |
-| e-Traveller L2 | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 247 |
-| e-Traveller L3 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 248 |
-| e-Traveller L3 | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 249 |
-| e-Traveller Long | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 250 |
-| e-Traveller Long | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 251 |
-| e-Traveller Standard | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 252 |
-| e-Traveller Standard | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 253 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| e-Traveller Compact | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 245 |  |
+| e-Traveller L2 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 246 | Alias von Z. 252 |
+| e-Traveller L2 | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 247 | Alias von Z. 253 |
+| e-Traveller L3 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 248 | Alias von Z. 250 |
+| e-Traveller L3 | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 249 | Alias von Z. 251 |
+| e-Traveller Long | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 250 |  |
+| e-Traveller Long | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 251 |  |
+| e-Traveller Standard | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 252 |  |
+| e-Traveller Standard | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 253 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 245–253. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 245–253 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -82,7 +82,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 245–253.
 
 ## Offene Punkte
 
-- L2/L3 und Standard/Long liefern identische Werte – vermutlich Duplikate unter zwei Namensschemata.
 - Ob die Längenbezeichnungen L2/L3 mit einer Modellpflege eingeführt wurden, ist nicht gesichert.
 
 Siehe auch [[datenqualitaet]].
@@ -92,4 +91,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 245–253)
 - Weiterlesen: [Wikipedia – Peugeot Traveller](https://en.wikipedia.org/wiki/Peugeot_Traveller)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

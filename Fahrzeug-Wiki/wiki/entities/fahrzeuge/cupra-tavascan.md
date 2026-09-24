@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 77.0
 netto_max: 77.0
 bild: "Bilder/cupra-tavascan.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "cupra", "kompakt-suv-suv-coup"]
 ---
@@ -50,10 +50,10 @@ Technisch nutzt der Tavascan die große MEB-[[traktionsbatterie|Traktionsbatteri
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Tavascan Endurance | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 103 |
-| Tavascan VZ | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 104 |
+| Tavascan Endurance | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 103 |
+| Tavascan VZ | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 104 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 103–104. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 103–104 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -81,4 +81,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 103–104.
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 103–104)
 - Weiterlesen: [Wikipedia – Cupra Tavascan](https://en.wikipedia.org/wiki/Cupra_Tavascan)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

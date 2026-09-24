@@ -12,7 +12,7 @@ brutto_max: 54.0
 netto_min: 46.3
 netto_max: 50.8
 bild: "Bilder/peugeot-e-2008.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "kleinwagen-suv"]
 ---
@@ -50,13 +50,13 @@ Da dieselbe Batterie in vielen Konzernmodellen verbaut ist, lassen sich Erkenntn
 
 „e-2008“ und „e-2008 SUV“ bezeichnen dasselbe Fahrzeug; die Zeile „e-2008 SUV“ mit 50 kWh entspricht der ersten Zeile. 50 kWh brutto / 46,3 kWh netto ist die ursprüngliche e-CMP-Batterie, 54 kWh brutto / 50,8 kWh netto die überarbeitete Batterie nach der [[modellpflege|Modellpflege]].
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-2008 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 224 |
-| e-2008 | 54 kWh | 50,8 kWh | 3,2 kWh (5,9 %) | 225 |
-| e-2008 SUV | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 226 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| e-2008 | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 224 |  |
+| e-2008 | 54 kWh | 50,8 kWh | 3,2 kWh (5,9 %) | 225 |  |
+| e-2008 SUV | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 226 | Alias von Z. 224 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 224–226. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 224–226 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -74,15 +74,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 224–226.
 - [[citroen-e-c4-x|Citroën ë-C4 X]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Peugeot: [[peugeot-e-3008|Peugeot e-3008]], [[peugeot-e-308|Peugeot e-308]], [[peugeot-e-408|Peugeot e-408]], [[peugeot-e-expert|Peugeot e-Expert Combi]], [[peugeot-e-partner|Peugeot e-Partner]], [[peugeot-e-rifter|Peugeot e-Rifter]], [[peugeot-e-traveller|Peugeot e-Traveller]], [[peugeot-ion|Peugeot iOn]], [[peugeot-partner-tepee-electric|Peugeot Partner Tepee Electric]]
 
-## Offene Punkte
-
-- „e-2008 SUV“ (50 kWh) ist inhaltlich ein Duplikat zu „e-2008“ (50 kWh) – nur abweichende Schreibweise.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 224–226)
 - Weiterlesen: [Wikipedia – Peugeot 2008](https://en.wikipedia.org/wiki/Peugeot_2008)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -10,7 +10,7 @@ brutto_max: 75.0
 netto_min: 70.0
 netto_max: 70.0
 bild: "Bilder/mg-marvel-r.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mg", "mittelklasse-suv"]
 ---
@@ -46,10 +46,10 @@ Die Performance-Version verfügt über [[allradantrieb|Allradantrieb]]. Die [[tr
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Marvel R | 75,0 kWh | 70,0 kWh | 5 kWh (6,7 %) | 203 |
-| Marvel R Performance | 75,0 kWh | 70,0 kWh | 5 kWh (6,7 %) | 204 |
+| Marvel R | 75 kWh | 70 kWh | 5 kWh (6,7 %) | 203 |
+| Marvel R Performance | 75 kWh | 70 kWh | 5 kWh (6,7 %) | 204 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 203–204. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 203–204 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -76,4 +76,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 203–204)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

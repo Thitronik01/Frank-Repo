@@ -12,7 +12,7 @@ brutto_max: 100.0
 netto_min: 60.0
 netto_max: 90.0
 bild: "Bilder/mercedes-eqv.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "großraum-van"]
 ---
@@ -50,10 +50,10 @@ Zwei Batterien: EQV 250 mit 66/60 kWh und EQV 300 mit 100/90 kWh. Die Zahl ist e
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| EQV 250 | 66 kWh | 60,0 kWh | 6 kWh (9,1 %) | 188 |
-| EQV 300 | 100 kWh | 90,0 kWh | 10 kWh (10,0 %) | 189 |
+| EQV 250 | 66 kWh | 60 kWh | 6 kWh (9,1 %) | 188 |
+| EQV 300 | 100 kWh | 90 kWh | 10 kWh (10,0 %) | 189 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 188–189. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 188–189 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -79,4 +79,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 188–189)
 - Weiterlesen: [Wikipedia – Mercedes-Benz EQV](https://en.wikipedia.org/wiki/Mercedes-Benz_EQV)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -12,7 +12,7 @@ brutto_max: 77.0
 netto_min: 50.8
 netto_max: 74.4
 bild: "Bilder/mg4-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mg", "kompaktklasse"]
 ---
@@ -48,16 +48,16 @@ Die größte Batterie (77 kWh brutto) entspricht in den Kapazitätswerten der de
 
 ## Varianten und Batterien
 
-Drei Zeilen heißen schlicht **MG4 Electric** und unterscheiden sich nur in der Batterie: 51,0/50,8 kWh (LFP), 64,0/61,7 kWh und 77,0/74,4 kWh. Im Handel wurden diese Stufen unter Ausstattungsnamen verkauft, die in den Rohdaten fehlen. **MG4 Electric XPOWER** nutzt die mittlere Batterie (64,0/61,7 kWh) mit Allradantrieb.
+Drei Zeilen heißen schlicht **MG4 Electric** und unterscheiden sich nur in der Batterie: 51,0/50,8 kWh (LFP), 64,0/61,7 kWh und 77,0/74,4 kWh. Im Handel wurden diese Stufen unter Ausstattungsnamen verkauft, die in den Rohdaten fehlen. **MG4 Electric XPOWER** nutzt die mittlere Batterie (64,0/61,7 kWh) mit Allradantrieb. Für die 51- und 64-kWh-Batterie nennt der ADAC niedrigere Nettowerte (49,0 bzw. 59,5 kWh) – die Zeilen sind als „zu prüfen“ markiert.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| MG4 Electric | 51,0 kWh | 50,8 kWh | 0,2 kWh (0,4 %) | 205 |
-| MG4 Electric | 64,0 kWh | 61,7 kWh | 2,3 kWh (3,6 %) | 206 |
-| MG4 Electric | 77,0 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 207 |
-| MG4 Electric XPOWER | 64,0 kWh | 61,7 kWh | 2,3 kWh (3,6 %) | 208 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| MG4 Electric | 51 kWh | 50,8 kWh | 0,2 kWh (0,4 %) | 205 | zu prüfen ([#10](https://github.com/Thitronik01/Frank-Repo/issues/10)) |
+| MG4 Electric | 64 kWh | 61,7 kWh | 2,3 kWh (3,6 %) | 206 | zu prüfen ([#10](https://github.com/Thitronik01/Frank-Repo/issues/10)) |
+| MG4 Electric | 77 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 207 |  |
+| MG4 Electric XPOWER | 64 kWh | 61,7 kWh | 2,3 kWh (3,6 %) | 208 | zu prüfen ([#10](https://github.com/Thitronik01/Frank-Repo/issues/10)) |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 205–208. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 205–208 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -76,7 +76,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 205–208.
 
 ## Offene Punkte
 
-- Die 51-kWh-Batterie hat laut Rohdaten nur 0,2 kWh Puffer (51,0 brutto / 50,8 netto) – ungewöhnlich klein, bei LFP-Batterien aber nicht untypisch.
+- **Zu prüfen:** „MG4 Electric“ (Zeile 205): Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh. Klärung: [#10](https://github.com/Thitronik01/Frank-Repo/issues/10).
+- **Zu prüfen:** „MG4 Electric“ (Zeile 206): Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh. Klärung: [#10](https://github.com/Thitronik01/Frank-Repo/issues/10).
+- **Zu prüfen:** „MG4 Electric XPOWER“ (Zeile 208): Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh. Klärung: [#10](https://github.com/Thitronik01/Frank-Repo/issues/10).
 - Drei Zeilen mit identischer Bezeichnung „MG4 Electric“ – Unterscheidung nur über die Kapazität.
 
 Siehe auch [[datenqualitaet]].
@@ -86,4 +88,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 205–208)
 - Weiterlesen: [Wikipedia – MG4 EV](https://en.wikipedia.org/wiki/MG4_EV)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -11,7 +11,7 @@ brutto_max: 52.0
 netto_min: 20.5
 netto_max: 50.0
 bild: "Bilder/citroen-e-berlingo.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "citroen", "hochdachkombi-kleintransporter"]
 ---
@@ -50,13 +50,13 @@ Unter demselben Slug sind außerdem Daten des älteren Berlingo mit Elektroantri
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| e-Berlingo M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 77 |
-| e-Berlingo M | 52 kWh | 50,0 kWh | 2 kWh (3,8 %) | 78 |
 | E-Berlingo Multispace | 22,5 kWh | 20,5 kWh | 2 kWh (8,9 %) | 79 |
-| e-Berlingo XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 80 |
-| e-Berlingo XL | 52 kWh | 50,0 kWh | 2 kWh (3,8 %) | 81 |
+| ë-Berlingo M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 77 |
+| ë-Berlingo M | 52 kWh | 50 kWh | 2 kWh (3,8 %) | 78 |
+| ë-Berlingo XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 80 |
+| ë-Berlingo XL | 52 kWh | 50 kWh | 2 kWh (3,8 %) | 81 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 77–81. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 77–81 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -89,4 +89,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 77–81)
 - Weiterlesen: [Wikipedia – Citroën Berlingo](https://en.wikipedia.org/wiki/Citroën_Berlingo)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

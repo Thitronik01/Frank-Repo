@@ -12,7 +12,7 @@ brutto_max: 44.0
 netto_min: 43.8
 netto_max: 43.8
 bild: "Bilder/citroen-e-c3.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "citroen", "kleinwagen"]
 ---
@@ -50,11 +50,11 @@ Auffällig ist der sehr geringe Unterschied zwischen [[bruttokapazitaet|Brutto-]
 
 Die Rohdaten enthalten eine einzige Zeile (e-C3) mit 44 kWh brutto und 43,8 kWh netto. Weitere Batteriegrößen sind für dieses Modell nicht erfasst.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-C3 | 44 kWh | 43,8 kWh | 0,2 kWh (0,5 %) | 82 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| ë-C3 | 44 kWh | 43,8 kWh | 0,2 kWh (0,5 %) | 82 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 82. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 82 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -71,14 +71,8 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 82. Puffer
 - [[citroen-e-c3-aircross|Citroën ë-C3 Aircross]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Citroën: [[citroen-c-zero|Citroën C-Zero]], [[citroen-e-berlingo|Citroën ë-Berlingo]], [[citroen-e-c4|Citroën ë-C4]], [[citroen-e-c4-x|Citroën ë-C4 X]], [[citroen-e-jumpy|Citroën ë-Jumpy Combi]], [[citroen-e-spacetourer|Citroën ë-SpaceTourer]]
 
-## Offene Punkte
-
-- Sehr kleiner Puffer: 44 kWh brutto vs. 43,8 kWh netto (ca. 0,5 %). Möglicherweise ist der Bruttowert gerundet oder die Nettoangabe entspricht eher der Herstellerangabe zur Gesamtkapazität.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 82)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fachbegriff", "batterie", "software"]
 ---
@@ -13,7 +13,7 @@ tags: ["fachbegriff", "batterie", "software"]
 
 Manche Hersteller bauen aus Kostengründen (Stückzahl, einheitliche Fertigung) eine größere Batterie ein, als die Ausstattungsvariante nutzen darf. Die Differenz ist per Software gesperrt und lässt sich teils gegen Aufpreis freischalten.
 
-**Bekanntestes Beispiel im Bestand:** [[tesla-model-s|Tesla Model S 60/60D]] und [[tesla-model-x|Model X 60D]] – brutto 75 kWh, netto nur 62 kWh ([[tn-batterycheck-alle-daten]]). Gleiches gilt für den Model S 70 in einer Ausführung mit 75-kWh-Pack.
+**Bekanntestes Beispiel im Bestand:** [[tesla-model-s|Tesla Model S 60/60D]] und [[tesla-model-x|Model X 60D]] – brutto 75 kWh, netto nur 62 kWh ([[tn-batterycheck-alle-daten]]). Gleiches gilt für den Model S 70 in einer Ausführung mit 75-kWh-Pack. Auch der [[vw-id-3|VW ID.3 Pure]] (2021–2022) nutzt die 55-kWh-Batterie des ID.4 Pure, gibt aber nur 45 kWh frei.
 
 Auch nachträgliche *Erweiterungen* des Nutzfensters per Update kommen vor: Beim [[audi-e-tron|Audi e-tron 55]] stehen bei 95 kWh brutto drei verschiedene Nettowerte (83,6 / 86,5 / 89,0 kWh) im Bestand.
 
@@ -32,4 +32,4 @@ Für einen [[batteriecheck]] ist wichtig zu wissen, welche Freigabe aktiv ist �
 ## Belege
 
 - [[tn-batterycheck-alle-daten]] — Zahlenbeispiele in diesem Artikel
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

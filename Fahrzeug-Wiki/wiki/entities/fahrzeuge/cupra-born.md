@@ -7,12 +7,12 @@ karosserie: "Schrägheck-Limousine (fünftürig)"
 bauzeit: "seit 2021"
 plattform: "MEB (Modularer E-Antriebs-Baukasten)"
 varianten: 4
-brutto_min: 53.0
+brutto_min: 62.0
 brutto_max: 82.0
 netto_min: 58.0
 netto_max: 77.0
 bild: "Bilder/cupra-born.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "cupra", "kompaktklasse"]
 ---
@@ -34,7 +34,7 @@ tags: ["fahrzeug", "cupra", "kompaktklasse"]
 | Bauzeit | seit 2021 | Fachwissen¹ |
 | Plattform | MEB (Modularer E-Antriebs-Baukasten) | Fachwissen¹ |
 | Varianten im Bestand | 4 | [[tn-batterycheck-alle-daten]] |
-| [[bruttokapazitaet\|Bruttokapazität]] | 53–82 kWh | [[tn-batterycheck-alle-daten]] |
+| [[bruttokapazitaet\|Bruttokapazität]] | 62–82 kWh | [[tn-batterycheck-alle-daten]] |
 | [[nettokapazitaet\|Nettokapazität]] | 58–77 kWh | [[tn-batterycheck-alle-daten]] |
 | [[batteriepuffer\|Puffer]] | 6,1–6,5 % | berechnet |
 
@@ -48,16 +48,22 @@ Die in den Rohdaten auftauchenden Batteriegrößen entsprechen den bekannten MEB
 
 ## Varianten und Batterien
 
-Die Zeilen tragen nur den Modellnamen „Born“ und unterscheiden sich allein durch die Batteriegröße: eine kleine Einstiegsbatterie, die mittlere Batterie (62 kWh brutto) und die große Batterie (82 kWh brutto). „Born e-boost“ nutzt dieselbe mittlere Batterie wie die Standardvariante, der Unterschied liegt in der Motorleistung. Die Kapazitätsstufen entsprechen den MEB-Batterien aus [[vw-id-3|VW ID.3]] und [[skoda-enyaq|Škoda Enyaq]].
+Die Zeilen tragen nur den Modellnamen „Born“ und unterscheiden sich durch die Batterie: die mittlere Batterie in zwei Generationen (62/58 kWh bis 2024, 63/59 kWh ab Modelljahr 2025) und die große Batterie (82/77 kWh). „Born e-boost“ nutzt die mittlere Batterie der ersten Generation mit mehr Motorleistung. Die Zeile mit 63/59 kWh stand in der Rohquelle fehlerhaft mit 53/60 kWh und wurde korrigiert. Die Kapazitätsstufen entsprechen den MEB-Batterien aus [[vw-id-3|VW ID.3]] und [[skoda-enyaq|Škoda Enyaq]].
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Born | 53 kWh | 60,0 kWh | ⚠️ negativ | 99 |
-| Born | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 100 |
-| Born | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 101 |
-| Born e-boost | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 102 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Born | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 100 | bestätigt |
+| Born | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 99 | korrigiert ([#1](https://github.com/Thitronik01/Frank-Repo/issues/1)) |
+| Born | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 101 | bestätigt |
+| Born e-boost | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 102 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 99–102. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 99–102 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 99 korrigiert:** „Born“ 53 kWh / 60,0 kWh → 63 kWh / 59 kWh. 53/60 ist unmöglich (netto > brutto). Gemeint ist vermutlich die 59-kWh-Batterie ab Modelljahr 2025 mit 63 / 59 kWh (ev-database; electrive nennt 63 / 60). Die Zuordnung ist erschlossen und muss bestätigt werden. Beleg: [Quelle 1](https://ev-database.org/de/pkw/3262/CUPRA-Born-150-kW---59-kWh), [Quelle 2](https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh), [Quelle 3](https://www.electrive.net/2024/08/08/cupra-ueberarbeitet-das-born-angebot/). Issue [#1](https://github.com/Thitronik01/Frank-Repo/issues/1).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -83,8 +89,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 99–102. 
 
 ## Offene Punkte
 
-- **Netto > Brutto:** „Born“ 53 kWh brutto / 60,0 kWh netto (Zeile 99) – physikalisch unmöglich, vermutlich vertauschte oder falsche Werte.
-- Zeile 99: Nettokapazität (60,0 kWh) ist größer als die Bruttokapazität (53 kWh) – physikalisch unmöglich, vermutlich Tipp- oder Zuordnungsfehler (Einstiegsbatterie des MEB wird meist mit 45 kWh netto geführt).
 - Zeilen 100 und 102 haben identische Batteriewerte; der Unterschied (e-boost) betrifft nur die Motorleistung.
 
 Siehe auch [[datenqualitaet]].
@@ -94,4 +98,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 99–102)
 - Weiterlesen: [Wikipedia – Cupra Born](https://en.wikipedia.org/wiki/Cupra_Born)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

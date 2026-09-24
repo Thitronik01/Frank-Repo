@@ -12,7 +12,7 @@ brutto_max: 66.5
 netto_min: 64.7
 netto_max: 64.7
 bild: "Bilder/bmw-ix2.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "bmw", "kompakt-suv"]
 ---
@@ -51,9 +51,9 @@ Beide Zeilen nutzen die Batterie mit 66,5/64,7 kWh; die Bezeichnung gibt Antrieb
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
 | iX2 eDrive20 | 66,5 kWh | 64,7 kWh | 1,8 kWh (2,7 %) | 73 |
-| iX2 eDrive30 | 66,5 kWh | 64,7 kWh | 1,8 kWh (2,7 %) | 74 |
+| iX2 xDrive30 | 66,5 kWh | 64,7 kWh | 1,8 kWh (2,7 %) | 74 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 73–74. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 73–74 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -69,14 +69,8 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 73–74. P
 - [[mini-countryman-electric|Mini Countryman E / SE]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von BMW: [[bmw-i3|BMW i3]], [[bmw-i4|BMW i4]], [[bmw-i5|BMW i5]], [[bmw-i7|BMW i7]], [[bmw-ix|BMW iX]], [[bmw-ix3|BMW iX3]]
 
-## Offene Punkte
-
-- Zeile 74 lautet "iX2 eDrive30"; üblich ist beim iX2 die Bezeichnung xDrive30 (Allradantrieb). Wahrscheinlich Schreibfehler.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 73–74)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

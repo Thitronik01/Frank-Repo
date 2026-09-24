@@ -12,7 +12,7 @@ brutto_max: 77.4
 netto_min: 50.0
 netto_max: 74.0
 bild: "Bilder/hyundai-ioniq-6.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "hyundai", "mittelklasse-limousine"]
 ---
@@ -52,11 +52,11 @@ Die Long-Range-Batterie entspricht in den Rohdaten der zweiten Batteriestufe von
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| IONIQ 6 Long Range 2WD | 77,4 kWh | 74,0 kWh | 3,4 kWh (4,4 %) | 137 |
-| IONIQ 6 Long Range AWD | 77,4 kWh | 74,0 kWh | 3,4 kWh (4,4 %) | 138 |
-| IONIQ 6 Standard Range 2WD | 53,0 kWh | 50,0 kWh | 3 kWh (5,7 %) | 139 |
+| IONIQ 6 Long Range 2WD | 77,4 kWh | 74 kWh | 3,4 kWh (4,4 %) | 137 |
+| IONIQ 6 Long Range AWD | 77,4 kWh | 74 kWh | 3,4 kWh (4,4 %) | 138 |
+| IONIQ 6 Standard Range 2WD | 53 kWh | 50 kWh | 3 kWh (5,7 %) | 139 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 137–139. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 137–139 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -85,4 +85,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 137–139)
 - Weiterlesen: [Wikipedia – Hyundai Ioniq 6](https://en.wikipedia.org/wiki/Hyundai_Ioniq_6)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -12,7 +12,7 @@ brutto_max: 68.0
 netto_min: 39.2
 netto_max: 64.8
 bild: "Bilder/kia-niro-ev.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "kia", "kompakt-suv-crossover"]
 ---
@@ -52,11 +52,11 @@ Der Namenswechsel von e-Niro zu Niro EV ist ein Beispiel dafür, wie [[typbezeic
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| e-Niro | 42,0 kWh | 39,2 kWh | 2,8 kWh (6,7 %) | 149 |
-| e-Niro | 67,5 kWh | 64,0 kWh | 3,5 kWh (5,2 %) | 150 |
-| Niro EV | 68,0 kWh | 64,8 kWh | 3,2 kWh (4,7 %) | 173 |
+| e-Niro | 42 kWh | 39,2 kWh | 2,8 kWh (6,7 %) | 149 |
+| e-Niro | 67,5 kWh | 64 kWh | 3,5 kWh (5,2 %) | 150 |
+| Niro EV | 68 kWh | 64,8 kWh | 3,2 kWh (4,7 %) | 173 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 149–173. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 149–173 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -84,4 +84,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 149–173)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

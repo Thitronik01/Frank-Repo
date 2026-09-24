@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 45.0
 netto_max: 77.0
 bild: "Bilder/vw-id-3.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "volkswagen", "kompaktklasse"]
 ---
@@ -50,16 +50,16 @@ Im Zuge der [[modellpflege|Modellpflege]] wurde neben Innenraum und Software auc
 
 „Pure“ = kleine Batterie (55 kWh brutto laut Rohdaten), „Pro“ = mittlere Batterie (62 bzw. 63 kWh brutto), „Pro S“ = große Batterie (82 kWh brutto). Der Zusatz „Performance“ bezeichnet eine stärkere Motorvariante bei gleicher Batterie. Die zwei Werte beim „Pro“ (Zeilen 412/413) entsprechen der ursprünglichen und der überarbeiteten Batterie.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| ID.3 Pro | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 412 |
-| ID.3 Pro | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 413 |
-| ID.3 Pro Performance | 62 kWh | 58,0 kWh | 4 kWh (6,5 %) | 414 |
-| ID.3 Pro S | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 415 |
-| ID.3 Pure | 55 kWh | 45,0 kWh | 10 kWh (18,2 %) | 416 |
-| ID.3 Pure Performance | 55 kWh | 45,0 kWh | 10 kWh (18,2 %) | 417 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| ID.3 Pro | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 412 |  |
+| ID.3 Pro | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 413 |  |
+| ID.3 Pro Performance | 62 kWh | 58 kWh | 4 kWh (6,5 %) | 414 |  |
+| ID.3 Pro S | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 415 |  |
+| ID.3 Pure | 55 kWh | 45 kWh | 10 kWh (18,2 %) | 416 | bestätigt |
+| ID.3 Pure Performance | 55 kWh | 45 kWh | 10 kWh (18,2 %) | 417 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 412–417. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 412–417 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -86,7 +86,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 412–417.
 
 ## Offene Punkte
 
-- ID.3 Pure und Pure Performance (Zeilen 416/417): 55 kWh brutto bei nur 45 kWh netto – ungewöhnlich großer Puffer (ca. 18 %). Der Bruttowert ist vermutlich zu hoch angesetzt oder bezieht sich auf eine andere Batterie.
 - Die Varianten GTX und Pro S nach der Modellpflege sind in den Rohdaten nicht gesondert aufgeführt.
 
 Siehe auch [[datenqualitaet]].
@@ -96,4 +95,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 412–417)
 - Weiterlesen: [Wikipedia – Volkswagen ID.3](https://en.wikipedia.org/wiki/Volkswagen_ID.3)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

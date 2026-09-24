@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 0
 tags: ["fachbegriff", "batterie", "kennzahl"]
 ---
@@ -15,7 +15,7 @@ Hersteller geben nie die ganze [[bruttokapazitaet]] frei. Ein Teil wird oben (ge
 
 **Berechnung:** Puffer = Brutto − Netto; relativ: (Brutto − Netto) / Brutto.
 
-Die Puffergrößen im Bestand reichen von unter 1 % (z. B. [[citroen-e-c3|Citroën ë-C3]] 44 → 43,8 kWh, [[lfp-zellchemie|LFP-Zellen]]) bis rund 18 % ([[tesla-model-s|Model S 60]] mit 75 kWh brutto als [[software-lock]]; [[vw-id-3|VW ID.3 Pure]] 55 → 45 kWh laut Quelle, Bruttowert fraglich – siehe [[datenqualitaet]]). Eine vollständige Auswertung steht unter [[puffer-analyse]].
+Die Puffergrößen im Bestand reichen von unter 1 % (z. B. [[citroen-e-c3|Citroën ë-C3]] 44 → 43,8 kWh, [[lfp-zellchemie|LFP-Zellen]]) bis rund 18 % ([[tesla-model-s|Model S 60]] mit 75 kWh brutto als [[software-lock]]; [[vw-id-3|VW ID.3 Pure]] 55 → 45 kWh, ebenfalls ein Software-Lock). Eine vollständige Auswertung steht unter [[puffer-analyse]].
 
 Manche Hersteller nutzen den oberen Puffer, um Alterung zu kaschieren: Das BMS gibt mit der Zeit einen Teil der Reserve frei, sodass die angezeigte Reichweite länger stabil bleibt. Das erschwert die Messung des echten [[state-of-health]].
 
@@ -32,4 +32,4 @@ Manche Hersteller nutzen den oberen Puffer, um Alterung zu kaschieren: Das BMS g
 
 ## Belege
 
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

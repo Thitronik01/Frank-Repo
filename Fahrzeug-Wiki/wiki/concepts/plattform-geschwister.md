@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fachbegriff", "plattform"]
 ---
@@ -20,7 +20,7 @@ Für einen [[batteriecheck]] ist das nützlich: Geschwister haben identische Bru
 | Stellantis-Transporter | [[citroen-e-jumpy]], [[citroen-e-spacetourer]], [[peugeot-e-expert]], [[peugeot-e-traveller]] | 50 / 46,3 oder 75 / 68 kWh |
 | Stellantis-Hochdachkombis | [[citroen-e-berlingo]], [[peugeot-e-rifter]], [[peugeot-e-partner]] | 50 / 46,3 kWh |
 | Erste Hochdachkombi-Generation | [[citroen-e-berlingo\|E-Berlingo Multispace]], [[peugeot-partner-tepee-electric]] | 22,5 / 20,5 kWh |
-| Kangoo-Familie | [[renault-kangoo-electric]], [[mercedes-eqt]] | ~45–50 kWh |
+| Kangoo E-Tech / EQT | [[renault-kangoo-electric]], [[mercedes-eqt]] | 48 / 45 kWh |
 | MEB | siehe [[plattform-meb]] | 55–91 kWh |
 | J1 | [[porsche-taycan]], [[audi-e-tron-gt]] | 93,4 / 83,7 oder 105 / 97 kWh |
 | PPE | [[porsche-macan-electric]], [[audi-q6-e-tron]] | 100 / ~95 kWh |
@@ -29,7 +29,7 @@ Für einen [[batteriecheck]] ist das nützlich: Geschwister haben identische Bru
 | Volvo CMA | [[volvo-ex40]], [[volvo-ec40]] | 69–82 kWh |
 | BMW iX1/iX2, Mini Countryman | [[bmw-ix1]], [[bmw-ix2]], [[mini-countryman-electric]] | 66,5 / 64,6–64,7 kWh |
 
-Der [[mercedes-eqt]] basiert auf dem Renault Kangoo; die Batteriewerte weichen im Bestand leicht ab (50/45 vs. 48/45 kWh) – siehe [[datenqualitaet]].
+Der [[mercedes-eqt]] basiert auf dem Renault Kangoo E-Tech; die Rohquelle führte ihn mit 50 statt 48 kWh brutto – in der bereinigten Fassung korrigiert (siehe [[datenqualitaet]]).
 
 ## Verwandte Begriffe
 
@@ -44,4 +44,4 @@ Der [[mercedes-eqt]] basiert auf dem Renault Kangoo; die Batteriewerte weichen i
 ## Belege
 
 - [[tn-batterycheck-alle-daten]] — Zahlenbeispiele in diesem Artikel
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

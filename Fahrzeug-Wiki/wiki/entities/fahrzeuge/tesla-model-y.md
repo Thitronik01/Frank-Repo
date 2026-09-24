@@ -12,7 +12,7 @@ brutto_max: 78.1
 netto_min: 57.5
 netto_max: 75.0
 bild: "Bilder/tesla-model-y.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "tesla", "mittelklasse-suv"]
 ---
@@ -50,14 +50,14 @@ Wie beim Model 3 gibt es eine Einstiegsversion mit [[hinterradantrieb|Hinterrada
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Model Y Long Range AWD | 75 kWh | 72,0 kWh | 3 kWh (4,0 %) | 402 |
-| Model Y Long Range AWD | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 403 |
-| Model Y Long Range RWD | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 404 |
-| Model Y Performance | 78,1 kWh | 75,0 kWh | 3,1 kWh (4,0 %) | 405 |
+| Model Y Long Range AWD | 75 kWh | 72 kWh | 3 kWh (4,0 %) | 402 |
+| Model Y Long Range AWD | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 403 |
+| Model Y Long Range RWD | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 404 |
+| Model Y Performance | 78,1 kWh | 75 kWh | 3,1 kWh (4,0 %) | 405 |
 | Model Y RWD | 60 kWh | 57,5 kWh | 2,5 kWh (4,2 %) | 406 |
 | Model Y RWD | 64 kWh | 60,5 kWh | 3,5 kWh (5,5 %) | 407 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 402–407. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 402–407 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -85,4 +85,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 402–407)
 - Weiterlesen: [Wikipedia – Tesla Model Y](https://en.wikipedia.org/wiki/Tesla_Model_Y)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

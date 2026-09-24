@@ -12,7 +12,7 @@ brutto_max: 49.0
 netto_min: 39.0
 netto_max: 46.0
 bild: "Bilder/hyundai-inster.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "hyundai", "kleinwagen"]
 ---
@@ -52,10 +52,10 @@ Die Rohdaten nennen zwei Ausführungen: **INSTER Standard Range** mit der kleine
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| INSTER Long Range | 49,0 kWh | 46,0 kWh | 3 kWh (6,1 %) | 124 |
-| INSTER Standard Range | 42,0 kWh | 39,0 kWh | 3 kWh (7,1 %) | 125 |
+| INSTER Long Range | 49 kWh | 46 kWh | 3 kWh (6,1 %) | 124 |
+| INSTER Standard Range | 42 kWh | 39 kWh | 3 kWh (7,1 %) | 125 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 124–125. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 124–125 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -83,4 +83,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 124–125)
 - Weiterlesen: [Wikipedia – Hyundai Casper](https://en.wikipedia.org/wiki/Hyundai_Casper)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

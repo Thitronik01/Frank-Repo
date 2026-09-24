@@ -12,7 +12,7 @@ brutto_max: 82.0
 netto_min: 52.0
 netto_max: 77.0
 bild: "Bilder/vw-id-4.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "volkswagen", "kompakt-suv"]
 ---
@@ -50,17 +50,17 @@ Standardmäßig hat der ID.4 [[hinterradantrieb|Hinterradantrieb]]; Versionen mi
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| ID.4 AWD | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 418 |
-| ID.4 GTX | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 419 |
-| ID.4 Pro | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 420 |
-| ID.4 Pro 4M | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 421 |
-| ID.4 Pro Performance | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 422 |
-| ID.4 Pro S | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 423 |
-| ID.4 Pure | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 424 |
-| ID.4 Pure Performance | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 425 |
-| ID.4 RWD | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 426 |
+| ID.4 AWD | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 418 |
+| ID.4 GTX | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 419 |
+| ID.4 Pro | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 420 |
+| ID.4 Pro 4M | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 421 |
+| ID.4 Pro Performance | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 422 |
+| ID.4 Pro S | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 423 |
+| ID.4 Pure | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 424 |
+| ID.4 Pure Performance | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 425 |
+| ID.4 RWD | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 426 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 418–426. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 418–426 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -97,4 +97,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 418–426)
 - Weiterlesen: [Wikipedia – Volkswagen ID.4](https://en.wikipedia.org/wiki/Volkswagen_ID.4)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

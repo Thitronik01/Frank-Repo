@@ -12,7 +12,7 @@ brutto_max: 105.0
 netto_min: 83.7
 netto_max: 97.0
 bild: "Bilder/audi-e-tron-gt.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "audi", "oberklasse-sportlimousine"]
 ---
@@ -54,9 +54,9 @@ Zwei Batteriegenerationen: Die Vor-Facelift-Modelle (e-tron GT, RS e-tron GT) nu
 |---|---|---|---|---|
 | e-tron GT | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 6 |
 | RS e-tron GT | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 36 |
-| RS e-tron GT performance | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 37 |
+| RS e-tron GT performance | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 37 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 6–37. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 6–37 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -84,4 +84,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 6–37)
 - Weiterlesen: [Wikipedia – Audi e-tron GT](https://en.wikipedia.org/wiki/Audi_e-tron_GT)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

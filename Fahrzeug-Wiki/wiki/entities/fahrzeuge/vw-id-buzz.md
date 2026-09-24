@@ -12,7 +12,7 @@ brutto_max: 91.0
 netto_min: 59.0
 netto_max: 86.0
 bild: "Bilder/vw-id-buzz.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "volkswagen", "van-kleinbus-und-transporter"]
 ---
@@ -52,20 +52,20 @@ Serienmäßig hat der ID. Buzz [[hinterradantrieb|Hinterradantrieb]]; der GTX un
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| ID.BUZZ | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 437 |
-| ID.BUZZ AWD | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 438 |
-| ID.BUZZ Cargo | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 439 |
-| ID.BUZZ Cargo Pro | 84 kWh | 79,0 kWh | 5 kWh (6,0 %) | 440 |
-| ID.BUZZ Cargo Pro 4M | 84 kWh | 79,0 kWh | 5 kWh (6,0 %) | 441 |
-| ID.BUZZ GTX | 84 kWh | 79,0 kWh | 5 kWh (6,0 %) | 442 |
-| ID.BUZZ GTX | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 443 |
-| ID.BUZZ LWB | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 444 |
-| ID.BUZZ Pro | 84 kWh | 79,0 kWh | 5 kWh (6,0 %) | 445 |
-| ID.BUZZ Pro | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 446 |
-| ID.BUZZ Pure | 63 kWh | 59,0 kWh | 4 kWh (6,3 %) | 447 |
-| ID.BUZZ RWD | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 448 |
+| ID. Buzz | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 437 |
+| ID. Buzz AWD | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 438 |
+| ID. Buzz Cargo | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 439 |
+| ID. Buzz Cargo Pro | 84 kWh | 79 kWh | 5 kWh (6,0 %) | 440 |
+| ID. Buzz Cargo Pro 4M | 84 kWh | 79 kWh | 5 kWh (6,0 %) | 441 |
+| ID. Buzz GTX | 84 kWh | 79 kWh | 5 kWh (6,0 %) | 442 |
+| ID. Buzz GTX | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 443 |
+| ID. Buzz LWB | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 444 |
+| ID. Buzz Pro | 84 kWh | 79 kWh | 5 kWh (6,0 %) | 445 |
+| ID. Buzz Pro | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 446 |
+| ID. Buzz Pure | 63 kWh | 59 kWh | 4 kWh (6,3 %) | 447 |
+| ID. Buzz RWD | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 448 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 437–448. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 437–448 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -103,4 +103,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 437–448)
 - Weiterlesen: [Wikipedia – Volkswagen ID. Buzz](https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

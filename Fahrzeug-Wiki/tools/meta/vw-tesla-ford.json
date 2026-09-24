@@ -7,7 +7,7 @@
       "bauzeit": "seit 2021",
       "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
       "beschreibung": "Der Cupra Born ist das erste reine Elektroauto der Marke Cupra und ein reiner [[bev|batterieelektrischer]] Kompaktwagen. Er basiert auf dem [[plattform-meb|MEB]] des Volkswagen-Konzerns und teilt sich Grundstruktur, Antrieb und Batterien weitgehend mit dem [[vw-id-3|VW ID.3]], von dem er sich vor allem durch Design, Abstimmung und Innenraum unterscheidet. Gebaut wird er gemeinsam mit dem ID.3 im VW-Werk Zwickau.\n\nWie bei allen MEB-Fahrzeugen sitzt die [[traktionsbatterie|Traktionsbatterie]] flach im Unterboden zwischen den Achsen, der [[elektromotor|Elektromotor]] treibt die Hinterräder an ([[hinterradantrieb|Hinterradantrieb]]). Die Batterie ist modular aufgebaut, sodass mit unterschiedlicher Modulzahl mehrere Kapazitätsstufen möglich sind. Zwischen [[bruttokapazitaet|Bruttokapazität]] und [[nettokapazitaet|Nettokapazität]] hält Volkswagen einen [[batteriepuffer|Puffer]] frei, der die Zellen vor Tiefentladung und Überladung schützt.\n\nDie in den Rohdaten auftauchenden Batteriegrößen entsprechen den bekannten MEB-Stufen, die auch im ID.3 verwendet werden. Die Zusatzbezeichnung „e-boost“ steht bei Cupra für eine leistungsgesteigerte Motorvariante und ändert an der Batterie nichts.",
-      "varianten": "Die Zeilen tragen nur den Modellnamen „Born“ und unterscheiden sich allein durch die Batteriegröße: eine kleine Einstiegsbatterie, die mittlere Batterie (62 kWh brutto) und die große Batterie (82 kWh brutto). „Born e-boost“ nutzt dieselbe mittlere Batterie wie die Standardvariante, der Unterschied liegt in der Motorleistung. Die Kapazitätsstufen entsprechen den MEB-Batterien aus [[vw-id-3|VW ID.3]] und [[skoda-enyaq|Škoda Enyaq]].",
+      "varianten": "Die Zeilen tragen nur den Modellnamen „Born“ und unterscheiden sich durch die Batterie: die mittlere Batterie in zwei Generationen (62/58 kWh bis 2024, 63/59 kWh ab Modelljahr 2025) und die große Batterie (82/77 kWh). „Born e-boost“ nutzt die mittlere Batterie der ersten Generation mit mehr Motorleistung. Die Zeile mit 63/59 kWh stand in der Rohquelle fehlerhaft mit 53/60 kWh und wurde korrigiert. Die Kapazitätsstufen entsprechen den MEB-Batterien aus [[vw-id-3|VW ID.3]] und [[skoda-enyaq|Škoda Enyaq]].",
       "konzepte": [
         "plattform-meb",
         "bev",
@@ -29,7 +29,6 @@
         "audi-q4-e-tron"
       ],
       "hinweise": [
-        "Zeile 99: Nettokapazität (60,0 kWh) ist größer als die Bruttokapazität (53 kWh) – physikalisch unmöglich, vermutlich Tipp- oder Zuordnungsfehler (Einstiegsbatterie des MEB wird meist mit 45 kWh netto geführt).",
         "Zeilen 100 und 102 haben identische Batteriewerte; der Unterschied (e-boost) betrifft nur die Motorleistung."
       ]
     },
@@ -155,7 +154,6 @@
         "seat-mii-electric"
       ],
       "hinweise": [
-        "Schreibweise in den Rohdaten „Citigo-e IV“; offizielle Schreibweise ist „Citigo e iV“.",
         "Bauzeit offen gelassen, da genaue Produktionsdaten nicht sicher sind (Markteinführung um 2019/2020, nur kurze Bauzeit)."
       ]
     },
@@ -195,7 +193,7 @@
       "bauzeit": "seit 2020",
       "plattform": "MEB (Modularer E-Antriebs-Baukasten)",
       "beschreibung": "Der Škoda Enyaq (bis zur Modellpflege „Enyaq iV“) war das erste Škoda-Modell auf dem [[plattform-meb|MEB]] und wird im Stammwerk Mladá Boleslav gebaut. Er ist technisch mit [[vw-id-4|VW ID.4]] und [[audi-q4-e-tron|Audi Q4 e-tron]] verwandt, bietet aber einen etwas längeren Aufbau mit großem Kofferraum. Neben dem klassischen SUV gibt es eine Variante mit abfallender Dachlinie (Coupé).\n\nDie [[traktionsbatterie|Traktionsbatterie]] im Unterboden gibt es in mehreren Stufen. Grundsätzlich haben die Modelle [[hinterradantrieb|Hinterradantrieb]], Versionen mit „x“ im Namen sowie der RS haben einen zweiten Motor und damit [[allradantrieb|Allradantrieb]].\n\nMit der [[modellpflege|Modellpflege]] hat Škoda das Kürzel „iV“ gestrichen und die Modellnummern neu vergeben (z. B. „85“ statt „80“). Zusätzlich wurde die mittlere Batterie auf eine neuere Zellgeneration umgestellt, was sich in leicht höheren Brutto- und Nettowerten zeigt.",
-      "varianten": "Die Zahl steht für die Batterie-/Leistungsstufe: „50“ = 55 kWh brutto, „60“ = 62 bzw. 63 kWh brutto, „80“ und „85“ = 82 kWh brutto; „x“ bedeutet Allradantrieb, „Coupe“ die Coupé-Karosserie, „RS“ die sportliche Top-Version (ebenfalls 82 kWh). Beim „iV 60“ gibt es zwei Batterien (62/58 und 63/59 kWh) – das ist eine Zellgeneration aus der Laufzeit, keine eigene Variante. Die Einträge ohne „iV“ („Enyaq 85“, „Enyaq 85x“ usw.) gehören zur überarbeiteten Baureihe.",
+      "varianten": "Die Zahl steht für die Batterie-/Leistungsstufe: „50“ = 55 kWh brutto, „60“ = 62 bzw. 63 kWh brutto, „80“ und „85“ = 82 kWh brutto; „x“ bedeutet Allradantrieb, „Coupé“ die Coupé-Karosserie, „RS“ die sportliche Top-Version (ebenfalls 82 kWh). Beim „iV 60“ gibt es zwei Batterien (62/58 und 63/59 kWh) – das ist eine Zellgeneration aus der Laufzeit, keine eigene Variante. Die Einträge ohne „iV“ („Enyaq 85“, „Enyaq 85x“ usw.) gehören zur überarbeiteten Baureihe.",
       "konzepte": [
         "plattform-meb",
         "typbezeichnungen",
@@ -217,8 +215,6 @@
         "audi-q4-e-tron"
       ],
       "hinweise": [
-        "Doppelte Einträge durch Namensschema: „Enyaq iV 85“ (Zeile 340) und „Enyaq 85“ (Zeile 327) haben identische Werte, ebenso die jeweiligen x- und Coupé-Versionen.",
-        "Schreibweise „Coupe“ ohne Akzent (offiziell „Coupé“).",
         "Zeilen 333/334 und 335/336: gleicher Name, zwei leicht unterschiedliche Batterien (62/58 vs. 63/59 kWh)."
       ]
     },
@@ -400,7 +396,6 @@
         "audi-q4-e-tron"
       ],
       "hinweise": [
-        "ID.3 Pure und Pure Performance (Zeilen 416/417): 55 kWh brutto bei nur 45 kWh netto – ungewöhnlich großer Puffer (ca. 18 %). Der Bruttowert ist vermutlich zu hoch angesetzt oder bezieht sich auf eine andere Batterie.",
         "Die Varianten GTX und Pro S nach der Modellpflege sind in den Rohdaten nicht gesondert aufgeführt."
       ]
     },

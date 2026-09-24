@@ -12,7 +12,7 @@ brutto_max: 75.0
 netto_min: 46.3
 netto_max: 68.0
 bild: "Bilder/citroen-e-spacetourer.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "citroen", "großraum-van-kleinbus"]
 ---
@@ -52,13 +52,13 @@ XS, M und XL bezeichnen die Fahrzeuglängen. Für M und XL sind die 50-kWh-Batte
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| e-Spacetourer M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 94 |
-| e-Spacetourer M | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 95 |
-| e-Spacetourer XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 96 |
-| e-Spacetourer XL | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 97 |
-| e-Spacetourer XS | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 98 |
+| ë-SpaceTourer M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 94 |
+| ë-SpaceTourer M | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 95 |
+| ë-SpaceTourer XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 96 |
+| ë-SpaceTourer XL | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 97 |
+| ë-SpaceTourer XS | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 98 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 94–98. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 94–98 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -76,14 +76,8 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 94–98. P
 - [[peugeot-e-expert|Peugeot e-Expert Combi]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Citroën: [[citroen-c-zero|Citroën C-Zero]], [[citroen-e-berlingo|Citroën ë-Berlingo]], [[citroen-e-c3|Citroën ë-C3]], [[citroen-e-c3-aircross|Citroën ë-C3 Aircross]], [[citroen-e-c4|Citroën ë-C4]], [[citroen-e-c4-x|Citroën ë-C4 X]]
 
-## Offene Punkte
-
-- Schreibweise in den Rohdaten „e-Spacetourer“, Herstellerschreibweise „ë-SpaceTourer“.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 94–98)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

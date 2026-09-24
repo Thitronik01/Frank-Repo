@@ -9,10 +9,10 @@ plattform: "Eigenständige Elektro-Architektur mit CFK-Rahmenstruktur (Carbon Ca
 varianten: 6
 brutto_min: 76.6
 brutto_max: 111.5
-netto_min: 74.4
-netto_max: 109.4
+netto_min: 71.0
+netto_max: 109.1
 bild: "Bilder/bmw-ix.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "bmw", "oberklasse-suv"]
 ---
@@ -35,8 +35,8 @@ tags: ["fahrzeug", "bmw", "oberklasse-suv"]
 | Plattform | Eigenständige Elektro-Architektur mit CFK-Rahmenstruktur (Carbon Cage) | Fachwissen¹ |
 | Varianten im Bestand | 6 | [[tn-batterycheck-alle-daten]] |
 | [[bruttokapazitaet\|Bruttokapazität]] | 76,6–111,5 kWh | [[tn-batterycheck-alle-daten]] |
-| [[nettokapazitaet\|Nettokapazität]] | 74,4–109,4 kWh | [[tn-batterycheck-alle-daten]] |
-| [[batteriepuffer\|Puffer]] | 1,9–5,8 % | berechnet |
+| [[nettokapazitaet\|Nettokapazität]] | 71–109,1 kWh | [[tn-batterycheck-alle-daten]] |
+| [[batteriepuffer\|Puffer]] | 2,2–7,3 % | berechnet |
 
 ## Beschreibung
 
@@ -46,18 +46,26 @@ Die [[traktionsbatterie|Traktionsbatterie]] basiert auf prismatischen [[nmc-zell
 
 ## Varianten und Batterien
 
-Vor der Modellpflege: xDrive40 (76,6 kWh brutto), xDrive50 und M60 (111,5 kWh brutto). Nach der Modellpflege: xDrive45 (100,6/94,8 kWh), xDrive60 und M70 (111,5 kWh brutto). Die Zahl ist eine Leistungsklasse, nicht die Kapazität. Die Nettowerte der 111,5-kWh-Batterie schwanken in den Daten zwischen 107,7 und 109,4 kWh.
+Vor der Modellpflege: xDrive40 (76,6 kWh brutto), xDrive50 und M60 (111,5 kWh brutto). Nach der Modellpflege: xDrive45 (100,6/94,8 kWh), xDrive60 und M70 (111,5 kWh brutto). Die Zahl ist eine Leistungsklasse, nicht die Kapazität. Vor dem Facelift (2021–2025) haben xDrive50 und M60 laut BMW 105,2 kWh netto; nach dem Facelift 2025 nennt BMW 109,1 kWh (xDrive60) bzw. 108,9 kWh (M70) netto. Die Rohquelle hatte für xDrive40, xDrive50 und M60 zu hohe Nettowerte (korrigiert).
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| iX M60 | 111,5 kWh | 107,7 kWh | 3,8 kWh (3,4 %) | 65 |
-| iX M70 | 111,5 kWh | 108,9 kWh | 2,6 kWh (2,3 %) | 66 |
-| iX xDrive 40 | 76,6 kWh | 74,4 kWh | 2,2 kWh (2,9 %) | 67 |
-| iX xDrive 45 | 100,6 kWh | 94,8 kWh | 5,8 kWh (5,8 %) | 68 |
-| iX xDrive 50 | 111,5 kWh | 109,4 kWh | 2,1 kWh (1,9 %) | 69 |
-| iX xDrive 60 | 111,5 kWh | 109,1 kWh | 2,4 kWh (2,2 %) | 70 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| iX M60 | 111,5 kWh | 105,2 kWh | 6,3 kWh (5,7 %) | 65 | korrigiert ([#9](https://github.com/Thitronik01/Frank-Repo/issues/9)) |
+| iX M70 | 111,5 kWh | 108,9 kWh | 2,6 kWh (2,3 %) | 66 | bestätigt |
+| iX xDrive40 | 76,6 kWh | 71 kWh | 5,6 kWh (7,3 %) | 67 | korrigiert ([#9](https://github.com/Thitronik01/Frank-Repo/issues/9)) |
+| iX xDrive45 | 100,6 kWh | 94,8 kWh | 5,8 kWh (5,8 %) | 68 | bestätigt |
+| iX xDrive50 | 111,5 kWh | 105,2 kWh | 6,3 kWh (5,7 %) | 69 | korrigiert ([#9](https://github.com/Thitronik01/Frank-Repo/issues/9)) |
+| iX xDrive60 | 111,5 kWh | 109,1 kWh | 2,4 kWh (2,2 %) | 70 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 65–70. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 65–70 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 65 korrigiert:** „iX M60“ 111,5 kWh / 107,7 kWh → 111,5 kWh / 105,2 kWh. Laut BMW-Datenblatt und ev-database hat der iX M60 111,5 / 105,2 kWh. Beleg: [Quelle 1](https://ev-database.org/uk/car/1590/BMW-iX-M60), [Quelle 2](https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303). Issue [#9](https://github.com/Thitronik01/Frank-Repo/issues/9).
+- **Zeile 67 korrigiert:** „iX xDrive40“ 76,6 kWh / 74,4 kWh → 76,6 kWh / 71 kWh. Laut BMW-Datenblatt (06/2021) hat der iX xDrive40 76,6 / 71,0 kWh. Beleg: [Quelle 1](https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303), [Quelle 2](https://ev-database.org/uk/car/1472/BMW-iX-xDrive-40). Issue [#9](https://github.com/Thitronik01/Frank-Repo/issues/9).
+- **Zeile 69 korrigiert:** „iX xDrive50“ 111,5 kWh / 109,4 kWh → 111,5 kWh / 105,2 kWh. Laut BMW-Datenblatt (06/2021) hat der iX xDrive50 111,5 / 105,2 kWh. Beleg: [Quelle 1](https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303). Issue [#9](https://github.com/Thitronik01/Frank-Repo/issues/9).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -73,17 +81,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 65–70. P
 - [[bmw-i7|BMW i7]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von BMW: [[bmw-i3|BMW i3]], [[bmw-i4|BMW i4]], [[bmw-i5|BMW i5]], [[bmw-ix1|BMW iX1]], [[bmw-ix2|BMW iX2]], [[bmw-ix3|BMW iX3]]
 
-## Offene Punkte
-
-- Die Nettowerte der 111,5-kWh-Batterie variieren (107,7 / 108,9 / 109,1 / 109,4 kWh), der Puffer wäre teils sehr klein (ca. 2 kWh). Andere Quellen nennen für den iX xDrive50 deutlich niedrigere Nettowerte – prüfen.
-- iX xDrive 40 mit 74,4 kWh netto bei 76,6 kWh brutto ergibt ebenfalls einen ungewöhnlich kleinen Puffer; Quelle prüfen.
-- Schreibweise mit Leerzeichen ("xDrive 40") statt "xDrive40".
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 65–70)
 - Weiterlesen: [Wikipedia – BMW iX](https://en.wikipedia.org/wiki/BMW_iX)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

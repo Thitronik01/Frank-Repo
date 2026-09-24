@@ -12,7 +12,7 @@ brutto_max: 66.5
 netto_min: 64.7
 netto_max: 64.7
 bild: "Bilder/bmw-ix1.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "bmw", "kompakt-suv"]
 ---
@@ -53,7 +53,7 @@ Beide Varianten haben die Batterie mit 66,5/64,7 kWh; sie unterscheiden sich nur
 | iX1 eDrive20 | 66,5 kWh | 64,7 kWh | 1,8 kWh (2,7 %) | 71 |
 | iX1 xDrive30 | 66,5 kWh | 64,7 kWh | 1,8 kWh (2,7 %) | 72 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 71–72. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 71–72 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -73,4 +73,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 71–72. P
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 71–72)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

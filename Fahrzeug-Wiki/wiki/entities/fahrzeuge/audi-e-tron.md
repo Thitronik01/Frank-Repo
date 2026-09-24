@@ -8,11 +8,11 @@ bauzeit: "2018–2022"
 plattform: "Elektrifizierte Längsbaukasten-Plattform MLB evo"
 varianten: 10
 brutto_min: 71.0
-brutto_max: 105.0
+brutto_max: 95.0
 netto_min: 64.7
-netto_max: 97.0
+netto_max: 89.0
 bild: "Bilder/audi-e-tron.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "audi", "oberklasse-suv"]
 ---
@@ -34,8 +34,8 @@ tags: ["fahrzeug", "audi", "oberklasse-suv"]
 | Bauzeit | 2018–2022 | Fachwissen¹ |
 | Plattform | Elektrifizierte Längsbaukasten-Plattform MLB evo | Fachwissen¹ |
 | Varianten im Bestand | 10 | [[tn-batterycheck-alle-daten]] |
-| [[bruttokapazitaet\|Bruttokapazität]] | 71–105 kWh | [[tn-batterycheck-alle-daten]] |
-| [[nettokapazitaet\|Nettokapazität]] | 64,7–97 kWh | [[tn-batterycheck-alle-daten]] |
+| [[bruttokapazitaet\|Bruttokapazität]] | 71–95 kWh | [[tn-batterycheck-alle-daten]] |
+| [[nettokapazitaet\|Nettokapazität]] | 64,7–89 kWh | [[tn-batterycheck-alle-daten]] |
 | [[batteriepuffer\|Puffer]] | 6,3–12,0 % | berechnet |
 
 ## Beschreibung
@@ -48,22 +48,28 @@ Mit der [[modellpflege|Modellpflege]] erhielt die Baureihe den Namen [[audi-q8-e
 
 ## Varianten und Batterien
 
-Die Zahl in der Bezeichnung (50, 55) ist eine Leistungsklasse im Audi-Schema der [[typbezeichnungen|Typbezeichnungen]], kein Kapazitätswert; "S" steht für die sportliche Topversion, "Sportback" für die Coupé-Karosserie. Der 50 quattro hat die kleine Batterie (71/64,7 kWh). Der 55 quattro erscheint mit 95 kWh brutto dreimal mit unterschiedlichen Nettowerten (83,6 / 86,5 / 89,0 kWh) – das spiegelt die schrittweise Freigabe von mehr nutzbarer Kapazität über die Bauzeit wider. Der S quattro (SUV) ist mit 105/97 kWh gelistet, der Sportback S quattro dagegen mit 95/86,5 kWh.
+Die Zahl in der Bezeichnung (50, 55) ist eine Leistungsklasse im Audi-Schema der [[typbezeichnungen|Typbezeichnungen]], kein Kapazitätswert; "S" steht für die sportliche Topversion, "Sportback" für die Coupé-Karosserie. Der 50 quattro hat die kleine Batterie (71/64,7 kWh). Der 55 quattro erscheint mit 95 kWh brutto dreimal mit unterschiedlichen Nettowerten (83,6 / 86,5 / 89,0 kWh) – das spiegelt die schrittweise Freigabe von mehr nutzbarer Kapazität über die Bauzeit wider. S quattro und Sportback S quattro haben beide 95/86,5 kWh (die Rohquelle nannte beim SUV fälschlich 105/97 kWh; korrigiert).
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-tron 50 quattro | 71 kWh | 64,7 kWh | 6,3 kWh (8,9 %) | 2 |
-| e-tron 55 quattro | 95 kWh | 83,6 kWh | 11,4 kWh (12,0 %) | 3 |
-| e-tron 55 quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 4 |
-| e-tron 55 quattro | 95 kWh | 89,0 kWh | 6 kWh (6,3 %) | 5 |
-| e-tron S quattro | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 7 |
-| e-tron Sportback 50 quattro | 71 kWh | 64,7 kWh | 6,3 kWh (8,9 %) | 8 |
-| e-tron Sportback 55 quattro | 95 kWh | 83,6 kWh | 11,4 kWh (12,0 %) | 9 |
-| e-tron Sportback 55 quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 10 |
-| e-tron Sportback 55 quattro | 95 kWh | 89,0 kWh | 6 kWh (6,3 %) | 11 |
-| e-tron Sportback S quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 12 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| e-tron 50 quattro | 71 kWh | 64,7 kWh | 6,3 kWh (8,9 %) | 2 |  |
+| e-tron 55 quattro | 95 kWh | 83,6 kWh | 11,4 kWh (12,0 %) | 3 |  |
+| e-tron 55 quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 4 |  |
+| e-tron 55 quattro | 95 kWh | 89 kWh | 6 kWh (6,3 %) | 5 |  |
+| e-tron S quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 7 | korrigiert ([#5](https://github.com/Thitronik01/Frank-Repo/issues/5)) |
+| e-tron Sportback 50 quattro | 71 kWh | 64,7 kWh | 6,3 kWh (8,9 %) | 8 |  |
+| e-tron Sportback 55 quattro | 95 kWh | 83,6 kWh | 11,4 kWh (12,0 %) | 9 |  |
+| e-tron Sportback 55 quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 10 |  |
+| e-tron Sportback 55 quattro | 95 kWh | 89 kWh | 6 kWh (6,3 %) | 11 |  |
+| e-tron Sportback S quattro | 95 kWh | 86,5 kWh | 8,5 kWh (8,9 %) | 12 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 2–12. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 2–12 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 7 korrigiert:** „e-tron S quattro“ 105 kWh / 97,0 kWh → 95 kWh / 86,5 kWh. 105/97 sind die Werte der großen Taycan-Batterie. Der e-tron S (SUV) hat dieselbe 95-kWh-Batterie wie der Sportback S. Beleg: [Quelle 1](https://ev-database.org/car/1658/Audi-e-tron-S), [Quelle 2](https://ev-database.org/car/1659/Audi-e-tron-S-Sportback). Issue [#5](https://github.com/Thitronik01/Frank-Repo/issues/5).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -83,7 +89,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 2–12. Pu
 
 ## Offene Punkte
 
-- Zeile 7 (e-tron S quattro, 105/97 kWh) passt nicht zur Baureihe: 105/97 kWh entspricht der Performancebatterie Plus von Porsche Taycan/Audi e-tron GT nach Modellpflege; der Sportback S (Zeile 12) steht mit 95/86,5 kWh. Wahrscheinlich Datenfehler.
 - Der Nettowert 89,0 kWh (Zeilen 5 und 11) entspricht dem Wert des Q8 50 e-tron; ob er für den e-tron 55 zutrifft, ist unsicher.
 - Drei Nettowerte bei identischer Bezeichnung e-tron 55 quattro (83,6 / 86,5 / 89,0 kWh) – ohne Modelljahr nicht eindeutig zuzuordnen.
 
@@ -93,4 +98,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 2–12)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

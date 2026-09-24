@@ -10,9 +10,9 @@ varianten: 3
 brutto_min: 32.6
 brutto_max: 54.2
 netto_min: 28.9
-netto_max: 49.8
+netto_max: 49.2
 bild: "Bilder/mini-cooper-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mini", "kleinwagen"]
 ---
@@ -35,8 +35,8 @@ tags: ["fahrzeug", "mini", "kleinwagen"]
 | Plattform | Erste Generation: Verbrenner-Plattform des Mini F56; aktuelle Generation: Plattform von Spotlight Automotive (BMW und Great Wall Motor) | Fachwissen¹ |
 | Varianten im Bestand | 3 | [[tn-batterycheck-alle-daten]] |
 | [[bruttokapazitaet\|Bruttokapazität]] | 32,6–54,2 kWh | [[tn-batterycheck-alle-daten]] |
-| [[nettokapazitaet\|Nettokapazität]] | 28,9–49,8 kWh | [[tn-batterycheck-alle-daten]] |
-| [[batteriepuffer\|Puffer]] | 8,1–11,3 % | berechnet |
+| [[nettokapazitaet\|Nettokapazität]] | 28,9–49,2 kWh | [[tn-batterycheck-alle-daten]] |
+| [[batteriepuffer\|Puffer]] | 9,2–11,3 % | berechnet |
 
 ## Beschreibung
 
@@ -46,15 +46,22 @@ Die aktuelle Generation (J01) ist eine eigenständige Elektro-Konstruktion, die 
 
 ## Varianten und Batterien
 
-Cooper SE mit 32,6/28,9 kWh ist die erste Generation (F56). Cooper E (40,7/36,8 kWh) und Cooper SE (54,2/49,8 kWh) gehören zur aktuellen Generation. Der Name "Cooper SE" steht also für zwei verschiedene Fahrzeuge – die [[typbezeichnungen|Typbezeichnung]] allein reicht zur Zuordnung nicht aus.
+Cooper SE mit 32,6/28,9 kWh ist die erste Generation (F56). Cooper E (40,7/36,6 kWh) und Cooper SE (54,2/49,2 kWh; Nettowerte korrigiert) gehören zur aktuellen Generation. Der Name "Cooper SE" steht also für zwei verschiedene Fahrzeuge – die [[typbezeichnungen|Typbezeichnung]] allein reicht zur Zuordnung nicht aus.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Cooper E | 40,7 kWh | 36,8 kWh | 3,9 kWh (9,6 %) | 219 |
-| Cooper SE | 32,6 kWh | 28,9 kWh | 3,7 kWh (11,3 %) | 220 |
-| Cooper SE | 54,2 kWh | 49,8 kWh | 4,4 kWh (8,1 %) | 221 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Cooper E | 40,7 kWh | 36,6 kWh | 4,1 kWh (10,1 %) | 219 | korrigiert ([#8](https://github.com/Thitronik01/Frank-Repo/issues/8)) |
+| Cooper SE | 32,6 kWh | 28,9 kWh | 3,7 kWh (11,3 %) | 220 |  |
+| Cooper SE | 54,2 kWh | 49,2 kWh | 5 kWh (9,2 %) | 221 | korrigiert ([#8](https://github.com/Thitronik01/Frank-Repo/issues/8)) |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 219–221. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 219–221 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 219 korrigiert:** „Cooper E“ 40,7 kWh / 36,8 kWh → 40,7 kWh / 36,6 kWh. Laut ev-database und Auto Bild hat der Cooper E 40,7 / 36,6 kWh. Beleg: [Quelle 1](https://ev-database.org/uk/car/1997/Mini-Cooper-E). Issue [#8](https://github.com/Thitronik01/Frank-Repo/issues/8).
+- **Zeile 221 korrigiert:** „Cooper SE“ 54,2 kWh / 49,8 kWh → 54,2 kWh / 49,2 kWh. Der neue Cooper SE (J01) hat dieselbe Batterie wie der Aceman SE: 54,2 / 49,2 kWh. Beleg: [Quelle 1](https://ev-database.org/uk/car/1998/Mini-Cooper-SE). Issue [#8](https://github.com/Thitronik01/Frank-Repo/issues/8).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -73,7 +80,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 219–221.
 ## Offene Punkte
 
 - Cooper SE erscheint zweimal mit völlig unterschiedlichen Batterien (Zeilen 220 und 221) – zwei Fahrzeuggenerationen unter gleichem Namen.
-- Nettowert 49,8 kWh bei 54,2 kWh brutto weicht vom Aceman (49,2 kWh netto bei gleicher Bruttokapazität) ab; vermutlich Quellen- oder Tippfehler.
 
 Siehe auch [[datenqualitaet]].
 
@@ -81,4 +87,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 219–221)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

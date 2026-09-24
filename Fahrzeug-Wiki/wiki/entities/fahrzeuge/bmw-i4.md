@@ -12,7 +12,7 @@ brutto_max: 83.9
 netto_min: 66.0
 netto_max: 81.1
 bild: "Bilder/bmw-i4.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "bmw", "mittelklasse-limousine"]
 ---
@@ -50,13 +50,13 @@ Der Antrieb gehört zur fünften eDrive-Generation, bei der BMW auf fremderregte
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| i4 eDrive35 | 70,3 kWh | 66,0 kWh | 4,3 kWh (6,1 %) | 51 |
+| i4 eDrive35 | 70,3 kWh | 66 kWh | 4,3 kWh (6,1 %) | 51 |
 | i4 eDrive40 | 83,9 kWh | 80,7 kWh | 3,2 kWh (3,8 %) | 52 |
 | i4 M50 xDrive | 83,9 kWh | 80,7 kWh | 3,2 kWh (3,8 %) | 53 |
 | i4 M60 xDrive | 83,9 kWh | 81,1 kWh | 2,8 kWh (3,3 %) | 54 |
 | i4 xDrive40 | 83,9 kWh | 80,7 kWh | 3,2 kWh (3,8 %) | 55 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 51–55. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 51–55 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -85,4 +85,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 51–55)
 - Weiterlesen: [Wikipedia – BMW i4](https://en.wikipedia.org/wiki/BMW_i4)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

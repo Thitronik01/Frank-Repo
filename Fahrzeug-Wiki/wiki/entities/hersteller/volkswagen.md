@@ -3,7 +3,7 @@ type: "entity"
 kategorie: "hersteller"
 modelle: 7
 varianten: 41
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["hersteller", "volkswagen"]
 ---

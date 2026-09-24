@@ -12,7 +12,7 @@ brutto_max: 83.9
 netto_min: 81.2
 netto_max: 81.2
 bild: "Bilder/bmw-i5.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "bmw", "obere-mittelklasse"]
 ---
@@ -52,12 +52,12 @@ Alle Varianten nutzen dieselbe Batterie mit 83,9/81,2 kWh. "eDrive40" steht für
 |---|---|---|---|---|
 | i5 eDrive40 | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 56 |
 | i5 eDrive40 Touring | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 57 |
-| i5 M60 | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 58 |
+| i5 M60 xDrive | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 58 |
 | i5 M60 xDrive Touring | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 59 |
 | i5 xDrive40 | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 60 |
 | i5 xDrive40 Touring | 83,9 kWh | 81,2 kWh | 2,7 kWh (3,2 %) | 61 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 56–61. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 56–61 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -74,15 +74,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 56–61. P
 - [[bmw-ix3|BMW iX3]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von BMW: [[bmw-i3|BMW i3]], [[bmw-ix|BMW iX]], [[bmw-ix1|BMW iX1]], [[bmw-ix2|BMW iX2]]
 
-## Offene Punkte
-
-- Zeile 58 heißt nur "i5 M60", Zeile 59 "i5 M60 xDrive Touring" – uneinheitliche Schreibweise; der i5 M60 hat ebenfalls Allradantrieb.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 56–61)
 - Weiterlesen: [Wikipedia – BMW i5](https://en.wikipedia.org/wiki/BMW_i5)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -31,6 +31,7 @@ Die Seiten unter `wiki/` und `index.md` erzeugt `python tools/build.py`. **Nicht
 
 | Was ändern | Wo |
 |---|---|
+| Datenkorrekturen (Werte, Duplikate, Aliase, Schreibweisen, offene Prüfungen) | `tools/corrections.json`, dann `python tools/clean.py` → `data/tn_batterycheck_bereinigt.xlsx` |
 | Zuordnung Variante → Modellreihe | `tools/families.py` (RULES), dann `python tools/families.py` |
 | Fahrzeug- und Herstellertexte | `tools/meta/*.json` |
 | Fachbegriffe | `tools/concepts_src.py` |
@@ -39,6 +40,7 @@ Die Seiten unter `wiki/` und `index.md` erzeugt `python tools/build.py`. **Nicht
 | HTML-App: Seitenaufbau | `tools/site.py` (danach `python tools/site.py`) |
 | HTML-App: Aussehen, Verhalten | `tools/site_assets/app.css`, `tools/site_assets/app.js` – nur CI-Tokens aus `ci/tokens.css` verwenden |
 
+Reihenfolge: `python tools/clean.py` → `python tools/families.py` → `python tools/build.py` → `python tools/site.py` → `python chat/rag.py build`.
 Danach immer `python tools/build.py` ausführen – das Skript meldet kaputte Wikilinks und Waisenseiten.
 Anschließend `python tools/site.py` (HTML-Fassung unter `site/`) und `python chat/rag.py build` (Suchindex für den Chat),
 dann `python chat/server.py` neu starten (localhost:8765).
@@ -56,6 +58,8 @@ dann `python chat/server.py` neu starten (localhost:8765).
 - **Kapazitätswerte nur aus Rohquellen**, immer mit Zeilennummer belegt. Beschreibungen aus Fachwissen
   werden als solche gekennzeichnet (Fußnote ¹).
 - Widersprüche und Datenfehler werden markiert (Abschnitt „Offene Punkte“ + [[datenqualitaet]]), nie still korrigiert
+- Korrekturen nur über `tools/corrections.json` – jede mit Grund, Quelle (URL) und ggf. Issue-Nummer; die Rohquelle bleibt unverändert
+- Nicht belegbare Werte: Zeile auf „zu prüfen“ setzen und ein GitHub-Issue anlegen (https://github.com/Thitronik01/Frank-Repo/issues)
 - Bilder nur von Wikimedia Commons, immer mit Urheber und Lizenz; lokal in `Bilder/` abgelegt und relativ eingebunden
 - Zahlen im Text mit Dezimalkomma; Datumsangaben absolut
 - Frontmatter: `type`, `updated`, `sources`, `tags`; Fahrzeuge zusätzlich `hersteller`, `segment`, `plattform`,

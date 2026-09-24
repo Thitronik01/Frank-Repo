@@ -12,7 +12,7 @@ brutto_max: 91.0
 netto_min: 77.0
 netto_max: 86.0
 bild: "Bilder/vw-id-7.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "volkswagen", "mittelklasse-limousine-und-kombi"]
 ---
@@ -50,14 +50,14 @@ Neben der bekannten 82-kWh-Batterie (brutto) bietet der ID.7 eine neue, größer
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| ID.7 GTX 4Motion | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 431 |
-| ID.7 GTX 4Motion Tourer | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 432 |
-| ID.7 Pro | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 433 |
-| ID.7 Pro S | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 434 |
-| ID.7 Pro S Tourer | 91 kWh | 86,0 kWh | 5 kWh (5,5 %) | 435 |
-| ID.7 Pro Tourer | 82 kWh | 77,0 kWh | 5 kWh (6,1 %) | 436 |
+| ID.7 GTX 4Motion | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 431 |
+| ID.7 GTX 4Motion Tourer | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 432 |
+| ID.7 Pro | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 433 |
+| ID.7 Pro S | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 434 |
+| ID.7 Pro S Tourer | 91 kWh | 86 kWh | 5 kWh (5,5 %) | 435 |
+| ID.7 Pro Tourer | 82 kWh | 77 kWh | 5 kWh (6,1 %) | 436 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 431–436. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 431–436 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -87,4 +87,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 431–436.
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 431–436)
 - Weiterlesen: [Wikipedia – Volkswagen ID.7](https://en.wikipedia.org/wiki/Volkswagen_ID.7)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

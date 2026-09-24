@@ -6,13 +6,13 @@ segment: "Oberklasse-Sportlimousine"
 karosserie: "Limousine, Kombi (Sport Turismo), Offroad-Kombi (Cross Turismo)"
 bauzeit: "seit 2019"
 plattform: "J1"
-varianten: 37
+varianten: 36
 brutto_min: 79.2
 brutto_max: 105.0
 netto_min: 71.0
 netto_max: 97.0
 bild: "Bilder/porsche-taycan.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "porsche", "oberklasse-sportlimousine"]
 ---
@@ -33,7 +33,7 @@ tags: ["fahrzeug", "porsche", "oberklasse-sportlimousine"]
 | Karosserie | Limousine, Kombi (Sport Turismo), Offroad-Kombi (Cross Turismo) | Fachwissen¹ |
 | Bauzeit | seit 2019 | Fachwissen¹ |
 | Plattform | J1 | Fachwissen¹ |
-| Varianten im Bestand | 37 | [[tn-batterycheck-alle-daten]] |
+| Varianten im Bestand | 36 | [[tn-batterycheck-alle-daten]] |
 | [[bruttokapazitaet\|Bruttokapazität]] | 79,2–105 kWh | [[tn-batterycheck-alle-daten]] |
 | [[nettokapazitaet\|Nettokapazität]] | 71–97 kWh | [[tn-batterycheck-alle-daten]] |
 | [[batteriepuffer\|Puffer]] | 7,5–10,4 % | berechnet |
@@ -52,45 +52,50 @@ Vier Batterien in zwei Generationen: Vor der Modellpflege die Performancebatteri
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Taycan | 79,2 kWh | 71,0 kWh | 8,2 kWh (10,4 %) | 260 |
+| Taycan | 79,2 kWh | 71 kWh | 8,2 kWh (10,4 %) | 260 |
 | Taycan | 89 kWh | 82,3 kWh | 6,7 kWh (7,5 %) | 261 |
 | Taycan | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 262 |
-| Taycan | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 263 |
+| Taycan | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 263 |
 | Taycan 4 Cross Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 264 |
-| Taycan 4 Cross Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 265 |
-| Taycan 4S | 79,2 kWh | 71,0 kWh | 8,2 kWh (10,4 %) | 266 |
+| Taycan 4 Cross Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 265 |
+| Taycan 4S | 79,2 kWh | 71 kWh | 8,2 kWh (10,4 %) | 266 |
 | Taycan 4S | 89 kWh | 82,3 kWh | 6,7 kWh (7,5 %) | 267 |
 | Taycan 4S | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 268 |
-| Taycan 4S | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 269 |
+| Taycan 4S | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 269 |
 | Taycan 4S Cross Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 270 |
-| Taycan 4S Cross Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 271 |
-| Taycan 4S Sport Turismo | 79,2 kWh | 71,0 kWh | 8,2 kWh (10,4 %) | 272 |
+| Taycan 4S Cross Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 271 |
+| Taycan 4S Sport Turismo | 79,2 kWh | 71 kWh | 8,2 kWh (10,4 %) | 272 |
 | Taycan 4S Sport Turismo | 89 kWh | 82,3 kWh | 6,7 kWh (7,5 %) | 273 |
 | Taycan 4S Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 274 |
-| Taycan 4S Sport Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 275 |
+| Taycan 4S Sport Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 275 |
 | Taycan GTS | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 276 |
-| Taycan GTS | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 277 |
+| Taycan GTS | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 277 |
 | Taycan GTS Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 278 |
-| Taycan GTS Sport Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 279 |
-| Taycan Sport Turismo | 79,2 kWh | 71,0 kWh | 8,2 kWh (10,4 %) | 280 |
+| Taycan GTS Sport Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 279 |
+| Taycan Sport Turismo | 79,2 kWh | 71 kWh | 8,2 kWh (10,4 %) | 280 |
 | Taycan Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 281 |
-| Taycan Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 282 |
-| Taycan Sport Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 283 |
+| Taycan Sport Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 283 |
 | Taycan Turbo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 284 |
-| Taycan Turbo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 285 |
+| Taycan Turbo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 285 |
 | Taycan Turbo Cross Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 286 |
-| Taycan Turbo Cross Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 287 |
-| Taycan Turbo GT | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 288 |
+| Taycan Turbo Cross Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 287 |
+| Taycan Turbo GT | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 288 |
 | Taycan Turbo S | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 289 |
-| Taycan Turbo S | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 290 |
+| Taycan Turbo S | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 290 |
 | Taycan Turbo S Cross Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 291 |
-| Taycan Turbo S Cross Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 292 |
+| Taycan Turbo S Cross Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 292 |
 | Taycan Turbo S Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 293 |
-| Taycan Turbo S Sport Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 294 |
+| Taycan Turbo S Sport Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 294 |
 | Taycan Turbo Sport Turismo | 93,4 kWh | 83,7 kWh | 9,7 kWh (10,4 %) | 295 |
-| Taycan Turbo Sport Turismo | 105 kWh | 97,0 kWh | 8 kWh (7,6 %) | 296 |
+| Taycan Turbo Sport Turismo | 105 kWh | 97 kWh | 8 kWh (7,6 %) | 296 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 260–296. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 260–296 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 282 entfernt:** Exaktes Duplikat von Zeile 281 (Taycan Sport Turismo, 93,4 / 83,7 kWh).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -110,8 +115,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 260–296.
 
 ## Offene Punkte
 
-- **Duplikat:** „Taycan Sport Turismo“ 93,4/83,7 kWh steht 2× in der Quelle (Zeilen 281, 282).
-- Doppelter Eintrag: "Taycan Sport Turismo" mit 93,4/83,7 kWh erscheint zweimal (Zeilen 281 und 282).
 - Die Batteriebezeichnungen (Performancebatterie/Performancebatterie Plus) stehen nicht in den Rohdaten; die Zuordnung erfolgt über die Kapazität.
 
 Siehe auch [[datenqualitaet]].
@@ -121,4 +124,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 260–296)
 - Weiterlesen: [Wikipedia – Porsche Taycan](https://en.wikipedia.org/wiki/Porsche_Taycan)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -12,7 +12,7 @@ brutto_max: 100.0
 netto_min: 75.8
 netto_max: 94.9
 bild: "Bilder/audi-q6-e-tron.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "audi", "mittelklasse-suv"]
 ---
@@ -58,7 +58,7 @@ Die Basisversionen haben [[hinterradantrieb|Hinterradantrieb]], die quattro- und
 | SQ6 e-tron quattro | 100 kWh | 94,9 kWh | 5,1 kWh (5,1 %) | 38 |
 | SQ6 Sportback e-tron quattro | 100 kWh | 94,9 kWh | 5,1 kWh (5,1 %) | 39 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 27–39. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 27–39 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -80,4 +80,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 27–39. P
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 27–39)
 - Weiterlesen: [Wikipedia – Audi Q6 e-tron](https://en.wikipedia.org/wiki/Audi_Q6_e-tron)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

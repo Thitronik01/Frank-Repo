@@ -3,7 +3,7 @@ type: "entity"
 kategorie: "hersteller"
 modelle: 6
 varianten: 25
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["hersteller", "hyundai"]
 ---

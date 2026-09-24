@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#0A6B4E">
 <script>try{var t=localStorage.getItem("fw-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="../ci/signet.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"><link rel="stylesheet" href="../ci/tokens.css?v=00846f22"><link rel="stylesheet" href="app.css?v=b00658a6"></head>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"><link rel="stylesheet" href="../ci/tokens.css?v=00846f22"><link rel="stylesheet" href="app.css?v=eafb279d"></head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
 <header class="topbar">
@@ -48,7 +48,18 @@ Fahrzeugseiten binden sie per relativem Pfad ein, Herstellergalerien per <code>&
 
 <h2 id="2026-09-23-feature-corporate-identity-und-chat-assistent-ampere">[2026-09-23] feature | Corporate Identity und Chat-Assistent „Ampere“</h2>
 <p>CI: Signet (Batterie mit Ladeblitz), Wortmarke, Farben Ladegrün/Voltgelb/Graphit (alle Textpaare WCAG AA), Space Grotesk + Inter, Leitfaden <code>ci/CI-Leitfaden.md</code>, Tokens <code>ci/tokens.css</code>; auf HTML-Seite angewendet.
-Chat: RAG-Index über 901 Wiki-Abschnitte (BM25, lokal), Server <code>chat/server.py</code> mit anymize-Anbindung (OpenAI-kompatibel, Streaming), einbettbares Widget <code>chat/widget/fw-chat.js</code>. Ohne Key: Modus „nur Suche“.</p></div><footer class="foot"><span>Fahrzeug<b>Wiki</b> · Stand 23.09.2026</span><a href="tn-batterycheck-alle-daten.html">Rohquelle</a><a href="datenqualitaet.html">Datenqualität</a><a href="corporate-identity.html">Corporate Identity</a><a href="https://github.com/Thitronik01/Frank-Repo/issues" target="_blank" rel="noopener">GitHub-Issues<svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><span>Fotos: Wikimedia Commons (CC)</span></footer></article><nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#2026-09-23-setup-fahrzeug-wiki-angelegt">[2026-09-23] setup | Fahrzeug-Wiki angelegt</a></li><li><a href="#2026-09-23-ingest-tn-batterycheck-alle-daten-excel">[2026-09-23] ingest | TN Batterycheck – alle Daten (Excel)</a></li><li><a href="#2026-09-23-maintenance-bilder-lokal-gespeichert">[2026-09-23] maintenance | Bilder lokal gespeichert</a></li><li><a href="#2026-09-23-maintenance-html-ansicht-für-localhost">[2026-09-23] maintenance | HTML-Ansicht für localhost</a></li><li><a href="#2026-09-23-feature-corporate-identity-und-chat-assistent-ampere">[2026-09-23] feature | Corporate Identity und Chat-Assistent „Ampere“</a></li></ul></nav></div></main>
+Chat: RAG-Index über 901 Wiki-Abschnitte (BM25, lokal), Server <code>chat/server.py</code> mit anymize-Anbindung (OpenAI-kompatibel, Streaming), einbettbares Widget <code>chat/widget/fw-chat.js</code>. Ohne Key: Modus „nur Suche“.</p>
+
+<h2 id="2026-09-24-feature-html-app-uxui-überarbeitet-uiux-pro-max">[2026-09-24] feature | HTML-App: UX/UI überarbeitet (UI/UX Pro Max)</h2>
+<p>Neu: Kopfleiste mit Schnellsuche (Strg+K bzw. /, Tastatursteuerung, Vorschaubilder, Ampere als Rückfalloption),
+Fahrzeugseiten mit Kennzahlen-Kacheln (Netto/Brutto/Puffer/Varianten) und Steckbrief neben dem Bild,
+sortier- und filterbare Tabellen mit Puffer-Balken, Inhaltsverzeichnis mit aktivem Abschnitt, Startseite mit
+Fahrzeug-Explorer (Marken-Chips, Filter, Sortierung, Direktlinks per ?q=&amp;marke=&amp;sort=), Hersteller-Kacheln,
+Fachbegriffe als Karten, verwandte Fahrzeuge mit Bild, Hinweisbox „Offene Punkte“ mit Link zu den GitHub-Issues,
+Dunkelmodus-Umschalter (auch im Chat-Widget), mobiles Menü als Drawer, SVG-Icons statt Emoji, Skip-Link,
+44-px-Touchziele, prefers-reduced-motion.
+Technik: CSS/JS als eigene Dateien (tools/site_assets/) mit Inhalts-Hash im Link; Server sendet Cache-Control: no-cache.
+Geprüft: 154 Seiten ohne tote Links/Anker, je eine h1, alle Bilder mit alt, keine doppelten IDs, keine Konsolenfehler; 390 px ohne Querscrollen.</p></div><footer class="foot"><span>Fahrzeug<b>Wiki</b> · Stand 24.09.2026</span><a href="tn-batterycheck-alle-daten.html">Rohquelle</a><a href="datenqualitaet.html">Datenqualität</a><a href="corporate-identity.html">Corporate Identity</a><a href="https://github.com/Thitronik01/Frank-Repo/issues" target="_blank" rel="noopener">GitHub-Issues<svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a><span>Fotos: Wikimedia Commons (CC)</span></footer></article><nav class="toc" aria-label="Auf dieser Seite"><p>Auf dieser Seite</p><ul><li><a href="#2026-09-23-setup-fahrzeug-wiki-angelegt">[2026-09-23] setup | Fahrzeug-Wiki angelegt</a></li><li><a href="#2026-09-23-ingest-tn-batterycheck-alle-daten-excel">[2026-09-23] ingest | TN Batterycheck – alle Daten (Excel)</a></li><li><a href="#2026-09-23-maintenance-bilder-lokal-gespeichert">[2026-09-23] maintenance | Bilder lokal gespeichert</a></li><li><a href="#2026-09-23-maintenance-html-ansicht-für-localhost">[2026-09-23] maintenance | HTML-Ansicht für localhost</a></li><li><a href="#2026-09-23-feature-corporate-identity-und-chat-assistent-ampere">[2026-09-23] feature | Corporate Identity und Chat-Assistent „Ampere“</a></li><li><a href="#2026-09-24-feature-html-app-uxui-überarbeitet-uiux-pro-max">[2026-09-24] feature | HTML-App: UX/UI überarbeitet (UI/UX Pro Max)</a></li></ul></nav></div></main>
 </div>
 <dialog class="palette" aria-label="Suche">
   <div class="pal-head"><svg class="i " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"/><path d="m20.5 20.5-4.2-4.2"/></svg>
@@ -57,6 +68,6 @@ Chat: RAG-Index über 901 Wiki-Abschnitte (BM25, lokal), Server <code>chat/serve
   <ul class="pal-list" id="pal-list" role="listbox" aria-label="Suchergebnisse"></ul>
   <div class="pal-foot"><span><kbd>↑</kbd><kbd>↓</kbd> auswählen</span><span><kbd>Enter</kbd> öffnen</span><span><kbd>Esc</kbd> schließen</span></div>
 </dialog>
-<script src="search.js?v=dbab152b" defer></script><script src="app.js?v=bd74294d" defer></script>
+<script src="search.js?v=b3288acf" defer></script><script src="app.js?v=bd74294d" defer></script>
 <script src="../chat/widget/fw-chat.js?v=c1f3bde3" defer></script>
 </body></html>

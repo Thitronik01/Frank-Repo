@@ -1,7 +1,7 @@
 """Baut das Wiki aus Rohdaten + LLM-gepflegten Metadaten.
 
 Eingaben:
-  tools/families.json        (aus raw/ via families.py)
+  tools/families.json        (aus data/tn_batterycheck_bereinigt.xlsx via families.py; diese aus raw/ + tools/corrections.json via clean.py)
   tools/images.json          (via images.py)
   tools/meta/*.json          (Fahrzeug- und Herstellertexte)
   tools/concepts_src.py      (Fachbegriffe)
@@ -18,7 +18,10 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from concepts_src import C as CONCEPTS, KATEGORIEN  # noqa: E402
 
-TODAY = "2026-09-23"
+TODAY = "2026-09-24"
+INGEST = "2026-09-23"
+ISSUE_URL = "https://github.com/Thitronik01/Frank-Repo/issues/"
+DATA_XLSX = ROOT / "data" / "tn_batterycheck_bereinigt.xlsx"
 SRC = "tn-batterycheck-alle-daten"
 WIKI = ROOT / "wiki"
 
@@ -115,19 +118,58 @@ for slug, f in fams.items():
 
 all_rows = [(slug, r) for slug, f in fams.items() for r in f["rows"]]
 
-# ---------------------------------------------------------------- Auto-Befunde Datenqualität
-auto_issues = defaultdict(list)
+# ---------------------------------------------------------------- Befunde aus der bereinigten Tabelle
+def issue_links(text):
+    """'#1 #16' -> '[#1](…/issues/1), [#16](…/issues/16)'"""
+    return ", ".join(f"[{i}]({ISSUE_URL}{i[1:]})" for i in str(text).split() if i.startswith("#"))
+
+
+def source_links(text):
+    urls = [u for u in str(text or "").split() if u.startswith("http")]
+    return ", ".join(f"[Quelle {i + 1}]({u})" for i, u in enumerate(urls))
+
+
+def load_changelog():
+    import openpyxl
+    from families import RULES
+    wb = openpyxl.load_workbook(DATA_XLSX, data_only=True)
+    it = wb["Änderungsprotokoll"].iter_rows(values_only=True)
+    head = next(it)
+    log = [dict(zip(head, r)) for r in it]
+    raw = openpyxl.load_workbook(ROOT / "raw" / "tn_batterycheck_alle_daten.xlsx", data_only=True).worksheets[0]
+    slug_of = {}
+    for zeile, (marke, modell, _, _) in enumerate(raw.iter_rows(min_row=2, values_only=True), start=2):
+        slug_of[zeile] = next((sl for b, pat, sl, _ in RULES if b == marke and re.search(pat, modell)), None)
+    it = wb["Offene Klärungen"].iter_rows(values_only=True)
+    ohead = next(it)
+    return log, slug_of, [dict(zip(ohead, r)) for r in it]
+
+
+CHANGELOG, SLUG_OF_ROW, OPEN_ISSUES = load_changelog()
+
+auto_issues = defaultdict(list)   # offen: zu prüfen, Näherungswerte
+korrekturen = defaultdict(list)   # erledigt: korrigierte und entfernte Zeilen
 for slug, f in fams.items():
-    seen = Counter((r["modell"], r["brutto"], r["netto"]) for r in f["rows"])
-    for (m, b, n), c in seen.items():
-        if c > 1:
-            zeilen = [str(r["zeile"]) for r in f["rows"] if (r["modell"], r["brutto"], r["netto"]) == (m, b, n)]
-            auto_issues[slug].append(f"**Duplikat:** „{m}“ {num(b)}/{num(n)} kWh steht {c}× in der Quelle (Zeilen {', '.join(zeilen)}).")
     for r in f["rows"]:
-        if r["netto"] > r["brutto"]:
-            auto_issues[slug].append(f"**Netto > Brutto:** „{r['modell']}“ {raw_kwh(r['brutto_raw'])} brutto / {raw_kwh(r['netto_raw'])} netto (Zeile {r['zeile']}) – physikalisch unmöglich, vermutlich vertauschte oder falsche Werte.")
+        if r["status"] == "korrigiert":
+            beleg = source_links(r["quelle"])
+            korrekturen[slug].append(
+                f"**Zeile {r['zeile']} korrigiert:** „{r['modell']}“ {raw_kwh(r['brutto_alt'])} / {raw_kwh(r['netto_alt'])} → "
+                f"{raw_kwh(r['brutto_raw'])} / {raw_kwh(r['netto_raw'])}. {r['bemerkung']}"
+                + (f" Beleg: {beleg}." if beleg else "") + (f" Issue {issue_links(r['issue'])}." if r["issue"] else ""))
+        elif r["status"] == "zu prüfen":
+            auto_issues[slug].append(f"**Zu prüfen:** „{r['modell']}“ (Zeile {r['zeile']}): {r['bemerkung']} "
+                                     f"Klärung: {issue_links(r['issue'])}.")
         if r["ca"]:
-            auto_issues[slug].append(f"**Näherungswert:** „{r['modell']}“ ist in der Quelle als „{r['brutto_raw']}“ angegeben (Zeile {r['zeile']}).")
+            auto_issues[slug].append(f"**Näherungswert:** „{r['modell']}“ ist in der Rohquelle nur als „{r['brutto_alt']}“ "
+                                     f"angegeben (Zeile {r['zeile']}). {r['bemerkung'].replace('In der Rohquelle als „ca.“ angegeben. ', '')}"
+                                     + (f" Klärung: {issue_links(r['issue'])}." if r["issue"] else ""))
+for e in CHANGELOG:
+    if e["Neu"] == "entfernt":
+        sl = SLUG_OF_ROW.get(e["Zeile (Rohquelle)"])
+        if sl:
+            korrekturen[sl].append(f"**Zeile {e['Zeile (Rohquelle)']} entfernt:** {e['Grund']}")
+
 
 # ---------------------------------------------------------------- Konzept-Rückverweise
 concept_users = defaultdict(set)
@@ -194,13 +236,27 @@ def vehicle_page(slug):
     out.append("## Varianten und Batterien\n")
     if m.get("varianten"):
         out.append(m["varianten"].strip() + "\n")
-    out.append("| Variante | Brutto | Netto | Puffer | Zeile |\n|---|---|---|---|---|")
+    with_status = any(r["status"] != "unverändert" for r in rows)
+    out.append("| Variante | Brutto | Netto | Puffer | Zeile |" + (" Status |" if with_status else "")
+               + "\n|---|---|---|---|---|" + ("---|" if with_status else ""))
     for r in sorted(rows, key=lambda r: (r["modell"].lower(), r["brutto"], r["netto"])):
-        puffer = f"{num(r['puffer'])} kWh ({pct(r['puffer_pct'])} %)" if r["puffer"] >= 0 else "⚠️ negativ"
-        out.append(f"| {r['modell']} | {raw_kwh(r['brutto_raw'])} | {raw_kwh(r['netto_raw'])} | {puffer} | {r['zeile']} |")
-    out.append(f"\nQuelle: [[{SRC}]], Blatt „Fahrzeuge“, Zeilen {zeilen}. Puffer = Brutto − Netto (berechnet).\n")
+        puffer = f"{num(r['puffer'])} kWh ({pct(r['puffer_pct'])} %)"
+        line = f"| {r['modell']} | {raw_kwh(r['brutto_raw'])} | {raw_kwh(r['netto_raw'])} | {puffer} | {r['zeile']} |"
+        if with_status:
+            st = {"Alias": f"Alias von Z. {r['alias_von']}", "unverändert": ""}.get(r["status"], r["status"])
+            if r["issue"] and r["status"] in ("korrigiert", "zu prüfen"):
+                st += f" ({issue_links(r['issue'])})"
+            line += f" {st} |"
+        out.append(line)
+    out.append(f"\nQuelle: [[{SRC}]], Blatt „Fahrzeuge“, Zeilen {zeilen} – bereinigte Fassung (Stand {TODAY}, "
+               "Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).\n")
 
-    konz = [c for c in m.get("konzepte", []) if c in CONCEPTS]
+    if korrekturen.get(slug):
+        out.append("## Korrekturen\n")
+        out.extend(f"- {k}" for k in korrekturen[slug])
+        out.append(f"\nGegenüber der Rohquelle geändert am {TODAY}; vollständiges Protokoll in [[datenqualitaet]].\n")
+
+    konz =[c for c in m.get("konzepte", []) if c in CONCEPTS]
     if konz:
         out.append("## Fachbegriffe\n")
         for c in konz:
@@ -230,7 +286,7 @@ def vehicle_page(slug):
         out.append(f"- Weiterlesen: [Wikipedia – {wp}](https://en.wikipedia.org/wiki/{wp.replace(' ', '_')})")
     out.append("\n¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM "
                f"(Stand {TODAY}) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen "
-               "ausschließlich aus der Rohquelle.*")
+               "aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*")
     return "\n".join(out)
 
 
@@ -326,11 +382,11 @@ def buffer_page():
                "und in [[datenqualitaet]] dokumentiert.\n")
     out.append("Muster, die sich zeigen:\n")
     out.append("- **Sehr kleine Puffer (< 2 %)** treten vor allem bei [[lfp-zellchemie|LFP]]-Batterien und bei Herstellern auf, die "
-               "offenbar den nutzbaren Wert nahe am Brutto angeben (z. B. [[citroen-e-c3]], [[mg4-electric]] 51 kWh). "
+               "den nutzbaren Wert nahe am Brutto angeben (z. B. [[citroen-e-c3]], per Recherche bestätigt; beim [[mg4-electric]] 51 kWh widersprechen sich die Quellen). "
                "Solche Werte sollten vor einem [[batteriecheck]] besonders geprüft werden.")
     out.append("- **Große Puffer (> 12 %)** finden sich bei frühen Konstruktionen ([[bmw-i3]] mit 33,2 kWh, [[vw-e-golf]]), bei den 41-kWh-Transportern von Mercedes ([[mercedes-evito]], [[mercedes-esprinter]]), bei "
                "[[software-lock|softwarebegrenzten]] Batterien (Tesla Model S/X 60) und bei der ersten MEB-Einstiegsbatterie "
-               "(VW ID.3 Pure 55 → 45 kWh laut Quelle – Bruttowert fraglich, siehe [[datenqualitaet]]).")
+               "(VW ID.3 Pure 55 → 45 kWh, per [[software-lock]] begrenzt).")
     out.append("- **Plattform-Geschwister** haben identische Puffer – siehe [[plattform-geschwister]].\n")
 
     out.append("## Verteilung\n")
@@ -380,25 +436,47 @@ def buffer_page():
 
 # ---------------------------------------------------------------- Synthese: Datenqualität
 def quality_page():
-    out = [fm(type="synthesis", updated=TODAY, tags=["datenqualitaet", "lint"])]
+    out = [fm(type="synthesis", updated=TODAY, tags=["datenqualitaet", "lint", "korrekturen"])]
     out.append("# Datenqualität der Rohquelle\n")
-    out.append(f"**Anlass:** Befunde beim Ingest von [[{SRC}]] am {TODAY}\n")
+    out.append(f"**Anlass:** Befunde beim Ingest von [[{SRC}]] am {INGEST}, Bereinigung am {TODAY}\n")
+    st = Counter(r["status"] for _, r in all_rows)
+    vals = [e for e in CHANGELOG if e["Feld"] in ("Brutto kWh", "Netto kWh")]
+    n_rm = sum(1 for e in CHANGELOG if e["Neu"] == "entfernt")
+    n_name = sum(1 for e in CHANGELOG if e["Feld"] in ("Modell", "Marke"))
     out.append("## Stand\n")
-    n_auto = sum(len(v) for v in auto_issues.values())
-    n_hint = sum(len([h for h in m.get('hinweise', []) if h]) for m in meta.values())
-    out.append(f"Die Quelle ist formal vollständig: Das Blatt „Übersicht“ bestätigt für alle 19 Marken, dass die extrahierten Zeilen der Quellangabe entsprechen (469/469). "
-               f"Inhaltlich gibt es aber **{n_auto} automatisch erkannte Auffälligkeiten** (Duplikate, unmögliche Werte, Näherungswerte) "
-               f"und **{n_hint} fachliche Hinweise** aus der Einordnung der einzelnen Fahrzeuge.\n")
-    out.append("## Automatisch erkannte Befunde\n")
-    for s in fams:
-        for h in auto_issues.get(s, []):
-            out.append(f"- [[{s}|{fams[s]['name']}]]: {h}")
+    out.append(f"Die Rohquelle bleibt unverändert. Das Wiki nutzt seit {TODAY} die **bereinigte Fassung** "
+               "`data/tn_batterycheck_bereinigt.xlsx` (erzeugt von `tools/clean.py` aus der Rohquelle und `tools/corrections.json`).\n")
+    out.append("| Maßnahme | Anzahl |\n|---|---|")
+    out.append(f"| Zeilen mit korrigierten Werten | {len({e['Zeile (Rohquelle)'] for e in vals})} ({len(vals)} Werte) |")
+    out.append(f"| Entfernte Duplikate | {n_rm} |")
+    out.append(f"| Als Alias gekennzeichnet (gleiches Fahrzeug, anderer Name) | {st.get('Alias', 0)} |")
+    out.append(f"| Schreibweisen vereinheitlicht | {n_name} |")
+    out.append(f"| Noch zu prüfen (offenes Issue) | {st.get('zu prüfen', 0)} Zeilen |")
+    out.append(f"| Näherungswerte („ca.“) | {st.get('Näherungswert', 0)} Zeilen |")
+    out.append(f"| Zeilen in der bereinigten Fassung | {len(all_rows)} von 469 |\n")
+    out.append("## Korrekturen\n")
+    out.append("| Zeile | Fahrzeug | Feld | Alt | Neu | Grund | Beleg |\n|---|---|---|---|---|---|---|")
+    for e in CHANGELOG:
+        if not (e["Feld"] in ("Brutto kWh", "Netto kWh", "Zeile") or (e["Feld"] == "Modell" and e["Issue"])):
+            continue
+        sl = SLUG_OF_ROW.get(e["Zeile (Rohquelle)"])
+        car = f"[[{sl}|{e['Fahrzeug (Rohquelle)']}]]" if sl else e["Fahrzeug (Rohquelle)"]
+        links = ", ".join(x for x in (source_links(e["Quelle"]), issue_links(e["Issue"] or "")) if x)
+        alt = str(e["Alt"]).replace(".", ",")
+        neu = str(e["Neu"]).replace(".", ",")
+        out.append(f"| {e['Zeile (Rohquelle)']} | {car} | {e['Feld']} | {alt} | {neu} | {e['Grund']} | {links} |")
     out.append("")
-    out.append("## Uneinheitliche Schreibweisen\n")
-    out.append("- Hersteller „Citroen“ ohne Trema (offiziell Citroën), Modelle „e-C4“ statt „ë-C4“; „E-Berlingo Multispace“ mit großem E neben „e-Berlingo“.")
-    out.append("- „Mercedes“ statt „Mercedes-Benz“; „Skoda“ statt „Škoda“.")
-    out.append("- Leerzeichen uneinheitlich: BMW „iX xDrive 40“ vs. „iX1 xDrive30“.")
-    out.append("- Werte teils mit, teils ohne Nachkommastelle („71 kWh“ vs. „71.0 kWh“); Dezimalpunkt statt Komma.\n")
+    out.append("## Offene Klärungen\n")
+    out.append("Was sich nicht eindeutig belegen ließ, wird in GitHub-Issues geklärt. Bis dahin sind die betroffenen Zeilen "
+               "als „zu prüfen“ markiert und auf der Fahrzeugseite unter „Offene Punkte“ vermerkt.\n")
+    out.append("| Issue | Thema | Zeilen | Stand |\n|---|---|---|---|")
+    for e in OPEN_ISSUES:
+        out.append(f"| {issue_links(e['Issue'])} | {e['Thema']} | {e['Betroffene Zeilen']} | {e['Stand']} |")
+    out.append("")
+    out.append("## Schreibweisen\n")
+    out.append("Vereinheitlicht auf die Herstellerschreibweise; der Originalname bleibt in der Spalte „Modell (Rohquelle)“ erhalten: "
+               "Citroën, Mercedes-Benz, Škoda, SEAT; ë-C3, ë-C4, ë-Berlingo, ë-Jumpy, ë-SpaceTourer; Enyaq … Coupé; Citigo e iV; "
+               "iX xDrive40 usw.; e-up!; ID. Buzz; EQC 400 4MATIC. Kapazitäten als Zahl mit Dezimalpunkt statt Text mit Einheit.\n")
     out.append("## Fachliche Hinweise je Fahrzeug\n")
     for s in fams:
         hs = [h for h in meta[s].get("hinweise", []) if h]
@@ -406,12 +484,6 @@ def quality_page():
             out.append(f"### [[{s}|{fams[s]['name']}]]\n")
             out.extend(f"- {h}" for h in hs)
             out.append("")
-    out.append("## Empfehlungen\n")
-    out.append("1. Cupra Born Zeile 99 (53/60 kWh) korrigieren – Brutto und Netto sind so unmöglich; gegen Herstellerangabe prüfen.")
-    out.append("2. Exakte Duplikate entfernen (Porsche Taycan Sport Turismo 93,4/83,7).")
-    out.append("3. Spalte **Modelljahr / Batterie-Generation** ergänzen – viele gleichnamige Varianten haben mehrere Werte.")
-    out.append("4. „ca.“-Werte (Mercedes eSprinter LFP) durch Herstellerangaben ersetzen.")
-    out.append("5. Werte mit Puffer < 1 % gegen Herstellerdatenblätter prüfen.")
     return "\n".join(out)
 
 
@@ -420,14 +492,15 @@ def source_page():
     br = Counter(fams[s]["brand"] for s, _ in all_rows)
     out = [fm(type="source", updated=TODAY, tags=["rohquelle", "tabelle", "batteriekapazitaet"])]
     out.append("# TN Batterycheck – alle Daten (Excel)\n")
-    out.append(f"**Herausgeber:** nicht angegeben · **Eingang:** {TODAY} · **Art:** Tabelle (xlsx, 2 Blätter)")
+    out.append(f"**Herausgeber:** nicht angegeben · **Eingang:** {INGEST} · **Art:** Tabelle (xlsx, 2 Blätter)")
     out.append("**Raw:** `raw/tn_batterycheck_alle_daten.xlsx`\n")
     out.append("## Kernaussagen\n")
     out.append(f"- Referenztabelle mit **Brutto- und Nettokapazität** der [[traktionsbatterie]] für **{len(all_rows)} Fahrzeugvarianten** von **{len(br)} Herstellern**.")
     out.append(f"- Die Varianten lassen sich zu **{len(fams)} Modellreihen** zusammenfassen – jede hat in diesem Wiki eine eigene Seite.")
     out.append("- Zweck ist offenbar ein [[batteriecheck]]: Die [[nettokapazitaet]] ist der Referenzwert, gegen den der [[state-of-health]] einer gebrauchten Batterie gerechnet wird.")
     out.append("- Das Blatt „Übersicht“ belegt einen internen Abgleich: extrahierte Zeilen = Zeilen laut Quellangabe, für alle Marken „OK“.")
-    out.append("- Einzelne Zeilen sind fehlerhaft oder doppelt, siehe [[datenqualitaet]].\n")
+    out.append("- Einzelne Zeilen sind fehlerhaft oder doppelt. Das Wiki nutzt deshalb eine **bereinigte Fassung** "
+               "(`data/tn_batterycheck_bereinigt.xlsx`); alle Änderungen mit Beleg stehen in [[datenqualitaet]].\n")
     out.append("## Aufbau\n")
     out.append("| Blatt | Inhalt |\n|---|---|")
     out.append("| Fahrzeuge | 469 Zeilen: Marke, Modell, Kapazität brutto, Kapazität netto (Text mit Einheit „kWh“, Dezimalpunkt) |")
@@ -456,7 +529,8 @@ def source_page():
     out.append("## Widersprüche und Spannungen\n")
     out.append("- Cupra Born Zeile 99: netto (60 kWh) > brutto (53 kWh) — widerspricht der Definition in [[nettokapazitaet]].")
     out.append("- [[mercedes-eqt]] (50/45 kWh) vs. baugleicher [[renault-kangoo-electric|Renault Kangoo E-Tech]] (48/45 kWh) — gleiche Batterie, verschiedene Bruttowerte.")
-    out.append("- [[renault-city-k-ze]] (30/26,8 kWh) vs. baugleicher [[dacia-spring]] (26,8/25 kWh).\n")
+    out.append("- [[renault-city-k-ze]] (30/26,8 kWh) vs. baugleicher [[dacia-spring]] (26,8/25 kWh).")
+    out.append(f"- Auflösung dieser und weiterer Befunde (Stand {TODAY}): [[datenqualitaet]].\n")
     out.append("## Offene Fragen\n")
     out.append("- Wer ist der Herausgeber (Präfix „tn“)? Aus welcher Primärquelle stammen die Werte (Herstellerangaben, eigene Messungen, Datenbank)?")
     out.append("- Stichtag der Daten? Neueste Modelle (Kia EV4, Hyundai IONIQ 9, Škoda Elroq) deuten auf Stand 2025 hin.")

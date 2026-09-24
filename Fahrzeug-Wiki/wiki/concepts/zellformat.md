@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 0
 tags: ["fachbegriff", "batterie", "technik"]
 ---
@@ -28,4 +28,4 @@ Bei **Cell-to-Pack** (CTP) entfallen die Module, die Zellen sitzen direkt im Pac
 
 ## Belege
 
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.

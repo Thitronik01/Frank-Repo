@@ -360,7 +360,7 @@
       "bauzeit": "seit 2022",
       "plattform": "MSP (Modular Scalable Platform) von SAIC",
       "beschreibung": "Der MG4 Electric ist ein [[bev|Elektroauto]] der Kompaktklasse und das erste Modell auf der reinen Elektroplattform MSP des SAIC-Konzerns. Die Grundversionen haben [[hinterradantrieb|Hinterradantrieb]], die Top-Version **XPOWER** einen zusätzlichen Motor vorne ([[allradantrieb|Allradantrieb]]).\n\nBemerkenswert ist der Mix unterschiedlicher Zellchemien: Die kleinste Batterie verwendet [[lfp-zellchemie|LFP-Zellen]], die größeren Batterien [[nmc-zellchemie|NMC-Zellen]]. LFP-Batterien werden oft mit sehr kleinem [[batteriepuffer|Puffer]] betrieben, was sich in den Rohdaten der kleinen Batterie zeigt.\n\nDie größte Batterie (77 kWh brutto) entspricht in den Kapazitätswerten der des [[mg-cyberster|MG Cyberster]].",
-      "varianten": "Drei Zeilen heißen schlicht **MG4 Electric** und unterscheiden sich nur in der Batterie: 51,0/50,8 kWh (LFP), 64,0/61,7 kWh und 77,0/74,4 kWh. Im Handel wurden diese Stufen unter Ausstattungsnamen verkauft, die in den Rohdaten fehlen. **MG4 Electric XPOWER** nutzt die mittlere Batterie (64,0/61,7 kWh) mit Allradantrieb.",
+      "varianten": "Drei Zeilen heißen schlicht **MG4 Electric** und unterscheiden sich nur in der Batterie: 51,0/50,8 kWh (LFP), 64,0/61,7 kWh und 77,0/74,4 kWh. Im Handel wurden diese Stufen unter Ausstattungsnamen verkauft, die in den Rohdaten fehlen. **MG4 Electric XPOWER** nutzt die mittlere Batterie (64,0/61,7 kWh) mit Allradantrieb. Für die 51- und 64-kWh-Batterie nennt der ADAC niedrigere Nettowerte (49,0 bzw. 59,5 kWh) – die Zeilen sind als „zu prüfen“ markiert.",
       "konzepte": [
         "lfp-zellchemie",
         "nmc-zellchemie",
@@ -374,7 +374,6 @@
         "mg-cyberster"
       ],
       "hinweise": [
-        "Die 51-kWh-Batterie hat laut Rohdaten nur 0,2 kWh Puffer (51,0 brutto / 50,8 netto) – ungewöhnlich klein, bei LFP-Batterien aber nicht untypisch.",
         "Drei Zeilen mit identischer Bezeichnung „MG4 Electric“ – Unterscheidung nur über die Kapazität."
       ]
     },
@@ -398,7 +397,6 @@
         "mg-zs-ev"
       ],
       "hinweise": [
-        "„MG5 EV Long Range“ und „MG5 Electric Long Range“ mit identischen Werten (61,1/57,4 kWh) – wahrscheinlich Duplikat mit unterschiedlicher Schreibweise.",
         "Uneinheitliche Namensgebung „MG5 EV“ vs. „MG5 Electric“.",
         "Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert und daher nicht behauptet.",
         "Die Einordnung als Geschwister des ZS EV bezieht sich auf die gemeinsame Konversionsbauweise und Antriebstechnik, nicht auf identische Batterien."

@@ -12,7 +12,7 @@ brutto_max: 75.0
 netto_min: 46.3
 netto_max: 68.0
 bild: "Bilder/citroen-e-jumpy.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "citroen", "transporter-kleinbus"]
 ---
@@ -52,13 +52,13 @@ XS, M und XL bezeichnen die drei Fahrzeuglängen. M und XL gibt es mit 50 kWh br
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| e-Jumpy Combi M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 89 |
-| e-Jumpy Combi M | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 90 |
-| e-Jumpy Combi XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 91 |
-| e-Jumpy Combi XL | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 92 |
-| e-Jumpy Combi XS | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 93 |
+| ë-Jumpy Combi M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 89 |
+| ë-Jumpy Combi M | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 90 |
+| ë-Jumpy Combi XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 91 |
+| ë-Jumpy Combi XL | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 92 |
+| ë-Jumpy Combi XS | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 93 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 89–93. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 89–93 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -87,4 +87,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 89–93)
 - Weiterlesen: [Wikipedia – Citroën Jumpy](https://en.wikipedia.org/wiki/Citroën_Jumpy)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

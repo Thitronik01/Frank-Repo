@@ -11,7 +11,7 @@ brutto_max: 50.0
 netto_min: 46.3
 netto_max: 46.3
 bild: "Bilder/peugeot-e-rifter.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "hochdachkombi"]
 ---
@@ -48,14 +48,14 @@ Der e-Rifter wird mit zwei Karosserielängen angeboten, die sich in Innenraum un
 
 Standard/M und Long/XL bezeichnen jeweils die kurze bzw. lange Karosserie; offenbar wurden in den Rohdaten zwei Namensschemata gemischt. Alle vier Zeilen haben dieselbe Batterie mit 50 kWh brutto / 46,3 kWh netto.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-Rifter Long | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 241 |
-| e-Rifter M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 242 |
-| e-Rifter Standard | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 243 |
-| e-Rifter XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 244 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| e-Rifter Long | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 241 | Alias von Z. 244 |
+| e-Rifter M | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 242 |  |
+| e-Rifter Standard | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 243 | Alias von Z. 242 |
+| e-Rifter XL | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 244 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 241–244. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 241–244 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -73,7 +73,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 241–244.
 
 ## Offene Punkte
 
-- Vier Zeilen mit identischen Werten; „Standard“ und „M“ sowie „Long“ und „XL“ sind vermutlich jeweils dieselbe Version unter verschiedenen Bezeichnungen (Duplikate).
 - Die beim ë-Berlingo erfasste neuere 52-kWh-Batterie fehlt hier.
 
 Siehe auch [[datenqualitaet]].
@@ -83,4 +82,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 241–244)
 - Weiterlesen: [Wikipedia – Peugeot Rifter](https://en.wikipedia.org/wiki/Peugeot_Rifter)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

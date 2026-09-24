@@ -11,7 +11,7 @@ brutto_max: 36.8
 netto_min: 32.3
 netto_max: 32.3
 bild: "Bilder/skoda-citigo-e-iv.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "skoda", "kleinstwagen"]
 ---
@@ -48,9 +48,9 @@ Nur eine Zeile (322) mit 36,8 kWh brutto und 32,3 kWh netto – dieselbe Batteri
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Citigo-e IV | 36,8 kWh | 32,3 kWh | 4,5 kWh (12,2 %) | 322 |
+| Citigo e iV | 36,8 kWh | 32,3 kWh | 4,5 kWh (12,2 %) | 322 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 322. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 322 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -69,7 +69,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 322. Puffe
 
 ## Offene Punkte
 
-- Schreibweise in den Rohdaten „Citigo-e IV“; offizielle Schreibweise ist „Citigo e iV“.
 - Bauzeit offen gelassen, da genaue Produktionsdaten nicht sicher sind (Markteinführung um 2019/2020, nur kurze Bauzeit).
 
 Siehe auch [[datenqualitaet]].
@@ -79,4 +78,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 322)
 - Weiterlesen: [Wikipedia – Škoda Citigo](https://en.wikipedia.org/wiki/Škoda_Citigo)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

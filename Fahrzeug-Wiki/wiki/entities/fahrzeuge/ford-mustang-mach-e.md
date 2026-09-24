@@ -12,7 +12,7 @@ brutto_max: 98.7
 netto_min: 68.0
 netto_max: 91.0
 bild: "Bilder/ford-mustang-mach-e.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "ford", "mittelklasse-suv"]
 ---
@@ -52,21 +52,21 @@ Im Laufe der [[modellpflege|Modellpflege]] hat Ford die nutzbare Kapazität bei 
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Mustang Mach-E ER AWD | 98,7 kWh | 88,0 kWh | 10,7 kWh (10,8 %) | 111 |
-| Mustang Mach-E ER AWD | 98,7 kWh | 91,0 kWh | 7,7 kWh (7,8 %) | 112 |
-| Mustang Mach-E ER RWD | 98,7 kWh | 88,0 kWh | 10,7 kWh (10,8 %) | 113 |
-| Mustang Mach-E ER RWD | 98,7 kWh | 91,0 kWh | 7,7 kWh (7,8 %) | 114 |
-| Mustang Mach-E GT | 98,7 kWh | 88,0 kWh | 10,7 kWh (10,8 %) | 115 |
-| Mustang Mach-E GT | 98,7 kWh | 91,0 kWh | 7,7 kWh (7,8 %) | 116 |
-| Mustang Mach-E Rally | 98,7 kWh | 91,0 kWh | 7,7 kWh (7,8 %) | 117 |
-| Mustang Mach-E SR AWD | 75,7 kWh | 68,0 kWh | 7,7 kWh (10,2 %) | 118 |
-| Mustang Mach-E SR AWD | 75,7 kWh | 70,0 kWh | 5,7 kWh (7,5 %) | 119 |
+| Mustang Mach-E ER AWD | 98,7 kWh | 88 kWh | 10,7 kWh (10,8 %) | 111 |
+| Mustang Mach-E ER AWD | 98,7 kWh | 91 kWh | 7,7 kWh (7,8 %) | 112 |
+| Mustang Mach-E ER RWD | 98,7 kWh | 88 kWh | 10,7 kWh (10,8 %) | 113 |
+| Mustang Mach-E ER RWD | 98,7 kWh | 91 kWh | 7,7 kWh (7,8 %) | 114 |
+| Mustang Mach-E GT | 98,7 kWh | 88 kWh | 10,7 kWh (10,8 %) | 115 |
+| Mustang Mach-E GT | 98,7 kWh | 91 kWh | 7,7 kWh (7,8 %) | 116 |
+| Mustang Mach-E Rally | 98,7 kWh | 91 kWh | 7,7 kWh (7,8 %) | 117 |
+| Mustang Mach-E SR AWD | 75,7 kWh | 68 kWh | 7,7 kWh (10,2 %) | 118 |
+| Mustang Mach-E SR AWD | 75,7 kWh | 70 kWh | 5,7 kWh (7,5 %) | 119 |
 | Mustang Mach-E SR AWD | 78 kWh | 72,6 kWh | 5,4 kWh (6,9 %) | 120 |
-| Mustang Mach-E SR RWD | 75,7 kWh | 68,0 kWh | 7,7 kWh (10,2 %) | 121 |
-| Mustang Mach-E SR RWD | 75,7 kWh | 70,0 kWh | 5,7 kWh (7,5 %) | 122 |
+| Mustang Mach-E SR RWD | 75,7 kWh | 68 kWh | 7,7 kWh (10,2 %) | 121 |
+| Mustang Mach-E SR RWD | 75,7 kWh | 70 kWh | 5,7 kWh (7,5 %) | 122 |
 | Mustang Mach-E SR RWD | 78 kWh | 72,6 kWh | 5,4 kWh (6,9 %) | 123 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 111–123. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 111–123 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -96,4 +96,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 111–123)
 - Weiterlesen: [Wikipedia – Ford Mustang Mach-E](https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

@@ -11,7 +11,7 @@ brutto_max: 92.0
 netto_min: 31.0
 netto_max: 87.0
 bild: "Bilder/renault-master-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "renault", "transporter-großer-kastenwagen"]
 ---
@@ -46,15 +46,15 @@ Die Bezeichnungswechsel von „Z.E.“ zu „E-Tech“ folgen der allgemeinen Na
 
 ## Varianten und Batterien
 
-„Master Z.E.“ ist die ältere Generation mit 33 kWh brutto / 31,0 kWh netto. „Master E-Tech“ gehört zur neuen Generation und ist mit zwei parallel angebotenen Batterien erfasst: 55 kWh brutto / 52,0 kWh netto und 92 kWh brutto / 87,0 kWh netto.
+„Master Z.E.“ ist die ältere Ausführung mit 33 kWh brutto / 31,0 kWh netto. Die Zeile „Master E-Tech“ mit 55/52 kWh gehört laut Renault zum überarbeiteten Master der dritten Generation (2022–2024, „52 kWh“); die Zeile mit 92/87 kWh zur neuen Generation ab 2024, für die Renault 40 und 87 kWh nennt. Beide Bruttowerte sind nicht belegt (92/87 entspricht dem Scenic EV87) – die Zeilen sind als „zu prüfen“ markiert.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Master E-Tech | 55 kWh | 52,0 kWh | 3 kWh (5,5 %) | 303 |
-| Master E-Tech | 92 kWh | 87,0 kWh | 5 kWh (5,4 %) | 304 |
-| Master Z.E. | 33 kWh | 31,0 kWh | 2 kWh (6,1 %) | 305 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Master E-Tech | 55 kWh | 52 kWh | 3 kWh (5,5 %) | 303 | zu prüfen ([#7](https://github.com/Thitronik01/Frank-Repo/issues/7)) |
+| Master E-Tech | 92 kWh | 87 kWh | 5 kWh (5,4 %) | 304 | zu prüfen ([#7](https://github.com/Thitronik01/Frank-Repo/issues/7)) |
+| Master Z.E. | 33 kWh | 31 kWh | 2 kWh (6,1 %) | 305 |  |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 303–305. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 303–305 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -71,10 +71,10 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 303–305.
 
 ## Offene Punkte
 
+- **Zu prüfen:** „Master E-Tech“ (Zeile 303): Bruttowert nicht belegt. Renault nennt nur 52 kWh (Master III, 2022–2024) bzw. 40 und 87 kWh (ab 2024) ohne Angabe brutto/netto; 92 / 87 entspricht dem Scenic EV87. Klärung: [#7](https://github.com/Thitronik01/Frank-Repo/issues/7).
+- **Zu prüfen:** „Master E-Tech“ (Zeile 304): Bruttowert nicht belegt. Renault nennt nur 52 kWh (Master III, 2022–2024) bzw. 40 und 87 kWh (ab 2024) ohne Angabe brutto/netto; 92 / 87 entspricht dem Scenic EV87. Klärung: [#7](https://github.com/Thitronik01/Frank-Repo/issues/7).
 - Zwei Generationen unter einem Slug zusammengefasst.
-- Für den Master E-Tech werden in Herstellerangaben häufig 40 kWh und 87 kWh (nutzbar) genannt. Die Zeile 55/52 kWh passt dazu nicht – bitte prüfen.
 - Die Batterie des Master Z.E. (33/31 kWh) hat dieselben Werte wie der Kangoo Z.E. mit großer Batterie; eine technische Identität wird hier nicht behauptet.
-- Die Werte 92/87 kWh stimmen mit der großen Batterie des Renault Scenic E-Tech überein; ob es sich um dasselbe Batteriepaket handelt, ist nicht gesichert.
 
 Siehe auch [[datenqualitaet]].
 
@@ -83,4 +83,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 303–305)
 - Weiterlesen: [Wikipedia – Renault Master](https://en.wikipedia.org/wiki/Renault_Master)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

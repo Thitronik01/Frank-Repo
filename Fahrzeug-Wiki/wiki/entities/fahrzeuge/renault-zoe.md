@@ -6,13 +6,13 @@ segment: "Kleinwagen"
 karosserie: "Schrägheck, fünftürig"
 bauzeit: "2012–2024"
 plattform: "Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV)"
-varianten: 12
+varianten: 11
 brutto_min: 25.9
 brutto_max: 54.7
 netto_min: 23.3
 netto_max: 52.0
 bild: "Bilder/renault-zoe.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "renault", "kleinwagen"]
 ---
@@ -33,7 +33,7 @@ tags: ["fahrzeug", "renault", "kleinwagen"]
 | Karosserie | Schrägheck, fünftürig | Fachwissen¹ |
 | Bauzeit | 2012–2024 | Fachwissen¹ |
 | Plattform | Renault-Kleinwagenplattform (von Beginn an als Elektroauto konzipiert, verwandt mit Clio IV) | Fachwissen¹ |
-| Varianten im Bestand | 12 | [[tn-batterycheck-alle-daten]] |
+| Varianten im Bestand | 11 | [[tn-batterycheck-alle-daten]] |
 | [[bruttokapazitaet\|Bruttokapazität]] | 25,9–54,7 kWh | [[tn-batterycheck-alle-daten]] |
 | [[nettokapazitaet\|Nettokapazität]] | 23,3–52 kWh | [[tn-batterycheck-alle-daten]] |
 | [[batteriepuffer\|Puffer]] | 4,9–10,0 % | berechnet |
@@ -48,24 +48,29 @@ Viele Zoe wurden mit Batteriemiete verkauft, d. h. die Batterie gehörte nicht d
 
 ## Varianten und Batterien
 
-Die [[typbezeichnungen|Typbezeichnungen]] setzen sich aus einem Buchstaben für den Motor (R = Renault-eigener Motor, Q = Motor mit Schnelllade-Option für AC 43 kW) und einer Zahl zusammen, die sich auf Reichweite bzw. Leistung bezieht. Die Rohdaten zeigen drei Batteriegenerationen: 25,9 kWh brutto / 23,3 kWh netto (erste Generation, „22 kWh“; Q210, R210, R240, R90 Entry, R75), 44,1 kWh brutto / 41,0 kWh netto (Z.E. 40; Q90, R90, R110, R75) und 54,7 kWh brutto / 52,0 kWh netto (Z.E. 50; R110, R135). Dieselbe Motorbezeichnung kann daher mit unterschiedlichen Batterien vorkommen.
+Die [[typbezeichnungen|Typbezeichnungen]] setzen sich aus einem Buchstaben für den Motor (R = Renault-eigener Motor, Q = Motor mit Schnelllade-Option für AC 43 kW) und einer Zahl zusammen, die sich auf Reichweite bzw. Leistung bezieht. Die Rohdaten zeigen drei Batteriegenerationen: 25,9 kWh brutto / 23,3 kWh netto (erste Generation, „22 kWh“; Q210, R210, R240, R90 Entry), 44,1 kWh brutto / 41,0 kWh netto (Z.E. 40; Q90, R90, R110, R75) und 54,7 kWh brutto / 52,0 kWh netto (Z.E. 50; R110, R135). Dieselbe Motorbezeichnung kann daher mit unterschiedlichen Batterien vorkommen.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Zoe Q210 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 309 |
-| Zoe Q90 | 44,1 kWh | 41,0 kWh | 3,1 kWh (7,0 %) | 310 |
-| Zoe R110 | 44,1 kWh | 41,0 kWh | 3,1 kWh (7,0 %) | 311 |
-| Zoe R110 Z.E. 40 | 44,1 kWh | 41,0 kWh | 3,1 kWh (7,0 %) | 312 |
-| Zoe R110 Z.E. 50 | 54,7 kWh | 52,0 kWh | 2,7 kWh (4,9 %) | 313 |
-| Zoe R135 Z.E. 50 | 54,7 kWh | 52,0 kWh | 2,7 kWh (4,9 %) | 314 |
-| Zoe R210 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 315 |
-| Zoe R240 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 316 |
-| Zoe R75 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 317 |
-| Zoe R75 | 44,1 kWh | 41,0 kWh | 3,1 kWh (7,0 %) | 318 |
-| Zoe R90 | 44,1 kWh | 41,0 kWh | 3,1 kWh (7,0 %) | 319 |
-| Zoe R90 Entry | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 320 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Zoe Q210 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 309 | bestätigt |
+| Zoe Q90 | 44,1 kWh | 41 kWh | 3,1 kWh (7,0 %) | 310 | bestätigt |
+| Zoe R110 | 44,1 kWh | 41 kWh | 3,1 kWh (7,0 %) | 311 |  |
+| Zoe R110 Z.E. 40 | 44,1 kWh | 41 kWh | 3,1 kWh (7,0 %) | 312 | bestätigt |
+| Zoe R110 Z.E. 50 | 54,7 kWh | 52 kWh | 2,7 kWh (4,9 %) | 313 | bestätigt |
+| Zoe R135 Z.E. 50 | 54,7 kWh | 52 kWh | 2,7 kWh (4,9 %) | 314 | bestätigt |
+| Zoe R210 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 315 |  |
+| Zoe R240 | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 316 | bestätigt |
+| Zoe R75 | 44,1 kWh | 41 kWh | 3,1 kWh (7,0 %) | 318 | bestätigt |
+| Zoe R90 | 44,1 kWh | 41 kWh | 3,1 kWh (7,0 %) | 319 | bestätigt |
+| Zoe R90 Entry | 25,9 kWh | 23,3 kWh | 2,6 kWh (10,0 %) | 320 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 309–320. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 309–320 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 317 entfernt:** Einen Zoe R75 mit 22-kWh-Batterie gab es nicht; der R75 wurde nur mit Z.E. 40 angeboten (Zeile 318).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -84,9 +89,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 309–320.
 
 ## Offene Punkte
 
-- „Zoe R110“ und „Zoe R110 Z.E. 40“ haben identische Werte (44,1/41,0 kWh) – vermutlich Duplikat.
-- „Zoe R75“ erscheint mit zwei Batterien (25,9 und 44,1 kWh); die Zuordnung der R75-Variante ist nicht gesichert.
-- „Zoe R90 Entry“ mit 25,9 kWh ist ungewöhnlich, da R90 sonst mit der Z.E.-40-Batterie verbunden ist – bitte prüfen.
 - Die erste Batteriegeneration wird im Handel als „22 kWh“ bezeichnet, in den Rohdaten aber mit 25,9 kWh brutto / 23,3 kWh netto geführt.
 - Die Bedeutung der Zahl in den Motorbezeichnungen (Reichweite vs. Leistung) ist je nach Generation unterschiedlich; hier nur grob beschrieben.
 
@@ -97,4 +99,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 309–320)
 - Weiterlesen: [Wikipedia – Renault Zoe](https://en.wikipedia.org/wiki/Renault_Zoe)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

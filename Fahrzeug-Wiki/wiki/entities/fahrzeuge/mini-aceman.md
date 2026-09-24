@@ -12,7 +12,7 @@ brutto_max: 54.2
 netto_min: 38.5
 netto_max: 49.2
 bild: "Bilder/mini-aceman.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mini", "kleinwagen-suv"]
 ---
@@ -48,13 +48,13 @@ Der [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Fro
 
 "E" ist die Einstiegsversion mit 42,5/38,5 kWh, "SE" und "JCW" (John Cooper Works, Sportversion) nutzen die größere Batterie mit 54,2/49,2 kWh.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Aceman E | 42,5 kWh | 38,5 kWh | 4 kWh (9,4 %) | 216 |
-| Aceman JCW | 54,2 kWh | 49,2 kWh | 5 kWh (9,2 %) | 217 |
-| Aceman SE | 54,2 kWh | 49,2 kWh | 5 kWh (9,2 %) | 218 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Aceman E | 42,5 kWh | 38,5 kWh | 4 kWh (9,4 %) | 216 | bestätigt |
+| Aceman JCW | 54,2 kWh | 49,2 kWh | 5 kWh (9,2 %) | 217 |  |
+| Aceman SE | 54,2 kWh | 49,2 kWh | 5 kWh (9,2 %) | 218 | bestätigt |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 216–218. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 216–218 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -69,15 +69,9 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 216–218.
 - [[mini-cooper-electric|Mini Cooper E / SE]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Mini: [[mini-countryman-electric|Mini Countryman E / SE]]
 
-## Offene Punkte
-
-- Kleine Batterie hier mit 42,5/38,5 kWh, beim Cooper E dagegen 40,7/36,8 kWh – möglicherweise dieselbe Batterie mit unterschiedlichen Quellenangaben.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 216–218)
 - Weiterlesen: [Wikipedia – Mini Aceman](https://en.wikipedia.org/wiki/Mini_Aceman)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

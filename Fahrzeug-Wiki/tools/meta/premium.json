@@ -7,7 +7,7 @@
       "bauzeit": "2018–2022",
       "plattform": "Elektrifizierte Längsbaukasten-Plattform MLB evo",
       "beschreibung": "Der Audi e-tron ist ein [[bev|batterieelektrisches Fahrzeug]] und markierte den Einstieg von Audi in die Großserie elektrischer Pkw. Er basiert nicht auf einer reinen Elektro-Plattform, sondern auf einer angepassten Variante des Längsbaukastens MLB evo, den Audi auch für Verbrenner nutzt; die [[traktionsbatterie|Traktionsbatterie]] sitzt im Unterboden zwischen den Achsen. Das Modell ist damit technisch näher an einem [[konversionsfahrzeug|Konversionsfahrzeug]] als die späteren MEB- und PPE-Modelle.\n\nAlle Varianten haben zwei [[elektromotor|Elektromotoren]] und damit [[allradantrieb|Allradantrieb]] (quattro); die S-Modelle nutzen drei Motoren. Die Batterie basiert auf [[lithium-ionen-akku|Lithium-Ionen-Zellen]] mit [[nmc-zellchemie|NMC-Chemie]]. Auffällig ist, dass bei gleicher [[bruttokapazitaet|Bruttokapazität]] von 95 kWh mehrere [[nettokapazitaet|Nettowerte]] genannt werden: Audi hat den nutzbaren Bereich im Laufe der Bauzeit vergrößert und so den [[batteriepuffer|Batteriepuffer]] verkleinert.\n\nMit der [[modellpflege|Modellpflege]] erhielt die Baureihe den Namen [[audi-q8-e-tron|Audi Q8 e-tron]] und größere Batterien. Die Einstiegsversion 50 quattro nutzt eine kleinere Batterie mit rund 71 kWh brutto.",
-      "varianten": "Die Zahl in der Bezeichnung (50, 55) ist eine Leistungsklasse im Audi-Schema der [[typbezeichnungen|Typbezeichnungen]], kein Kapazitätswert; \"S\" steht für die sportliche Topversion, \"Sportback\" für die Coupé-Karosserie. Der 50 quattro hat die kleine Batterie (71/64,7 kWh). Der 55 quattro erscheint mit 95 kWh brutto dreimal mit unterschiedlichen Nettowerten (83,6 / 86,5 / 89,0 kWh) – das spiegelt die schrittweise Freigabe von mehr nutzbarer Kapazität über die Bauzeit wider. Der S quattro (SUV) ist mit 105/97 kWh gelistet, der Sportback S quattro dagegen mit 95/86,5 kWh.",
+      "varianten": "Die Zahl in der Bezeichnung (50, 55) ist eine Leistungsklasse im Audi-Schema der [[typbezeichnungen|Typbezeichnungen]], kein Kapazitätswert; \"S\" steht für die sportliche Topversion, \"Sportback\" für die Coupé-Karosserie. Der 50 quattro hat die kleine Batterie (71/64,7 kWh). Der 55 quattro erscheint mit 95 kWh brutto dreimal mit unterschiedlichen Nettowerten (83,6 / 86,5 / 89,0 kWh) – das spiegelt die schrittweise Freigabe von mehr nutzbarer Kapazität über die Bauzeit wider. S quattro und Sportback S quattro haben beide 95/86,5 kWh (die Rohquelle nannte beim SUV fälschlich 105/97 kWh; korrigiert).",
       "konzepte": [
         "bruttokapazitaet",
         "nettokapazitaet",
@@ -22,7 +22,6 @@
         "audi-q8-e-tron"
       ],
       "hinweise": [
-        "Zeile 7 (e-tron S quattro, 105/97 kWh) passt nicht zur Baureihe: 105/97 kWh entspricht der Performancebatterie Plus von Porsche Taycan/Audi e-tron GT nach Modellpflege; der Sportback S (Zeile 12) steht mit 95/86,5 kWh. Wahrscheinlich Datenfehler.",
         "Der Nettowert 89,0 kWh (Zeilen 5 und 11) entspricht dem Wert des Q8 50 e-tron; ob er für den e-tron 55 zutrifft, ist unsicher.",
         "Drei Nettowerte bei identischer Bezeichnung e-tron 55 quattro (83,6 / 86,5 / 89,0 kWh) – ohne Modelljahr nicht eindeutig zuzuordnen."
       ]
@@ -197,9 +196,7 @@
         "bmw-i7",
         "bmw-ix3"
       ],
-      "hinweise": [
-        "Zeile 58 heißt nur \"i5 M60\", Zeile 59 \"i5 M60 xDrive Touring\" – uneinheitliche Schreibweise; der i5 M60 hat ebenfalls Allradantrieb."
-      ]
+      "hinweise": []
     },
     "bmw-i7": {
       "kurz": "Elektrische Version der BMW 7er-Reihe (G70), eine Luxuslimousine mit der größten Batterie der CLAR-basierten BMW-Elektromodelle.",
@@ -229,7 +226,7 @@
       "bauzeit": "seit 2021",
       "plattform": "Eigenständige Elektro-Architektur mit CFK-Rahmenstruktur (Carbon Cage)",
       "beschreibung": "Der BMW iX wurde als reines [[bev|Elektroauto]] entwickelt und nicht von einem Verbrennermodell abgeleitet. Die Karosserie kombiniert Aluminium mit Bauteilen aus kohlefaserverstärktem Kunststoff. Alle Versionen haben zwei [[elektromotor|Elektromotoren]] und [[allradantrieb|Allradantrieb]].\n\nDie [[traktionsbatterie|Traktionsbatterie]] basiert auf prismatischen [[nmc-zellchemie|NMC-Zellen]] und wurde in mehreren Größen angeboten. Mit der [[modellpflege|Modellpflege]] 2025 hat BMW die Modellbezeichnungen und Batterien neu geordnet: aus xDrive40/xDrive50/M60 wurden xDrive45/xDrive60/M70.",
-      "varianten": "Vor der Modellpflege: xDrive40 (76,6 kWh brutto), xDrive50 und M60 (111,5 kWh brutto). Nach der Modellpflege: xDrive45 (100,6/94,8 kWh), xDrive60 und M70 (111,5 kWh brutto). Die Zahl ist eine Leistungsklasse, nicht die Kapazität. Die Nettowerte der 111,5-kWh-Batterie schwanken in den Daten zwischen 107,7 und 109,4 kWh.",
+      "varianten": "Vor der Modellpflege: xDrive40 (76,6 kWh brutto), xDrive50 und M60 (111,5 kWh brutto). Nach der Modellpflege: xDrive45 (100,6/94,8 kWh), xDrive60 und M70 (111,5 kWh brutto). Die Zahl ist eine Leistungsklasse, nicht die Kapazität. Vor dem Facelift (2021–2025) haben xDrive50 und M60 laut BMW 105,2 kWh netto; nach dem Facelift 2025 nennt BMW 109,1 kWh (xDrive60) bzw. 108,9 kWh (M70) netto. Die Rohquelle hatte für xDrive40, xDrive50 und M60 zu hohe Nettowerte (korrigiert).",
       "konzepte": [
         "allradantrieb",
         "modellpflege",
@@ -241,11 +238,7 @@
       "geschwister": [
         "bmw-i7"
       ],
-      "hinweise": [
-        "Die Nettowerte der 111,5-kWh-Batterie variieren (107,7 / 108,9 / 109,1 / 109,4 kWh), der Puffer wäre teils sehr klein (ca. 2 kWh). Andere Quellen nennen für den iX xDrive50 deutlich niedrigere Nettowerte – prüfen.",
-        "iX xDrive 40 mit 74,4 kWh netto bei 76,6 kWh brutto ergibt ebenfalls einen ungewöhnlich kleinen Puffer; Quelle prüfen.",
-        "Schreibweise mit Leerzeichen (\"xDrive 40\") statt \"xDrive40\"."
-      ]
+      "hinweise": []
     },
     "bmw-ix1": {
       "kurz": "Elektrisches Kompakt-SUV von BMW (U11), die batterieelektrische Variante des X1; teilt die Technik mit iX2 und Mini Countryman E/SE.",
@@ -287,9 +280,7 @@
         "bmw-ix1",
         "mini-countryman-electric"
       ],
-      "hinweise": [
-        "Zeile 74 lautet \"iX2 eDrive30\"; üblich ist beim iX2 die Bezeichnung xDrive30 (Allradantrieb). Wahrscheinlich Schreibfehler."
-      ]
+      "hinweise": []
     },
     "bmw-ix3": {
       "kurz": "Elektrische Variante des BMW X3 der Baureihe G08, gebaut in China; erstes Modell mit eDrive der fünften Generation.",
@@ -358,8 +349,7 @@
         "mercedes-eqa"
       ],
       "hinweise": [
-        "EQB 300 4MATIC steht zweimal mit unterschiedlichen Batterien (Zeilen 182 und 183).",
-        "Zeile 184 \"EQB 350\" ohne 4MATIC: Die Leistungsstufe 350 ist bei Mercedes üblicherweise ein Allradmodell – mögliche unvollständige Bezeichnung."
+        "EQB 300 4MATIC steht zweimal mit unterschiedlichen Batterien (Zeilen 182 und 183)."
       ]
     },
     "mercedes-eqc": {
@@ -379,8 +369,7 @@
       ],
       "geschwister": [],
       "hinweise": [
-        "Bauzeit nicht sicher belegt (Marktstart 2019, Produktionsende ca. 2023/2024).",
-        "Die Bezeichnung in den Daten lautet nur \"EQC 400\"; offiziell EQC 400 4MATIC."
+        "Bauzeit nicht sicher belegt (Marktstart 2019, Produktionsende ca. 2023/2024)."
       ]
     },
     "mercedes-eqt": {
@@ -390,7 +379,7 @@
       "bauzeit": "seit 2022",
       "plattform": "Renault-Nissan-Plattform des Kangoo (dritte Generation)",
       "beschreibung": "Der Mercedes-Benz EQT ist die Pkw-orientierte Elektroversion der T-Klasse, die gemeinsam mit Renault entwickelt wurde. Technisch ist er ein [[plattform-geschwister|Plattform-Geschwister]] des [[renault-kangoo-electric|Renault Kangoo E-Tech]] und nutzt dessen Antrieb und [[traktionsbatterie|Traktionsbatterie]].\n\nDer [[elektromotor|Elektromotor]] treibt die Vorderräder an ([[frontantrieb|Frontantrieb]]). Das Fahrzeug steht zwischen Familien-Van und [[elektro-transporter|Elektro-Transporter]]; die gewerbliche Schwester heißt eCitan.",
-      "varianten": "Nur eine Zeile: EQT mit 50/45 kWh. Gewerbliche Varianten (eCitan) sind in den Daten nicht enthalten.",
+      "varianten": "Nur eine Zeile: EQT mit 48/45 kWh (Rohquelle: 50/45, korrigiert). Gewerbliche Varianten (eCitan) sind in den Daten nicht enthalten.",
       "konzepte": [
         "plattform-geschwister",
         "frontantrieb",
@@ -401,9 +390,7 @@
       "geschwister": [
         "renault-kangoo-electric"
       ],
-      "hinweise": [
-        "Runde Werte 50/45 kWh – vermutlich gerundete Herstellerangaben."
-      ]
+      "hinweise": []
     },
     "mercedes-eqv": {
       "kurz": "Elektrische Großraumlimousine von Mercedes-Benz auf Basis der V-Klasse, eng verwandt mit dem eVito Tourer.",
@@ -448,7 +435,6 @@
         "mercedes-evito"
       ],
       "hinweise": [
-        "Bruttowerte der LFP-Versionen sind als \"ca.\" markiert (geschätzt).",
         "Die Reihenfolge der LFP-Zeilen (119, 60, 85 kWh) ist nicht nach Größe sortiert."
       ]
     },
@@ -493,9 +479,7 @@
       "geschwister": [
         "mini-cooper-electric"
       ],
-      "hinweise": [
-        "Kleine Batterie hier mit 42,5/38,5 kWh, beim Cooper E dagegen 40,7/36,8 kWh – möglicherweise dieselbe Batterie mit unterschiedlichen Quellenangaben."
-      ]
+      "hinweise": []
     },
     "mini-cooper-electric": {
       "kurz": "Elektrische Version des Mini Cooper (Dreitürer); die erste Generation war eine Konversion des Verbrenner-Mini, die aktuelle Generation ist eine eigenständige Elektro-Konstruktion aus China.",
@@ -504,7 +488,7 @@
       "bauzeit": "seit 2020",
       "plattform": "Erste Generation: Verbrenner-Plattform des Mini F56; aktuelle Generation: Plattform von Spotlight Automotive (BMW und Great Wall Motor)",
       "beschreibung": "Der elektrische Mini Cooper existiert in zwei grundverschiedenen Generationen. Der erste Cooper SE (F56) war ein [[konversionsfahrzeug|Konversionsfahrzeug]]: Die vergleichsweise kleine [[traktionsbatterie|Traktionsbatterie]] wurde T-förmig im Mitteltunnel und unter den Rücksitzen untergebracht.\n\nDie aktuelle Generation (J01) ist eine eigenständige Elektro-Konstruktion, die im Rahmen des Joint Ventures Spotlight Automotive in China gebaut wird und die Technik mit dem [[mini-aceman|Mini Aceman]] teilt. Beide Generationen haben [[frontantrieb|Frontantrieb]].",
-      "varianten": "Cooper SE mit 32,6/28,9 kWh ist die erste Generation (F56). Cooper E (40,7/36,8 kWh) und Cooper SE (54,2/49,8 kWh) gehören zur aktuellen Generation. Der Name \"Cooper SE\" steht also für zwei verschiedene Fahrzeuge – die [[typbezeichnungen|Typbezeichnung]] allein reicht zur Zuordnung nicht aus.",
+      "varianten": "Cooper SE mit 32,6/28,9 kWh ist die erste Generation (F56). Cooper E (40,7/36,6 kWh) und Cooper SE (54,2/49,2 kWh; Nettowerte korrigiert) gehören zur aktuellen Generation. Der Name \"Cooper SE\" steht also für zwei verschiedene Fahrzeuge – die [[typbezeichnungen|Typbezeichnung]] allein reicht zur Zuordnung nicht aus.",
       "konzepte": [
         "konversionsfahrzeug",
         "frontantrieb",
@@ -517,8 +501,7 @@
         "mini-aceman"
       ],
       "hinweise": [
-        "Cooper SE erscheint zweimal mit völlig unterschiedlichen Batterien (Zeilen 220 und 221) – zwei Fahrzeuggenerationen unter gleichem Namen.",
-        "Nettowert 49,8 kWh bei 54,2 kWh brutto weicht vom Aceman (49,2 kWh netto bei gleicher Bruttokapazität) ab; vermutlich Quellen- oder Tippfehler."
+        "Cooper SE erscheint zweimal mit völlig unterschiedlichen Batterien (Zeilen 220 und 221) – zwei Fahrzeuggenerationen unter gleichem Namen."
       ]
     },
     "mini-countryman-electric": {
@@ -590,7 +573,6 @@
         "audi-e-tron-gt"
       ],
       "hinweise": [
-        "Doppelter Eintrag: \"Taycan Sport Turismo\" mit 93,4/83,7 kWh erscheint zweimal (Zeilen 281 und 282).",
         "Die Batteriebezeichnungen (Performancebatterie/Performancebatterie Plus) stehen nicht in den Rohdaten; die Zuordnung erfolgt über die Kapazität."
       ]
     },

@@ -1,0 +1,798 @@
+{
+ "stand": "2026-09-24",
+ "marken": {
+  "Citroen": "Citroën",
+  "Mercedes": "Mercedes-Benz",
+  "Skoda": "Škoda",
+  "Seat": "SEAT"
+ },
+ "modelle": {
+  "iX xDrive 40": "iX xDrive40",
+  "iX xDrive 45": "iX xDrive45",
+  "iX xDrive 50": "iX xDrive50",
+  "iX xDrive 60": "iX xDrive60",
+  "Citigo-e IV": "Citigo e iV",
+  "e-Up": "e-up!",
+  "EQC 400": "EQC 400 4MATIC"
+ },
+ "modell_regeln": [
+  {
+   "marke": "Skoda",
+   "muster": " Coupe$",
+   "ersatz": " Coupé"
+  },
+  {
+   "marke": "Skoda",
+   "muster": " Coupe ",
+   "ersatz": " Coupé "
+  },
+  {
+   "marke": "Citroen",
+   "muster": "^e-Spacetourer",
+   "ersatz": "ë-SpaceTourer"
+  },
+  {
+   "marke": "Citroen",
+   "muster": "^e-",
+   "ersatz": "ë-"
+  },
+  {
+   "marke": "Volkswagen",
+   "muster": "^ID\\.BUZZ",
+   "ersatz": "ID. Buzz"
+  }
+ ],
+ "entfernen": [
+  {
+   "zeile": 282,
+   "grund": "Exaktes Duplikat von Zeile 281 (Taycan Sport Turismo, 93,4 / 83,7 kWh)."
+  },
+  {
+   "zeile": 317,
+   "issue": 13,
+   "grund": "Einen Zoe R75 mit 22-kWh-Batterie gab es nicht; der R75 wurde nur mit Z.E. 40 angeboten (Zeile 318)."
+  }
+ ],
+ "werte": [
+  {
+   "zeile": 7,
+   "grund": "105/97 sind die Werte der großen Taycan-Batterie. Der e-tron S (SUV) hat dieselbe 95-kWh-Batterie wie der Sportback S.",
+   "issue": 5,
+   "quelle": [
+    "https://ev-database.org/car/1658/Audi-e-tron-S",
+    "https://ev-database.org/car/1659/Audi-e-tron-S-Sportback"
+   ],
+   "status": "korrigiert",
+   "brutto": 95,
+   "netto": 86.5,
+   "Modelljahr von": "2020",
+   "Modelljahr bis": "2022",
+   "Batterie-Generation": "95 kWh"
+  },
+  {
+   "zeile": 65,
+   "grund": "Laut BMW-Datenblatt und ev-database hat der iX M60 111,5 / 105,2 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://ev-database.org/uk/car/1590/BMW-iX-M60",
+    "https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303"
+   ],
+   "status": "korrigiert",
+   "netto": 105.2,
+   "Modelljahr von": "2022",
+   "Modelljahr bis": "2025"
+  },
+  {
+   "zeile": 67,
+   "grund": "Laut BMW-Datenblatt (06/2021) hat der iX xDrive40 76,6 / 71,0 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303",
+    "https://ev-database.org/uk/car/1472/BMW-iX-xDrive-40"
+   ],
+   "status": "korrigiert",
+   "netto": 71.0,
+   "Modelljahr von": "2021",
+   "Modelljahr bis": "2025"
+  },
+  {
+   "zeile": 69,
+   "grund": "Laut BMW-Datenblatt (06/2021) hat der iX xDrive50 111,5 / 105,2 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303"
+   ],
+   "status": "korrigiert",
+   "netto": 105.2,
+   "Modelljahr von": "2021",
+   "Modelljahr bis": "2025"
+  },
+  {
+   "zeile": 66,
+   "grund": "Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en",
+    "https://ev-database.org/car/3111/BMW-iX-M70-xDrive"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2025",
+   "Batterie-Generation": "Facelift 2025"
+  },
+  {
+   "zeile": 68,
+   "grund": "Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en",
+    "https://ev-database.org/car/3109/BMW-iX-xDrive45"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2025",
+   "Batterie-Generation": "Facelift 2025"
+  },
+  {
+   "zeile": 70,
+   "grund": "Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",
+   "issue": 9,
+   "quelle": [
+    "https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en",
+    "https://ev-database.org/car/3110/BMW-iX-xDrive60"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2025",
+   "Batterie-Generation": "Facelift 2025"
+  },
+  {
+   "zeile": 99,
+   "grund": "53/60 ist unmöglich (netto > brutto). Gemeint ist vermutlich die 59-kWh-Batterie ab Modelljahr 2025 mit 63 / 59 kWh (ev-database; electrive nennt 63 / 60). Die Zuordnung ist erschlossen und muss bestätigt werden.",
+   "issue": 1,
+   "quelle": [
+    "https://ev-database.org/de/pkw/3262/CUPRA-Born-150-kW---59-kWh",
+    "https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh",
+    "https://www.electrive.net/2024/08/08/cupra-ueberarbeitet-das-born-angebot/"
+   ],
+   "status": "korrigiert",
+   "brutto": 63,
+   "netto": 59,
+   "Modelljahr von": "2024",
+   "Modelljahr bis": "2026",
+   "Batterie-Generation": "59 kWh (MY25)"
+  },
+  {
+   "zeile": 100,
+   "grund": "Born 58 kWh (150 kW) bestätigt.",
+   "issue": 1,
+   "quelle": [
+    "https://ev-database.org/car/1516/CUPRA-Born-150-kW---58-kWh"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2021",
+   "Modelljahr bis": "2024",
+   "Batterie-Generation": "58 kWh"
+  },
+  {
+   "zeile": 101,
+   "grund": "Born 77 kWh bestätigt.",
+   "issue": 1,
+   "quelle": [
+    "https://ev-database.org/car/1518/CUPRA-Born-170-kW---77-kWh"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2022",
+   "Modelljahr bis": "2025",
+   "Batterie-Generation": "77 kWh"
+  },
+  {
+   "zeile": 102,
+   "grund": "Born 58 kWh e-Boost (170 kW) bestätigt.",
+   "issue": 1,
+   "quelle": [
+    "https://ev-database.org/car/1517/CUPRA-Born-170-kW---58-kWh"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2022",
+   "Modelljahr bis": "2024",
+   "Batterie-Generation": "58 kWh"
+  },
+  {
+   "zeile": 297,
+   "grund": "30 kWh brutto sind nicht belegt (nur auto-data.net). Renault nennt 26,8 kWh; der baugleiche Dacia Spring hat laut ADAC (Herstellerdaten) 27,4 / 26,8 kWh.",
+   "issue": 4,
+   "quelle": [
+    "https://paultan.org/2019/09/10/renault-k-ze-launched-in-china/",
+    "https://www.batterydesign.net/dacia-spring-battery/"
+   ],
+   "status": "korrigiert",
+   "brutto": 27.4
+  },
+  {
+   "zeile": 187,
+   "grund": "Der EQT nutzt die 45-kWh-Batterie des Renault Kangoo E-Tech. ev-database: 48 / 45 kWh; für 50 kWh brutto gibt es keinen Beleg.",
+   "issue": 3,
+   "quelle": [
+    "https://ev-database.org/car/1908/Mercedes-Benz-EQT-200-Standard",
+    "https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric"
+   ],
+   "status": "korrigiert",
+   "brutto": 48
+  },
+  {
+   "zeile": 298,
+   "grund": "48 / 45 kWh bestätigt (ev-database; Renault nennt 45 kWh nutzbar).",
+   "issue": 3,
+   "quelle": [
+    "https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2022",
+   "Batterie-Generation": "45 kWh"
+  },
+  {
+   "zeile": 299,
+   "grund": "48 / 45 kWh bestätigt (ev-database; Renault nennt 45 kWh nutzbar).",
+   "issue": 3,
+   "quelle": [
+    "https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2022",
+   "Batterie-Generation": "45 kWh"
+  },
+  {
+   "zeile": 219,
+   "grund": "Laut ev-database und Auto Bild hat der Cooper E 40,7 / 36,6 kWh.",
+   "issue": 8,
+   "quelle": [
+    "https://ev-database.org/uk/car/1997/Mini-Cooper-E"
+   ],
+   "status": "korrigiert",
+   "netto": 36.6,
+   "Modelljahr von": "2024"
+  },
+  {
+   "zeile": 221,
+   "grund": "Der neue Cooper SE (J01) hat dieselbe Batterie wie der Aceman SE: 54,2 / 49,2 kWh.",
+   "issue": 8,
+   "quelle": [
+    "https://ev-database.org/uk/car/1998/Mini-Cooper-SE"
+   ],
+   "status": "korrigiert",
+   "netto": 49.2,
+   "Modelljahr von": "2024"
+  },
+  {
+   "zeile": 216,
+   "grund": "Aceman E 42,5 / 38,5 kWh bestätigt.",
+   "issue": 8,
+   "quelle": [
+    "https://ev-database.org/car/2190/Mini-Aceman-E"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2024"
+  },
+  {
+   "zeile": 218,
+   "grund": "Aceman SE 54,2 / 49,2 kWh bestätigt.",
+   "issue": 8,
+   "quelle": [
+    "https://ev-database.org/uk/car/2191/Mini-Aceman-SE"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2024"
+  },
+  {
+   "zeile": 82,
+   "grund": "Der kleine Puffer ist real (LFP). ADAC: 44,2 / 43,8, ev-database: 44,0 / 43,8 kWh.",
+   "issue": 10,
+   "quelle": [
+    "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/citroen-c3-test/",
+    "https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2024",
+   "Batterie-Generation": "44 kWh LFP"
+  },
+  {
+   "zeile": 83,
+   "grund": "Der kleine Puffer ist real (LFP). ADAC: 44,2 / 43,8, ev-database: 44,0 / 43,8 kWh.",
+   "issue": 10,
+   "quelle": [
+    "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/citroen-c3-test/",
+    "https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2024",
+   "Batterie-Generation": "44 kWh LFP"
+  },
+  {
+   "zeile": 84,
+   "grund": "ADAC (Herstellerdaten): 54,0 / 52,8 kWh. Die 53,5 kWh sind ein Schätzwert von ev-database. Der baugleiche Opel Frontera ER hat laut ADAC 52,0 kWh netto.",
+   "issue": 10,
+   "quelle": [
+    "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/c3-aircross/2generation/350756/",
+    "https://ev-database.org/car/3228/Citroen-e-C3-Aircross-Extended-Range-54-kWh"
+   ],
+   "status": "korrigiert",
+   "netto": 52.8,
+   "Modelljahr von": "2025",
+   "Batterie-Generation": "54 kWh LFP"
+  },
+  {
+   "zeile": 227,
+   "grund": "Ursprüngliche 100-kW-Batterie (NMC622), bestätigt.",
+   "issue": 6,
+   "quelle": [
+    "https://ev-database.org/car/1583/Peugeot-e-208"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2019",
+   "Modelljahr bis": "2023",
+   "Batterie-Generation": "50 kWh"
+  },
+  {
+   "zeile": 228,
+   "grund": "Richtig: Batterie des e-208 mit 115 kW / 156 PS (96 Zellen NMC811), 11/2022 bis 04/2025.",
+   "issue": 6,
+   "quelle": [
+    "https://ev-database.org/car/1949/Peugeot-e-208-51-kWh",
+    "https://www.auto-motor-und-sport.de/elektroauto/peugeot-e-208-mehr-power-mehr-reichweite/"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2022",
+   "Modelljahr bis": "2025",
+   "Batterie-Generation": "51 kWh"
+  },
+  {
+   "zeile": 229,
+   "grund": "Neue Stellantis-Batterie ab 04/2025. Netto laut ev-database 50,8, laut Stellantis 51 kWh.",
+   "issue": 6,
+   "quelle": [
+    "https://ev-database.org/car/3223/Peugeot-e-208-54-kWh",
+    "https://www.electrive.com/2025/04/09/stellantis-gives-its-small-evs-a-range-upgrade/"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2025",
+   "Batterie-Generation": "54 kWh"
+  },
+  {
+   "zeile": 416,
+   "grund": "Richtig: dieselbe 55-kWh-Batterie wie im ID.4 Pure, per Software auf 45 kWh netto begrenzt (Software-Lock). Der ID.3 Pure ab 2024 hat 55 / 52 kWh und fehlt in der Rohquelle.",
+   "issue": 2,
+   "quelle": [
+    "https://ev-database.org/car/1127/Volkswagen-ID3-Pure-Performance",
+    "https://www.electrive.net/2021/09/23/fahrbericht-vw-id-3-pure-performance/"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2021",
+   "Modelljahr bis": "2022",
+   "Batterie-Generation": "55 kWh, begrenzt auf 45"
+  },
+  {
+   "zeile": 417,
+   "grund": "Richtig: dieselbe 55-kWh-Batterie wie im ID.4 Pure, per Software auf 45 kWh netto begrenzt (Software-Lock). Der ID.3 Pure ab 2024 hat 55 / 52 kWh und fehlt in der Rohquelle.",
+   "issue": 2,
+   "quelle": [
+    "https://ev-database.org/car/1127/Volkswagen-ID3-Pure-Performance",
+    "https://www.electrive.net/2021/09/23/fahrbericht-vw-id-3-pure-performance/"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2021",
+   "Modelljahr bis": "2022",
+   "Batterie-Generation": "55 kWh, begrenzt auf 45"
+  },
+  {
+   "zeile": 309,
+   "grund": "Zuordnung zur Batterie-Generation 22 kWh bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1026/Renault-Zoe-Q210"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2013",
+   "Modelljahr bis": "2017",
+   "Batterie-Generation": "22 kWh"
+  },
+  {
+   "zeile": 316,
+   "grund": "Zuordnung zur Batterie-Generation 22 kWh bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1050/Renault-Zoe-R240"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2015",
+   "Modelljahr bis": "2017",
+   "Batterie-Generation": "22 kWh"
+  },
+  {
+   "zeile": 320,
+   "grund": "Zuordnung zur Batterie-Generation 22 kWh bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1079/Renault-Zoe-R90-Entry"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2017",
+   "Modelljahr bis": "2018",
+   "Batterie-Generation": "22 kWh"
+  },
+  {
+   "zeile": 318,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://www.automobile-propre.com/articles/renault-zoe-life-r75-ze-40-lentree-de-gamme-a-lessai/"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2017",
+   "Modelljahr bis": "2019",
+   "Batterie-Generation": "Z.E. 40"
+  },
+  {
+   "zeile": 319,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1077/Renault-Zoe-R90"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2017",
+   "Modelljahr bis": "2019",
+   "Batterie-Generation": "Z.E. 40"
+  },
+  {
+   "zeile": 310,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1078/Renault-Zoe-Q90"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2017",
+   "Modelljahr bis": "2019",
+   "Batterie-Generation": "Z.E. 40"
+  },
+  {
+   "zeile": 312,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1128/Renault-Zoe-R110"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2018",
+   "Modelljahr bis": "2019",
+   "Batterie-Generation": "Z.E. 40"
+  },
+  {
+   "zeile": 313,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 50 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/car/1164/Renault-Zoe-ZE50-R110"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2019",
+   "Modelljahr bis": "2024",
+   "Batterie-Generation": "Z.E. 50"
+  },
+  {
+   "zeile": 314,
+   "grund": "Zuordnung zur Batterie-Generation Z.E. 50 bestätigt.",
+   "issue": 13,
+   "quelle": [
+    "https://ev-database.org/uk/car/1205/Renault-Zoe-ZE50-R135"
+   ],
+   "status": "bestätigt",
+   "Modelljahr von": "2020",
+   "Modelljahr bis": "2024",
+   "Batterie-Generation": "Z.E. 50"
+  }
+ ],
+ "namen_zeile": [
+  {
+   "zeile": 74,
+   "modell": "iX2 xDrive30",
+   "issue": 15,
+   "grund": "„eDrive30“ gibt es nicht, nur eDrive20 und xDrive30.",
+   "quelle": [
+    "https://www.bimmertoday.de/2023/10/11/bmw-ix2-xdrive30-edrive20-bilder-infos-zum-elektro-x2/"
+   ]
+  },
+  {
+   "zeile": 184,
+   "modell": "EQB 350 4MATIC",
+   "issue": 15,
+   "grund": "Den EQB 350 gibt es nur mit 4MATIC.",
+   "quelle": [
+    "https://en.wikipedia.org/wiki/Mercedes-Benz_EQB"
+   ]
+  },
+  {
+   "zeile": 58,
+   "modell": "i5 M60 xDrive",
+   "issue": 15,
+   "grund": "Offizielle Bezeichnung „i5 M60 xDrive“.",
+   "quelle": [
+    "https://ev-database.org/car/1907/BMW-i5-M60-xDrive-Sedan"
+   ]
+  }
+ ],
+ "aliase": [
+  {
+   "zeile": 340,
+   "von": 327,
+   "grund": "Gleiche Batterie wie Zeile 327; „iV“ entfiel bei der Umbenennung.",
+   "issue": 16
+  },
+  {
+   "zeile": 341,
+   "von": 328,
+   "grund": "Gleiche Batterie wie Zeile 328; „iV“ entfiel bei der Umbenennung.",
+   "issue": 16
+  },
+  {
+   "zeile": 342,
+   "von": 329,
+   "grund": "Gleiche Batterie wie Zeile 329; „iV“ entfiel bei der Umbenennung.",
+   "issue": 16
+  },
+  {
+   "zeile": 343,
+   "von": 330,
+   "grund": "Gleiche Batterie wie Zeile 330; „iV“ entfiel bei der Umbenennung.",
+   "issue": 16
+  },
+  {
+   "zeile": 212,
+   "von": 209,
+   "grund": "Gleiches Fahrzeug wie Zeile 209 („MG5 EV“ = „MG5 Electric“).",
+   "issue": 16
+  },
+  {
+   "zeile": 226,
+   "von": 224,
+   "grund": "Gleiches Fahrzeug wie Zeile 224 (Zusatz „SUV“).",
+   "issue": 16
+  },
+  {
+   "zeile": 243,
+   "von": 242,
+   "grund": "„Standard“ entspricht der Länge „M“ (Zeile 242).",
+   "issue": 16
+  },
+  {
+   "zeile": 241,
+   "von": 244,
+   "grund": "„Long“ entspricht der Länge „XL“ (Zeile 244).",
+   "issue": 16
+  },
+  {
+   "zeile": 246,
+   "von": 252,
+   "grund": "„L2“ entspricht „Standard“ (Zeile 252).",
+   "issue": 16
+  },
+  {
+   "zeile": 247,
+   "von": 253,
+   "grund": "„L2“ entspricht „Standard“ (Zeile 253).",
+   "issue": 16
+  },
+  {
+   "zeile": 248,
+   "von": 250,
+   "grund": "„L3“ entspricht „Long“ (Zeile 250).",
+   "issue": 16
+  },
+  {
+   "zeile": 249,
+   "von": 251,
+   "grund": "„L3“ entspricht „Long“ (Zeile 251).",
+   "issue": 16
+  }
+ ],
+ "pruefen": [
+  {
+   "zeilen": [
+    105,
+    106,
+    107,
+    108
+   ],
+   "issue": 4,
+   "bemerkung": "Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus."
+  },
+  {
+   "zeilen": [
+    303,
+    304
+   ],
+   "issue": 7,
+   "bemerkung": "Bruttowert nicht belegt. Renault nennt nur 52 kWh (Master III, 2022–2024) bzw. 40 und 87 kWh (ab 2024) ohne Angabe brutto/netto; 92 / 87 entspricht dem Scenic EV87."
+  },
+  {
+   "zeilen": [
+    205,
+    206,
+    208
+   ],
+   "issue": 10,
+   "bemerkung": "Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh."
+  },
+  {
+   "zeilen": [
+    192,
+    193,
+    194
+   ],
+   "issue": 11,
+   "bemerkung": "Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell."
+  }
+ ],
+ "offene_issues": [
+  {
+   "issue": 1,
+   "thema": "Cupra Born (Zeile 99): Netto größer als Brutto",
+   "zeilen": "99",
+   "stand": "korrigiert auf 63 / 59 kWh (erschlossen) – bitte bestätigen"
+  },
+  {
+   "issue": 2,
+   "thema": "VW ID.3 Pure 55/45 vs. ID.4 Pure 55/52",
+   "zeilen": "416, 417",
+   "stand": "geklärt: Werte korrekt (Software-Lock) – kann geschlossen werden"
+  },
+  {
+   "issue": 3,
+   "thema": "Mercedes EQT vs. Renault Kangoo E-Tech",
+   "zeilen": "187",
+   "stand": "korrigiert auf 48 / 45 kWh – kann geschlossen werden"
+  },
+  {
+   "issue": 4,
+   "thema": "Renault City K-ZE vs. Dacia Spring",
+   "zeilen": "297, 105–108",
+   "stand": "K-ZE korrigiert; Spring: Quellen widersprechen (netto 26,8 vs. 25,0) – Entscheidung offen"
+  },
+  {
+   "issue": 5,
+   "thema": "Audi e-tron S quattro mit Taycan-Werten",
+   "zeilen": "7",
+   "stand": "korrigiert auf 95 / 86,5 kWh – kann geschlossen werden"
+  },
+  {
+   "issue": 6,
+   "thema": "Peugeot e-208 51/48,1 kWh",
+   "zeilen": "228",
+   "stand": "geklärt: Zeile korrekt (156 PS, 11/2022–04/2025) – kann geschlossen werden"
+  },
+  {
+   "issue": 7,
+   "thema": "Renault Master E-Tech 55/52 kWh",
+   "zeilen": "303, 304",
+   "stand": "offen: Bruttowerte nirgends belegt"
+  },
+  {
+   "issue": 8,
+   "thema": "Mini Aceman vs. Cooper",
+   "zeilen": "219, 221",
+   "stand": "korrigiert (Cooper E und SE netto) – kann geschlossen werden"
+  },
+  {
+   "issue": 9,
+   "thema": "BMW iX: zu kleine Puffer",
+   "zeilen": "65–70",
+   "stand": "korrigiert (xDrive40, xDrive50, M60) – kann geschlossen werden"
+  },
+  {
+   "issue": 10,
+   "thema": "Puffer unter 1 %: ë-C3, ë-C3 Aircross, MG4",
+   "zeilen": "82–84, 205, 206, 208",
+   "stand": "ë-C3 bestätigt, Aircross ER korrigiert; MG4: Quellen widersprechen – Entscheidung offen"
+  },
+  {
+   "issue": 11,
+   "thema": "Mercedes eSprinter LFP: nur „ca.“-Bruttowerte",
+   "zeilen": "192–194",
+   "stand": "nicht klärbar: Hersteller nennt nur netto – Schätzung bleibt markiert"
+  },
+  {
+   "issue": 12,
+   "thema": "Tesla: Nettowerte exakt 95 % des Bruttowerts",
+   "zeilen": "Tesla-Block",
+   "stand": "offen"
+  },
+  {
+   "issue": 13,
+   "thema": "Renault Zoe: R90 Entry und R75",
+   "zeilen": "317, 318, 320",
+   "stand": "geklärt: R75 nur mit Z.E. 40 (Zeile 317 entfernt), R90 Entry korrekt – kann geschlossen werden"
+  },
+  {
+   "issue": 14,
+   "thema": "Kleine Abweichungen bei baugleichen Batterien",
+   "zeilen": "siehe Issue",
+   "stand": "offen (Mini Cooper SE über #8 erledigt)"
+  },
+  {
+   "issue": 15,
+   "thema": "Bezeichnungen: iX2 eDrive30, EQB 350, i5 M60",
+   "zeilen": "58, 74, 184",
+   "stand": "korrigiert – kann geschlossen werden"
+  },
+  {
+   "issue": 16,
+   "thema": "Namensdubletten",
+   "zeilen": "12 Zeilen",
+   "stand": "als Alias gekennzeichnet – bitte bestätigen"
+  },
+  {
+   "issue": 17,
+   "thema": "Modelljahr / Batterie-Generation fehlt",
+   "zeilen": "ganze Tabelle",
+   "stand": "Spalten angelegt, für recherchierte Zeilen gefüllt – Rest offen"
+  },
+  {
+   "issue": 18,
+   "thema": "Herausgeber und Stichtag der Rohdaten",
+   "zeilen": "–",
+   "stand": "offen"
+  }
+ ],
+ "legende": [
+  [
+   "Begriff",
+   "Bedeutung"
+  ],
+  [
+   "Rohquelle",
+   "raw/tn_batterycheck_alle_daten.xlsx – unverändert. Diese Datei ist eine bereinigte Ableitung davon."
+  ],
+  [
+   "ID",
+   "Z + Zeilennummer der Rohquelle. Entfernte Zeilen fehlen, ihre Nummer wird nicht neu vergeben."
+  ],
+  [
+   "Status: unverändert",
+   "Wert wie in der Rohquelle."
+  ],
+  [
+   "Status: korrigiert",
+   "Wert per Recherche geändert. Alter Wert, Grund und Quelle stehen im Blatt „Änderungsprotokoll“."
+  ],
+  [
+   "Status: bestätigt",
+   "Wert per Recherche geprüft und unverändert übernommen; Quelle und Modelljahre ergänzt."
+  ],
+  [
+   "Status: Alias",
+   "Gleiches Fahrzeug/gleiche Batterie wie die Zeile in „Alias von Zeile“, nur anders benannt."
+  ],
+  [
+   "Status: Näherungswert",
+   "Die Rohquelle nennt nur einen Circa-Wert."
+  ],
+  [
+   "Status: zu prüfen",
+   "Wert unklar; Klärung im verlinkten GitHub-Issue. Bis dahin mit Vorsicht verwenden."
+  ],
+  [
+   "Brutto kWh",
+   "Installierte Energie der Traktionsbatterie."
+  ],
+  [
+   "Netto kWh",
+   "Nutzbare Energie – Referenzwert für den State of Health."
+  ],
+  [
+   "Puffer",
+   "Brutto − Netto; in % bezogen auf Brutto."
+  ],
+  [
+   "Modelljahr / Batterie-Generation",
+   "Nur gefüllt, wo per Recherche belegt. Vollständige Befüllung: Issue #17."
+  ]
+ ]
+}

@@ -11,7 +11,7 @@ brutto_max: 77.0
 netto_min: 74.4
 netto_max: 74.4
 bild: "Bilder/mg-cyberster.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mg", "sportwagen-roadster"]
 ---
@@ -48,10 +48,10 @@ Die Version **Trophy** hat einen [[elektromotor|Elektromotor]] an der Hinterachs
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Cyberster GT | 77,0 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 201 |
-| Cyberster Trophy | 77,0 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 202 |
+| Cyberster GT | 77 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 201 |
+| Cyberster Trophy | 77 kWh | 74,4 kWh | 2,6 kWh (3,4 %) | 202 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 201–202. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 201–202 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -79,4 +79,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 201–202)
 - Weiterlesen: [Wikipedia – MG Cyberster](https://en.wikipedia.org/wiki/MG_Cyberster)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

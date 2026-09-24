@@ -1,0 +1,468 @@
+ID,Zeile (Rohquelle),Marke,Modell,Brutto kWh,Netto kWh,Puffer kWh,Puffer %,Status,Alias von Zeile,Modelljahr von,Modelljahr bis,Batterie-Generation,Bemerkung,Quelle,Issue,Marke (Rohquelle),Modell (Rohquelle),Brutto (Rohquelle),Netto (Rohquelle)
+Z002,2,Audi,e-tron 50 quattro,71.0,64.7,6.3,8.9,unverändert,,,,,,Rohquelle,,Audi,e-tron 50 quattro,71 kWh,64.7 kWh
+Z003,3,Audi,e-tron 55 quattro,95.0,83.6,11.4,12.0,unverändert,,,,,,Rohquelle,,Audi,e-tron 55 quattro,95 kWh,83.6 kWh
+Z004,4,Audi,e-tron 55 quattro,95.0,86.5,8.5,8.9,unverändert,,,,,,Rohquelle,,Audi,e-tron 55 quattro,95 kWh,86.5 kWh
+Z005,5,Audi,e-tron 55 quattro,95.0,89.0,6.0,6.3,unverändert,,,,,,Rohquelle,,Audi,e-tron 55 quattro,95 kWh,89.0 kWh
+Z006,6,Audi,e-tron GT,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Audi,e-tron GT,93.4 kWh,83.7 kWh
+Z007,7,Audi,e-tron S quattro,95,86.5,8.5,8.9,korrigiert,,2020,2022,95 kWh,105/97 sind die Werte der großen Taycan-Batterie. Der e-tron S (SUV) hat dieselbe 95-kWh-Batterie wie der Sportback S.,https://ev-database.org/car/1658/Audi-e-tron-S https://ev-database.org/car/1659/Audi-e-tron-S-Sportback,#5,Audi,e-tron S quattro,105 kWh,97.0 kWh
+Z008,8,Audi,e-tron Sportback 50 quattro,71.0,64.7,6.3,8.9,unverändert,,,,,,Rohquelle,,Audi,e-tron Sportback 50 quattro,71 kWh,64.7 kWh
+Z009,9,Audi,e-tron Sportback 55 quattro,95.0,83.6,11.4,12.0,unverändert,,,,,,Rohquelle,,Audi,e-tron Sportback 55 quattro,95 kWh,83.6 kWh
+Z010,10,Audi,e-tron Sportback 55 quattro,95.0,86.5,8.5,8.9,unverändert,,,,,,Rohquelle,,Audi,e-tron Sportback 55 quattro,95 kWh,86.5 kWh
+Z011,11,Audi,e-tron Sportback 55 quattro,95.0,89.0,6.0,6.3,unverändert,,,,,,Rohquelle,,Audi,e-tron Sportback 55 quattro,95 kWh,89.0 kWh
+Z012,12,Audi,e-tron Sportback S quattro,95.0,86.5,8.5,8.9,unverändert,,,,,,Rohquelle,,Audi,e-tron Sportback S quattro,95 kWh,86.5 kWh
+Z013,13,Audi,Q4 35 e-tron,55.0,51.5,3.5,6.4,unverändert,,,,,,Rohquelle,,Audi,Q4 35 e-tron,55 kWh,51.5 kWh
+Z014,14,Audi,Q4 40 e-tron,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Audi,Q4 40 e-tron,63 kWh,59.0 kWh
+Z015,15,Audi,Q4 40 e-tron,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 40 e-tron,82 kWh,76.6 kWh
+Z016,16,Audi,Q4 45 e-tron,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 45 e-tron,82 kWh,76.6 kWh
+Z017,17,Audi,Q4 45 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 45 e-tron quattro,82 kWh,76.6 kWh
+Z018,18,Audi,Q4 50 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 50 e-tron quattro,82 kWh,76.6 kWh
+Z019,19,Audi,Q4 55 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 55 e-tron quattro,82 kWh,76.6 kWh
+Z020,20,Audi,Q4 Sportback 35 e-tron,55.0,51.5,3.5,6.4,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 35 e-tron,55 kWh,51.5 kWh
+Z021,21,Audi,Q4 Sportback 40 e-tron,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 40 e-tron,63 kWh,59.0 kWh
+Z022,22,Audi,Q4 Sportback 40 e-tron,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 40 e-tron,82 kWh,76.6 kWh
+Z023,23,Audi,Q4 Sportback 45 e-tron,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 45 e-tron,82 kWh,76.6 kWh
+Z024,24,Audi,Q4 Sportback 45 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 45 e-tron quattro,82 kWh,76.6 kWh
+Z025,25,Audi,Q4 Sportback 50 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 50 e-tron quattro,82 kWh,76.6 kWh
+Z026,26,Audi,Q4 Sportback 55 e-tron quattro,82.0,76.6,5.4,6.6,unverändert,,,,,,Rohquelle,,Audi,Q4 Sportback 55 e-tron quattro,82 kWh,76.6 kWh
+Z027,27,Audi,Q6 e-tron,83.0,75.8,7.2,8.7,unverändert,,,,,,Rohquelle,,Audi,Q6 e-tron,83 kWh,75.8 kWh
+Z028,28,Audi,Q6 e-tron performance,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,Q6 e-tron performance,100 kWh,94.9 kWh
+Z029,29,Audi,Q6 e-tron quattro,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,Q6 e-tron quattro,100 kWh,94.9 kWh
+Z030,30,Audi,Q6 Sportback e-tron performance,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,Q6 Sportback e-tron performance,100 kWh,94.9 kWh
+Z031,31,Audi,Q6 Sportback e-tron quattro,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,Q6 Sportback e-tron quattro,100 kWh,94.9 kWh
+Z032,32,Audi,Q8 50 e-tron,95.0,89.0,6.0,6.3,unverändert,,,,,,Rohquelle,,Audi,Q8 50 e-tron,95 kWh,89.0 kWh
+Z033,33,Audi,Q8 55 e-tron,114.0,106.0,8.0,7.0,unverändert,,,,,,Rohquelle,,Audi,Q8 55 e-tron,114 kWh,106.0 kWh
+Z034,34,Audi,Q8 Sportback 50 e-tron,95.0,89.0,6.0,6.3,unverändert,,,,,,Rohquelle,,Audi,Q8 Sportback 50 e-tron,95 kWh,89.0 kWh
+Z035,35,Audi,Q8 Sportback 55 e-tron,114.0,106.0,8.0,7.0,unverändert,,,,,,Rohquelle,,Audi,Q8 Sportback 55 e-tron,114 kWh,106.0 kWh
+Z036,36,Audi,RS e-tron GT,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Audi,RS e-tron GT,93.4 kWh,83.7 kWh
+Z037,37,Audi,RS e-tron GT performance,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Audi,RS e-tron GT performance,105 kWh,97.0 kWh
+Z038,38,Audi,SQ6 e-tron quattro,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,SQ6 e-tron quattro,100 kWh,94.9 kWh
+Z039,39,Audi,SQ6 Sportback e-tron quattro,100.0,94.9,5.1,5.1,unverändert,,,,,,Rohquelle,,Audi,SQ6 Sportback e-tron quattro,100 kWh,94.9 kWh
+Z040,40,Audi,SQ8 e-tron quattro,114.0,106.0,8.0,7.0,unverändert,,,,,,Rohquelle,,Audi,SQ8 e-tron quattro,114 kWh,106.0 kWh
+Z041,41,Audi,SQ8 Sportback e-tron quattro,114.0,106.0,8.0,7.0,unverändert,,,,,,Rohquelle,,Audi,SQ8 Sportback e-tron quattro,114 kWh,106.0 kWh
+Z042,42,BMW,i3,22.0,18.8,3.2,14.5,unverändert,,,,,,Rohquelle,,BMW,i3,22 kWh,18.8 kWh
+Z043,43,BMW,i3,33.2,27.2,6.0,18.1,unverändert,,,,,,Rohquelle,,BMW,i3,33.2 kWh,27.2 kWh
+Z044,44,BMW,i3,42.2,37.9,4.3,10.2,unverändert,,,,,,Rohquelle,,BMW,i3,42.2 kWh,37.9 kWh
+Z045,45,BMW,i3 (Range Extender),22.0,18.8,3.2,14.5,unverändert,,,,,,Rohquelle,,BMW,i3 (Range Extender),22 kWh,18.8 kWh
+Z046,46,BMW,i3 (Range Extender),33.2,27.2,6.0,18.1,unverändert,,,,,,Rohquelle,,BMW,i3 (Range Extender),33.2 kWh,27.2 kWh
+Z047,47,BMW,i3 (Range Extender),42.2,37.9,4.3,10.2,unverändert,,,,,,Rohquelle,,BMW,i3 (Range Extender),42.2 kWh,37.9 kWh
+Z048,48,BMW,i3s,33.2,27.2,6.0,18.1,unverändert,,,,,,Rohquelle,,BMW,i3s,33.2 kWh,27.2 kWh
+Z049,49,BMW,i3s,42.2,37.9,4.3,10.2,unverändert,,,,,,Rohquelle,,BMW,i3s,42.2 kWh,37.9 kWh
+Z050,50,BMW,i3s (Range Extender),33.2,27.2,6.0,18.1,unverändert,,,,,,Rohquelle,,BMW,i3s (Range Extender),33.2 kWh,27.2 kWh
+Z051,51,BMW,i4 eDrive35,70.3,66.0,4.3,6.1,unverändert,,,,,,Rohquelle,,BMW,i4 eDrive35,70.3 kWh,66.0 kWh
+Z052,52,BMW,i4 eDrive40,83.9,80.7,3.2,3.8,unverändert,,,,,,Rohquelle,,BMW,i4 eDrive40,83.9 kWh,80.7 kWh
+Z053,53,BMW,i4 M50 xDrive,83.9,80.7,3.2,3.8,unverändert,,,,,,Rohquelle,,BMW,i4 M50 xDrive,83.9 kWh,80.7 kWh
+Z054,54,BMW,i4 M60 xDrive,83.9,81.1,2.8,3.3,unverändert,,,,,,Rohquelle,,BMW,i4 M60 xDrive,83.9 kWh,81.1 kWh
+Z055,55,BMW,i4 xDrive40,83.9,80.7,3.2,3.8,unverändert,,,,,,Rohquelle,,BMW,i4 xDrive40,83.9 kWh,80.7 kWh
+Z056,56,BMW,i5 eDrive40,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,,BMW,i5 eDrive40,83.9 kWh,81.2 kWh
+Z057,57,BMW,i5 eDrive40 Touring,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,,BMW,i5 eDrive40 Touring,83.9 kWh,81.2 kWh
+Z058,58,BMW,i5 M60 xDrive,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,#15,BMW,i5 M60,83.9 kWh,81.2 kWh
+Z059,59,BMW,i5 M60 xDrive Touring,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,,BMW,i5 M60 xDrive Touring,83.9 kWh,81.2 kWh
+Z060,60,BMW,i5 xDrive40,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,,BMW,i5 xDrive40,83.9 kWh,81.2 kWh
+Z061,61,BMW,i5 xDrive40 Touring,83.9,81.2,2.7,3.2,unverändert,,,,,,Rohquelle,,BMW,i5 xDrive40 Touring,83.9 kWh,81.2 kWh
+Z062,62,BMW,i7 eDrive50,105.7,101.7,4.0,3.8,unverändert,,,,,,Rohquelle,,BMW,i7 eDrive50,105.7 kWh,101.7 kWh
+Z063,63,BMW,i7 M70,105.7,101.7,4.0,3.8,unverändert,,,,,,Rohquelle,,BMW,i7 M70,105.7 kWh,101.7 kWh
+Z064,64,BMW,i7 xDrive60,105.7,101.7,4.0,3.8,unverändert,,,,,,Rohquelle,,BMW,i7 xDrive60,105.7 kWh,101.7 kWh
+Z065,65,BMW,iX M60,111.5,105.2,6.3,5.7,korrigiert,,2022,2025,,"Laut BMW-Datenblatt und ev-database hat der iX M60 111,5 / 105,2 kWh.",https://ev-database.org/uk/car/1590/BMW-iX-M60 https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303,#9,BMW,iX M60,111.5 kWh,107.7 kWh
+Z066,66,BMW,iX M70,111.5,108.9,2.6,2.3,bestätigt,,2025,,Facelift 2025,"Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en https://ev-database.org/car/3111/BMW-iX-M70-xDrive,#9,BMW,iX M70,111.5 kWh,108.9 kWh
+Z067,67,BMW,iX xDrive40,76.6,71.0,5.6,7.3,korrigiert,,2021,2025,,"Laut BMW-Datenblatt (06/2021) hat der iX xDrive40 76,6 / 71,0 kWh.",https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303 https://ev-database.org/uk/car/1472/BMW-iX-xDrive-40,#9,BMW,iX xDrive 40,76.6 kWh,74.4 kWh
+Z068,68,BMW,iX xDrive45,100.6,94.8,5.8,5.8,bestätigt,,2025,,Facelift 2025,"Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en https://ev-database.org/car/3109/BMW-iX-xDrive45,#9,BMW,iX xDrive 45,100.6 kWh,94.8 kWh
+Z069,69,BMW,iX xDrive50,111.5,105.2,6.3,5.7,korrigiert,,2021,2025,,"Laut BMW-Datenblatt (06/2021) hat der iX xDrive50 111,5 / 105,2 kWh.",https://www.press.bmwgroup.com/asia/article/attachment/T0334029EN/481303,#9,BMW,iX xDrive 50,111.5 kWh,109.4 kWh
+Z070,70,BMW,iX xDrive60,111.5,109.1,2.4,2.2,bestätigt,,2025,,Facelift 2025,"Nettowert bestätigt (BMW, Facelift 2025). Bruttowert nicht offiziell: ev-database nennt 100,0 bzw. 115,0 kWh.",https://www.press.bmwgroup.com/global/article/detail/T0447642EN/the-new-bmw-ix?language=en https://ev-database.org/car/3110/BMW-iX-xDrive60,#9,BMW,iX xDrive 60,111.5 kWh,109.1 kWh
+Z071,71,BMW,iX1 eDrive20,66.5,64.7,1.8,2.7,unverändert,,,,,,Rohquelle,,BMW,iX1 eDrive20,66.5 kWh,64.7 kWh
+Z072,72,BMW,iX1 xDrive30,66.5,64.7,1.8,2.7,unverändert,,,,,,Rohquelle,,BMW,iX1 xDrive30,66.5 kWh,64.7 kWh
+Z073,73,BMW,iX2 eDrive20,66.5,64.7,1.8,2.7,unverändert,,,,,,Rohquelle,,BMW,iX2 eDrive20,66.5 kWh,64.7 kWh
+Z074,74,BMW,iX2 xDrive30,66.5,64.7,1.8,2.7,unverändert,,,,,,Rohquelle,#15,BMW,iX2 eDrive30,66.5 kWh,64.7 kWh
+Z075,75,BMW,iX3,80.0,73.83,6.17,7.7,unverändert,,,,,,Rohquelle,,BMW,iX3,80 kWh,73.83 kWh
+Z076,76,Citroën,C-Zero,16.0,14.5,1.5,9.4,unverändert,,,,,,Rohquelle,,Citroen,C-Zero,16 kWh,14.5 kWh
+Z077,77,Citroën,ë-Berlingo M,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Berlingo M,50 kWh,46.3 kWh
+Z078,78,Citroën,ë-Berlingo M,52.0,50.0,2.0,3.8,unverändert,,,,,,Rohquelle,,Citroen,e-Berlingo M,52 kWh,50.0 kWh
+Z079,79,Citroën,E-Berlingo Multispace,22.5,20.5,2.0,8.9,unverändert,,,,,,Rohquelle,,Citroen,E-Berlingo Multispace,22.5 kWh,20.5 kWh
+Z080,80,Citroën,ë-Berlingo XL,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Berlingo XL,50 kWh,46.3 kWh
+Z081,81,Citroën,ë-Berlingo XL,52.0,50.0,2.0,3.8,unverändert,,,,,,Rohquelle,,Citroen,e-Berlingo XL,52 kWh,50.0 kWh
+Z082,82,Citroën,ë-C3,44.0,43.8,0.2,0.5,bestätigt,,2024,,44 kWh LFP,"Der kleine Puffer ist real (LFP). ADAC: 44,2 / 43,8, ev-database: 44,0 / 43,8 kWh.",https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/citroen-c3-test/ https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh,#10,Citroen,e-C3,44 kWh,43.8 kWh
+Z083,83,Citroën,ë-C3 Aircross,44.0,43.8,0.2,0.5,bestätigt,,2024,,44 kWh LFP,"Der kleine Puffer ist real (LFP). ADAC: 44,2 / 43,8, ev-database: 44,0 / 43,8 kWh.",https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/citroen-c3-test/ https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh,#10,Citroen,e-C3 Aircross,44 kWh,43.8 kWh
+Z084,84,Citroën,ë-C3 Aircross Extended Range,54.0,52.8,1.2,2.2,korrigiert,,2025,,54 kWh LFP,"ADAC (Herstellerdaten): 54,0 / 52,8 kWh. Die 53,5 kWh sind ein Schätzwert von ev-database. Der baugleiche Opel Frontera ER hat laut ADAC 52,0 kWh netto.",https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/c3-aircross/2generation/350756/ https://ev-database.org/car/3228/Citroen-e-C3-Aircross-Extended-Range-54-kWh,#10,Citroen,e-C3 Aircross Extended Range,54 kWh,53.5 kWh
+Z085,85,Citroën,ë-C4,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-C4,50 kWh,46.3 kWh
+Z086,86,Citroën,ë-C4,54.0,50.8,3.2,5.9,unverändert,,,,,,Rohquelle,,Citroen,e-C4,54 kWh,50.8 kWh
+Z087,87,Citroën,ë-C4 X,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-C4 X,50 kWh,46.3 kWh
+Z088,88,Citroën,ë-C4 X,54.0,50.8,3.2,5.9,unverändert,,,,,,Rohquelle,,Citroen,e-C4 X,54 kWh,50.8 kWh
+Z089,89,Citroën,ë-Jumpy Combi M,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Jumpy Combi M,50 kWh,46.3 kWh
+Z090,90,Citroën,ë-Jumpy Combi M,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Citroen,e-Jumpy Combi M,75 kWh,68.0 kWh
+Z091,91,Citroën,ë-Jumpy Combi XL,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Jumpy Combi XL,50 kWh,46.3 kWh
+Z092,92,Citroën,ë-Jumpy Combi XL,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Citroen,e-Jumpy Combi XL,75 kWh,68.0 kWh
+Z093,93,Citroën,ë-Jumpy Combi XS,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Jumpy Combi XS,50 kWh,46.3 kWh
+Z094,94,Citroën,ë-SpaceTourer M,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Spacetourer M,50 kWh,46.3 kWh
+Z095,95,Citroën,ë-SpaceTourer M,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Citroen,e-Spacetourer M,75 kWh,68.0 kWh
+Z096,96,Citroën,ë-SpaceTourer XL,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Spacetourer XL,50 kWh,46.3 kWh
+Z097,97,Citroën,ë-SpaceTourer XL,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Citroen,e-Spacetourer XL,75 kWh,68.0 kWh
+Z098,98,Citroën,ë-SpaceTourer XS,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Citroen,e-Spacetourer XS,50 kWh,46.3 kWh
+Z099,99,Cupra,Born,63,59,4,6.3,korrigiert,,2024,2026,59 kWh (MY25),53/60 ist unmöglich (netto > brutto). Gemeint ist vermutlich die 59-kWh-Batterie ab Modelljahr 2025 mit 63 / 59 kWh (ev-database; electrive nennt 63 / 60). Die Zuordnung ist erschlossen und muss bestätigt werden.,https://ev-database.org/de/pkw/3262/CUPRA-Born-150-kW---59-kWh https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh https://www.electrive.net/2024/08/08/cupra-ueberarbeitet-das-born-angebot/,#1,Cupra,Born,53 kWh,60.0 kWh
+Z100,100,Cupra,Born,62.0,58.0,4.0,6.5,bestätigt,,2021,2024,58 kWh,Born 58 kWh (150 kW) bestätigt.,https://ev-database.org/car/1516/CUPRA-Born-150-kW---58-kWh,#1,Cupra,Born,62 kWh,58.0 kWh
+Z101,101,Cupra,Born,82.0,77.0,5.0,6.1,bestätigt,,2022,2025,77 kWh,Born 77 kWh bestätigt.,https://ev-database.org/car/1518/CUPRA-Born-170-kW---77-kWh,#1,Cupra,Born,82 kWh,77.0 kWh
+Z102,102,Cupra,Born e-boost,62.0,58.0,4.0,6.5,bestätigt,,2022,2024,58 kWh,Born 58 kWh e-Boost (170 kW) bestätigt.,https://ev-database.org/car/1517/CUPRA-Born-170-kW---58-kWh,#1,Cupra,Born e-boost,62 kWh,58.0 kWh
+Z103,103,Cupra,Tavascan Endurance,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Cupra,Tavascan Endurance,82 kWh,77.0 kWh
+Z104,104,Cupra,Tavascan VZ,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Cupra,Tavascan VZ,82 kWh,77.0 kWh
+Z105,105,Dacia,Spring Electric,26.8,25.0,1.8,6.7,zu prüfen,,,,,"Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus.",Rohquelle,#4,Dacia,Spring Electric,26.8 kWh,25.0 kWh
+Z106,106,Dacia,Spring Electric 45,26.8,25.0,1.8,6.7,zu prüfen,,,,,"Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus.",Rohquelle,#4,Dacia,Spring Electric 45,26.8 kWh,25.0 kWh
+Z107,107,Dacia,Spring Electric 65,26.8,25.0,1.8,6.7,zu prüfen,,,,,"Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus.",Rohquelle,#4,Dacia,Spring Electric 65,26.8 kWh,25.0 kWh
+Z108,108,Dacia,Spring Electric 65 Extreme,26.8,25.0,1.8,6.7,zu prüfen,,,,,"Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus.",Rohquelle,#4,Dacia,Spring Electric 65 Extreme,26.8 kWh,25.0 kWh
+Z109,109,Ford,F-150 Lightning ER,143.4,131.0,12.4,8.6,unverändert,,,,,,Rohquelle,,Ford,F-150 Lightning ER,143.4 kWh,131.0 kWh
+Z110,110,Ford,F-150 Lightning SR,110.0,98.0,12.0,10.9,unverändert,,,,,,Rohquelle,,Ford,F-150 Lightning SR,110 kWh,98.0 kWh
+Z111,111,Ford,Mustang Mach-E ER AWD,98.7,88.0,10.7,10.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E ER AWD,98.7 kWh,88.0 kWh
+Z112,112,Ford,Mustang Mach-E ER AWD,98.7,91.0,7.7,7.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E ER AWD,98.7 kWh,91.0 kWh
+Z113,113,Ford,Mustang Mach-E ER RWD,98.7,88.0,10.7,10.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E ER RWD,98.7 kWh,88.0 kWh
+Z114,114,Ford,Mustang Mach-E ER RWD,98.7,91.0,7.7,7.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E ER RWD,98.7 kWh,91.0 kWh
+Z115,115,Ford,Mustang Mach-E GT,98.7,88.0,10.7,10.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E GT,98.7 kWh,88.0 kWh
+Z116,116,Ford,Mustang Mach-E GT,98.7,91.0,7.7,7.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E GT,98.7 kWh,91.0 kWh
+Z117,117,Ford,Mustang Mach-E Rally,98.7,91.0,7.7,7.8,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E Rally,98.7 kWh,91.0 kWh
+Z118,118,Ford,Mustang Mach-E SR AWD,75.7,68.0,7.7,10.2,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR AWD,75.7 kWh,68.0 kWh
+Z119,119,Ford,Mustang Mach-E SR AWD,75.7,70.0,5.7,7.5,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR AWD,75.7 kWh,70.0 kWh
+Z120,120,Ford,Mustang Mach-E SR AWD,78.0,72.6,5.4,6.9,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR AWD,78 kWh,72.6 kWh
+Z121,121,Ford,Mustang Mach-E SR RWD,75.7,68.0,7.7,10.2,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR RWD,75.7 kWh,68.0 kWh
+Z122,122,Ford,Mustang Mach-E SR RWD,75.7,70.0,5.7,7.5,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR RWD,75.7 kWh,70.0 kWh
+Z123,123,Ford,Mustang Mach-E SR RWD,78.0,72.6,5.4,6.9,unverändert,,,,,,Rohquelle,,Ford,Mustang Mach-E SR RWD,78 kWh,72.6 kWh
+Z124,124,Hyundai,INSTER Long Range,49.0,46.0,3.0,6.1,unverändert,,,,,,Rohquelle,,Hyundai,INSTER Long Range,49.0 kWh,46.0 kWh
+Z125,125,Hyundai,INSTER Standard Range,42.0,39.0,3.0,7.1,unverändert,,,,,,Rohquelle,,Hyundai,INSTER Standard Range,42.0 kWh,39.0 kWh
+Z126,126,Hyundai,IONIQ 5 AWD,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 AWD,84.0 kWh,80.0 kWh
+Z127,127,Hyundai,IONIQ 5 Long Range 2WD,72.6,70.0,2.6,3.6,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Long Range 2WD,72.6 kWh,70.0 kWh
+Z128,128,Hyundai,IONIQ 5 Long Range 2WD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Long Range 2WD,77.4 kWh,74.0 kWh
+Z129,129,Hyundai,IONIQ 5 Long Range AWD,72.6,70.0,2.6,3.6,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Long Range AWD,72.6 kWh,70.0 kWh
+Z130,130,Hyundai,IONIQ 5 Long Range AWD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Long Range AWD,77.4 kWh,74.0 kWh
+Z131,131,Hyundai,IONIQ 5 N,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 N,84.0 kWh,80.0 kWh
+Z132,132,Hyundai,IONIQ 5 Project 45,72.6,70.0,2.6,3.6,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Project 45,72.6 kWh,70.0 kWh
+Z133,133,Hyundai,IONIQ 5 RWD,63.0,60.0,3.0,4.8,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 RWD,63.0 kWh,60.0 kWh
+Z134,134,Hyundai,IONIQ 5 RWD,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 RWD,84.0 kWh,80.0 kWh
+Z135,135,Hyundai,IONIQ 5 Standard Range 2WD,58.0,54.0,4.0,6.9,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Standard Range 2WD,58.0 kWh,54.0 kWh
+Z136,136,Hyundai,IONIQ 5 Standard Range AWD,58.0,54.0,4.0,6.9,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 5 Standard Range AWD,58.0 kWh,54.0 kWh
+Z137,137,Hyundai,IONIQ 6 Long Range 2WD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 6 Long Range 2WD,77.4 kWh,74.0 kWh
+Z138,138,Hyundai,IONIQ 6 Long Range AWD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 6 Long Range AWD,77.4 kWh,74.0 kWh
+Z139,139,Hyundai,IONIQ 6 Standard Range 2WD,53.0,50.0,3.0,5.7,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 6 Standard Range 2WD,53.0 kWh,50.0 kWh
+Z140,140,Hyundai,IONIQ 9 Long Range AWD,110.3,106.0,4.3,3.9,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 9 Long Range AWD,110.3 kWh,106.0 kWh
+Z141,141,Hyundai,IONIQ 9 Long Range RWD,110.3,106.0,4.3,3.9,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 9 Long Range RWD,110.3 kWh,106.0 kWh
+Z142,142,Hyundai,IONIQ 9 Performance AWD,110.3,106.0,4.3,3.9,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ 9 Performance AWD,110.3 kWh,106.0 kWh
+Z143,143,Hyundai,IONIQ Electric,30.5,28.0,2.5,8.2,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ Electric,30.5 kWh,28.0 kWh
+Z144,144,Hyundai,IONIQ Electric,40.4,38.3,2.1,5.2,unverändert,,,,,,Rohquelle,,Hyundai,IONIQ Electric,40.4 kWh,38.3 kWh
+Z145,145,Hyundai,Kona Electric,42.0,39.2,2.8,6.7,unverändert,,,,,,Rohquelle,,Hyundai,Kona Electric,42.0 kWh,39.2 kWh
+Z146,146,Hyundai,Kona Electric,51.0,48.4,2.6,5.1,unverändert,,,,,,Rohquelle,,Hyundai,Kona Electric,51.0 kWh,48.4 kWh
+Z147,147,Hyundai,Kona Electric,67.5,64.0,3.5,5.2,unverändert,,,,,,Rohquelle,,Hyundai,Kona Electric,67.5 kWh,64.0 kWh
+Z148,148,Hyundai,Kona Electric,68.5,65.4,3.1,4.5,unverändert,,,,,,Rohquelle,,Hyundai,Kona Electric,68.5 kWh,65.4 kWh
+Z149,149,Kia,e-Niro,42.0,39.2,2.8,6.7,unverändert,,,,,,Rohquelle,,Kia,e-Niro,42.0 kWh,39.2 kWh
+Z150,150,Kia,e-Niro,67.5,64.0,3.5,5.2,unverändert,,,,,,Rohquelle,,Kia,e-Niro,67.5 kWh,64.0 kWh
+Z151,151,Kia,e-Soul,42.0,39.2,2.8,6.7,unverändert,,,,,,Rohquelle,,Kia,e-Soul,42.0 kWh,39.2 kWh
+Z152,152,Kia,e-Soul,67.5,64.0,3.5,5.2,unverändert,,,,,,Rohquelle,,Kia,e-Soul,67.5 kWh,64.0 kWh
+Z153,153,Kia,EV3 Long Range,81.4,78.0,3.4,4.2,unverändert,,,,,,Rohquelle,,Kia,EV3 Long Range,81.4 kWh,78.0 kWh
+Z154,154,Kia,EV3 Standard Range,58.3,55.0,3.3,5.7,unverändert,,,,,,Rohquelle,,Kia,EV3 Standard Range,58.3 kWh,55.0 kWh
+Z155,155,Kia,EV4 Fastback,81.4,78.0,3.4,4.2,unverändert,,,,,,Rohquelle,,Kia,EV4 Fastback,81.4 kWh,78.0 kWh
+Z156,156,Kia,EV4 Hatchback,58.3,55.0,3.3,5.7,unverändert,,,,,,Rohquelle,,Kia,EV4 Hatchback,58.3 kWh,55.0 kWh
+Z157,157,Kia,EV4 Hatchback,81.4,78.0,3.4,4.2,unverändert,,,,,,Rohquelle,,Kia,EV4 Hatchback,81.4 kWh,78.0 kWh
+Z158,158,Kia,EV6 GT,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Kia,EV6 GT,77.4 kWh,74.0 kWh
+Z159,159,Kia,EV6 GT,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Kia,EV6 GT,84.0 kWh,80.0 kWh
+Z160,160,Kia,EV6 Long Range 2WD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Kia,EV6 Long Range 2WD,77.4 kWh,74.0 kWh
+Z161,161,Kia,EV6 Long Range 2WD,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Kia,EV6 Long Range 2WD,84.0 kWh,80.0 kWh
+Z162,162,Kia,EV6 Long Range AWD,77.4,74.0,3.4,4.4,unverändert,,,,,,Rohquelle,,Kia,EV6 Long Range AWD,77.4 kWh,74.0 kWh
+Z163,163,Kia,EV6 Long Range AWD,84.0,80.0,4.0,4.8,unverändert,,,,,,Rohquelle,,Kia,EV6 Long Range AWD,84.0 kWh,80.0 kWh
+Z164,164,Kia,EV6 Standard Range 2WD,58.0,54.0,4.0,6.9,unverändert,,,,,,Rohquelle,,Kia,EV6 Standard Range 2WD,58.0 kWh,54.0 kWh
+Z165,165,Kia,EV6 Standard Range 2WD,63.0,60.0,3.0,4.8,unverändert,,,,,,Rohquelle,,Kia,EV6 Standard Range 2WD,63.0 kWh,60.0 kWh
+Z166,166,Kia,EV6 Standard Range AWD,58.0,54.0,4.0,6.9,unverändert,,,,,,Rohquelle,,Kia,EV6 Standard Range AWD,58.0 kWh,54.0 kWh
+Z167,167,Kia,EV6 Standard Range AWD,63.0,60.0,3.0,4.8,unverändert,,,,,,Rohquelle,,Kia,EV6 Standard Range AWD,63.0 kWh,60.0 kWh
+Z168,168,Kia,EV9 AWD,99.8,96.0,3.8,3.8,unverändert,,,,,,Rohquelle,,Kia,EV9 AWD,99.8 kWh,96.0 kWh
+Z169,169,Kia,EV9 AWD GT,99.8,96.0,3.8,3.8,unverändert,,,,,,Rohquelle,,Kia,EV9 AWD GT,99.8 kWh,96.0 kWh
+Z170,170,Kia,EV9 AWD GT-Line,99.8,96.0,3.8,3.8,unverändert,,,,,,Rohquelle,,Kia,EV9 AWD GT-Line,99.8 kWh,96.0 kWh
+Z171,171,Kia,EV9 RWD,76.1,73.0,3.1,4.1,unverändert,,,,,,Rohquelle,,Kia,EV9 RWD,76.1 kWh,73.0 kWh
+Z172,172,Kia,EV9 RWD,99.8,96.0,3.8,3.8,unverändert,,,,,,Rohquelle,,Kia,EV9 RWD,99.8 kWh,96.0 kWh
+Z173,173,Kia,Niro EV,68.0,64.8,3.2,4.7,unverändert,,,,,,Rohquelle,,Kia,Niro EV,68.0 kWh,64.8 kWh
+Z174,174,Kia,Soul EV,30.5,27.0,3.5,11.5,unverändert,,,,,,Rohquelle,,Kia,Soul EV,30.5 kWh,27.0 kWh
+Z175,175,Kia,Soul EV,33.0,30.0,3.0,9.1,unverändert,,,,,,Rohquelle,,Kia,Soul EV,33.0 kWh,30.0 kWh
+Z176,176,Mercedes-Benz,EQA 250,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQA 250,69.7 kWh,66.5 kWh
+Z177,177,Mercedes-Benz,EQA 250+,73.9,70.5,3.4,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQA 250+,73.9 kWh,70.5 kWh
+Z178,178,Mercedes-Benz,EQA 300 4MATIC,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQA 300 4MATIC,69.7 kWh,66.5 kWh
+Z179,179,Mercedes-Benz,EQA 350 4MATIC,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQA 350 4MATIC,69.7 kWh,66.5 kWh
+Z180,180,Mercedes-Benz,EQB 250,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQB 250,69.7 kWh,66.5 kWh
+Z181,181,Mercedes-Benz,EQB 250+,73.9,70.5,3.4,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQB 250+,73.9 kWh,70.5 kWh
+Z182,182,Mercedes-Benz,EQB 300 4MATIC,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQB 300 4MATIC,69.7 kWh,66.5 kWh
+Z183,183,Mercedes-Benz,EQB 300 4MATIC,73.9,70.5,3.4,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQB 300 4MATIC,73.9 kWh,70.5 kWh
+Z184,184,Mercedes-Benz,EQB 350 4MATIC,73.9,70.5,3.4,4.6,unverändert,,,,,,Rohquelle,#15,Mercedes,EQB 350,73.9 kWh,70.5 kWh
+Z185,185,Mercedes-Benz,EQB 350 4MATIC,69.7,66.5,3.2,4.6,unverändert,,,,,,Rohquelle,,Mercedes,EQB 350 4MATIC,69.7 kWh,66.5 kWh
+Z186,186,Mercedes-Benz,EQC 400 4MATIC,85.0,80.0,5.0,5.9,unverändert,,,,,,Rohquelle,,Mercedes,EQC 400,85 kWh,80.0 kWh
+Z187,187,Mercedes-Benz,EQT,48,45.0,3.0,6.2,korrigiert,,,,,Der EQT nutzt die 45-kWh-Batterie des Renault Kangoo E-Tech. ev-database: 48 / 45 kWh; für 50 kWh brutto gibt es keinen Beleg.,https://ev-database.org/car/1908/Mercedes-Benz-EQT-200-Standard https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric,#3,Mercedes,EQT,50 kWh,45.0 kWh
+Z188,188,Mercedes-Benz,EQV 250,66.0,60.0,6.0,9.1,unverändert,,,,,,Rohquelle,,Mercedes,EQV 250,66 kWh,60.0 kWh
+Z189,189,Mercedes-Benz,EQV 300,100.0,90.0,10.0,10.0,unverändert,,,,,,Rohquelle,,Mercedes,EQV 300,100 kWh,90.0 kWh
+Z190,190,Mercedes-Benz,eSprinter,41.0,35.0,6.0,14.6,unverändert,,,,,,Rohquelle,,Mercedes,eSprinter,41 kWh,35.0 kWh
+Z191,191,Mercedes-Benz,eSprinter,55.0,47.0,8.0,14.5,unverändert,,,,,,Rohquelle,,Mercedes,eSprinter,55 kWh,47.0 kWh
+Z192,192,Mercedes-Benz,eSprinter LFP,119.0,113.0,6.0,5.0,Näherungswert,,,,,In der Rohquelle als „ca.“ angegeben. Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell.,Rohquelle,#11,Mercedes,eSprinter LFP,ca. 119 kWh,113.0 kWh
+Z193,193,Mercedes-Benz,eSprinter LFP,60.0,56.0,4.0,6.7,Näherungswert,,,,,In der Rohquelle als „ca.“ angegeben. Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell.,Rohquelle,#11,Mercedes,eSprinter LFP,ca. 60 kWh,56.0 kWh
+Z194,194,Mercedes-Benz,eSprinter LFP,85.0,81.0,4.0,4.7,Näherungswert,,,,,In der Rohquelle als „ca.“ angegeben. Mercedes nennt nur nutzbare Kapazitäten (56 / 81 / 113 kWh); die Bruttowerte sind nicht offiziell.,Rohquelle,#11,Mercedes,eSprinter LFP,ca. 85 kWh,81.0 kWh
+Z195,195,Mercedes-Benz,eVito 129 Tourer pro extra long,100.0,90.0,10.0,10.0,unverändert,,,,,,Rohquelle,,Mercedes,eVito 129 Tourer pro extra long,100 kWh,90.0 kWh
+Z196,196,Mercedes-Benz,eVito 129 Tourer pro long,100.0,90.0,10.0,10.0,unverändert,,,,,,Rohquelle,,Mercedes,eVito 129 Tourer pro long,100 kWh,90.0 kWh
+Z197,197,Mercedes-Benz,eVito extra long,41.0,35.0,6.0,14.6,unverändert,,,,,,Rohquelle,,Mercedes,eVito extra long,41 kWh,35.0 kWh
+Z198,198,Mercedes-Benz,eVito extra long,66.0,60.0,6.0,9.1,unverändert,,,,,,Rohquelle,,Mercedes,eVito extra long,66 kWh,60.0 kWh
+Z199,199,Mercedes-Benz,eVito long,41.0,35.0,6.0,14.6,unverändert,,,,,,Rohquelle,,Mercedes,eVito long,41 kWh,35.0 kWh
+Z200,200,Mercedes-Benz,eVito long,66.0,60.0,6.0,9.1,unverändert,,,,,,Rohquelle,,Mercedes,eVito long,66 kWh,60.0 kWh
+Z201,201,MG,Cyberster GT,77.0,74.4,2.6,3.4,unverändert,,,,,,Rohquelle,,MG,Cyberster GT,77.0 kWh,74.4 kWh
+Z202,202,MG,Cyberster Trophy,77.0,74.4,2.6,3.4,unverändert,,,,,,Rohquelle,,MG,Cyberster Trophy,77.0 kWh,74.4 kWh
+Z203,203,MG,Marvel R,75.0,70.0,5.0,6.7,unverändert,,,,,,Rohquelle,,MG,Marvel R,75.0 kWh,70.0 kWh
+Z204,204,MG,Marvel R Performance,75.0,70.0,5.0,6.7,unverändert,,,,,,Rohquelle,,MG,Marvel R Performance,75.0 kWh,70.0 kWh
+Z205,205,MG,MG4 Electric,51.0,50.8,0.2,0.4,zu prüfen,,,,,"Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh.",Rohquelle,#10,MG,MG4 Electric,51.0 kWh,50.8 kWh
+Z206,206,MG,MG4 Electric,64.0,61.7,2.3,3.6,zu prüfen,,,,,"Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh.",Rohquelle,#10,MG,MG4 Electric,64.0 kWh,61.7 kWh
+Z207,207,MG,MG4 Electric,77.0,74.4,2.6,3.4,unverändert,,,,,,Rohquelle,,MG,MG4 Electric,77.0 kWh,74.4 kWh
+Z208,208,MG,MG4 Electric XPOWER,64.0,61.7,2.3,3.6,zu prüfen,,,,,"Quellen widersprechen sich: ev-database 51,0 / 50,8 bzw. 64,0 / 61,7 kWh, ADAC 51,0 / 49,0 bzw. 64,0 / 59,5 kWh.",Rohquelle,#10,MG,MG4 Electric XPOWER,64.0 kWh,61.7 kWh
+Z209,209,MG,MG5 Electric Long Range,61.1,57.4,3.7,6.1,unverändert,,,,,,Rohquelle,,MG,MG5 Electric Long Range,61.1 kWh,57.4 kWh
+Z210,210,MG,MG5 Electric Standard Range,50.3,46.0,4.3,8.5,unverändert,,,,,,Rohquelle,,MG,MG5 Electric Standard Range,50.3 kWh,46.0 kWh
+Z211,211,MG,MG5 EV,52.5,48.8,3.7,7.0,unverändert,,,,,,Rohquelle,,MG,MG5 EV,52.5 kWh,48.8 kWh
+Z212,212,MG,MG5 EV Long Range,61.1,57.4,3.7,6.1,Alias,209,,,,Gleiches Fahrzeug wie Zeile 209 („MG5 EV“ = „MG5 Electric“).,Rohquelle,#16,MG,MG5 EV Long Range,61.1 kWh,57.4 kWh
+Z213,213,MG,ZS EV,44.5,42.5,2.0,4.5,unverändert,,,,,,Rohquelle,,MG,ZS EV,44.5 kWh,42.5 kWh
+Z214,214,MG,ZS EV Long Range,72.6,68.3,4.3,5.9,unverändert,,,,,,Rohquelle,,MG,ZS EV Long Range,72.6 kWh,68.3 kWh
+Z215,215,MG,ZS EV Standard Range,51.1,49.0,2.1,4.1,unverändert,,,,,,Rohquelle,,MG,ZS EV Standard Range,51.1 kWh,49.0 kWh
+Z216,216,Mini,Aceman E,42.5,38.5,4.0,9.4,bestätigt,,2024,,,"Aceman E 42,5 / 38,5 kWh bestätigt.",https://ev-database.org/car/2190/Mini-Aceman-E,#8,Mini,Aceman E,42.5 kWh,38.5 kWh
+Z217,217,Mini,Aceman JCW,54.2,49.2,5.0,9.2,unverändert,,,,,,Rohquelle,,Mini,Aceman JCW,54.2 kWh,49.2 kWh
+Z218,218,Mini,Aceman SE,54.2,49.2,5.0,9.2,bestätigt,,2024,,,"Aceman SE 54,2 / 49,2 kWh bestätigt.",https://ev-database.org/uk/car/2191/Mini-Aceman-SE,#8,Mini,Aceman SE,54.2 kWh,49.2 kWh
+Z219,219,Mini,Cooper E,40.7,36.6,4.1,10.1,korrigiert,,2024,,,"Laut ev-database und Auto Bild hat der Cooper E 40,7 / 36,6 kWh.",https://ev-database.org/uk/car/1997/Mini-Cooper-E,#8,Mini,Cooper E,40.7 kWh,36.8 kWh
+Z220,220,Mini,Cooper SE,32.6,28.9,3.7,11.3,unverändert,,,,,,Rohquelle,,Mini,Cooper SE,32.6 kWh,28.9 kWh
+Z221,221,Mini,Cooper SE,54.2,49.2,5.0,9.2,korrigiert,,2024,,,"Der neue Cooper SE (J01) hat dieselbe Batterie wie der Aceman SE: 54,2 / 49,2 kWh.",https://ev-database.org/uk/car/1998/Mini-Cooper-SE,#8,Mini,Cooper SE,54.2 kWh,49.8 kWh
+Z222,222,Mini,Countryman E,66.5,64.6,1.9,2.9,unverändert,,,,,,Rohquelle,,Mini,Countryman E,66.5 kWh,64.6 kWh
+Z223,223,Mini,Countryman SE,66.5,64.6,1.9,2.9,unverändert,,,,,,Rohquelle,,Mini,Countryman SE,66.5 kWh,64.6 kWh
+Z224,224,Peugeot,e-2008,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-2008,50 kWh,46.3 kWh
+Z225,225,Peugeot,e-2008,54.0,50.8,3.2,5.9,unverändert,,,,,,Rohquelle,,Peugeot,e-2008,54 kWh,50.8 kWh
+Z226,226,Peugeot,e-2008 SUV,50.0,46.3,3.7,7.4,Alias,224,,,,Gleiches Fahrzeug wie Zeile 224 (Zusatz „SUV“).,Rohquelle,#16,Peugeot,e-2008 SUV,50 kWh,46.3 kWh
+Z227,227,Peugeot,e-208,50.0,46.3,3.7,7.4,bestätigt,,2019,2023,50 kWh,"Ursprüngliche 100-kW-Batterie (NMC622), bestätigt.",https://ev-database.org/car/1583/Peugeot-e-208,#6,Peugeot,e-208,50 kWh,46.3 kWh
+Z228,228,Peugeot,e-208,51.0,48.1,2.9,5.7,bestätigt,,2022,2025,51 kWh,"Richtig: Batterie des e-208 mit 115 kW / 156 PS (96 Zellen NMC811), 11/2022 bis 04/2025.",https://ev-database.org/car/1949/Peugeot-e-208-51-kWh https://www.auto-motor-und-sport.de/elektroauto/peugeot-e-208-mehr-power-mehr-reichweite/,#6,Peugeot,e-208,51 kWh,48.1 kWh
+Z229,229,Peugeot,e-208,54.0,50.8,3.2,5.9,bestätigt,,2025,,54 kWh,"Neue Stellantis-Batterie ab 04/2025. Netto laut ev-database 50,8, laut Stellantis 51 kWh.",https://ev-database.org/car/3223/Peugeot-e-208-54-kWh https://www.electrive.com/2025/04/09/stellantis-gives-its-small-evs-a-range-upgrade/,#6,Peugeot,e-208,54 kWh,50.8 kWh
+Z230,230,Peugeot,e-3008,77.0,73.0,4.0,5.2,unverändert,,,,,,Rohquelle,,Peugeot,e-3008,77 kWh,73.0 kWh
+Z231,231,Peugeot,e-3008 Long Range,101.0,96.9,4.1,4.1,unverändert,,,,,,Rohquelle,,Peugeot,e-3008 Long Range,101 kWh,96.9 kWh
+Z232,232,Peugeot,e-308,54.0,50.8,3.2,5.9,unverändert,,,,,,Rohquelle,,Peugeot,e-308,54 kWh,50.8 kWh
+Z233,233,Peugeot,e-308 SW,54.0,50.8,3.2,5.9,unverändert,,,,,,Rohquelle,,Peugeot,e-308 SW,54 kWh,50.8 kWh
+Z234,234,Peugeot,e-408,61.0,58.3,2.7,4.4,unverändert,,,,,,Rohquelle,,Peugeot,e-408,61 kWh,58.3 kWh
+Z235,235,Peugeot,e-Expert Combi Compact,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Expert Combi Compact,50 kWh,46.3 kWh
+Z236,236,Peugeot,e-Expert Combi Long,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Expert Combi Long,50 kWh,46.3 kWh
+Z237,237,Peugeot,e-Expert Combi Long,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Peugeot,e-Expert Combi Long,75 kWh,68.0 kWh
+Z238,238,Peugeot,e-Expert Combi Standard,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Expert Combi Standard,50 kWh,46.3 kWh
+Z239,239,Peugeot,e-Expert Combi Standard,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Peugeot,e-Expert Combi Standard,75 kWh,68.0 kWh
+Z240,240,Peugeot,e-Partner,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Partner,50 kWh,46.3 kWh
+Z241,241,Peugeot,e-Rifter Long,50.0,46.3,3.7,7.4,Alias,244,,,,„Long“ entspricht der Länge „XL“ (Zeile 244).,Rohquelle,#16,Peugeot,e-Rifter Long,50 kWh,46.3 kWh
+Z242,242,Peugeot,e-Rifter M,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Rifter M,50 kWh,46.3 kWh
+Z243,243,Peugeot,e-Rifter Standard,50.0,46.3,3.7,7.4,Alias,242,,,,„Standard“ entspricht der Länge „M“ (Zeile 242).,Rohquelle,#16,Peugeot,e-Rifter Standard,50 kWh,46.3 kWh
+Z244,244,Peugeot,e-Rifter XL,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Rifter XL,50 kWh,46.3 kWh
+Z245,245,Peugeot,e-Traveller Compact,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Traveller Compact,50 kWh,46.3 kWh
+Z246,246,Peugeot,e-Traveller L2,50.0,46.3,3.7,7.4,Alias,252,,,,„L2“ entspricht „Standard“ (Zeile 252).,Rohquelle,#16,Peugeot,e-Traveller L2,50 kWh,46.3 kWh
+Z247,247,Peugeot,e-Traveller L2,75.0,68.0,7.0,9.3,Alias,253,,,,„L2“ entspricht „Standard“ (Zeile 253).,Rohquelle,#16,Peugeot,e-Traveller L2,75 kWh,68.0 kWh
+Z248,248,Peugeot,e-Traveller L3,50.0,46.3,3.7,7.4,Alias,250,,,,„L3“ entspricht „Long“ (Zeile 250).,Rohquelle,#16,Peugeot,e-Traveller L3,50 kWh,46.3 kWh
+Z249,249,Peugeot,e-Traveller L3,75.0,68.0,7.0,9.3,Alias,251,,,,„L3“ entspricht „Long“ (Zeile 251).,Rohquelle,#16,Peugeot,e-Traveller L3,75 kWh,68.0 kWh
+Z250,250,Peugeot,e-Traveller Long,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Traveller Long,50 kWh,46.3 kWh
+Z251,251,Peugeot,e-Traveller Long,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Peugeot,e-Traveller Long,75 kWh,68.0 kWh
+Z252,252,Peugeot,e-Traveller Standard,50.0,46.3,3.7,7.4,unverändert,,,,,,Rohquelle,,Peugeot,e-Traveller Standard,50 kWh,46.3 kWh
+Z253,253,Peugeot,e-Traveller Standard,75.0,68.0,7.0,9.3,unverändert,,,,,,Rohquelle,,Peugeot,e-Traveller Standard,75 kWh,68.0 kWh
+Z254,254,Peugeot,iOn,16.0,14.5,1.5,9.4,unverändert,,,,,,Rohquelle,,Peugeot,iOn,16 kWh,14.5 kWh
+Z255,255,Peugeot,Partner Tepee Electric,22.5,20.5,2.0,8.9,unverändert,,,,,,Rohquelle,,Peugeot,Partner Tepee Electric,22.5 kWh,20.5 kWh
+Z256,256,Porsche,Macan,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Porsche,Macan,100 kWh,95.0 kWh
+Z257,257,Porsche,Macan 4,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Porsche,Macan 4,100 kWh,95.0 kWh
+Z258,258,Porsche,Macan 4S,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Porsche,Macan 4S,100 kWh,95.0 kWh
+Z259,259,Porsche,Macan Turbo,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Porsche,Macan Turbo,100 kWh,95.0 kWh
+Z260,260,Porsche,Taycan,79.2,71.0,8.2,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan,79.2 kWh,71.0 kWh
+Z261,261,Porsche,Taycan,89.0,82.3,6.7,7.5,unverändert,,,,,,Rohquelle,,Porsche,Taycan,89 kWh,82.3 kWh
+Z262,262,Porsche,Taycan,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan,93.4 kWh,83.7 kWh
+Z263,263,Porsche,Taycan,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan,105 kWh,97.0 kWh
+Z264,264,Porsche,Taycan 4 Cross Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4 Cross Turismo,93.4 kWh,83.7 kWh
+Z265,265,Porsche,Taycan 4 Cross Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4 Cross Turismo,105 kWh,97.0 kWh
+Z266,266,Porsche,Taycan 4S,79.2,71.0,8.2,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S,79.2 kWh,71.0 kWh
+Z267,267,Porsche,Taycan 4S,89.0,82.3,6.7,7.5,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S,89 kWh,82.3 kWh
+Z268,268,Porsche,Taycan 4S,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S,93.4 kWh,83.7 kWh
+Z269,269,Porsche,Taycan 4S,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S,105 kWh,97.0 kWh
+Z270,270,Porsche,Taycan 4S Cross Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Cross Turismo,93.4 kWh,83.7 kWh
+Z271,271,Porsche,Taycan 4S Cross Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Cross Turismo,105 kWh,97.0 kWh
+Z272,272,Porsche,Taycan 4S Sport Turismo,79.2,71.0,8.2,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Sport Turismo,79.2 kWh,71.0 kWh
+Z273,273,Porsche,Taycan 4S Sport Turismo,89.0,82.3,6.7,7.5,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Sport Turismo,89 kWh,82.3 kWh
+Z274,274,Porsche,Taycan 4S Sport Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Sport Turismo,93.4 kWh,83.7 kWh
+Z275,275,Porsche,Taycan 4S Sport Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan 4S Sport Turismo,105 kWh,97.0 kWh
+Z276,276,Porsche,Taycan GTS,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan GTS,93.4 kWh,83.7 kWh
+Z277,277,Porsche,Taycan GTS,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan GTS,105 kWh,97.0 kWh
+Z278,278,Porsche,Taycan GTS Sport Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan GTS Sport Turismo,93.4 kWh,83.7 kWh
+Z279,279,Porsche,Taycan GTS Sport Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan GTS Sport Turismo,105 kWh,97.0 kWh
+Z280,280,Porsche,Taycan Sport Turismo,79.2,71.0,8.2,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Sport Turismo,79.2 kWh,71.0 kWh
+Z281,281,Porsche,Taycan Sport Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Sport Turismo,93.4 kWh,83.7 kWh
+Z283,283,Porsche,Taycan Sport Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Sport Turismo,105 kWh,97.0 kWh
+Z284,284,Porsche,Taycan Turbo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo,93.4 kWh,83.7 kWh
+Z285,285,Porsche,Taycan Turbo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo,105 kWh,97.0 kWh
+Z286,286,Porsche,Taycan Turbo Cross Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo Cross Turismo,93.4 kWh,83.7 kWh
+Z287,287,Porsche,Taycan Turbo Cross Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo Cross Turismo,105 kWh,97.0 kWh
+Z288,288,Porsche,Taycan Turbo GT,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo GT,105 kWh,97.0 kWh
+Z289,289,Porsche,Taycan Turbo S,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S,93.4 kWh,83.7 kWh
+Z290,290,Porsche,Taycan Turbo S,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S,105 kWh,97.0 kWh
+Z291,291,Porsche,Taycan Turbo S Cross Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S Cross Turismo,93.4 kWh,83.7 kWh
+Z292,292,Porsche,Taycan Turbo S Cross Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S Cross Turismo,105 kWh,97.0 kWh
+Z293,293,Porsche,Taycan Turbo S Sport Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S Sport Turismo,93.4 kWh,83.7 kWh
+Z294,294,Porsche,Taycan Turbo S Sport Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo S Sport Turismo,105 kWh,97.0 kWh
+Z295,295,Porsche,Taycan Turbo Sport Turismo,93.4,83.7,9.7,10.4,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo Sport Turismo,93.4 kWh,83.7 kWh
+Z296,296,Porsche,Taycan Turbo Sport Turismo,105.0,97.0,8.0,7.6,unverändert,,,,,,Rohquelle,,Porsche,Taycan Turbo Sport Turismo,105 kWh,97.0 kWh
+Z297,297,Renault,City K-ZE,27.4,26.8,0.6,2.2,korrigiert,,,,,"30 kWh brutto sind nicht belegt (nur auto-data.net). Renault nennt 26,8 kWh; der baugleiche Dacia Spring hat laut ADAC (Herstellerdaten) 27,4 / 26,8 kWh.",https://paultan.org/2019/09/10/renault-k-ze-launched-in-china/ https://www.batterydesign.net/dacia-spring-battery/,#4,Renault,City K-ZE,30 kWh,26.8 kWh
+Z298,298,Renault,Kangoo E-Tech,48.0,45.0,3.0,6.2,bestätigt,,2022,,45 kWh,48 / 45 kWh bestätigt (ev-database; Renault nennt 45 kWh nutzbar).,https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric,#3,Renault,Kangoo E-Tech,48 kWh,45.0 kWh
+Z299,299,Renault,Kangoo Grand E-Tech,48.0,45.0,3.0,6.2,bestätigt,,2022,,45 kWh,48 / 45 kWh bestätigt (ev-database; Renault nennt 45 kWh nutzbar).,https://ev-database.org/car/1802/Renault-Kangoo-E-Tech-Electric,#3,Renault,Kangoo Grand E-Tech,48 kWh,45.0 kWh
+Z300,300,Renault,Kangoo Maxi Z.E.,33.0,31.0,2.0,6.1,unverändert,,,,,,Rohquelle,,Renault,Kangoo Maxi Z.E.,33 kWh,31.0 kWh
+Z301,301,Renault,Kangoo Z.E.,22.0,20.0,2.0,9.1,unverändert,,,,,,Rohquelle,,Renault,Kangoo Z.E.,22 kWh,20.0 kWh
+Z302,302,Renault,Kangoo Z.E.,33.0,31.0,2.0,6.1,unverändert,,,,,,Rohquelle,,Renault,Kangoo Z.E.,33 kWh,31.0 kWh
+Z303,303,Renault,Master E-Tech,55.0,52.0,3.0,5.5,zu prüfen,,,,,"Bruttowert nicht belegt. Renault nennt nur 52 kWh (Master III, 2022–2024) bzw. 40 und 87 kWh (ab 2024) ohne Angabe brutto/netto; 92 / 87 entspricht dem Scenic EV87.",Rohquelle,#7,Renault,Master E-Tech,55 kWh,52.0 kWh
+Z304,304,Renault,Master E-Tech,92.0,87.0,5.0,5.4,zu prüfen,,,,,"Bruttowert nicht belegt. Renault nennt nur 52 kWh (Master III, 2022–2024) bzw. 40 und 87 kWh (ab 2024) ohne Angabe brutto/netto; 92 / 87 entspricht dem Scenic EV87.",Rohquelle,#7,Renault,Master E-Tech,92 kWh,87.0 kWh
+Z305,305,Renault,Master Z.E.,33.0,31.0,2.0,6.1,unverändert,,,,,,Rohquelle,,Renault,Master Z.E.,33 kWh,31.0 kWh
+Z306,306,Renault,Scenic E-Tech EV60,65.0,60.0,5.0,7.7,unverändert,,,,,,Rohquelle,,Renault,Scenic E-Tech EV60,65 kWh,60.0 kWh
+Z307,307,Renault,Scenic E-Tech EV87,92.0,87.0,5.0,5.4,unverändert,,,,,,Rohquelle,,Renault,Scenic E-Tech EV87,92 kWh,87.0 kWh
+Z308,308,Renault,Twingo Electric ZE,22.0,21.3,0.7,3.2,unverändert,,,,,,Rohquelle,,Renault,Twingo Electric ZE,22 kWh,21.3 kWh
+Z309,309,Renault,Zoe Q210,25.9,23.3,2.6,10.0,bestätigt,,2013,2017,22 kWh,Zuordnung zur Batterie-Generation 22 kWh bestätigt.,https://ev-database.org/car/1026/Renault-Zoe-Q210,#13,Renault,Zoe Q210,25.9 kWh,23.3 kWh
+Z310,310,Renault,Zoe Q90,44.1,41.0,3.1,7.0,bestätigt,,2017,2019,Z.E. 40,Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.,https://ev-database.org/car/1078/Renault-Zoe-Q90,#13,Renault,Zoe Q90,44.1 kWh,41.0 kWh
+Z311,311,Renault,Zoe R110,44.1,41.0,3.1,7.0,unverändert,,,,,,Rohquelle,,Renault,Zoe R110,44.1 kWh,41.0 kWh
+Z312,312,Renault,Zoe R110 Z.E. 40,44.1,41.0,3.1,7.0,bestätigt,,2018,2019,Z.E. 40,Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.,https://ev-database.org/car/1128/Renault-Zoe-R110,#13,Renault,Zoe R110 Z.E. 40,44.1 kWh,41.0 kWh
+Z313,313,Renault,Zoe R110 Z.E. 50,54.7,52.0,2.7,4.9,bestätigt,,2019,2024,Z.E. 50,Zuordnung zur Batterie-Generation Z.E. 50 bestätigt.,https://ev-database.org/car/1164/Renault-Zoe-ZE50-R110,#13,Renault,Zoe R110 Z.E. 50,54.7 kWh,52.0 kWh
+Z314,314,Renault,Zoe R135 Z.E. 50,54.7,52.0,2.7,4.9,bestätigt,,2020,2024,Z.E. 50,Zuordnung zur Batterie-Generation Z.E. 50 bestätigt.,https://ev-database.org/uk/car/1205/Renault-Zoe-ZE50-R135,#13,Renault,Zoe R135 Z.E. 50,54.7 kWh,52.0 kWh
+Z315,315,Renault,Zoe R210,25.9,23.3,2.6,10.0,unverändert,,,,,,Rohquelle,,Renault,Zoe R210,25.9 kWh,23.3 kWh
+Z316,316,Renault,Zoe R240,25.9,23.3,2.6,10.0,bestätigt,,2015,2017,22 kWh,Zuordnung zur Batterie-Generation 22 kWh bestätigt.,https://ev-database.org/car/1050/Renault-Zoe-R240,#13,Renault,Zoe R240,25.9 kWh,23.3 kWh
+Z318,318,Renault,Zoe R75,44.1,41.0,3.1,7.0,bestätigt,,2017,2019,Z.E. 40,Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.,https://www.automobile-propre.com/articles/renault-zoe-life-r75-ze-40-lentree-de-gamme-a-lessai/,#13,Renault,Zoe R75,44.1 kWh,41.0 kWh
+Z319,319,Renault,Zoe R90,44.1,41.0,3.1,7.0,bestätigt,,2017,2019,Z.E. 40,Zuordnung zur Batterie-Generation Z.E. 40 bestätigt.,https://ev-database.org/car/1077/Renault-Zoe-R90,#13,Renault,Zoe R90,44.1 kWh,41.0 kWh
+Z320,320,Renault,Zoe R90 Entry,25.9,23.3,2.6,10.0,bestätigt,,2017,2018,22 kWh,Zuordnung zur Batterie-Generation 22 kWh bestätigt.,https://ev-database.org/car/1079/Renault-Zoe-R90-Entry,#13,Renault,Zoe R90 Entry,25.9 kWh,23.3 kWh
+Z321,321,SEAT,Mii electric,36.8,32.3,4.5,12.2,unverändert,,,,,,Rohquelle,,Seat,Mii electric,36.8 kWh,32.3 kWh
+Z322,322,Škoda,Citigo e iV,36.8,32.3,4.5,12.2,unverändert,,,,,,Rohquelle,,Skoda,Citigo-e IV,36.8 kWh,32.3 kWh
+Z323,323,Škoda,Elroq 50,55.0,52.0,3.0,5.5,unverändert,,,,,,Rohquelle,,Skoda,Elroq 50,55 kWh,52.0 kWh
+Z324,324,Škoda,Elroq 60,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Skoda,Elroq 60,63 kWh,59.0 kWh
+Z325,325,Škoda,Elroq 85,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Elroq 85,82 kWh,77.0 kWh
+Z326,326,Škoda,Elroq 85x,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Elroq 85x,82 kWh,77.0 kWh
+Z327,327,Škoda,Enyaq 85,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq 85,82 kWh,77.0 kWh
+Z328,328,Škoda,Enyaq 85 Coupé,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq 85 Coupe,82 kWh,77.0 kWh
+Z329,329,Škoda,Enyaq 85x,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq 85x,82 kWh,77.0 kWh
+Z330,330,Škoda,Enyaq 85x Coupé,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq 85x Coupe,82 kWh,77.0 kWh
+Z331,331,Škoda,Enyaq iV 50,55.0,52.0,3.0,5.5,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 50,55 kWh,52.0 kWh
+Z332,332,Škoda,Enyaq iV 50 Coupé,55.0,52.0,3.0,5.5,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 50 Coupe,55 kWh,52.0 kWh
+Z333,333,Škoda,Enyaq iV 60,62.0,58.0,4.0,6.5,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 60,62 kWh,58.0 kWh
+Z334,334,Škoda,Enyaq iV 60,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 60,63 kWh,59.0 kWh
+Z335,335,Škoda,Enyaq iV 60 Coupé,62.0,58.0,4.0,6.5,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 60 Coupe,62 kWh,58.0 kWh
+Z336,336,Škoda,Enyaq iV 60 Coupé,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 60 Coupe,63 kWh,59.0 kWh
+Z337,337,Škoda,Enyaq iV 80,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 80,82 kWh,77.0 kWh
+Z338,338,Škoda,Enyaq iV 80 Coupé,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 80 Coupe,82 kWh,77.0 kWh
+Z339,339,Škoda,Enyaq iV 80x,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV 80x,82 kWh,77.0 kWh
+Z340,340,Škoda,Enyaq iV 85,82.0,77.0,5.0,6.1,Alias,327,,,,Gleiche Batterie wie Zeile 327; „iV“ entfiel bei der Umbenennung.,Rohquelle,#16,Skoda,Enyaq iV 85,82 kWh,77.0 kWh
+Z341,341,Škoda,Enyaq iV 85 Coupé,82.0,77.0,5.0,6.1,Alias,328,,,,Gleiche Batterie wie Zeile 328; „iV“ entfiel bei der Umbenennung.,Rohquelle,#16,Skoda,Enyaq iV 85 Coupe,82 kWh,77.0 kWh
+Z342,342,Škoda,Enyaq iV 85x,82.0,77.0,5.0,6.1,Alias,329,,,,Gleiche Batterie wie Zeile 329; „iV“ entfiel bei der Umbenennung.,Rohquelle,#16,Skoda,Enyaq iV 85x,82 kWh,77.0 kWh
+Z343,343,Škoda,Enyaq iV 85x Coupé,82.0,77.0,5.0,6.1,Alias,330,,,,Gleiche Batterie wie Zeile 330; „iV“ entfiel bei der Umbenennung.,Rohquelle,#16,Skoda,Enyaq iV 85x Coupe,82 kWh,77.0 kWh
+Z344,344,Škoda,Enyaq iV RS,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Skoda,Enyaq iV RS,82 kWh,77.0 kWh
+Z345,345,Tesla,Model 3 Long Range AWD,75.0,72.0,3.0,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range AWD,75 kWh,72.0 kWh
+Z346,346,Tesla,Model 3 Long Range AWD,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range AWD,78.1 kWh,75.0 kWh
+Z347,347,Tesla,Model 3 Long Range AWD,78.8,73.5,5.3,6.7,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range AWD,78.8 kWh,73.5 kWh
+Z348,348,Tesla,Model 3 Long Range AWD,82.0,76.0,6.0,7.3,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range AWD,82 kWh,76.0 kWh
+Z349,349,Tesla,Model 3 Long Range RWD,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range RWD,78.1 kWh,75.0 kWh
+Z350,350,Tesla,Model 3 Long Range RWD,78.8,73.5,5.3,6.7,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Long Range RWD,78.8 kWh,73.5 kWh
+Z351,351,Tesla,Model 3 Performance,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Performance,78.1 kWh,75.0 kWh
+Z352,352,Tesla,Model 3 Performance,78.8,73.5,5.3,6.7,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Performance,78.8 kWh,73.5 kWh
+Z353,353,Tesla,Model 3 Performance,82.0,76.0,6.0,7.3,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Performance,82 kWh,76.0 kWh
+Z354,354,Tesla,Model 3 RWD,60.0,57.5,2.5,4.2,unverändert,,,,,,Rohquelle,,Tesla,Model 3 RWD,60 kWh,57.5 kWh
+Z355,355,Tesla,Model 3 RWD,64.0,60.5,3.5,5.5,unverändert,,,,,,Rohquelle,,Tesla,Model 3 RWD,64 kWh,60.5 kWh
+Z356,356,Tesla,Model 3 Standard Range plus,53.1,49.0,4.1,7.7,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Standard Range plus,53.1 kWh,49.0 kWh
+Z357,357,Tesla,Model 3 Standard Range plus,55.0,51.0,4.0,7.3,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Standard Range plus,55 kWh,51.0 kWh
+Z358,358,Tesla,Model 3 Standard Range plus,55.0,52.5,2.5,4.5,unverändert,,,,,,Rohquelle,,Tesla,Model 3 Standard Range plus,55 kWh,52.5 kWh
+Z359,359,Tesla,Model S 100D,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 100D,100 kWh,95.0 kWh
+Z360,360,Tesla,Model S 60,75.0,62.0,13.0,17.3,unverändert,,,,,,Rohquelle,,Tesla,Model S 60,75 kWh,62.0 kWh
+Z361,361,Tesla,Model S 60D,75.0,62.0,13.0,17.3,unverändert,,,,,,Rohquelle,,Tesla,Model S 60D,75 kWh,62.0 kWh
+Z362,362,Tesla,Model S 70,70.0,66.5,3.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 70,70 kWh,66.5 kWh
+Z363,363,Tesla,Model S 70,75.0,69.0,6.0,8.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 70,75 kWh,69.0 kWh
+Z364,364,Tesla,Model S 70D,70.0,66.5,3.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 70D,70 kWh,66.5 kWh
+Z365,365,Tesla,Model S 70D,75.0,69.0,6.0,8.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 70D,75 kWh,69.0 kWh
+Z366,366,Tesla,Model S 75,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model S 75,75 kWh,72.5 kWh
+Z367,367,Tesla,Model S 75D,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model S 75D,75 kWh,72.5 kWh
+Z368,368,Tesla,Model S 85,85.0,80.8,4.2,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S 85,85 kWh,80.8 kWh
+Z369,369,Tesla,Model S 85D,85.0,80.8,4.2,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S 85D,85 kWh,80.8 kWh
+Z370,370,Tesla,Model S 90,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 90,90 kWh,85.5 kWh
+Z371,371,Tesla,Model S 90D,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S 90D,90 kWh,85.5 kWh
+Z372,372,Tesla,Model S Dual Motor,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S Dual Motor,100 kWh,95.0 kWh
+Z373,373,Tesla,Model S Long Range,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S Long Range,100 kWh,95.0 kWh
+Z374,374,Tesla,Model S Long Range Plus,103.0,98.0,5.0,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S Long Range Plus,103 kWh,98.0 kWh
+Z375,375,Tesla,Model S P100D,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S P100D,100 kWh,95.0 kWh
+Z376,376,Tesla,Model S P60,75.0,62.0,13.0,17.3,unverändert,,,,,,Rohquelle,,Tesla,Model S P60,75 kWh,62.0 kWh
+Z377,377,Tesla,Model S P70,70.0,66.5,3.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S P70,70 kWh,66.5 kWh
+Z378,378,Tesla,Model S P75,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model S P75,75 kWh,72.5 kWh
+Z379,379,Tesla,Model S P85,85.0,80.8,4.2,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S P85,85 kWh,80.8 kWh
+Z380,380,Tesla,Model S P85D,85.0,80.8,4.2,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S P85D,85 kWh,80.8 kWh
+Z381,381,Tesla,Model S P90D,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S P90D,90 kWh,85.5 kWh
+Z382,382,Tesla,Model S P90DL,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S P90DL,90 kWh,85.5 kWh
+Z383,383,Tesla,Model S Performance,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S Performance,100 kWh,95.0 kWh
+Z384,384,Tesla,Model S Performance,103.0,98.0,5.0,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model S Performance,103 kWh,98.0 kWh
+Z385,385,Tesla,Model S Plaid,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model S Plaid,100 kWh,95.0 kWh
+Z386,386,Tesla,Model S Standard Range,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model S Standard Range,75 kWh,72.5 kWh
+Z387,387,Tesla,Model X 100D,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X 100D,100 kWh,95.0 kWh
+Z388,388,Tesla,Model X 60D,75.0,62.0,13.0,17.3,unverändert,,,,,,Rohquelle,,Tesla,Model X 60D,75 kWh,62.0 kWh
+Z389,389,Tesla,Model X 75D,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model X 75D,75 kWh,72.5 kWh
+Z390,390,Tesla,Model X 90D,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X 90D,90 kWh,85.5 kWh
+Z391,391,Tesla,Model X Dual Motor,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X Dual Motor,100 kWh,95.0 kWh
+Z392,392,Tesla,Model X Long Range,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X Long Range,100 kWh,95.0 kWh
+Z393,393,Tesla,Model X Long Range Plus,103.0,98.0,5.0,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model X Long Range Plus,103 kWh,98.0 kWh
+Z394,394,Tesla,Model X Ludicrous Performance,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X Ludicrous Performance,100 kWh,95.0 kWh
+Z395,395,Tesla,Model X P100D,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X P100D,100 kWh,95.0 kWh
+Z396,396,Tesla,Model X P90D,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X P90D,90 kWh,85.5 kWh
+Z397,397,Tesla,Model X P90DL,90.0,85.5,4.5,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X P90DL,90 kWh,85.5 kWh
+Z398,398,Tesla,Model X Performance,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X Performance,100 kWh,95.0 kWh
+Z399,399,Tesla,Model X Performance,103.0,98.0,5.0,4.9,unverändert,,,,,,Rohquelle,,Tesla,Model X Performance,103 kWh,98.0 kWh
+Z400,400,Tesla,Model X Plaid,100.0,95.0,5.0,5.0,unverändert,,,,,,Rohquelle,,Tesla,Model X Plaid,100 kWh,95.0 kWh
+Z401,401,Tesla,Model X Standard Range,75.0,72.5,2.5,3.3,unverändert,,,,,,Rohquelle,,Tesla,Model X Standard Range,75 kWh,72.5 kWh
+Z402,402,Tesla,Model Y Long Range AWD,75.0,72.0,3.0,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model Y Long Range AWD,75 kWh,72.0 kWh
+Z403,403,Tesla,Model Y Long Range AWD,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model Y Long Range AWD,78.1 kWh,75.0 kWh
+Z404,404,Tesla,Model Y Long Range RWD,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model Y Long Range RWD,78.1 kWh,75.0 kWh
+Z405,405,Tesla,Model Y Performance,78.1,75.0,3.1,4.0,unverändert,,,,,,Rohquelle,,Tesla,Model Y Performance,78.1 kWh,75.0 kWh
+Z406,406,Tesla,Model Y RWD,60.0,57.5,2.5,4.2,unverändert,,,,,,Rohquelle,,Tesla,Model Y RWD,60 kWh,57.5 kWh
+Z407,407,Tesla,Model Y RWD,64.0,60.5,3.5,5.5,unverändert,,,,,,Rohquelle,,Tesla,Model Y RWD,64 kWh,60.5 kWh
+Z408,408,Volkswagen,e-Golf,24.2,21.1,3.1,12.8,unverändert,,,,,,Rohquelle,,Volkswagen,e-Golf,24.2 kWh,21.1 kWh
+Z409,409,Volkswagen,e-Golf,35.8,31.5,4.3,12.0,unverändert,,,,,,Rohquelle,,Volkswagen,e-Golf,35.8 kWh,31.5 kWh
+Z410,410,Volkswagen,e-up!,18.7,16.4,2.3,12.3,unverändert,,,,,,Rohquelle,,Volkswagen,e-Up,18.7 kWh,16.4 kWh
+Z411,411,Volkswagen,e-up!,36.8,32.3,4.5,12.2,unverändert,,,,,,Rohquelle,,Volkswagen,e-Up,36.8 kWh,32.3 kWh
+Z412,412,Volkswagen,ID.3 Pro,62.0,58.0,4.0,6.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.3 Pro,62 kWh,58.0 kWh
+Z413,413,Volkswagen,ID.3 Pro,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Volkswagen,ID.3 Pro,63 kWh,59.0 kWh
+Z414,414,Volkswagen,ID.3 Pro Performance,62.0,58.0,4.0,6.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.3 Pro Performance,62 kWh,58.0 kWh
+Z415,415,Volkswagen,ID.3 Pro S,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.3 Pro S,82 kWh,77.0 kWh
+Z416,416,Volkswagen,ID.3 Pure,55.0,45.0,10.0,18.2,bestätigt,,2021,2022,"55 kWh, begrenzt auf 45","Richtig: dieselbe 55-kWh-Batterie wie im ID.4 Pure, per Software auf 45 kWh netto begrenzt (Software-Lock). Der ID.3 Pure ab 2024 hat 55 / 52 kWh und fehlt in der Rohquelle.",https://ev-database.org/car/1127/Volkswagen-ID3-Pure-Performance https://www.electrive.net/2021/09/23/fahrbericht-vw-id-3-pure-performance/,#2,Volkswagen,ID.3 Pure,55 kWh,45.0 kWh
+Z417,417,Volkswagen,ID.3 Pure Performance,55.0,45.0,10.0,18.2,bestätigt,,2021,2022,"55 kWh, begrenzt auf 45","Richtig: dieselbe 55-kWh-Batterie wie im ID.4 Pure, per Software auf 45 kWh netto begrenzt (Software-Lock). Der ID.3 Pure ab 2024 hat 55 / 52 kWh und fehlt in der Rohquelle.",https://ev-database.org/car/1127/Volkswagen-ID3-Pure-Performance https://www.electrive.net/2021/09/23/fahrbericht-vw-id-3-pure-performance/,#2,Volkswagen,ID.3 Pure Performance,55 kWh,45.0 kWh
+Z418,418,Volkswagen,ID.4 AWD,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 AWD,82 kWh,77.0 kWh
+Z419,419,Volkswagen,ID.4 GTX,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 GTX,82 kWh,77.0 kWh
+Z420,420,Volkswagen,ID.4 Pro,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pro,82 kWh,77.0 kWh
+Z421,421,Volkswagen,ID.4 Pro 4M,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pro 4M,82 kWh,77.0 kWh
+Z422,422,Volkswagen,ID.4 Pro Performance,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pro Performance,82 kWh,77.0 kWh
+Z423,423,Volkswagen,ID.4 Pro S,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pro S,82 kWh,77.0 kWh
+Z424,424,Volkswagen,ID.4 Pure,55.0,52.0,3.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pure,55 kWh,52.0 kWh
+Z425,425,Volkswagen,ID.4 Pure Performance,55.0,52.0,3.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 Pure Performance,55 kWh,52.0 kWh
+Z426,426,Volkswagen,ID.4 RWD,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.4 RWD,82 kWh,77.0 kWh
+Z427,427,Volkswagen,ID.5 GTX,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.5 GTX,82 kWh,77.0 kWh
+Z428,428,Volkswagen,ID.5 GTX 4M,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.5 GTX 4M,82 kWh,77.0 kWh
+Z429,429,Volkswagen,ID.5 Pro,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.5 Pro,82 kWh,77.0 kWh
+Z430,430,Volkswagen,ID.5 Pro Performance,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.5 Pro Performance,82 kWh,77.0 kWh
+Z431,431,Volkswagen,ID.7 GTX 4Motion,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 GTX 4Motion,91 kWh,86.0 kWh
+Z432,432,Volkswagen,ID.7 GTX 4Motion Tourer,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 GTX 4Motion Tourer,91 kWh,86.0 kWh
+Z433,433,Volkswagen,ID.7 Pro,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 Pro,82 kWh,77.0 kWh
+Z434,434,Volkswagen,ID.7 Pro S,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 Pro S,91 kWh,86.0 kWh
+Z435,435,Volkswagen,ID.7 Pro S Tourer,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 Pro S Tourer,91 kWh,86.0 kWh
+Z436,436,Volkswagen,ID.7 Pro Tourer,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.7 Pro Tourer,82 kWh,77.0 kWh
+Z437,437,Volkswagen,ID. Buzz,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ,82 kWh,77.0 kWh
+Z438,438,Volkswagen,ID. Buzz AWD,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ AWD,91 kWh,86.0 kWh
+Z439,439,Volkswagen,ID. Buzz Cargo,82.0,77.0,5.0,6.1,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Cargo,82 kWh,77.0 kWh
+Z440,440,Volkswagen,ID. Buzz Cargo Pro,84.0,79.0,5.0,6.0,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Cargo Pro,84 kWh,79.0 kWh
+Z441,441,Volkswagen,ID. Buzz Cargo Pro 4M,84.0,79.0,5.0,6.0,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Cargo Pro 4M,84 kWh,79.0 kWh
+Z442,442,Volkswagen,ID. Buzz GTX,84.0,79.0,5.0,6.0,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ GTX,84 kWh,79.0 kWh
+Z443,443,Volkswagen,ID. Buzz GTX,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ GTX,91 kWh,86.0 kWh
+Z444,444,Volkswagen,ID. Buzz LWB,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ LWB,91 kWh,86.0 kWh
+Z445,445,Volkswagen,ID. Buzz Pro,84.0,79.0,5.0,6.0,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Pro,84 kWh,79.0 kWh
+Z446,446,Volkswagen,ID. Buzz Pro,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Pro,91 kWh,86.0 kWh
+Z447,447,Volkswagen,ID. Buzz Pure,63.0,59.0,4.0,6.3,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ Pure,63 kWh,59.0 kWh
+Z448,448,Volkswagen,ID. Buzz RWD,91.0,86.0,5.0,5.5,unverändert,,,,,,Rohquelle,,Volkswagen,ID.BUZZ RWD,91 kWh,86.0 kWh
+Z449,449,Volvo,C40 Recharge Pure Electric,69.0,67.0,2.0,2.9,unverändert,,,,,,Rohquelle,,Volvo,C40 Recharge Pure Electric,69.0 kWh,67.0 kWh
+Z450,450,Volvo,C40 Recharge Single Motor,69.0,66.0,3.0,4.3,unverändert,,,,,,Rohquelle,,Volvo,C40 Recharge Single Motor,69.0 kWh,66.0 kWh
+Z451,451,Volvo,C40 Recharge Single Motor ER,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,C40 Recharge Single Motor ER,82.0 kWh,79.0 kWh
+Z452,452,Volvo,C40 Recharge Twin Motor,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,C40 Recharge Twin Motor,82.0 kWh,79.0 kWh
+Z453,453,Volvo,C40 Recharge Twin Pure Electric,78.0,75.0,3.0,3.8,unverändert,,,,,,Rohquelle,,Volvo,C40 Recharge Twin Pure Electric,78.0 kWh,75.0 kWh
+Z454,454,Volvo,EC40 Single Motor,69.0,67.0,2.0,2.9,unverändert,,,,,,Rohquelle,,Volvo,EC40 Single Motor,69.0 kWh,67.0 kWh
+Z455,455,Volvo,EC40 Single Motor ER,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EC40 Single Motor ER,82.0 kWh,79.0 kWh
+Z456,456,Volvo,EC40 Twin Motor,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EC40 Twin Motor,82.0 kWh,79.0 kWh
+Z457,457,Volvo,EC40 Twin Motor Performance,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EC40 Twin Motor Performance,82.0 kWh,79.0 kWh
+Z458,458,Volvo,EX40 Single Motor,69.0,67.0,2.0,2.9,unverändert,,,,,,Rohquelle,,Volvo,EX40 Single Motor,69.0 kWh,67.0 kWh
+Z459,459,Volvo,EX40 Single Motor ER,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EX40 Single Motor ER,82.0 kWh,79.0 kWh
+Z460,460,Volvo,EX40 Twin Motor,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EX40 Twin Motor,82.0 kWh,79.0 kWh
+Z461,461,Volvo,EX40 Twin Motor Performance,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,EX40 Twin Motor Performance,82.0 kWh,79.0 kWh
+Z462,462,Volvo,EX90 Single Motor,104.0,100.0,4.0,3.8,unverändert,,,,,,Rohquelle,,Volvo,EX90 Single Motor,104.0 kWh,100.0 kWh
+Z463,463,Volvo,EX90 Twin Motor,111.0,107.0,4.0,3.6,unverändert,,,,,,Rohquelle,,Volvo,EX90 Twin Motor,111.0 kWh,107.0 kWh
+Z464,464,Volvo,EX90 Twin Motor Performance,111.0,107.0,4.0,3.6,unverändert,,,,,,Rohquelle,,Volvo,EX90 Twin Motor Performance,111.0 kWh,107.0 kWh
+Z465,465,Volvo,XC40 P8 AWD Recharge,78.0,75.0,3.0,3.8,unverändert,,,,,,Rohquelle,,Volvo,XC40 P8 AWD Recharge,78.0 kWh,75.0 kWh
+Z466,466,Volvo,XC40 Recharge Pure Electric,69.0,67.0,2.0,2.9,unverändert,,,,,,Rohquelle,,Volvo,XC40 Recharge Pure Electric,69.0 kWh,67.0 kWh
+Z467,467,Volvo,XC40 Recharge Single Motor,69.0,66.0,3.0,4.3,unverändert,,,,,,Rohquelle,,Volvo,XC40 Recharge Single Motor,69.0 kWh,66.0 kWh
+Z468,468,Volvo,XC40 Recharge Single Motor ER,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,XC40 Recharge Single Motor ER,82.0 kWh,79.0 kWh
+Z469,469,Volvo,XC40 Recharge Twin Motor,82.0,79.0,3.0,3.7,unverändert,,,,,,Rohquelle,,Volvo,XC40 Recharge Twin Motor,82.0 kWh,79.0 kWh
+Z470,470,Volvo,XC40 Recharge Twin Pure Electric,78.0,75.0,3.0,3.8,unverändert,,,,,,Rohquelle,,Volvo,XC40 Recharge Twin Pure Electric,78.0 kWh,75.0 kWh

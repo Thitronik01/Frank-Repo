@@ -10,9 +10,9 @@ varianten: 2
 brutto_min: 44.0
 brutto_max: 54.0
 netto_min: 43.8
-netto_max: 53.5
+netto_max: 52.8
 bild: "Bilder/citroen-e-c3-aircross.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "citroen", "kleinwagen-suv"]
 ---
@@ -35,8 +35,8 @@ tags: ["fahrzeug", "citroen", "kleinwagen-suv"]
 | Plattform | Stellantis Smart Car Platform | Fachwissen¹ |
 | Varianten im Bestand | 2 | [[tn-batterycheck-alle-daten]] |
 | [[bruttokapazitaet\|Bruttokapazität]] | 44–54 kWh | [[tn-batterycheck-alle-daten]] |
-| [[nettokapazitaet\|Nettokapazität]] | 43,8–53,5 kWh | [[tn-batterycheck-alle-daten]] |
-| [[batteriepuffer\|Puffer]] | 0,5–0,9 % | berechnet |
+| [[nettokapazitaet\|Nettokapazität]] | 43,8–52,8 kWh | [[tn-batterycheck-alle-daten]] |
+| [[batteriepuffer\|Puffer]] | 0,5–2,2 % | berechnet |
 
 ## Beschreibung
 
@@ -48,14 +48,20 @@ Wie beim ë-C3 liegen [[bruttokapazitaet|Brutto-]] und [[nettokapazitaet|Nettoka
 
 ## Varianten und Batterien
 
-„e-C3 Aircross“ steht für die Basisbatterie mit 44 kWh brutto / 43,8 kWh netto (identisch mit dem [[citroen-e-c3|ë-C3]]). „Extended Range“ bezeichnet die später ergänzte größere Batterie mit 54 kWh brutto / 53,5 kWh netto. Es handelt sich also nicht um Generationen, sondern um zwei parallel angebotene Batteriegrößen.
+„e-C3 Aircross“ steht für die Basisbatterie mit 44 kWh brutto / 43,8 kWh netto (identisch mit dem [[citroen-e-c3|ë-C3]]). „Extended Range“ bezeichnet die später ergänzte größere Batterie mit 54 kWh brutto / 52,8 kWh netto (korrigiert). Es handelt sich also nicht um Generationen, sondern um zwei parallel angebotene Batteriegrößen.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| e-C3 Aircross | 44 kWh | 43,8 kWh | 0,2 kWh (0,5 %) | 83 |
-| e-C3 Aircross Extended Range | 54 kWh | 53,5 kWh | 0,5 kWh (0,9 %) | 84 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| ë-C3 Aircross | 44 kWh | 43,8 kWh | 0,2 kWh (0,5 %) | 83 | bestätigt |
+| ë-C3 Aircross Extended Range | 54 kWh | 52,8 kWh | 1,2 kWh (2,2 %) | 84 | korrigiert ([#10](https://github.com/Thitronik01/Frank-Repo/issues/10)) |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 83–84. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 83–84 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
+
+## Korrekturen
+
+- **Zeile 84 korrigiert:** „ë-C3 Aircross Extended Range“ 54 kWh / 53,5 kWh → 54 kWh / 52,8 kWh. ADAC (Herstellerdaten): 54,0 / 52,8 kWh. Die 53,5 kWh sind ein Schätzwert von ev-database. Der baugleiche Opel Frontera ER hat laut ADAC 52,0 kWh netto. Beleg: [Quelle 1](https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/citroen/c3-aircross/2generation/350756/), [Quelle 2](https://ev-database.org/car/3228/Citroen-e-C3-Aircross-Extended-Range-54-kWh). Issue [#10](https://github.com/Thitronik01/Frank-Repo/issues/10).
+
+Gegenüber der Rohquelle geändert am 2026-09-24; vollständiges Protokoll in [[datenqualitaet]].
 
 ## Fachbegriffe
 
@@ -72,15 +78,8 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 83–84. P
 - [[citroen-e-c3|Citroën ë-C3]] — technisch verwandt / gleiche Plattform oder Batterie
 - Weitere Modelle von Citroën: [[citroen-c-zero|Citroën C-Zero]], [[citroen-e-berlingo|Citroën ë-Berlingo]], [[citroen-e-c4|Citroën ë-C4]], [[citroen-e-c4-x|Citroën ë-C4 X]], [[citroen-e-jumpy|Citroën ë-Jumpy Combi]], [[citroen-e-spacetourer|Citroën ë-SpaceTourer]]
 
-## Offene Punkte
-
-- Sehr kleiner Puffer bei beiden Batterien (44/43,8 und 54/53,5 kWh).
-- Ob auch die Extended-Range-Batterie auf LFP-Zellen basiert, ist nicht gesichert.
-
-Siehe auch [[datenqualitaet]].
-
 ## Quellen
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 83–84)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

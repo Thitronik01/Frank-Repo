@@ -12,7 +12,7 @@ brutto_max: 92.0
 netto_min: 60.0
 netto_max: 87.0
 bild: "Bilder/renault-scenic-e-tech.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "renault", "kompakt-suv"]
 ---
@@ -52,10 +52,10 @@ Die Zahlen in den Bezeichnungen geben die gerundete [[nettokapazitaet|Nettokapaz
 
 | Variante | Brutto | Netto | Puffer | Zeile |
 |---|---|---|---|---|
-| Scenic E-Tech EV60 | 65 kWh | 60,0 kWh | 5 kWh (7,7 %) | 306 |
-| Scenic E-Tech EV87 | 92 kWh | 87,0 kWh | 5 kWh (5,4 %) | 307 |
+| Scenic E-Tech EV60 | 65 kWh | 60 kWh | 5 kWh (7,7 %) | 306 |
+| Scenic E-Tech EV87 | 92 kWh | 87 kWh | 5 kWh (5,4 %) | 307 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 306–307. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 306–307 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -81,4 +81,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 306–307)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

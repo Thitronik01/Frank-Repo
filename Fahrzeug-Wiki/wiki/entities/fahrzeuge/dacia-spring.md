@@ -12,7 +12,7 @@ brutto_max: 26.8
 netto_min: 25.0
 netto_max: 25.0
 bild: "Bilder/dacia-spring.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "dacia", "kleinstwagen"]
 ---
@@ -48,16 +48,16 @@ Mit der [[modellpflege|Modellpflege]] 2024 erhielt der Spring eine neue Karosser
 
 ## Varianten und Batterien
 
-Alle vier Zeilen weisen dieselbe Batterie mit 26,8 kWh brutto / 25,0 kWh netto auf. Die Zahlen in „Spring Electric 45“ und „Spring Electric 65“ bezeichnen die Motorleistung in PS, „Extreme“ ist eine Ausstattungslinie. Die Zeile ohne Zusatz steht vermutlich für die frühe Version. Die Varianten unterscheiden sich also nur im Antrieb bzw. in der Ausstattung, nicht in der Batterie; siehe auch [[typbezeichnungen|Typbezeichnungen]].
+Alle vier Zeilen weisen dieselbe Batterie auf (Rohquelle: 26,8 kWh brutto / 25,0 kWh netto). Die Zahlen in „Spring Electric 45“ und „Spring Electric 65“ bezeichnen die Motorleistung in PS, „Extreme“ ist eine Ausstattungslinie. Die Varianten unterscheiden sich also nur im Antrieb bzw. in der Ausstattung, nicht in der Batterie; siehe auch [[typbezeichnungen|Typbezeichnungen]]. Bei den Werten widersprechen sich die Quellen: ADAC (Herstellerdaten) nennt 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh mit geschätztem Nettowert – die Entscheidung ist offen.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| Spring Electric | 26,8 kWh | 25,0 kWh | 1,8 kWh (6,7 %) | 105 |
-| Spring Electric 45 | 26,8 kWh | 25,0 kWh | 1,8 kWh (6,7 %) | 106 |
-| Spring Electric 65 | 26,8 kWh | 25,0 kWh | 1,8 kWh (6,7 %) | 107 |
-| Spring Electric 65 Extreme | 26,8 kWh | 25,0 kWh | 1,8 kWh (6,7 %) | 108 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| Spring Electric | 26,8 kWh | 25 kWh | 1,8 kWh (6,7 %) | 105 | zu prüfen ([#4](https://github.com/Thitronik01/Frank-Repo/issues/4)) |
+| Spring Electric 45 | 26,8 kWh | 25 kWh | 1,8 kWh (6,7 %) | 106 | zu prüfen ([#4](https://github.com/Thitronik01/Frank-Repo/issues/4)) |
+| Spring Electric 65 | 26,8 kWh | 25 kWh | 1,8 kWh (6,7 %) | 107 | zu prüfen ([#4](https://github.com/Thitronik01/Frank-Repo/issues/4)) |
+| Spring Electric 65 Extreme | 26,8 kWh | 25 kWh | 1,8 kWh (6,7 %) | 108 | zu prüfen ([#4](https://github.com/Thitronik01/Frank-Repo/issues/4)) |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 105–108. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 105–108 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -74,9 +74,12 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 105–108.
 
 ## Offene Punkte
 
+- **Zu prüfen:** „Spring Electric“ (Zeile 105): Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus. Klärung: [#4](https://github.com/Thitronik01/Frank-Repo/issues/4).
+- **Zu prüfen:** „Spring Electric 45“ (Zeile 106): Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus. Klärung: [#4](https://github.com/Thitronik01/Frank-Repo/issues/4).
+- **Zu prüfen:** „Spring Electric 65“ (Zeile 107): Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus. Klärung: [#4](https://github.com/Thitronik01/Frank-Repo/issues/4).
+- **Zu prüfen:** „Spring Electric 65 Extreme“ (Zeile 108): Quellen widersprechen sich: ADAC (Herstellerdaten) 27,4 / 26,8 kWh, ev-database 26,8 / 25,0 kWh (netto geschätzt). Für den SoH macht das rund 7 % aus. Klärung: [#4](https://github.com/Thitronik01/Frank-Repo/issues/4).
 - Vier Zeilen mit identischen Kapazitätswerten – für die Batteriekapazität de facto Duplikate.
 - Ob die Batterie beim Modell ab 2024 die Zellchemie gewechselt hat (NMC vs. LFP), ist nicht gesichert und wird hier bewusst nicht behauptet.
-- Der Bruttowert 26,8 kWh taucht beim Schwestermodell Renault City K-ZE als Nettowert auf – mögliche Inkonsistenz zwischen den beiden Datensätzen.
 
 Siehe auch [[datenqualitaet]].
 
@@ -85,4 +88,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 105–108)
 - Weiterlesen: [Wikipedia – Dacia Spring](https://en.wikipedia.org/wiki/Dacia_Spring)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

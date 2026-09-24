@@ -1,6 +1,6 @@
 ---
 type: "source"
-updated: "2026-09-23"
+updated: "2026-09-24"
 tags: ["rohquelle", "tabelle", "batteriekapazitaet"]
 ---
 
@@ -11,11 +11,11 @@ tags: ["rohquelle", "tabelle", "batteriekapazitaet"]
 
 ## Kernaussagen
 
-- Referenztabelle mit **Brutto- und Nettokapazität** der [[traktionsbatterie]] für **469 Fahrzeugvarianten** von **19 Herstellern**.
+- Referenztabelle mit **Brutto- und Nettokapazität** der [[traktionsbatterie]] für **467 Fahrzeugvarianten** von **19 Herstellern**.
 - Die Varianten lassen sich zu **90 Modellreihen** zusammenfassen – jede hat in diesem Wiki eine eigene Seite.
 - Zweck ist offenbar ein [[batteriecheck]]: Die [[nettokapazitaet]] ist der Referenzwert, gegen den der [[state-of-health]] einer gebrauchten Batterie gerechnet wird.
 - Das Blatt „Übersicht“ belegt einen internen Abgleich: extrahierte Zeilen = Zeilen laut Quellangabe, für alle Marken „OK“.
-- Einzelne Zeilen sind fehlerhaft oder doppelt, siehe [[datenqualitaet]].
+- Einzelne Zeilen sind fehlerhaft oder doppelt. Das Wiki nutzt deshalb eine **bereinigte Fassung** (`data/tn_batterycheck_bereinigt.xlsx`); alle Änderungen mit Beleg stehen in [[datenqualitaet]].
 
 ## Aufbau
 
@@ -29,16 +29,16 @@ tags: ["rohquelle", "tabelle", "batteriekapazitaet"]
 | Hersteller | Varianten | Modellreihen |
 |---|---|---|
 | [[tesla\|Tesla]] | 63 | 4 |
-| [[porsche\|Porsche]] | 41 | 2 |
 | [[volkswagen\|Volkswagen]] | 41 | 7 |
 | [[audi\|Audi]] | 40 | 5 |
+| [[porsche\|Porsche]] | 40 | 2 |
 | [[bmw\|BMW]] | 34 | 8 |
 | [[peugeot\|Peugeot]] | 32 | 11 |
 | [[kia\|Kia]] | 27 | 6 |
 | [[hyundai\|Hyundai]] | 25 | 6 |
 | [[mercedes\|Mercedes-Benz]] | 25 | 7 |
-| [[renault\|Renault]] | 24 | 6 |
 | [[citroen\|Citroën]] | 23 | 8 |
+| [[renault\|Renault]] | 23 | 6 |
 | [[skoda\|Škoda]] | 23 | 3 |
 | [[volvo\|Volvo]] | 22 | 3 |
 | [[ford\|Ford]] | 15 | 2 |
@@ -66,6 +66,7 @@ Es fehlt eine Angabe zu Modelljahr oder Batterie-Generation. Deshalb erscheinen 
 - Cupra Born Zeile 99: netto (60 kWh) > brutto (53 kWh) — widerspricht der Definition in [[nettokapazitaet]].
 - [[mercedes-eqt]] (50/45 kWh) vs. baugleicher [[renault-kangoo-electric|Renault Kangoo E-Tech]] (48/45 kWh) — gleiche Batterie, verschiedene Bruttowerte.
 - [[renault-city-k-ze]] (30/26,8 kWh) vs. baugleicher [[dacia-spring]] (26,8/25 kWh).
+- Auflösung dieser und weiterer Befunde (Stand 2026-09-24): [[datenqualitaet]].
 
 ## Offene Fragen
 

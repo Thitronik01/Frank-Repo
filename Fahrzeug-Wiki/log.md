@@ -33,3 +33,12 @@ Dunkelmodus-Umschalter (auch im Chat-Widget), mobiles Menü als Drawer, SVG-Icon
 44-px-Touchziele, prefers-reduced-motion.
 Technik: CSS/JS als eigene Dateien (tools/site_assets/) mit Inhalts-Hash im Link; Server sendet Cache-Control: no-cache.
 Geprüft: 154 Seiten ohne tote Links/Anker, je eine h1, alle Bilder mit alt, keine doppelten IDs, keine Konsolenfehler; 390 px ohne Querscrollen.
+
+## [2026-09-24] maintenance | Datenfehler bereinigt
+Neu: `data/tn_batterycheck_bereinigt.xlsx` und `.csv` (aus Rohquelle + `tools/corrections.json` via `tools/clean.py`); Rohquelle unverändert.
+Recherche (ev-database, ADAC, Hersteller): 10 Zeilen korrigiert (e-tron S, iX xDrive40/xDrive50/M60, Cupra Born Z. 99, EQT,
+Mini Cooper E/SE, ë-C3 Aircross ER, City K-ZE), 26 Zeilen bestätigt mit Modelljahr (u. a. ID.3 Pure = Software-Lock, e-208 51 kWh, Zoe),
+2 Zeilen entfernt (Taycan-Duplikat, Zoe R75 22 kWh), 12 Aliase, 3 Bezeichnungen korrigiert, Schreibweisen vereinheitlicht.
+Offen (Issues): Spring #4, Master E-Tech #7, MG4 #10 (Quellen widersprechen), eSprinter #11, Tesla #12, Rundung #14, Modelljahr #17, Herausgeber #18;
+Bestätigung erbeten: Cupra Born #1, Aliase #16.
+Geändert: families.py liest die bereinigte Fassung; Fahrzeugseiten mit Status-Spalte und Abschnitt „Korrekturen“; [[datenqualitaet]] mit Änderungsprotokoll.

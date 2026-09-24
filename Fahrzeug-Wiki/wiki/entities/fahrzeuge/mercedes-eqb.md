@@ -12,7 +12,7 @@ brutto_max: 73.9
 netto_min: 66.5
 netto_max: 70.5
 bild: "Bilder/mercedes-eqb.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mercedes", "kompakt-suv"]
 ---
@@ -54,10 +54,10 @@ Die Zahl ist eine Leistungsklasse, "4MATIC" steht für Allradantrieb, "+" für d
 | EQB 250+ | 73,9 kWh | 70,5 kWh | 3,4 kWh (4,6 %) | 181 |
 | EQB 300 4MATIC | 69,7 kWh | 66,5 kWh | 3,2 kWh (4,6 %) | 182 |
 | EQB 300 4MATIC | 73,9 kWh | 70,5 kWh | 3,4 kWh (4,6 %) | 183 |
-| EQB 350 | 73,9 kWh | 70,5 kWh | 3,4 kWh (4,6 %) | 184 |
 | EQB 350 4MATIC | 69,7 kWh | 66,5 kWh | 3,2 kWh (4,6 %) | 185 |
+| EQB 350 4MATIC | 73,9 kWh | 70,5 kWh | 3,4 kWh (4,6 %) | 184 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 180–185. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 180–185 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -76,7 +76,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 180–185.
 ## Offene Punkte
 
 - EQB 300 4MATIC steht zweimal mit unterschiedlichen Batterien (Zeilen 182 und 183).
-- Zeile 184 "EQB 350" ohne 4MATIC: Die Leistungsstufe 350 ist bei Mercedes üblicherweise ein Allradmodell – mögliche unvollständige Bezeichnung.
 
 Siehe auch [[datenqualitaet]].
 
@@ -85,4 +84,4 @@ Siehe auch [[datenqualitaet]].
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 180–185)
 - Weiterlesen: [Wikipedia – Mercedes-Benz EQB](https://en.wikipedia.org/wiki/Mercedes-Benz_EQB)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

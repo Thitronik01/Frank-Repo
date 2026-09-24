@@ -66,7 +66,7 @@ C["nettokapazitaet"] = (
 
 Für die Bewertung einer gebrauchten Batterie ist die Nettokapazität der relevante Bezugswert: Ein [[batteriecheck]] misst, wie viel der ursprünglichen Nettokapazität heute noch verfügbar ist, und drückt das als [[state-of-health]] aus.
 
-In der Rohquelle [[tn-batterycheck-alle-daten]] ist die Nettokapazität je Variante angegeben. Einzelne Werte sind als „ca." gekennzeichnet (z. B. [[mercedes-esprinter|Mercedes eSprinter LFP]]), und in einem Fall ist netto größer als brutto ([[cupra-born]]) – das ist physikalisch unmöglich und deutet auf einen Datenfehler hin.""",
+In der Rohquelle [[tn-batterycheck-alle-daten]] ist die Nettokapazität je Variante angegeben. Einzelne Werte sind als „ca." gekennzeichnet (z. B. [[mercedes-esprinter|Mercedes eSprinter LFP]]), und in einem Fall war netto größer als brutto ([[cupra-born]]) – physikalisch unmöglich; in der bereinigten Fassung korrigiert (siehe [[datenqualitaet]]).""",
     ["bruttokapazitaet", "batteriepuffer", "state-of-health"], ["batterie", "kennzahl"])
 
 C["batteriepuffer"] = (
@@ -75,7 +75,7 @@ C["batteriepuffer"] = (
 
 **Berechnung:** Puffer = Brutto − Netto; relativ: (Brutto − Netto) / Brutto.
 
-Die Puffergrößen im Bestand reichen von unter 1 % (z. B. [[citroen-e-c3|Citroën ë-C3]] 44 → 43,8 kWh, [[lfp-zellchemie|LFP-Zellen]]) bis rund 18 % ([[tesla-model-s|Model S 60]] mit 75 kWh brutto als [[software-lock]]; [[vw-id-3|VW ID.3 Pure]] 55 → 45 kWh laut Quelle, Bruttowert fraglich – siehe [[datenqualitaet]]). Eine vollständige Auswertung steht unter [[puffer-analyse]].
+Die Puffergrößen im Bestand reichen von unter 1 % (z. B. [[citroen-e-c3|Citroën ë-C3]] 44 → 43,8 kWh, [[lfp-zellchemie|LFP-Zellen]]) bis rund 18 % ([[tesla-model-s|Model S 60]] mit 75 kWh brutto als [[software-lock]]; [[vw-id-3|VW ID.3 Pure]] 55 → 45 kWh, ebenfalls ein Software-Lock). Eine vollständige Auswertung steht unter [[puffer-analyse]].
 
 Manche Hersteller nutzen den oberen Puffer, um Alterung zu kaschieren: Das BMS gibt mit der Zeit einen Teil der Reserve frei, sodass die angezeigte Reichweite länger stabil bleibt. Das erschwert die Messung des echten [[state-of-health]].""",
     ["bruttokapazitaet", "nettokapazitaet", "software-lock", "batteriealterung"], ["batterie", "kennzahl"])
@@ -84,7 +84,7 @@ C["software-lock"] = (
     "Software-Lock (softwarebegrenzte Kapazität)", "Eine physikalisch größere Batterie wird per Software auf eine kleinere nutzbare Kapazität begrenzt.",
     """Manche Hersteller bauen aus Kostengründen (Stückzahl, einheitliche Fertigung) eine größere Batterie ein, als die Ausstattungsvariante nutzen darf. Die Differenz ist per Software gesperrt und lässt sich teils gegen Aufpreis freischalten.
 
-**Bekanntestes Beispiel im Bestand:** [[tesla-model-s|Tesla Model S 60/60D]] und [[tesla-model-x|Model X 60D]] – brutto 75 kWh, netto nur 62 kWh ([[tn-batterycheck-alle-daten]]). Gleiches gilt für den Model S 70 in einer Ausführung mit 75-kWh-Pack.
+**Bekanntestes Beispiel im Bestand:** [[tesla-model-s|Tesla Model S 60/60D]] und [[tesla-model-x|Model X 60D]] – brutto 75 kWh, netto nur 62 kWh ([[tn-batterycheck-alle-daten]]). Gleiches gilt für den Model S 70 in einer Ausführung mit 75-kWh-Pack. Auch der [[vw-id-3|VW ID.3 Pure]] (2021–2022) nutzt die 55-kWh-Batterie des ID.4 Pure, gibt aber nur 45 kWh frei.
 
 Auch nachträgliche *Erweiterungen* des Nutzfensters per Update kommen vor: Beim [[audi-e-tron|Audi e-tron 55]] stehen bei 95 kWh brutto drei verschiedene Nettowerte (83,6 / 86,5 / 89,0 kWh) im Bestand.
 
@@ -365,7 +365,7 @@ C["plattform-geschwister"] = (
 | Stellantis-Transporter | [[citroen-e-jumpy]], [[citroen-e-spacetourer]], [[peugeot-e-expert]], [[peugeot-e-traveller]] | 50 / 46,3 oder 75 / 68 kWh |
 | Stellantis-Hochdachkombis | [[citroen-e-berlingo]], [[peugeot-e-rifter]], [[peugeot-e-partner]] | 50 / 46,3 kWh |
 | Erste Hochdachkombi-Generation | [[citroen-e-berlingo|E-Berlingo Multispace]], [[peugeot-partner-tepee-electric]] | 22,5 / 20,5 kWh |
-| Kangoo-Familie | [[renault-kangoo-electric]], [[mercedes-eqt]] | ~45–50 kWh |
+| Kangoo E-Tech / EQT | [[renault-kangoo-electric]], [[mercedes-eqt]] | 48 / 45 kWh |
 | MEB | siehe [[plattform-meb]] | 55–91 kWh |
 | J1 | [[porsche-taycan]], [[audi-e-tron-gt]] | 93,4 / 83,7 oder 105 / 97 kWh |
 | PPE | [[porsche-macan-electric]], [[audi-q6-e-tron]] | 100 / ~95 kWh |
@@ -374,7 +374,7 @@ C["plattform-geschwister"] = (
 | Volvo CMA | [[volvo-ex40]], [[volvo-ec40]] | 69–82 kWh |
 | BMW iX1/iX2, Mini Countryman | [[bmw-ix1]], [[bmw-ix2]], [[mini-countryman-electric]] | 66,5 / 64,6–64,7 kWh |
 
-Der [[mercedes-eqt]] basiert auf dem Renault Kangoo; die Batteriewerte weichen im Bestand leicht ab (50/45 vs. 48/45 kWh) – siehe [[datenqualitaet]].""",
+Der [[mercedes-eqt]] basiert auf dem Renault Kangoo E-Tech; die Rohquelle führte ihn mit 50 statt 48 kWh brutto – in der bereinigten Fassung korrigiert (siehe [[datenqualitaet]]).""",
     ["plattform-meb", "plattform-stellantis", "plattform-e-gmp"], ["plattform"])
 
 C["typbezeichnungen"] = (

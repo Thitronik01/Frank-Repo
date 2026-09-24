@@ -12,7 +12,7 @@ brutto_max: 61.1
 netto_min: 46.0
 netto_max: 57.4
 bild: "Bilder/mg5-electric.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "mg", "kompaktklasse"]
 ---
@@ -50,14 +50,14 @@ Das Modell wurde zunächst mit einer Batterie angeboten; mit der [[modellpflege|
 - **MG5 Electric Standard Range** (50,3/46,0 kWh) und **MG5 Electric Long Range** (61,1/57,4 kWh): Versionen nach der Modellpflege.
 - **MG5 EV Long Range** (61,1/57,4 kWh): gleiche Werte wie „MG5 Electric Long Range“ – vermutlich dieselbe Batterie unter älterer Bezeichnung.
 
-| Variante | Brutto | Netto | Puffer | Zeile |
-|---|---|---|---|---|
-| MG5 Electric Long Range | 61,1 kWh | 57,4 kWh | 3,7 kWh (6,1 %) | 209 |
-| MG5 Electric Standard Range | 50,3 kWh | 46,0 kWh | 4,3 kWh (8,5 %) | 210 |
-| MG5 EV | 52,5 kWh | 48,8 kWh | 3,7 kWh (7,0 %) | 211 |
-| MG5 EV Long Range | 61,1 kWh | 57,4 kWh | 3,7 kWh (6,1 %) | 212 |
+| Variante | Brutto | Netto | Puffer | Zeile | Status |
+|---|---|---|---|---|---|
+| MG5 Electric Long Range | 61,1 kWh | 57,4 kWh | 3,7 kWh (6,1 %) | 209 |  |
+| MG5 Electric Standard Range | 50,3 kWh | 46 kWh | 4,3 kWh (8,5 %) | 210 |  |
+| MG5 EV | 52,5 kWh | 48,8 kWh | 3,7 kWh (7,0 %) | 211 |  |
+| MG5 EV Long Range | 61,1 kWh | 57,4 kWh | 3,7 kWh (6,1 %) | 212 | Alias von Z. 209 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 209–212. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 209–212 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -75,7 +75,6 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 209–212.
 
 ## Offene Punkte
 
-- „MG5 EV Long Range“ und „MG5 Electric Long Range“ mit identischen Werten (61,1/57,4 kWh) – wahrscheinlich Duplikat mit unterschiedlicher Schreibweise.
 - Uneinheitliche Namensgebung „MG5 EV“ vs. „MG5 Electric“.
 - Zellchemie der Standard-Range-Batterie (möglicherweise LFP) nicht gesichert und daher nicht behauptet.
 - Die Einordnung als Geschwister des ZS EV bezieht sich auf die gemeinsame Konversionsbauweise und Antriebstechnik, nicht auf identische Batterien.
@@ -86,4 +85,4 @@ Siehe auch [[datenqualitaet]].
 
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 209–212)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

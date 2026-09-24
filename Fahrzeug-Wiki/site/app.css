@@ -217,6 +217,9 @@ th[aria-sort="descending"] .i { transform: rotate(180deg); }
   border-left: 4px solid var(--fw-warnung); border-radius: 14px; }
 .callout h2 { margin: 16px 0 8px; font-size: 21px; }
 .callout h2 .i { color: var(--fw-warnung); }
+.callout.good { border-left-color: var(--fw-gut); }
+.callout.good h2 .i { color: var(--fw-gut); }
+.callout + .callout { margin-top: 16px; }
 .callout ul { padding-left: 20px; }
 .callout-foot { font-size: 14px; color: var(--fw-muted); margin: 12px 0 0; }
 .callout-foot a, .foot a { display: inline-flex; align-items: center; gap: 4px; }

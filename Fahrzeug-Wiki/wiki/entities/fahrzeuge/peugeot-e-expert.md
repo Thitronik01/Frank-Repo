@@ -12,7 +12,7 @@ brutto_max: 75.0
 netto_min: 46.3
 netto_max: 68.0
 bild: "Bilder/peugeot-e-expert.jpg"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fahrzeug", "peugeot", "transporter-kleinbus"]
 ---
@@ -54,11 +54,11 @@ Compact, Standard und Long bezeichnen die drei Fahrzeuglängen (entsprechend XS,
 |---|---|---|---|---|
 | e-Expert Combi Compact | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 235 |
 | e-Expert Combi Long | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 236 |
-| e-Expert Combi Long | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 237 |
+| e-Expert Combi Long | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 237 |
 | e-Expert Combi Standard | 50 kWh | 46,3 kWh | 3,7 kWh (7,4 %) | 238 |
-| e-Expert Combi Standard | 75 kWh | 68,0 kWh | 7 kWh (9,3 %) | 239 |
+| e-Expert Combi Standard | 75 kWh | 68 kWh | 7 kWh (9,3 %) | 239 |
 
-Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 235–239. Puffer = Brutto − Netto (berechnet).
+Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 235–239 – bereinigte Fassung (Stand 2026-09-24, Änderungen in [[datenqualitaet]]). Puffer = Brutto − Netto (berechnet).
 
 ## Fachbegriffe
 
@@ -81,4 +81,4 @@ Quelle: [[tn-batterycheck-alle-daten]], Blatt „Fahrzeuge“, Zeilen 235–239.
 - [[tn-batterycheck-alle-daten]] — Brutto-/Nettokapazität aller Varianten (Zeilen 235–239)
 - Weiterlesen: [Wikipedia – Peugeot Expert](https://en.wikipedia.org/wiki/Peugeot_Expert)
 
-¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-23) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen ausschließlich aus der Rohquelle.*
+¹ *Beschreibung und Steckbrief-Felder ohne Quellseite beruhen auf allgemeinem Fachwissen des LLM (Stand 2026-09-24) und sind nicht durch eine Rohquelle im Bestand belegt. Zahlenwerte zur Batterie stammen aus der Rohquelle, bereinigt nach dem Protokoll in [[datenqualitaet]].*

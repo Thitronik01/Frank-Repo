@@ -1,6 +1,6 @@
 ---
 type: "concept"
-updated: "2026-09-23"
+updated: "2026-09-24"
 sources: 1
 tags: ["fachbegriff", "plattform", "hyundai-kia"]
 ---
@@ -39,4 +39,4 @@ Die E-GMP kam 2021 mit dem [[hyundai-ioniq-5|IONIQ 5]] und dem [[kia-ev6|EV6]] a
 ## Belege
 
 - [[tn-batterycheck-alle-daten]] — Zahlenbeispiele in diesem Artikel
-- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-23), keine Rohquelle im Bestand.
+- Begriffserklärung: allgemeines Fachwissen des LLM (Stand 2026-09-24), keine Rohquelle im Bestand.
