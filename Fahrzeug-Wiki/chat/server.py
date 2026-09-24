@@ -202,7 +202,14 @@ class Handler(SimpleHTTPRequestHandler):
             return self.models()
         if not path.startswith(PUBLIC_PREFIXES) or ".." in path or "/." in path:
             return self.send_error(404)
+        self._static = True  # Browser sollen nach jedem Neubau frische Dateien holen (304, wenn unverändert)
         return super().do_GET()
+
+    def send_response(self, *a, **kw):
+        super().send_response(*a, **kw)
+        if getattr(self, "_static", False):
+            self.send_header("Cache-Control", "no-cache")
+            self._static = False
 
     def models(self):
         if not API_KEY:

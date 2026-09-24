@@ -43,8 +43,33 @@
   --fw-ease: cubic-bezier(.2, .8, .2, 1);
 }
 
+/* Dunkelmodus: folgt dem System, außer der Nutzer hat per Umschalter gewählt (data-theme="light" | "dark") */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --fw-bg: #111317;
+  --fw-surface: #1A1D22;
+  --fw-surface-2: #22262C;
+  --fw-line: #2B3037;
+  --fw-ink: #ECEDEF;
+  --fw-muted: #9CA3AE;
+  --fw-primary: #45C79B;
+  --fw-primary-strong: #6DD8B2;
+  --fw-primary-soft: #14332A;
+  --fw-on-primary: #0B1F18;
+  --fw-accent: #F6C54A;
+  --fw-gut: #4CC38A;
+  --fw-warnung: #E3A83B;
+  --fw-kritisch: #F07A7A;
+  --fw-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
+}
+:root[data-theme="light"] { color-scheme: light; }
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --fw-gut: #4CC38A;
+    --fw-warnung: #E3A83B;
+    --fw-kritisch: #F07A7A;
     --fw-bg: #111317;
     --fw-surface: #1A1D22;
     --fw-surface-2: #22262C;

@@ -36,6 +36,8 @@ Die Seiten unter `wiki/` und `index.md` erzeugt `python tools/build.py`. **Nicht
 | Fachbegriffe | `tools/concepts_src.py` |
 | Bildauswahl | `tools/image_overrides.json` (Wikipedia-Titel oder `File:…`), dann `python tools/images.py` und `python tools/download_images.py --force` |
 | Seitenlayout, Synthesen | `tools/build.py` |
+| HTML-App: Seitenaufbau | `tools/site.py` (danach `python tools/site.py`) |
+| HTML-App: Aussehen, Verhalten | `tools/site_assets/app.css`, `tools/site_assets/app.js` – nur CI-Tokens aus `ci/tokens.css` verwenden |
 
 Danach immer `python tools/build.py` ausführen – das Skript meldet kaputte Wikilinks und Waisenseiten.
 Anschließend `python tools/site.py` (HTML-Fassung unter `site/`) und `python chat/rag.py build` (Suchindex für den Chat),

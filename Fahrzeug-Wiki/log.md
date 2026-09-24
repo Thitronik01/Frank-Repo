@@ -22,3 +22,14 @@ tools/site.py erzeugt 153 HTML-Seiten unter `site/` (Navigation, Suche, Bildkart
 ## [2026-09-23] feature | Corporate Identity und Chat-Assistent „Ampere“
 CI: Signet (Batterie mit Ladeblitz), Wortmarke, Farben Ladegrün/Voltgelb/Graphit (alle Textpaare WCAG AA), Space Grotesk + Inter, Leitfaden `ci/CI-Leitfaden.md`, Tokens `ci/tokens.css`; auf HTML-Seite angewendet.
 Chat: RAG-Index über 901 Wiki-Abschnitte (BM25, lokal), Server `chat/server.py` mit anymize-Anbindung (OpenAI-kompatibel, Streaming), einbettbares Widget `chat/widget/fw-chat.js`. Ohne Key: Modus „nur Suche“.
+
+## [2026-09-24] feature | HTML-App: UX/UI überarbeitet (UI/UX Pro Max)
+Neu: Kopfleiste mit Schnellsuche (Strg+K bzw. /, Tastatursteuerung, Vorschaubilder, Ampere als Rückfalloption),
+Fahrzeugseiten mit Kennzahlen-Kacheln (Netto/Brutto/Puffer/Varianten) und Steckbrief neben dem Bild,
+sortier- und filterbare Tabellen mit Puffer-Balken, Inhaltsverzeichnis mit aktivem Abschnitt, Startseite mit
+Fahrzeug-Explorer (Marken-Chips, Filter, Sortierung, Direktlinks per ?q=&marke=&sort=), Hersteller-Kacheln,
+Fachbegriffe als Karten, verwandte Fahrzeuge mit Bild, Hinweisbox „Offene Punkte“ mit Link zu den GitHub-Issues,
+Dunkelmodus-Umschalter (auch im Chat-Widget), mobiles Menü als Drawer, SVG-Icons statt Emoji, Skip-Link,
+44-px-Touchziele, prefers-reduced-motion.
+Technik: CSS/JS als eigene Dateien (tools/site_assets/) mit Inhalts-Hash im Link; Server sendet Cache-Control: no-cache.
+Geprüft: 154 Seiten ohne tote Links/Anker, je eine h1, alle Bilder mit alt, keine doppelten IDs, keine Konsolenfehler; 390 px ohne Querscrollen.

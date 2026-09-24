@@ -48,12 +48,15 @@
     --fw-shadow:0 1px 2px rgba(20,23,28,.06),0 12px 40px rgba(20,23,28,.18);
     --fw-font-text:"Inter","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;--fw-font-display:"Space Grotesk","Segoe UI",system-ui,sans-serif;
     --ease:cubic-bezier(.2,.8,.2,1)}
-  @media (prefers-color-scheme:dark){:host{--fw-primary:#45C79B;--fw-primary-strong:#6DD8B2;--fw-primary-soft:#14332A;--fw-on-primary:#0B1F18;
-    --fw-bg:#111317;--fw-surface:#1A1D22;--fw-surface-2:#22262C;--fw-line:#2B3037;--fw-ink:#ECEDEF;--fw-muted:#9CA3AE;--fw-kritisch:#F07A7A;
+  @media (prefers-color-scheme:dark){:host(:not([data-theme=light])){--fw-primary:#45C79B;--fw-primary-strong:#6DD8B2;--fw-primary-soft:#14332A;--fw-on-primary:#0B1F18;
+    --fw-bg:#111317;--fw-surface:#1A1D22;--fw-surface-2:#22262C;--fw-line:#2B3037;--fw-ink:#ECEDEF;--fw-muted:#9CA3AE;--fw-kritisch:#F07A7A;--fw-launcher-icon:#0B1F18;
     --fw-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 40px rgba(0,0,0,.5)}}
+  :host([data-theme=dark]){--fw-primary:#45C79B;--fw-primary-strong:#6DD8B2;--fw-primary-soft:#14332A;--fw-on-primary:#0B1F18;
+    --fw-bg:#111317;--fw-surface:#1A1D22;--fw-surface-2:#22262C;--fw-line:#2B3037;--fw-ink:#ECEDEF;--fw-muted:#9CA3AE;--fw-kritisch:#F07A7A;--fw-launcher-icon:#0B1F18;
+    --fw-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 40px rgba(0,0,0,.5)}
   *{box-sizing:border-box}
   .wrap{position:fixed;bottom:20px;${cfg.left ? "left" : "right"}:20px;z-index:2147483000;font:15px/1.55 var(--fw-font-text);color:var(--fw-ink)}
-  .launcher{width:60px;height:60px;border-radius:50%;border:0;cursor:pointer;background:var(--fw-primary);color:var(--fw-accent);
+  .launcher{width:60px;height:60px;border-radius:50%;border:0;cursor:pointer;background:var(--fw-primary);color:var(--fw-launcher-icon,var(--fw-accent));
     box-shadow:var(--fw-shadow);display:grid;place-items:center;transition:transform .16s var(--ease),background .16s}
   .launcher svg{width:30px;height:30px}
   .launcher:hover{background:var(--fw-primary-strong)}
@@ -70,7 +73,7 @@
   header small{color:var(--fw-muted);font-size:12px;display:flex;align-items:center;gap:6px}
   header small i{width:7px;height:7px;border-radius:50%;background:var(--fw-muted);display:inline-block}
   header small i.on{background:#2FBF7F}
-  .icon{width:34px;height:34px;border:0;background:transparent;color:var(--fw-muted);border-radius:8px;cursor:pointer;display:grid;place-items:center}
+  .icon{width:40px;height:40px;border:0;background:transparent;color:var(--fw-muted);border-radius:8px;cursor:pointer;display:grid;place-items:center}
   .icon:hover{background:var(--fw-surface-2);color:var(--fw-ink)}
   .icon svg{width:18px;height:18px}
   .log{flex:1;overflow-y:auto;padding:16px 14px 8px;scroll-behavior:smooth}
@@ -143,6 +146,13 @@
   </div>`;
   (document.body ? Promise.resolve() : new Promise((r) => addEventListener("DOMContentLoaded", r))).then(() =>
     document.body.appendChild(host));
+  // Farbschema der Host-Seite übernehmen (Umschalter setzt <html data-theme="light|dark">)
+  const syncTheme = () => {
+    const t = document.documentElement.dataset.theme;
+    t ? host.setAttribute("data-theme", t) : host.removeAttribute("data-theme");
+  };
+  new MutationObserver(syncTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  syncTheme();
 
   const $ = (s) => root.querySelector(s);
   const panel = $(".panel"), log = $(".log"), form = $("form"), input = $("textarea"), sendBtn = $(".send"),
